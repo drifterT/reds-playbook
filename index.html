@@ -1,0 +1,2159 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=5.0">
+<meta name="theme-color" content="#1B2A3D">
+<title>水平チェック｜木根川レッズ プレイブック</title>
+
+<!-- Description -->
+<meta name="description" content="木根川レッズ プレイブック #01｜野球のバッティングと三塁手の捕球→送球を、共通の「水平バランス」で揃える指導資料。打席に入って最初の1秒の予備動作で、フライ・ボテボテ・暴投を減らす。">
+
+<!-- Open Graph (LINE / Facebook / Slack preview cards) -->
+<meta property="og:type" content="article">
+<meta property="og:title" content="水平チェック｜打席に入って最初の1秒">
+<meta property="og:description" content="木根川レッズ プレイブック #01｜バッティングと三塁手の捕球→送球を、共通の「水平バランス」で揃える指導資料。フライ・ボテボテ・暴投が減る理由を、関節モデルと弾道図で解説。">
+<meta property="og:locale" content="ja_JP">
+<meta property="og:site_name" content="木根川レッズ プレイブック">
+
+<!-- Twitter / X card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="水平チェック｜打席に入って最初の1秒">
+<meta name="twitter:description" content="木根川レッズ プレイブック #01｜バッティングと守備を、共通の「水平バランス」で揃える指導資料。">
+
+<!-- iOS: behave like an app when added to home screen -->
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="水平チェック">
+
+<script>document.documentElement.classList.add('js');</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=RocknRoll+One&family=Yusei+Magic&family=Zen+Kaku+Gothic+New:wght@400;500;700;900&family=Bungee&display=swap" rel="stylesheet">
+<style>
+*,*::before,*::after{margin:0;padding:0;box-sizing:border-box;}
+
+:root{
+  --cream:#F2EBDC;
+  --cream-deep:#E8DFCB;
+  --paper:#FBF6EA;
+  --ink:#1B2A3D;
+  --ink-soft:#3D5168;
+  --red:#C43A2E;
+  --red-deep:#8E2A20;
+  --gold:#E5B340;
+  --field:#4A6B3F;
+  --skin:#F5D5B8;
+  --bat:#9D7148;
+}
+
+html{scroll-behavior:smooth;}
+
+body{
+  font-family:'Zen Kaku Gothic New',sans-serif;
+  background:var(--cream);
+  color:var(--ink);
+  line-height:1.75;
+  font-feature-settings:"palt";
+  -webkit-font-smoothing:antialiased;
+  overflow-x:hidden;
+}
+
+/* Background paper texture */
+body::before{
+  content:'';
+  position:fixed;
+  inset:0;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(27,42,61,0.07) 1px, transparent 0);
+  background-size:22px 22px;
+  pointer-events:none;
+  z-index:1;
+}
+
+.container{
+  max-width:680px;
+  margin:0 auto;
+  padding:0 22px;
+  position:relative;
+  z-index:2;
+}
+
+/* Reading progress */
+.progress{
+  display:none;
+  position:fixed;
+  top:0;left:0;right:0;
+  height:3px;
+  background:transparent;
+  z-index:100;
+}
+.js .progress{display:block;}
+.progress-bar{
+  height:100%;
+  background:linear-gradient(90deg,var(--red),var(--gold));
+  width:0%;
+  transition:width 0.1s linear;
+}
+
+/* === HERO === */
+.hero{
+  position:relative;
+  padding:72px 0 56px;
+  overflow:hidden;
+}
+
+.hero-mark{
+  display:flex;
+  align-items:center;
+  gap:10px;
+  margin-bottom:24px;
+}
+.hero-mark-line{
+  flex:1;
+  height:1px;
+  background:var(--ink);
+  opacity:0.3;
+  max-width:60px;
+}
+.hero-mark-text{
+  font-family:'Bungee',sans-serif;
+  font-size:10px;
+  letter-spacing:0.3em;
+  color:var(--red);
+}
+.hero-mark-icon{
+  width:22px;
+  height:22px;
+  border:1.5px solid var(--red);
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  position:relative;
+}
+.hero-mark-icon::after{
+  content:'';
+  position:absolute;
+  width:14px;
+  height:1.5px;
+  background:var(--red);
+}
+
+.hero-title{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:clamp(56px,18vw,108px);
+  line-height:0.95;
+  letter-spacing:-0.02em;
+  margin-bottom:8px;
+  position:relative;
+}
+
+.hero-title .word1{display:block;}
+.hero-title .word2{
+  display:block;
+  color:var(--red);
+  position:relative;
+  width:fit-content;
+}
+.hero-title .word2::after{
+  content:'';
+  position:absolute;
+  bottom:6px;
+  left:-4px;
+  right:-4px;
+  height:14px;
+  background:var(--gold);
+  opacity:0.45;
+  z-index:-1;
+  border-radius:2px;
+}
+
+.hero-sub{
+  font-family:'Yusei Magic',sans-serif;
+  font-size:clamp(17px,5vw,22px);
+  margin:20px 0 28px;
+  color:var(--ink);
+}
+.hero-sub .pop{
+  background:var(--ink);
+  color:var(--paper);
+  padding:2px 8px;
+  display:inline-block;
+}
+
+.hero-lede{
+  font-size:15px;
+  line-height:1.9;
+  padding:18px 20px;
+  background:var(--paper);
+  border-left:4px solid var(--red);
+  position:relative;
+  box-shadow:4px 4px 0 rgba(27,42,61,0.08);
+}
+
+/* Scroll cue */
+.scroll-cue{
+  display:flex;
+  flex-direction:column;
+  align-items:center;
+  gap:6px;
+  margin-top:48px;
+  font-size:11px;
+  letter-spacing:0.3em;
+  color:var(--ink-soft);
+  font-family:'Bungee',sans-serif;
+}
+.scroll-cue-line{
+  width:1px;
+  height:32px;
+  background:var(--ink-soft);
+  position:relative;
+  overflow:hidden;
+}
+.scroll-cue-line::after{
+  content:'';
+  position:absolute;
+  top:-8px;left:-1px;
+  width:3px;height:8px;
+  background:var(--red);
+  animation:scrollCue 2s ease-in-out infinite;
+}
+@keyframes scrollCue{
+  0%{top:-8px;}
+  100%{top:32px;}
+}
+
+/* === SECTION HEADER === */
+.section-header{margin-bottom:32px;}
+.section-num{
+  display:flex;
+  align-items:baseline;
+  gap:14px;
+  margin-bottom:8px;
+}
+.section-num-fig{
+  font-family:'Bungee',sans-serif;
+  font-size:14px;
+  color:var(--red);
+  letter-spacing:0.1em;
+}
+.section-num-line{
+  flex:1;
+  height:1px;
+  background:var(--ink);
+  opacity:0.2;
+}
+.section-num-label{
+  font-size:11px;
+  letter-spacing:0.3em;
+  color:var(--ink-soft);
+  font-weight:700;
+}
+.section-title{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:clamp(28px,8vw,42px);
+  line-height:1.25;
+  color:var(--ink);
+}
+.section-title .red{color:var(--red);}
+
+/* === WHY === */
+.why{padding:56px 0;}
+
+.compare-row{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:14px;
+  margin-bottom:28px;
+}
+
+.compare{
+  background:var(--paper);
+  border:2px solid var(--ink);
+  padding:20px 18px 18px;
+  position:relative;
+  display:grid;
+  grid-template-columns:96px 1fr;
+  gap:14px;
+  align-items:center;
+}
+.compare.ng{box-shadow:5px 5px 0 var(--ink);}
+.compare.ok{
+  background:linear-gradient(135deg,var(--paper) 0%,#EDF2E5 100%);
+  border-color:var(--field);
+  box-shadow:5px 5px 0 var(--field);
+}
+.compare-illust{
+  display:flex;
+  justify-content:center;
+  align-items:flex-end;
+  height:96px;
+}
+.compare-illust svg{
+  height:100%;
+  width:auto;
+}
+.compare-text{}
+.compare-tag{
+  display:inline-block;
+  font-family:'Bungee',sans-serif;
+  font-size:9px;
+  letter-spacing:0.15em;
+  padding:2px 8px;
+  margin-bottom:6px;
+}
+.compare.ng .compare-tag{background:var(--red);color:var(--paper);}
+.compare.ok .compare-tag{background:var(--field);color:var(--paper);}
+.compare-label{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:17px;
+  line-height:1.3;
+  margin-bottom:4px;
+}
+.compare-result{
+  font-size:13px;
+  color:var(--ink-soft);
+  line-height:1.5;
+}
+
+.why-conclusion{
+  background:var(--ink);
+  color:var(--paper);
+  padding:22px 24px;
+  font-family:'Yusei Magic',sans-serif;
+  font-size:17px;
+  line-height:1.7;
+  position:relative;
+}
+.why-conclusion::before{
+  content:'POINT';
+  position:absolute;
+  top:-10px;
+  left:18px;
+  background:var(--gold);
+  color:var(--ink);
+  font-family:'Bungee',sans-serif;
+  font-size:10px;
+  letter-spacing:0.2em;
+  padding:3px 10px;
+}
+.why-conclusion strong{
+  color:var(--gold);
+  font-family:'RocknRoll One',sans-serif;
+  font-weight:normal;
+}
+
+/* === STEPS === */
+.steps{
+  padding:72px 0;
+  background:var(--cream-deep);
+  position:relative;
+  margin:0 -22px;
+  padding-left:22px;
+  padding-right:22px;
+}
+.steps::before,.steps::after{
+  content:'';
+  position:absolute;
+  left:0;right:0;
+  height:6px;
+  background:repeating-linear-gradient(90deg,var(--ink) 0,var(--ink) 6px,transparent 6px,transparent 14px);
+}
+.steps::before{top:0;}
+.steps::after{bottom:0;}
+
+.step-card{
+  background:var(--paper);
+  border:2px solid var(--ink);
+  margin-bottom:22px;
+  box-shadow:6px 6px 0 var(--ink);
+  overflow:hidden;
+}
+
+.step-head{
+  background:var(--ink);
+  color:var(--paper);
+  padding:16px 20px;
+  display:flex;
+  align-items:center;
+  gap:14px;
+}
+.step-num{
+  font-family:'Bungee',sans-serif;
+  font-size:34px;
+  line-height:1;
+  color:var(--gold);
+}
+.step-head-text{flex:1;}
+.step-head-tag{
+  font-size:10px;
+  letter-spacing:0.3em;
+  color:var(--gold);
+  font-family:'Bungee',sans-serif;
+  margin-bottom:2px;
+}
+.step-head-title{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:17px;
+  line-height:1.3;
+}
+
+.step-illust{
+  background:linear-gradient(180deg,#F8F2E2 0%,var(--paper) 100%);
+  padding:24px;
+  border-bottom:2px dashed var(--ink);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  min-height:220px;
+}
+.step-illust svg{
+  height:200px;
+  width:auto;
+  max-width:100%;
+}
+
+.step-body{padding:22px 20px 24px;}
+.step-list{list-style:none;}
+.step-list li{
+  position:relative;
+  padding-left:30px;
+  margin-bottom:12px;
+  font-size:15px;
+  line-height:1.7;
+}
+.step-list li::before{
+  content:'';
+  position:absolute;
+  left:0;top:9px;
+  width:14px;height:14px;
+  border:2px solid var(--red);
+  border-radius:50%;
+  background:var(--paper);
+}
+.step-list li::after{
+  content:'';
+  position:absolute;
+  left:5px;top:14px;
+  width:4px;height:4px;
+  background:var(--red);
+  border-radius:50%;
+}
+.step-list li strong{
+  background:linear-gradient(transparent 60%,rgba(229,179,64,0.5) 60%);
+  font-weight:700;
+}
+
+.step-tip{
+  margin-top:18px;
+  padding:14px 16px;
+  background:#FFF7DD;
+  border:1px dashed var(--gold);
+  font-size:13.5px;
+  line-height:1.7;
+  position:relative;
+}
+.step-tip-label{
+  font-family:'Bungee',sans-serif;
+  font-size:10px;
+  color:var(--red);
+  letter-spacing:0.2em;
+  margin-bottom:4px;
+}
+
+/* === VOICE === */
+.voice{padding:72px 0;}
+
+.voice-stack{display:grid;gap:14px;}
+
+.voice-card{
+  background:var(--paper);
+  border:2px solid var(--ink);
+  padding:20px 22px 20px 26px;
+  position:relative;
+  box-shadow:4px 4px 0 var(--red);
+  transition:transform 0.2s ease, box-shadow 0.2s ease;
+}
+.voice-card:active{
+  transform:translate(2px,2px);
+  box-shadow:2px 2px 0 var(--red);
+}
+.voice-card::before{
+  content:'';
+  position:absolute;
+  top:18px;
+  bottom:18px;
+  left:10px;
+  width:3px;
+  background:var(--red);
+}
+.voice-card-text{
+  font-size:15px;
+  line-height:1.7;
+  font-family:'Zen Kaku Gothic New',sans-serif;
+  font-weight:500;
+}
+.voice-card-num{
+  position:absolute;
+  top:14px;
+  right:18px;
+  font-family:'Bungee',sans-serif;
+  font-size:9px;
+  color:var(--ink);
+  opacity:0.3;
+  letter-spacing:0.1em;
+}
+
+/* === FLOW === */
+.flow{
+  padding:72px 0;
+  background:var(--ink);
+  color:var(--paper);
+  margin:0 -22px;
+  padding-left:22px;
+  padding-right:22px;
+  position:relative;
+  overflow:hidden;
+}
+.flow::before{
+  content:'';
+  position:absolute;
+  inset:0;
+  background-image:
+    radial-gradient(circle at 1px 1px, rgba(229,179,64,0.08) 1px, transparent 0);
+  background-size:18px 18px;
+  pointer-events:none;
+}
+.flow .section-title{color:var(--paper);}
+.flow .section-num-label{color:rgba(251,246,234,0.5);}
+.flow .section-num-line{background:var(--paper);opacity:0.2;}
+
+.flow-diagram{
+  background:rgba(251,246,234,0.04);
+  border:1px solid rgba(251,246,234,0.15);
+  padding:28px 20px;
+  margin-bottom:24px;
+  position:relative;
+  z-index:2;
+}
+
+.flow-step{
+  display:flex;
+  align-items:center;
+  gap:14px;
+  margin-bottom:14px;
+}
+.flow-step:last-child{margin-bottom:0;}
+.flow-bullet{
+  width:36px;height:36px;
+  background:var(--gold);
+  color:var(--ink);
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-family:'Bungee',sans-serif;
+  font-size:14px;
+  flex-shrink:0;
+}
+.flow-step.active .flow-bullet{background:var(--red);color:var(--paper);}
+.flow-text{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:16px;
+}
+.flow-arrow-vert{
+  margin-left:17px;
+  width:2px;
+  height:18px;
+  background:var(--gold);
+  position:relative;
+}
+.flow-arrow-vert::after{
+  content:'';
+  position:absolute;
+  bottom:-2px;
+  left:-3px;
+  border-left:4px solid transparent;
+  border-right:4px solid transparent;
+  border-top:6px solid var(--gold);
+}
+
+.flow-tip{
+  background:rgba(229,179,64,0.08);
+  border-left:3px solid var(--gold);
+  padding:18px 20px;
+  font-size:14.5px;
+  line-height:1.8;
+  position:relative;
+  z-index:2;
+}
+.flow-tip strong{color:var(--gold);}
+
+/* === THEORY (collapsible) === */
+.theory{padding:72px 0;}
+
+.theory-toggle{
+  /* Hidden without JS - content is shown directly */
+  display:none;
+  width:100%;
+  background:var(--paper);
+  border:2px solid var(--ink);
+  padding:18px 22px;
+  cursor:pointer;
+  justify-content:space-between;
+  align-items:center;
+  box-shadow:5px 5px 0 var(--ink);
+  text-align:left;
+  transition:transform 0.15s ease, box-shadow 0.15s ease;
+  font-family:inherit;
+}
+.js .theory-toggle{display:flex;}
+.theory-toggle:active{
+  transform:translate(2px,2px);
+  box-shadow:3px 3px 0 var(--ink);
+}
+.theory-toggle-text{}
+.theory-toggle-tag{
+  font-family:'Bungee',sans-serif;
+  font-size:9px;
+  color:var(--red);
+  letter-spacing:0.2em;
+  margin-bottom:3px;
+}
+.theory-toggle-title{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:16px;
+  line-height:1.3;
+}
+.theory-arrow{
+  width:32px;height:32px;
+  background:var(--ink);
+  color:var(--gold);
+  border-radius:50%;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  font-size:18px;
+  flex-shrink:0;
+  transition:transform 0.4s cubic-bezier(.4,1.4,.6,1);
+}
+.theory-toggle.open .theory-arrow{transform:rotate(180deg);}
+
+.theory-content{
+  /* Default: visible (no-JS fallback) */
+  overflow:hidden;
+}
+.js .theory-content{
+  max-height:0;
+  transition:max-height 0.6s ease;
+}
+.js .theory-content.open{max-height:3000px;}
+
+.theory-inner{padding:28px 0 0;}
+
+.theory-card{
+  background:var(--paper);
+  border-left:3px solid var(--red);
+  padding:18px 20px;
+  margin-bottom:14px;
+}
+.theory-card-tag{
+  font-family:'Bungee',sans-serif;
+  font-size:10px;
+  letter-spacing:0.15em;
+  color:var(--red);
+  margin-bottom:6px;
+}
+.theory-card-title{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:15px;
+  margin-bottom:8px;
+  line-height:1.4;
+}
+.theory-card-body{
+  font-size:14px;
+  line-height:1.75;
+  color:var(--ink-soft);
+}
+.theory-card-source{
+  font-size:11px;
+  color:var(--ink-soft);
+  opacity:0.7;
+  margin-top:8px;
+  font-style:italic;
+}
+
+/* === FOOTER === */
+footer{
+  background:var(--ink);
+  color:var(--paper);
+  padding:48px 22px 32px;
+  text-align:center;
+  border-top:5px double var(--red);
+  margin:0 -22px;
+  position:relative;
+  z-index:2;
+}
+.footer-baseball{
+  width:48px;height:48px;
+  margin:0 auto 16px;
+  border:2px solid var(--gold);
+  border-radius:50%;
+  position:relative;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.footer-baseball::before,.footer-baseball::after{
+  content:'';
+  position:absolute;
+  width:36px;
+  height:1px;
+  background:var(--red);
+}
+.footer-baseball::before{transform:rotate(45deg);}
+.footer-baseball::after{transform:rotate(-45deg);}
+.footer-mark{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:22px;
+  color:var(--gold);
+  letter-spacing:0.05em;
+  margin-bottom:8px;
+}
+.footer-quote{
+  font-family:'Yusei Magic',sans-serif;
+  font-size:13px;
+  line-height:1.7;
+  opacity:0.85;
+  max-width:340px;
+  margin:0 auto 20px;
+}
+.footer-meta{
+  font-family:'Bungee',sans-serif;
+  font-size:9px;
+  letter-spacing:0.3em;
+  opacity:0.5;
+}
+
+/* === ANIMATIONS === */
+/* Default: visible (works without JS, e.g. iOS Mail attachments) */
+.reveal{
+  opacity:1;
+  transform:translateY(0);
+  transition:opacity 0.8s ease, transform 0.8s ease;
+}
+/* JS-enabled: hide initially, then reveal on scroll */
+.js .reveal{
+  opacity:0;
+  transform:translateY(24px);
+}
+.js .reveal.in{
+  opacity:1;
+  transform:translateY(0);
+}
+
+@keyframes pulse{
+  0%,100%{opacity:1;}
+  50%{opacity:0.4;}
+}
+.pulse{animation:pulse 1.6s ease-in-out infinite;}
+
+/* === REAL EFFECTS === */
+.effects{
+  padding:72px 0;
+  background:var(--cream-deep);
+  margin:0 -22px;
+  padding-left:22px;
+  padding-right:22px;
+  position:relative;
+}
+.effects::before,.effects::after{
+  content:'';
+  position:absolute;
+  left:0;right:0;
+  height:6px;
+  background:repeating-linear-gradient(90deg,var(--ink) 0,var(--ink) 6px,transparent 6px,transparent 14px);
+}
+.effects::before{top:0;}
+.effects::after{bottom:0;}
+
+.effects-lede{
+  font-size:14px;
+  line-height:1.85;
+  color:var(--ink-soft);
+  margin-top:14px;
+  padding:14px 16px;
+  border-top:1px solid rgba(27,42,61,0.15);
+  border-bottom:1px solid rgba(27,42,61,0.15);
+}
+
+.effect-card{
+  background:var(--paper);
+  border:2px solid var(--ink);
+  margin-bottom:24px;
+  box-shadow:6px 6px 0 var(--ink);
+  overflow:hidden;
+}
+
+.effect-head{
+  padding:18px 22px 20px;
+  background:linear-gradient(180deg,var(--ink) 0%,#2A3A4F 100%);
+  color:var(--paper);
+  position:relative;
+}
+.effect-tag{
+  font-family:'Bungee',sans-serif;
+  font-size:9px;
+  letter-spacing:0.25em;
+  color:var(--gold);
+  display:block;
+  margin-bottom:8px;
+}
+.effect-title{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:20px;
+  line-height:1.35;
+  color:var(--paper);
+}
+.effect-title .red-on-dark{color:#FF8A7E;}
+
+.effect-viz{
+  background:linear-gradient(180deg,#F8F2E2 0%,var(--paper) 100%);
+  padding:18px;
+  border-bottom:2px dashed var(--ink);
+  display:flex;
+  justify-content:center;
+  align-items:center;
+}
+.effect-viz svg{
+  width:100%;
+  max-width:320px;
+  height:auto;
+  display:block;
+}
+
+.effect-body{padding:22px 20px;}
+.effect-section{margin-bottom:18px;}
+.effect-section:last-child{margin-bottom:0;}
+
+.effect-h{
+  font-family:'Bungee',sans-serif;
+  font-size:9px;
+  letter-spacing:0.2em;
+  color:var(--red);
+  margin-bottom:8px;
+  display:flex;
+  align-items:center;
+  gap:10px;
+}
+.effect-h::after{
+  content:'';
+  flex:1;
+  height:1px;
+  background:rgba(196,58,46,0.3);
+}
+.effect-text{
+  font-size:13.5px;
+  line-height:1.85;
+}
+.effect-text strong{
+  background:linear-gradient(transparent 60%,rgba(229,179,64,0.4) 60%);
+  font-weight:600;
+}
+
+/* Field cue chip row */
+.effect-keywords{
+  margin-top:18px;
+  padding:14px 16px;
+  background:rgba(27,42,61,0.04);
+  border:1px solid rgba(27,42,61,0.12);
+  border-radius:0;
+}
+.effect-keywords-label{
+  font-family:'Bungee',sans-serif;
+  font-size:9px;
+  letter-spacing:0.25em;
+  color:var(--ink-soft);
+  margin-bottom:10px;
+}
+.effect-keywords-list{
+  display:flex;
+  flex-wrap:wrap;
+  gap:6px;
+  align-items:center;
+}
+.effect-keywords-list span{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:13px;
+  background:var(--ink);
+  color:var(--paper);
+  padding:5px 12px;
+}
+.effect-keywords-list span + span::before{
+  content:'→';
+  display:inline-block;
+  margin-right:8px;
+  margin-left:-4px;
+  color:var(--gold);
+  font-family:'Bungee',sans-serif;
+}
+
+/* 5-point checklist */
+.effect-checklist{
+  margin-top:14px;
+  padding:16px;
+  background:linear-gradient(180deg,#FFF7DD 0%,var(--paper) 100%);
+  border:1px dashed var(--gold);
+}
+.effect-checklist-label{
+  font-family:'Bungee',sans-serif;
+  font-size:9px;
+  letter-spacing:0.25em;
+  color:var(--red);
+  margin-bottom:12px;
+}
+.effect-checklist ul{
+  list-style:none;
+  padding:0;
+}
+.effect-checklist li{
+  display:grid;
+  grid-template-columns:22px 44px 1fr;
+  gap:8px;
+  align-items:center;
+  padding:7px 0;
+  border-bottom:1px dotted rgba(27,42,61,0.18);
+  font-size:12.5px;
+}
+.effect-checklist li:last-child{border-bottom:none;}
+.ck-num{
+  font-family:'Bungee',sans-serif;
+  font-size:10px;
+  color:var(--red);
+  text-align:center;
+}
+.ck-key{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:14px;
+  color:var(--ink);
+}
+.ck-text{
+  color:var(--ink-soft);
+  line-height:1.5;
+}
+
+.effects-conclusion{
+  margin-top:32px;
+  padding:26px 22px;
+  background:var(--ink);
+  color:var(--paper);
+  position:relative;
+  border-left:4px solid var(--gold);
+}
+.effects-conclusion::before{
+  content:'CONCLUSION';
+  position:absolute;
+  top:-10px;
+  left:18px;
+  background:var(--gold);
+  color:var(--ink);
+  font-family:'Bungee',sans-serif;
+  font-size:10px;
+  letter-spacing:0.2em;
+  padding:3px 10px;
+}
+.effects-conclusion-text{
+  font-size:14px;
+  line-height:1.9;
+}
+.effects-conclusion-text strong{
+  color:var(--gold);
+  font-family:'RocknRoll One',sans-serif;
+  font-weight:normal;
+}
+
+/* === CROSS SPORT === */
+.cross{padding:72px 0;}
+
+.cross-lede{
+  font-size:14px;
+  line-height:1.85;
+  color:var(--ink-soft);
+  margin-top:14px;
+  padding:14px 16px;
+  border-top:1px solid rgba(27,42,61,0.15);
+  border-bottom:1px solid rgba(27,42,61,0.15);
+}
+
+.cross-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:14px;
+  margin-top:32px;
+}
+
+.cross-card{
+  background:var(--paper);
+  border:2px solid var(--ink);
+  padding:18px;
+  display:grid;
+  grid-template-columns:64px 1fr;
+  gap:16px;
+  align-items:start;
+  box-shadow:5px 5px 0 var(--ink);
+  position:relative;
+}
+.cross-card.accent{
+  box-shadow:5px 5px 0 var(--red);
+  border-color:var(--red);
+}
+
+.cross-icon{
+  width:64px;
+  height:64px;
+  background:linear-gradient(135deg,#F8F2E2 0%,var(--paper) 100%);
+  border:1.5px solid var(--ink);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.cross-card.accent .cross-icon{border-color:var(--red);}
+.cross-icon svg{width:46px;height:46px;display:block;}
+
+.cross-tag{
+  font-family:'Bungee',sans-serif;
+  font-size:9px;
+  letter-spacing:0.2em;
+  color:var(--red);
+  margin-bottom:3px;
+}
+.cross-name{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:16px;
+  margin-bottom:7px;
+  line-height:1.3;
+}
+.cross-desc{
+  font-size:13px;
+  line-height:1.75;
+  color:var(--ink);
+}
+
+.cross-summary{
+  margin-top:28px;
+  background:var(--ink);
+  color:var(--paper);
+  padding:24px 22px;
+  position:relative;
+}
+.cross-summary::before{
+  content:'COMMON PRINCIPLE';
+  position:absolute;
+  top:-10px;
+  left:18px;
+  background:var(--gold);
+  color:var(--ink);
+  font-family:'Bungee',sans-serif;
+  font-size:10px;
+  letter-spacing:0.2em;
+  padding:3px 10px;
+}
+.cross-summary-text{
+  font-size:14.5px;
+  line-height:1.85;
+}
+.cross-summary-text strong{
+  color:var(--gold);
+  font-family:'RocknRoll One',sans-serif;
+  font-weight:normal;
+}
+
+/* === APPENDIX === */
+.appendix{
+  padding:64px 0 56px;
+  background:var(--cream);
+  position:relative;
+}
+.appendix::before{
+  content:'';
+  position:absolute;
+  top:0;
+  left:50%;
+  transform:translateX(-50%);
+  width:80px;
+  height:1px;
+  background:var(--ink);
+  opacity:0.3;
+}
+.appendix-stamp{
+  text-align:center;
+  margin-bottom:32px;
+}
+.appendix-stamp-label{
+  font-family:'Bungee',sans-serif;
+  font-size:11px;
+  letter-spacing:0.4em;
+  color:var(--ink-soft);
+  display:inline-block;
+  padding:6px 18px;
+  border:1px solid var(--ink-soft);
+  margin-bottom:10px;
+}
+.appendix-stamp-title{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:22px;
+  line-height:1.4;
+  margin-bottom:6px;
+}
+.appendix-stamp-lede{
+  font-size:13px;
+  color:var(--ink-soft);
+  line-height:1.75;
+  max-width:480px;
+  margin:0 auto;
+}
+
+.appendix-grid{
+  display:grid;
+  grid-template-columns:1fr;
+  gap:10px;
+  margin-top:24px;
+}
+.appendix-card{
+  background:var(--paper);
+  border:1px solid rgba(27,42,61,0.18);
+  padding:14px 16px;
+  display:grid;
+  grid-template-columns:46px 1fr;
+  gap:14px;
+  align-items:start;
+}
+.appendix-icon{
+  width:46px;
+  height:46px;
+  background:rgba(27,42,61,0.04);
+  display:flex;
+  align-items:center;
+  justify-content:center;
+}
+.appendix-icon svg{
+  width:34px;
+  height:34px;
+  display:block;
+}
+.appendix-tag{
+  font-family:'Bungee',sans-serif;
+  font-size:8px;
+  letter-spacing:0.22em;
+  color:var(--ink-soft);
+  margin-bottom:2px;
+}
+.appendix-name{
+  font-family:'RocknRoll One',sans-serif;
+  font-size:14px;
+  margin-bottom:5px;
+  color:var(--ink);
+}
+.appendix-desc{
+  font-size:12px;
+  line-height:1.7;
+  color:var(--ink-soft);
+}
+.appendix-summary{
+  margin-top:22px;
+  padding:16px 18px;
+  border-left:2px solid var(--ink-soft);
+  font-size:12.5px;
+  line-height:1.85;
+  color:var(--ink-soft);
+}
+.appendix-summary strong{
+  color:var(--ink);
+  font-weight:700;
+}
+
+@media (min-width:640px){
+  .appendix-grid{grid-template-columns:1fr 1fr;}
+}
+
+/* === LARGER SCREENS === */
+@media (min-width:640px){
+  .cross-grid{grid-template-columns:1fr 1fr;}
+}
+
+@media (min-width:640px){
+  .compare-row{grid-template-columns:1fr 1fr 1fr;}
+  .compare{grid-template-columns:1fr;text-align:center;padding:20px 16px;}
+  .compare-illust{height:120px;margin-bottom:8px;}
+}
+
+@media (min-width:480px){
+  .hero{padding:88px 0 64px;}
+}
+</style>
+</head>
+<body>
+
+<!-- progress bar -->
+<div class="progress"><div class="progress-bar" id="progressBar"></div></div>
+
+<!-- ============ HERO ============ -->
+<section class="hero">
+  <div class="container">
+    <div class="hero-mark reveal">
+      <div class="hero-mark-icon"></div>
+      <span class="hero-mark-text">PRE-MOTION ROUTINE</span>
+      <div class="hero-mark-line"></div>
+    </div>
+    <h1 class="hero-title reveal">
+      <span class="word1">水平</span>
+      <span class="word2">チェック</span>
+    </h1>
+    <p class="hero-sub reveal">
+      スイングが変わる、<br>最初の<span class="pop">1秒</span>。
+    </p>
+    <p class="hero-lede reveal">
+      前にも後ろにもかたよらない、自分の「水平」をつくる合図。<br>
+      肩と腰を地面と平行にしてから、構えに入る。
+      それだけで、スイングは変わる。
+    </p>
+    <div class="scroll-cue reveal">
+      <span>SCROLL</span>
+      <div class="scroll-cue-line"></div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ WHY ============ -->
+<section class="why">
+  <div class="container">
+    <header class="section-header reveal">
+      <div class="section-num">
+        <span class="section-num-fig">01</span>
+        <span class="section-num-line"></span>
+        <span class="section-num-label">WHY</span>
+      </div>
+      <h2 class="section-title">
+        かたよると、<br><span class="red">当たらない。</span>
+      </h2>
+    </header>
+
+    <div class="compare-row">
+      <!-- NG: forward -->
+      <div class="compare ng reveal">
+        <div class="compare-illust">
+          <svg viewBox="0 0 80 96" xmlns="http://www.w3.org/2000/svg">
+            <line x1="6" y1="92" x2="74" y2="92" stroke="#1B2A3D" stroke-width="1.5"/>
+            <ellipse cx="42" cy="92" rx="20" ry="1.8" fill="#1B2A3D" opacity="0.12"/>
+            <!-- vertical reference -->
+            <line x1="40" y1="6" x2="40" y2="92" stroke="#1B2A3D" stroke-width="0.6" stroke-dasharray="2,2" opacity="0.3"/>
+            <!-- head (tilted forward) -->
+            <circle cx="54" cy="20" r="6" fill="#FBF6EA" stroke="#1B2A3D" stroke-width="1.5"/>
+            <!-- spine - tilted forward -->
+            <line x1="52" y1="26" x2="40" y2="56" stroke="#1B2A3D" stroke-width="1.5"/>
+            <!-- shoulders bar -->
+            <line x1="42" y1="32" x2="62" y2="28" stroke="#C43A2E" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="42" cy="32" r="2" fill="#1B2A3D"/>
+            <circle cx="62" cy="28" r="2" fill="#1B2A3D"/>
+            <!-- hips bar -->
+            <line x1="34" y1="58" x2="48" y2="55" stroke="#4A6B3F" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="34" cy="58" r="2" fill="#1B2A3D"/>
+            <circle cx="48" cy="55" r="2" fill="#1B2A3D"/>
+            <!-- legs -->
+            <line x1="34" y1="58" x2="32" y2="76" stroke="#1B2A3D" stroke-width="1.5"/>
+            <circle cx="32" cy="76" r="1.6" fill="#1B2A3D"/>
+            <line x1="32" y1="76" x2="30" y2="91" stroke="#1B2A3D" stroke-width="1.5"/>
+            <line x1="48" y1="55" x2="50" y2="76" stroke="#1B2A3D" stroke-width="1.5"/>
+            <circle cx="50" cy="76" r="1.6" fill="#1B2A3D"/>
+            <line x1="50" y1="76" x2="52" y2="91" stroke="#1B2A3D" stroke-width="1.5"/>
+            <!-- X mark -->
+            <g transform="translate(64,76)">
+              <circle r="8" fill="#C43A2E"/>
+              <line x1="-3.5" y1="-3.5" x2="3.5" y2="3.5" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+              <line x1="3.5" y1="-3.5" x2="-3.5" y2="3.5" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+        <div class="compare-text">
+          <span class="compare-tag">NG / FORWARD</span>
+          <div class="compare-label">前にかたむきすぎ</div>
+          <div class="compare-result">→ ボールの上をたたいてゴロ</div>
+        </div>
+      </div>
+
+      <!-- NG: backward -->
+      <div class="compare ng reveal">
+        <div class="compare-illust">
+          <svg viewBox="0 0 80 96" xmlns="http://www.w3.org/2000/svg">
+            <line x1="6" y1="92" x2="74" y2="92" stroke="#1B2A3D" stroke-width="1.5"/>
+            <ellipse cx="42" cy="92" rx="20" ry="1.8" fill="#1B2A3D" opacity="0.12"/>
+            <line x1="40" y1="6" x2="40" y2="92" stroke="#1B2A3D" stroke-width="0.6" stroke-dasharray="2,2" opacity="0.3"/>
+            <!-- head (tilted back) -->
+            <circle cx="26" cy="20" r="6" fill="#FBF6EA" stroke="#1B2A3D" stroke-width="1.5"/>
+            <!-- spine tilted back -->
+            <line x1="28" y1="26" x2="40" y2="56" stroke="#1B2A3D" stroke-width="1.5"/>
+            <!-- shoulders bar tilted -->
+            <line x1="18" y1="28" x2="38" y2="32" stroke="#C43A2E" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="18" cy="28" r="2" fill="#1B2A3D"/>
+            <circle cx="38" cy="32" r="2" fill="#1B2A3D"/>
+            <!-- hips bar -->
+            <line x1="32" y1="55" x2="46" y2="58" stroke="#4A6B3F" stroke-width="2" stroke-linecap="round"/>
+            <circle cx="32" cy="55" r="2" fill="#1B2A3D"/>
+            <circle cx="46" cy="58" r="2" fill="#1B2A3D"/>
+            <!-- legs -->
+            <line x1="32" y1="55" x2="30" y2="76" stroke="#1B2A3D" stroke-width="1.5"/>
+            <circle cx="30" cy="76" r="1.6" fill="#1B2A3D"/>
+            <line x1="30" y1="76" x2="28" y2="91" stroke="#1B2A3D" stroke-width="1.5"/>
+            <line x1="46" y1="58" x2="48" y2="76" stroke="#1B2A3D" stroke-width="1.5"/>
+            <circle cx="48" cy="76" r="1.6" fill="#1B2A3D"/>
+            <line x1="48" y1="76" x2="50" y2="91" stroke="#1B2A3D" stroke-width="1.5"/>
+            <g transform="translate(16,76)">
+              <circle r="8" fill="#C43A2E"/>
+              <line x1="-3.5" y1="-3.5" x2="3.5" y2="3.5" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+              <line x1="3.5" y1="-3.5" x2="-3.5" y2="3.5" stroke="white" stroke-width="2.2" stroke-linecap="round"/>
+            </g>
+          </svg>
+        </div>
+        <div class="compare-text">
+          <span class="compare-tag">NG / BACKWARD</span>
+          <div class="compare-label">後ろにかたむきすぎ</div>
+          <div class="compare-result">→ 下をすくってフライ</div>
+        </div>
+      </div>
+
+      <!-- OK: balanced -->
+      <div class="compare ok reveal">
+        <div class="compare-illust">
+          <svg viewBox="0 0 80 96" xmlns="http://www.w3.org/2000/svg">
+            <line x1="6" y1="92" x2="74" y2="92" stroke="#1B2A3D" stroke-width="1.5"/>
+            <ellipse cx="40" cy="92" rx="20" ry="1.8" fill="#1B2A3D" opacity="0.12"/>
+            <!-- vertical reference -->
+            <line x1="40" y1="6" x2="40" y2="92" stroke="#E5B340" stroke-width="0.7" stroke-dasharray="2,2"/>
+            <!-- shoulder ref -->
+            <line x1="14" y1="32" x2="66" y2="32" stroke="#C43A2E" stroke-width="0.6" stroke-dasharray="2,2" opacity="0.6"/>
+            <!-- hip ref -->
+            <line x1="14" y1="56" x2="66" y2="56" stroke="#4A6B3F" stroke-width="0.6" stroke-dasharray="2,2" opacity="0.6"/>
+            <!-- head -->
+            <circle cx="40" cy="20" r="6" fill="#FBF6EA" stroke="#1B2A3D" stroke-width="1.5"/>
+            <!-- spine vertical -->
+            <line x1="40" y1="26" x2="40" y2="56" stroke="#1B2A3D" stroke-width="1.5"/>
+            <!-- shoulders LEVEL -->
+            <line x1="30" y1="32" x2="50" y2="32" stroke="#C43A2E" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="30" cy="32" r="2" fill="#1B2A3D"/>
+            <circle cx="50" cy="32" r="2" fill="#1B2A3D"/>
+            <!-- hips LEVEL -->
+            <line x1="33" y1="56" x2="47" y2="56" stroke="#4A6B3F" stroke-width="2.5" stroke-linecap="round"/>
+            <circle cx="33" cy="56" r="2" fill="#1B2A3D"/>
+            <circle cx="47" cy="56" r="2" fill="#1B2A3D"/>
+            <!-- legs -->
+            <line x1="33" y1="56" x2="31" y2="76" stroke="#1B2A3D" stroke-width="1.5"/>
+            <circle cx="31" cy="76" r="1.6" fill="#1B2A3D"/>
+            <line x1="31" y1="76" x2="30" y2="91" stroke="#1B2A3D" stroke-width="1.5"/>
+            <line x1="47" y1="56" x2="49" y2="76" stroke="#1B2A3D" stroke-width="1.5"/>
+            <circle cx="49" cy="76" r="1.6" fill="#1B2A3D"/>
+            <line x1="49" y1="76" x2="50" y2="91" stroke="#1B2A3D" stroke-width="1.5"/>
+            <!-- check mark -->
+            <g transform="translate(64,76)">
+              <circle r="8" fill="#4A6B3F"/>
+              <path d="M -3.5 0 L -1 2.5 L 3.5 -2.5" stroke="white" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" fill="none"/>
+            </g>
+          </svg>
+        </div>
+        <div class="compare-text">
+          <span class="compare-tag">OK / LEVEL</span>
+          <div class="compare-label">水平でバランスOK</div>
+          <div class="compare-result">→ 強い打球！</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="why-conclusion reveal">
+      「水平チェック」は、前にも後ろにもかたよらない<strong>ちょうどいいバランス</strong>を、<br>毎回つくるための合図。
+    </div>
+  </div>
+</section>
+
+<!-- ============ STEPS ============ -->
+<section class="steps">
+  <div class="container">
+    <header class="section-header reveal">
+      <div class="section-num">
+        <span class="section-num-fig">02</span>
+        <span class="section-num-line"></span>
+        <span class="section-num-label">HOW TO</span>
+      </div>
+      <h2 class="section-title">
+        やり方は<br><span class="red">3ステップ。</span>
+      </h2>
+    </header>
+
+    <!-- STEP 1 -->
+    <article class="step-card reveal">
+      <div class="step-head">
+        <div class="step-num">01</div>
+        <div class="step-head-text">
+          <div class="step-head-tag">STEP 1</div>
+          <div class="step-head-title">まっすぐ立つ</div>
+        </div>
+      </div>
+      <div class="step-illust">
+        <svg viewBox="0 0 160 220" xmlns="http://www.w3.org/2000/svg">
+          <!-- ground -->
+          <line x1="20" y1="208" x2="140" y2="208" stroke="#1B2A3D" stroke-width="1.5"/>
+          <ellipse cx="80" cy="208" rx="34" ry="2.5" fill="#1B2A3D" opacity="0.12"/>
+
+          <!-- vertical plumb line -->
+          <line x1="80" y1="18" x2="80" y2="208" stroke="#E5B340" stroke-width="0.8" stroke-dasharray="3,3"/>
+          <circle cx="80" cy="18" r="2.5" fill="#E5B340"/>
+          <text x="84" y="22" font-family="Bungee, sans-serif" font-size="6" fill="#E5B340" letter-spacing="0.5">VERTICAL</text>
+
+          <!-- HEAD -->
+          <circle cx="80" cy="42" r="9" fill="#FBF6EA" stroke="#1B2A3D" stroke-width="2"/>
+
+          <!-- neck and spine -->
+          <line x1="80" y1="51" x2="80" y2="62" stroke="#1B2A3D" stroke-width="2"/>
+          <line x1="80" y1="62" x2="80" y2="120" stroke="#1B2A3D" stroke-width="2"/>
+
+          <!-- shoulders bar -->
+          <line x1="58" y1="62" x2="102" y2="62" stroke="#C43A2E" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="58" cy="62" r="3.5" fill="#1B2A3D"/>
+          <circle cx="102" cy="62" r="3.5" fill="#1B2A3D"/>
+
+          <!-- left arm (front) -->
+          <line x1="58" y1="62" x2="48" y2="92" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="48" cy="92" r="3" fill="#1B2A3D"/>
+          <line x1="48" y1="92" x2="54" y2="118" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="54" cy="118" r="3" fill="#1B2A3D"/>
+
+          <!-- right arm -->
+          <line x1="102" y1="62" x2="112" y2="92" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="112" cy="92" r="3" fill="#1B2A3D"/>
+          <line x1="112" y1="92" x2="106" y2="118" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="106" cy="118" r="3" fill="#1B2A3D"/>
+
+          <!-- hips bar -->
+          <line x1="64" y1="120" x2="96" y2="120" stroke="#4A6B3F" stroke-width="2.5" stroke-linecap="round"/>
+          <circle cx="64" cy="120" r="3.5" fill="#1B2A3D"/>
+          <circle cx="96" cy="120" r="3.5" fill="#1B2A3D"/>
+
+          <!-- left leg -->
+          <line x1="64" y1="120" x2="58" y2="166" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="58" cy="166" r="3" fill="#1B2A3D"/>
+          <line x1="58" y1="166" x2="56" y2="206" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="56" cy="206" r="3.5" fill="#1B2A3D"/>
+
+          <!-- right leg -->
+          <line x1="96" y1="120" x2="102" y2="166" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="102" cy="166" r="3" fill="#1B2A3D"/>
+          <line x1="102" y1="166" x2="104" y2="206" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="104" cy="206" r="3.5" fill="#1B2A3D"/>
+
+          <!-- center of mass marker -->
+          <g transform="translate(80,92)">
+            <circle r="5" fill="#FBF6EA" stroke="#E5B340" stroke-width="1.5"/>
+            <line x1="-6" y1="0" x2="6" y2="0" stroke="#E5B340" stroke-width="1"/>
+            <line x1="0" y1="-6" x2="0" y2="6" stroke="#E5B340" stroke-width="1"/>
+          </g>
+          <text x="92" y="95" font-family="Bungee, sans-serif" font-size="6" fill="#E5B340" letter-spacing="0.5">CoM</text>
+        </svg>
+      </div>
+      <div class="step-body">
+        <ul class="step-list">
+          <li>バッターボックスに入ったら、まず足をひらいて<strong>いつものスタンス</strong>で立つ。</li>
+          <li>「ヒモで頭を上から引っぱられている」イメージで、<strong>ピンとまっすぐ</strong>立つ。</li>
+        </ul>
+      </div>
+    </article>
+
+    <!-- STEP 2 -->
+    <article class="step-card reveal">
+      <div class="step-head">
+        <div class="step-num">02</div>
+        <div class="step-head-text">
+          <div class="step-head-tag">STEP 2</div>
+          <div class="step-head-title">「地面と平行」をたしかめる</div>
+        </div>
+      </div>
+      <div class="step-illust">
+        <svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+          <!-- ground -->
+          <line x1="40" y1="208" x2="160" y2="208" stroke="#1B2A3D" stroke-width="1.5"/>
+          <ellipse cx="100" cy="208" rx="34" ry="2.5" fill="#1B2A3D" opacity="0.12"/>
+
+          <!-- SHOULDERS reference line - extended across -->
+          <line x1="14" y1="62" x2="190" y2="62" stroke="#C43A2E" stroke-width="0.8" stroke-dasharray="3,2.5"/>
+          <text x="14" y="58" font-family="Bungee, sans-serif" font-size="6" fill="#C43A2E" letter-spacing="0.5">SHOULDER LINE</text>
+
+          <!-- HIPS reference line - extended across -->
+          <line x1="14" y1="120" x2="190" y2="120" stroke="#4A6B3F" stroke-width="0.8" stroke-dasharray="3,2.5"/>
+          <text x="14" y="134" font-family="Bungee, sans-serif" font-size="6" fill="#4A6B3F" letter-spacing="0.5">HIP LINE</text>
+
+          <!-- HEAD -->
+          <circle cx="100" cy="42" r="9" fill="#FBF6EA" stroke="#1B2A3D" stroke-width="2"/>
+
+          <!-- spine -->
+          <line x1="100" y1="51" x2="100" y2="62" stroke="#1B2A3D" stroke-width="2"/>
+          <line x1="100" y1="62" x2="100" y2="120" stroke="#1B2A3D" stroke-width="2"/>
+
+          <!-- shoulders bar (red, prominent) -->
+          <line x1="78" y1="62" x2="122" y2="62" stroke="#C43A2E" stroke-width="3.5" stroke-linecap="round"/>
+          <circle cx="78" cy="62" r="3.5" fill="#1B2A3D"/>
+          <circle cx="122" cy="62" r="3.5" fill="#1B2A3D"/>
+
+          <!-- arms -->
+          <line x1="78" y1="62" x2="68" y2="92" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="68" cy="92" r="3" fill="#1B2A3D"/>
+          <line x1="68" y1="92" x2="74" y2="118" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="74" cy="118" r="3" fill="#1B2A3D"/>
+
+          <line x1="122" y1="62" x2="132" y2="92" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="132" cy="92" r="3" fill="#1B2A3D"/>
+          <line x1="132" y1="92" x2="126" y2="118" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="126" cy="118" r="3" fill="#1B2A3D"/>
+
+          <!-- hips bar (green, prominent) -->
+          <line x1="84" y1="120" x2="116" y2="120" stroke="#4A6B3F" stroke-width="3.5" stroke-linecap="round"/>
+          <circle cx="84" cy="120" r="3.5" fill="#1B2A3D"/>
+          <circle cx="116" cy="120" r="3.5" fill="#1B2A3D"/>
+
+          <!-- legs -->
+          <line x1="84" y1="120" x2="78" y2="166" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="78" cy="166" r="3" fill="#1B2A3D"/>
+          <line x1="78" y1="166" x2="76" y2="206" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="76" cy="206" r="3.5" fill="#1B2A3D"/>
+
+          <line x1="116" y1="120" x2="122" y2="166" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="122" cy="166" r="3" fill="#1B2A3D"/>
+          <line x1="122" y1="166" x2="124" y2="206" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="124" cy="206" r="3.5" fill="#1B2A3D"/>
+
+          <!-- center of mass marker -->
+          <g transform="translate(100,92)">
+            <circle r="5" fill="#FBF6EA" stroke="#E5B340" stroke-width="1.5"/>
+            <line x1="-6" y1="0" x2="6" y2="0" stroke="#E5B340" stroke-width="1"/>
+            <line x1="0" y1="-6" x2="0" y2="6" stroke="#E5B340" stroke-width="1"/>
+          </g>
+
+          <!-- parallel indicator on the right -->
+          <g transform="translate(176,91)">
+            <line x1="0" y1="-29" x2="0" y2="29" stroke="#1B2A3D" stroke-width="0.8"/>
+            <line x1="-4" y1="-29" x2="4" y2="-29" stroke="#1B2A3D" stroke-width="1"/>
+            <line x1="-4" y1="29" x2="4" y2="29" stroke="#1B2A3D" stroke-width="1"/>
+            <text x="0" y="3" font-family="Bungee, sans-serif" font-size="5" fill="#1B2A3D" text-anchor="middle" letter-spacing="0.3">∥</text>
+          </g>
+        </svg>
+      </div>
+      <div class="step-body">
+        <ul class="step-list">
+          <li>自分の<strong>両肩が地面とまっすぐ</strong>になっているか、心の中でイメージする。</li>
+          <li>右肩・左肩のどちらかが<strong>下がっていない</strong>かたしかめよう。</li>
+          <li>腰（ベルトのライン）も両肩と同じように、<strong>地面と平行</strong>になっているか感じてみよう。</li>
+        </ul>
+        <div class="step-tip">
+          <div class="step-tip-label">POINT</div>
+          まだ大きく前かがみにならなくていい。「まっすぐ」「左右同じ高さ」を感じることが大事。
+        </div>
+      </div>
+    </article>
+
+    <!-- STEP 3 -->
+    <article class="step-card reveal">
+      <div class="step-head">
+        <div class="step-num">03</div>
+        <div class="step-head-text">
+          <div class="step-head-tag">STEP 3</div>
+          <div class="step-head-title">少しだけ前かがみで構える</div>
+        </div>
+      </div>
+      <div class="step-illust">
+        <svg viewBox="0 0 200 220" xmlns="http://www.w3.org/2000/svg">
+          <!-- ground -->
+          <line x1="40" y1="208" x2="160" y2="208" stroke="#1B2A3D" stroke-width="1.5"/>
+          <ellipse cx="100" cy="208" rx="36" ry="2.5" fill="#1B2A3D" opacity="0.12"/>
+
+          <!-- horizontal reference (faint, "what was level before") -->
+          <line x1="14" y1="64" x2="80" y2="64" stroke="#1B2A3D" stroke-width="0.8" stroke-dasharray="2,2" opacity="0.35"/>
+
+          <!-- HEAD -->
+          <circle cx="98" cy="48" r="9" fill="#FBF6EA" stroke="#1B2A3D" stroke-width="2"/>
+
+          <!-- spine - tilted forward slightly -->
+          <line x1="98" y1="57" x2="100" y2="68" stroke="#1B2A3D" stroke-width="2"/>
+          <line x1="100" y1="68" x2="108" y2="124" stroke="#1B2A3D" stroke-width="2"/>
+
+          <!-- shoulders bar (tilted slightly: back shoulder down) -->
+          <line x1="80" y1="74" x2="120" y2="62" stroke="#C43A2E" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="80" cy="74" r="3.5" fill="#1B2A3D"/>
+          <circle cx="120" cy="62" r="3.5" fill="#1B2A3D"/>
+
+          <!-- arms hang naturally at sides (slightly bent) -->
+          <line x1="80" y1="74" x2="74" y2="100" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="74" cy="100" r="3" fill="#1B2A3D"/>
+          <line x1="74" y1="100" x2="78" y2="124" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="78" cy="124" r="3" fill="#1B2A3D"/>
+
+          <line x1="120" y1="62" x2="126" y2="92" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="126" cy="92" r="3" fill="#1B2A3D"/>
+          <line x1="126" y1="92" x2="124" y2="118" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="124" cy="118" r="3" fill="#1B2A3D"/>
+
+          <!-- hips bar -->
+          <line x1="92" y1="126" x2="124" y2="120" stroke="#4A6B3F" stroke-width="3" stroke-linecap="round"/>
+          <circle cx="92" cy="126" r="3.5" fill="#1B2A3D"/>
+          <circle cx="124" cy="120" r="3.5" fill="#1B2A3D"/>
+
+          <!-- legs - bent at knees -->
+          <line x1="92" y1="126" x2="80" y2="166" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="80" cy="166" r="3" fill="#1B2A3D"/>
+          <line x1="80" y1="166" x2="78" y2="206" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="78" cy="206" r="3.5" fill="#1B2A3D"/>
+
+          <line x1="124" y1="120" x2="130" y2="166" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="130" cy="166" r="3" fill="#1B2A3D"/>
+          <line x1="130" y1="166" x2="128" y2="206" stroke="#1B2A3D" stroke-width="2"/>
+          <circle cx="128" cy="206" r="3.5" fill="#1B2A3D"/>
+
+          <!-- center of mass marker -->
+          <g transform="translate(104,98)">
+            <circle r="5" fill="#FBF6EA" stroke="#E5B340" stroke-width="1.5"/>
+            <line x1="-6" y1="0" x2="6" y2="0" stroke="#E5B340" stroke-width="1"/>
+            <line x1="0" y1="-6" x2="0" y2="6" stroke="#E5B340" stroke-width="1"/>
+          </g>
+
+          <!-- tilt angle indicator (between horizontal ref and shoulder line) -->
+          <g transform="translate(40,68)">
+            <path d="M 0 0 L 30 0" stroke="#E5B340" stroke-width="1" opacity="0.6"/>
+            <path d="M 0 0 L 28 -8" stroke="#E5B340" stroke-width="1.2"/>
+            <path d="M 14 0 A 14 14 0 0 0 13 -4" stroke="#E5B340" stroke-width="0.8" fill="none"/>
+            <text x="18" y="-2" font-family="Bungee, sans-serif" font-size="6" fill="#E5B340" letter-spacing="0.3">TILT</text>
+          </g>
+        </svg>
+      </div>
+      <div class="step-body">
+        <ul class="step-list">
+          <li>「水平OK！」と思えたら、そこから少しだけ<strong>おじぎをするように前かがみ</strong>に。</li>
+          <li>ヒザを軽くまげて、<strong>つま先とヒザの向き</strong>をそろえる。</li>
+          <li>このときも、<strong>さっきの水平の感じ</strong>をできるだけキープしよう。</li>
+        </ul>
+        <div class="step-tip">
+          <div class="step-tip-label">READY</div>
+          ここからがスイングのスタート。水平の感覚を体に残したまま、ピッチャーを見る。
+        </div>
+      </div>
+    </article>
+  </div>
+</section>
+
+<!-- ============ COACH VOICE ============ -->
+<section class="voice">
+  <div class="container">
+    <header class="section-header reveal">
+      <div class="section-num">
+        <span class="section-num-fig">03</span>
+        <span class="section-num-line"></span>
+        <span class="section-num-label">COACH VOICE</span>
+      </div>
+      <h2 class="section-title">
+        そのまま使える<br><span class="red">声かけ集。</span>
+      </h2>
+    </header>
+    <div class="voice-stack">
+      <div class="voice-card reveal">
+        <div class="voice-card-num">01</div>
+        <div class="voice-card-text">「ボックスに入ったら、まず<strong>"水平チェック！"</strong>」</div>
+      </div>
+      <div class="voice-card reveal">
+        <div class="voice-card-num">02</div>
+        <div class="voice-card-text">「肩の高さ、同じかな？前にも後ろにもかたよってないかな？」</div>
+      </div>
+      <div class="voice-card reveal">
+        <div class="voice-card-num">03</div>
+        <div class="voice-card-text">「心の中で『水平、OK！』って言ってから、ちょっとだけ前かがみになろう」</div>
+      </div>
+      <div class="voice-card reveal">
+        <div class="voice-card-num">04</div>
+        <div class="voice-card-text">「水平ができてから、<strong>スイングスタート</strong>だよ」</div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ FLOW ============ -->
+<section class="flow">
+  <div class="container">
+    <header class="section-header reveal">
+      <div class="section-num">
+        <span class="section-num-fig">04</span>
+        <span class="section-num-line"></span>
+        <span class="section-num-label">PRACTICE</span>
+      </div>
+      <h2 class="section-title" style="color:#FBF6EA;">
+        練習に<br><span style="color:#E5B340;">組みこむなら。</span>
+      </h2>
+    </header>
+    <div class="flow-diagram reveal">
+      <div class="flow-step active">
+        <div class="flow-bullet">1</div>
+        <div class="flow-text">水平チェック</div>
+      </div>
+      <div class="flow-arrow-vert"></div>
+      <div class="flow-step">
+        <div class="flow-bullet">2</div>
+        <div class="flow-text">構え</div>
+      </div>
+      <div class="flow-arrow-vert"></div>
+      <div class="flow-step">
+        <div class="flow-bullet">3</div>
+        <div class="flow-text">素振り</div>
+      </div>
+    </div>
+    <div class="flow-tip reveal">
+      素振りの前に、毎回この<strong>3つをセット</strong>でやろう。<br>
+      コーチは「<strong>水平チェック忘れてない？</strong>」と声をかける。<br>
+      黒板には「<strong>今日のめあて：打席に入ったら水平チェック</strong>」と書いておくと◎。
+    </div>
+  </div>
+</section>
+
+<!-- ============ REAL EFFECTS ============ -->
+<section class="effects">
+  <div class="container">
+    <header class="section-header reveal">
+      <div class="section-num">
+        <span class="section-num-fig">05</span>
+        <span class="section-num-line"></span>
+        <span class="section-num-label">REAL EFFECTS</span>
+      </div>
+      <h2 class="section-title">
+        実際に、<br><span class="red">何が変わるのか。</span>
+      </h2>
+      <p class="effects-lede">
+        水平チェックを取り入れたあとに、自分自身で実感している3つの変化。<br>
+        どれも「回旋＋体重移動＋リリース」の精度が問われる動きで、それぞれに運動学的な理由がある。
+      </p>
+    </header>
+
+    <!-- CASE 01: BATTING -->
+    <article class="effect-card reveal">
+      <div class="effect-head">
+        <span class="effect-tag">CASE 01 / BATTING</span>
+        <h3 class="effect-title">フライとボテボテが、減る。</h3>
+      </div>
+      <div class="effect-viz">
+        <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+          <!-- ground -->
+          <line x1="0" y1="180" x2="320" y2="180" stroke="#1B2A3D" stroke-width="1.5"/>
+          <!-- batter stick figure (right side, ready stance) -->
+          <g transform="translate(280, 130)">
+            <!-- head -->
+            <circle cx="-2" cy="-46" r="6" fill="#FBF6EA" stroke="#1B2A3D" stroke-width="1.5"/>
+            <!-- spine slightly tilted -->
+            <line x1="-2" y1="-40" x2="2" y2="-4" stroke="#1B2A3D" stroke-width="1.5"/>
+            <!-- shoulders bar -->
+            <line x1="-12" y1="-34" x2="10" y2="-38" stroke="#C43A2E" stroke-width="2.2"/>
+            <circle cx="-12" cy="-34" r="2" fill="#1B2A3D"/>
+            <circle cx="10" cy="-38" r="2" fill="#1B2A3D"/>
+            <!-- arms holding bat -->
+            <line x1="-12" y1="-34" x2="-20" y2="-46" stroke="#1B2A3D" stroke-width="1.5"/>
+            <circle cx="-20" cy="-46" r="2" fill="#1B2A3D"/>
+            <line x1="10" y1="-38" x2="20" y2="-50" stroke="#1B2A3D" stroke-width="1.5"/>
+            <circle cx="20" cy="-50" r="2" fill="#1B2A3D"/>
+            <!-- hips -->
+            <line x1="-6" y1="-2" x2="10" y2="-6" stroke="#4A6B3F" stroke-width="2.2"/>
+            <circle cx="-6" cy="-2" r="2" fill="#1B2A3D"/>
+            <circle cx="10" cy="-6" r="2" fill="#1B2A3D"/>
+            <!-- legs bent -->
+            <line x1="-6" y1="-2" x2="-12" y2="22" stroke="#1B2A3D" stroke-width="1.5"/>
+            <circle cx="-12" cy="22" r="2" fill="#1B2A3D"/>
+            <line x1="-12" y1="22" x2="-10" y2="48" stroke="#1B2A3D" stroke-width="1.5"/>
+            <line x1="10" y1="-6" x2="14" y2="22" stroke="#1B2A3D" stroke-width="1.5"/>
+            <circle cx="14" cy="22" r="2" fill="#1B2A3D"/>
+            <line x1="14" y1="22" x2="12" y2="48" stroke="#1B2A3D" stroke-width="1.5"/>
+          </g>
+          <!-- contact point -->
+          <circle cx="262" cy="98" r="3.5" fill="#C43A2E"/>
+          <!-- pop fly trajectory -->
+          <path d="M 262 98 Q 180 16 60 82" stroke="#C43A2E" stroke-width="1.8" fill="none" stroke-dasharray="5,3"/>
+          <text x="100" y="32" font-family="Bungee, sans-serif" font-size="9" fill="#C43A2E" letter-spacing="1">POP FLY</text>
+          <!-- weak grounder -->
+          <path d="M 262 98 Q 240 124 100 174" stroke="#C43A2E" stroke-width="1.8" fill="none" stroke-dasharray="5,3"/>
+          <text x="120" y="167" font-family="Bungee, sans-serif" font-size="9" fill="#C43A2E" letter-spacing="1">WEAK GROUNDER</text>
+          <!-- ideal line drive -->
+          <path d="M 262 98 Q 180 72 30 60" stroke="#4A6B3F" stroke-width="3" fill="none"/>
+          <text x="44" y="76" font-family="Bungee, sans-serif" font-size="9" fill="#4A6B3F" letter-spacing="1">LINE DRIVE</text>
+        </svg>
+      </div>
+      <div class="effect-body">
+        <div class="effect-section">
+          <div class="effect-h">観察した変化</div>
+          <p class="effect-text">水平チェックを入れると、ポップフライ（上にふける打球）と、力のないボテボテのゴロが、両方とも減る。出発点がそろうことで、ライナー性の打球が増える。</p>
+        </div>
+        <div class="effect-section">
+          <div class="effect-h">なぜ変わるのか</div>
+          <p class="effect-text">体が後ろに傾けばアッパー気味に入りやすく<strong>フライ</strong>、前に突っ込めばダウンが強くなりやすく<strong>ゴロ</strong>。動作前に「自分の水平」を確認すると、肩・骨盤・重心が一度ニュートラルに戻り、毎回同じ「適度な傾き」で回旋に入れる。バットプレーンとボールの入射角のズレが大きくならず、極端な打球が減る。</p>
+        </div>
+        <div class="effect-keywords">
+          <div class="effect-keywords-label">FIELD CUE</div>
+          <div class="effect-keywords-list">
+            <span>止まる</span>
+            <span>水平</span>
+            <span>構える</span>
+          </div>
+        </div>
+      </div>
+    </article>
+
+    <!-- CASE 02: FIELDING & THROWING (3B → 1B) -->
+    <article class="effect-card reveal">
+      <div class="effect-head">
+        <span class="effect-tag">CASE 02 / FIELDING & THROWING（3B → 1B）</span>
+        <h3 class="effect-title">捕球から送球まで、線にのる。</h3>
+      </div>
+      <div class="effect-viz">
+        <svg viewBox="0 0 320 200" xmlns="http://www.w3.org/2000/svg">
+          <!-- ground -->
+          <line x1="0" y1="180" x2="320" y2="180" stroke="#1B2A3D" stroke-width="1.5"/>
+
+          <!-- 3B fielder stick figure (left, bent forward fielding pose) -->
+          <g transform="translate(46, 178)">
+            <!-- head -->
+            <circle cx="-4" cy="-58" r="5" fill="#FBF6EA" stroke="#1B2A3D" stroke-width="1.4"/>
+            <!-- spine bent forward -->
+            <line x1="-4" y1="-53" x2="0" y2="-26" stroke="#1B2A3D" stroke-width="1.4"/>
+            <!-- shoulders -->
+            <line x1="-12" y1="-48" x2="6" y2="-44" stroke="#C43A2E" stroke-width="2"/>
+            <circle cx="-12" cy="-48" r="1.8" fill="#1B2A3D"/>
+            <circle cx="6" cy="-44" r="1.8" fill="#1B2A3D"/>
+            <!-- glove arm reaching down -->
+            <line x1="-12" y1="-48" x2="-18" y2="-30" stroke="#1B2A3D" stroke-width="1.4"/>
+            <circle cx="-18" cy="-30" r="1.6" fill="#1B2A3D"/>
+            <line x1="-18" y1="-30" x2="-14" y2="-12" stroke="#1B2A3D" stroke-width="1.4"/>
+            <!-- glove (small filled shape) -->
+            <ellipse cx="-13" cy="-10" rx="4" ry="3" fill="#9D7148" stroke="#1B2A3D" stroke-width="0.8"/>
+            <!-- throwing arm back -->
+            <line x1="6" y1="-44" x2="14" y2="-30" stroke="#1B2A3D" stroke-width="1.4"/>
+            <circle cx="14" cy="-30" r="1.6" fill="#1B2A3D"/>
+            <line x1="14" y1="-30" x2="22" y2="-40" stroke="#1B2A3D" stroke-width="1.4"/>
+            <!-- hips -->
+            <line x1="-6" y1="-24" x2="8" y2="-22" stroke="#4A6B3F" stroke-width="2"/>
+            <circle cx="-6" cy="-24" r="1.8" fill="#1B2A3D"/>
+            <circle cx="8" cy="-22" r="1.8" fill="#1B2A3D"/>
+            <!-- legs (split stance) -->
+            <line x1="-6" y1="-24" x2="-14" y2="-2" stroke="#1B2A3D" stroke-width="1.4"/>
+            <circle cx="-14" cy="-2" r="1.6" fill="#1B2A3D"/>
+            <line x1="-14" y1="-2" x2="-12" y2="0" stroke="#1B2A3D" stroke-width="1.4"/>
+            <line x1="8" y1="-22" x2="14" y2="-4" stroke="#1B2A3D" stroke-width="1.4"/>
+            <circle cx="14" cy="-4" r="1.6" fill="#1B2A3D"/>
+            <line x1="14" y1="-4" x2="14" y2="0" stroke="#1B2A3D" stroke-width="1.4"/>
+          </g>
+          <text x="46" y="194" font-family="Bungee, sans-serif" font-size="8" fill="#1B2A3D" text-anchor="middle" letter-spacing="1.5">3B</text>
+
+          <!-- 1B receiver stick figure (right, glove extended) -->
+          <g transform="translate(282, 178)">
+            <!-- head -->
+            <circle cx="0" cy="-66" r="5" fill="#FBF6EA" stroke="#1B2A3D" stroke-width="1.4"/>
+            <!-- spine -->
+            <line x1="0" y1="-61" x2="0" y2="-30" stroke="#1B2A3D" stroke-width="1.4"/>
+            <!-- shoulders -->
+            <line x1="-10" y1="-54" x2="8" y2="-54" stroke="#C43A2E" stroke-width="2"/>
+            <circle cx="-10" cy="-54" r="1.8" fill="#1B2A3D"/>
+            <circle cx="8" cy="-54" r="1.8" fill="#1B2A3D"/>
+            <!-- glove arm extended forward -->
+            <line x1="-10" y1="-54" x2="-22" y2="-50" stroke="#1B2A3D" stroke-width="1.4"/>
+            <circle cx="-22" cy="-50" r="1.6" fill="#1B2A3D"/>
+            <line x1="-22" y1="-50" x2="-32" y2="-46" stroke="#1B2A3D" stroke-width="1.4"/>
+            <ellipse cx="-34" cy="-44" rx="5" ry="4" fill="#9D7148" stroke="#1B2A3D" stroke-width="0.8"/>
+            <!-- other arm -->
+            <line x1="8" y1="-54" x2="14" y2="-38" stroke="#1B2A3D" stroke-width="1.4"/>
+            <circle cx="14" cy="-38" r="1.6" fill="#1B2A3D"/>
+            <line x1="14" y1="-38" x2="14" y2="-22" stroke="#1B2A3D" stroke-width="1.4"/>
+            <!-- hips -->
+            <line x1="-6" y1="-30" x2="6" y2="-30" stroke="#4A6B3F" stroke-width="2"/>
+            <circle cx="-6" cy="-30" r="1.8" fill="#1B2A3D"/>
+            <circle cx="6" cy="-30" r="1.8" fill="#1B2A3D"/>
+            <!-- legs -->
+            <line x1="-6" y1="-30" x2="-8" y2="-2" stroke="#1B2A3D" stroke-width="1.4"/>
+            <circle cx="-8" cy="-2" r="1.6" fill="#1B2A3D"/>
+            <line x1="-8" y1="-2" x2="-8" y2="0" stroke="#1B2A3D" stroke-width="1.4"/>
+            <line x1="6" y1="-30" x2="8" y2="-2" stroke="#1B2A3D" stroke-width="1.4"/>
+            <circle cx="8" cy="-2" r="1.6" fill="#1B2A3D"/>
+            <line x1="8" y1="-2" x2="8" y2="0" stroke="#1B2A3D" stroke-width="1.4"/>
+          </g>
+          <text x="282" y="194" font-family="Bungee, sans-serif" font-size="8" fill="#1B2A3D" text-anchor="middle" letter-spacing="1.5">1B</text>
+
+          <!-- bad: too high arc -->
+          <path d="M 64 130 Q 165 28 250 132" stroke="#C43A2E" stroke-width="1.8" fill="none" stroke-dasharray="5,3"/>
+          <text x="100" y="44" font-family="Bungee, sans-serif" font-size="9" fill="#C43A2E" letter-spacing="1">TOO HIGH</text>
+          <!-- bad: too low/short -->
+          <path d="M 64 130 Q 130 158 220 178" stroke="#C43A2E" stroke-width="1.8" fill="none" stroke-dasharray="5,3"/>
+          <text x="180" y="171" font-family="Bungee, sans-serif" font-size="9" fill="#C43A2E" letter-spacing="1">TOO LOW</text>
+          <!-- ideal: clean throw to chest -->
+          <path d="M 64 128 Q 165 116 250 124" stroke="#4A6B3F" stroke-width="3" fill="none"/>
+          <text x="116" y="106" font-family="Bungee, sans-serif" font-size="9" fill="#4A6B3F" letter-spacing="1">EASY TO CATCH</text>
+        </svg>
+      </div>
+      <div class="effect-body">
+        <div class="effect-section">
+          <div class="effect-h">観察した変化</div>
+          <p class="effect-text">捕球→送球のステップが横にブレずに、送球方向へまっすぐ出る。一塁手が無理なくグラブの中で捕れる胸〜顔の高さに、強いボールが集まる。</p>
+        </div>
+        <div class="effect-section">
+          <div class="effect-h">なぜ変わるのか</div>
+          <p class="effect-text">捕球前から体が傾いていると、捕球の勢いそのままに <strong>「一歩目が横へ逃げる」「上体だけ先に開く」「腕だけが急ぐ」</strong> というエラーが連鎖しやすい。捕球直後に肩・骨盤・頭の位置を一度水平に戻すことで、軸足→ステップ足→骨盤→胸→腕の順に動作が連結する。送球方向への一歩が線に乗り、強くて受けやすい球になる。</p>
+        </div>
+        <div class="effect-keywords">
+          <div class="effect-keywords-label">FIELD CUE</div>
+          <div class="effect-keywords-list">
+            <span>捕る</span>
+            <span>そろえる</span>
+            <span>送球線</span>
+          </div>
+        </div>
+        <div class="effect-checklist">
+          <div class="effect-checklist-label">COACH'S 5-POINT CHECK</div>
+          <ul>
+            <li><span class="ck-num">1</span><span class="ck-key">頭</span><span class="ck-text">送球線から外れていないか</span></li>
+            <li><span class="ck-num">2</span><span class="ck-key">肩</span><span class="ck-text">左右の高さがそろっているか</span></li>
+            <li><span class="ck-num">3</span><span class="ck-key">骨盤</span><span class="ck-text">送球方向を向いているか</span></li>
+            <li><span class="ck-num">4</span><span class="ck-key">足</span><span class="ck-text">一歩目が線に乗っているか</span></li>
+            <li><span class="ck-num">5</span><span class="ck-key">線</span><span class="ck-text">胸の向きとリリースが一致しているか</span></li>
+          </ul>
+        </div>
+      </div>
+    </article>
+
+    <div class="effects-conclusion reveal">
+      <p class="effects-conclusion-text">
+        スタート時点での<strong>水平バランス</strong>が揃うと、その後の回旋・体重移動・リリースの軌道が毎回同じになる。<br>
+        <strong>打球と送球の上下左右のブレ</strong>が減るのは、当然の帰結とも言える。
+      </p>
+    </div>
+  </div>
+</section>
+
+<!-- ============ THEORY (collapsible) ============ -->
+<section class="theory">
+  <div class="container">
+    <header class="section-header reveal">
+      <div class="section-num">
+        <span class="section-num-fig">06</span>
+        <span class="section-num-line"></span>
+        <span class="section-num-label">DEEP DIVE</span>
+      </div>
+      <h2 class="section-title">
+        おとな向けの<br><span class="red">理論メモ。</span>
+      </h2>
+    </header>
+    <button class="theory-toggle reveal" id="theoryToggle">
+      <div class="theory-toggle-text">
+        <div class="theory-toggle-tag">FOR COACHES</div>
+        <div class="theory-toggle-title">「水平チェック」を裏付ける理論を見る</div>
+      </div>
+      <div class="theory-arrow">▼</div>
+    </button>
+    <div class="theory-content" id="theoryContent">
+      <div class="theory-inner">
+
+        <div class="theory-card">
+          <div class="theory-card-tag">THREE PLANES OF MOTION</div>
+          <div class="theory-card-title">3つの動きの面</div>
+          <div class="theory-card-body">
+            人間の動きは「矢状面（前後）」「前額面（左右）」「水平面（回旋・ねじり）」の3つの面で起きる。バッティング・投球・ゴルフ・テニスは特に水平面の回旋が大きく、その前提として3つの面で姿勢を整えることが、力の伝達効率とケガ予防につながる。
+          </div>
+          <div class="theory-card-source">— 運動学（モーションプレーン）一般</div>
+        </div>
+
+        <div class="theory-card">
+          <div class="theory-card-tag">TILT &amp; SWING PLANE</div>
+          <div class="theory-card-title">背骨の傾きと肩のプレーン</div>
+          <div class="theory-card-body">
+            肩のプレーン（面）がバットの軌道を決める。スイング中、後ろ肩を下げて上半身をプレート側に傾けることで、正しいバットパスとバットスピードが生まれる。
+          </div>
+          <div class="theory-card-source">— Elite Diamond Performance</div>
+        </div>
+
+        <div class="theory-card">
+          <div class="theory-card-tag">LEVEL SHOULDERS</div>
+          <div class="theory-card-title">重心が後ろに落ちると打球が浮く</div>
+          <div class="theory-card-body">
+            インパクト前に重心が後ろへ流れると、ボールをカット気味に振ることになりロフトが付きすぎる。後ろ肩を上げて肩をよりレベルに保つことで、重心と回転軸を前方にキープできる。
+          </div>
+          <div class="theory-card-source">— Swing Attractors</div>
+        </div>
+
+        <div class="theory-card">
+          <div class="theory-card-tag">WEIGHT DISTRIBUTION</div>
+          <div class="theory-card-title">構えの「基準状態」を毎回つくる</div>
+          <div class="theory-card-body">
+            両足50%ずつ → 後ろ足60% / 前足40% など、毎回同じ体重配分のルーティンで構えに入ることが、再現性のあるスイングの土台になる。
+          </div>
+          <div class="theory-card-source">— Powercore 360</div>
+        </div>
+
+        <div class="theory-card">
+          <div class="theory-card-tag">HORIZONTAL → TILTED</div>
+          <div class="theory-card-title">水平素振りからスイングプレーンへ</div>
+          <div class="theory-card-body">
+            ゴルフでは「直立して水平に振る → 前傾を加えて本番のプレーンに変換する」という練習法がある。「①水平を作る → ②傾けて本番プレーンへ」という発想は、子どもの水平チェックの上位概念として説明しやすい。
+          </div>
+          <div class="theory-card-source">— Step Golf</div>
+        </div>
+
+        <div class="theory-card" style="border-left-color:#4A6B3F;">
+          <div class="theory-card-tag" style="color:#4A6B3F;">SUMMARY</div>
+          <div class="theory-card-title">共通する原則として</div>
+          <div class="theory-card-body">
+            「水平チェック」は、姿勢・肩のtilt・体重配分という複数の専門概念を、ひとつの身体感覚にまとめた合図。<strong>① 水平＝ニュートラルな基準を作る → ② 必要なだけ傾けて動作プレーンに乗せる</strong>という二段構えは、野球の打撃だけでなく、投球・守備・ゴルフ・テニス・水泳など、あらゆるハイスピード動作の準備に共通する原則として説明できる。
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- ============ APPENDIX ============ -->
+<section class="appendix">
+  <div class="container">
+    <div class="appendix-stamp reveal">
+      <div class="appendix-stamp-label">APPENDIX</div>
+      <h2 class="appendix-stamp-title">他のスポーツへの応用</h2>
+      <p class="appendix-stamp-lede">
+        「ハイスピードな動きの前に水平バランスを整える」という発想は、野球以外のスポーツにも当てはまる。参考まで。
+      </p>
+    </div>
+
+    <div class="appendix-grid">
+
+      <!-- Golf -->
+      <article class="appendix-card reveal">
+        <div class="appendix-icon">
+          <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+            <line x1="38" y1="8" x2="22" y2="46" stroke="#1B2A3D" stroke-width="2.5" stroke-linecap="round"/>
+            <path d="M 22 46 L 14 50 L 18 54 L 24 50 Z" fill="#1B2A3D"/>
+            <line x1="38" y1="8" x2="42" y2="12" stroke="#C43A2E" stroke-width="3" stroke-linecap="round"/>
+            <line x1="48" y1="52" x2="48" y2="44" stroke="#1B2A3D" stroke-width="1.5"/>
+            <circle cx="48" cy="40" r="4" fill="#FBF6EA" stroke="#1B2A3D" stroke-width="1.5"/>
+            <line x1="6" y1="54" x2="56" y2="54" stroke="#1B2A3D" stroke-width="1.2" opacity="0.4"/>
+          </svg>
+        </div>
+        <div>
+          <div class="appendix-tag">GOLF</div>
+          <div class="appendix-name">アドレス</div>
+          <p class="appendix-desc">
+            両足の体重を半分ずつ、肩と腰のラインをターゲットラインと平行にしてからテイクバックへ。<strong>ドロー・フェードの曲がりが必要以上にならない</strong>のは、回転軸の傾きが毎回大きくズレないため。
+          </p>
+        </div>
+      </article>
+
+      <!-- Tennis -->
+      <article class="appendix-card reveal">
+        <div class="appendix-icon">
+          <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+            <ellipse cx="22" cy="22" rx="14" ry="16" fill="#FBF6EA" stroke="#1B2A3D" stroke-width="2"/>
+            <line x1="10" y1="22" x2="34" y2="22" stroke="#1B2A3D" stroke-width="0.7"/>
+            <line x1="14" y1="14" x2="30" y2="14" stroke="#1B2A3D" stroke-width="0.7"/>
+            <line x1="14" y1="30" x2="30" y2="30" stroke="#1B2A3D" stroke-width="0.7"/>
+            <line x1="22" y1="6" x2="22" y2="38" stroke="#1B2A3D" stroke-width="0.7"/>
+            <line x1="16" y1="9" x2="16" y2="35" stroke="#1B2A3D" stroke-width="0.7"/>
+            <line x1="28" y1="9" x2="28" y2="35" stroke="#1B2A3D" stroke-width="0.7"/>
+            <line x1="32" y1="34" x2="50" y2="52" stroke="#1B2A3D" stroke-width="3.5" stroke-linecap="round"/>
+            <line x1="44" y1="46" x2="52" y2="54" stroke="#C43A2E" stroke-width="3.5" stroke-linecap="round"/>
+            <circle cx="46" cy="14" r="5" fill="#E5B340" stroke="#1B2A3D" stroke-width="1.2"/>
+            <path d="M 42 12 Q 46 18 50 12" stroke="#1B2A3D" stroke-width="0.7" fill="none"/>
+          </svg>
+        </div>
+        <div>
+          <div class="appendix-tag">TENNIS</div>
+          <div class="appendix-name">レディポジション</div>
+          <p class="appendix-desc">
+            サーブやストロークの前のニュートラル姿勢。肩・骨盤・重心を整えてから、テイクバックや回旋に入る。
+          </p>
+        </div>
+      </article>
+
+      <!-- Swimming -->
+      <article class="appendix-card reveal">
+        <div class="appendix-icon">
+          <svg viewBox="0 0 60 60" xmlns="http://www.w3.org/2000/svg">
+            <path d="M 4 44 Q 12 40 20 44 T 36 44 T 56 44" stroke="#1B2A3D" stroke-width="1.4" fill="none" stroke-linecap="round"/>
+            <path d="M 4 52 Q 12 48 20 52 T 36 52 T 56 52" stroke="#1B2A3D" stroke-width="1.4" fill="none" stroke-linecap="round" opacity="0.5"/>
+            <ellipse cx="30" cy="30" rx="22" ry="3.5" fill="#1B2A3D"/>
+            <circle cx="48" cy="28" r="5" fill="#F5D5B8" stroke="#1B2A3D" stroke-width="1.5"/>
+            <path d="M 44 28 Q 48 22 52 28" fill="#C43A2E" stroke="#1B2A3D" stroke-width="1.2"/>
+            <line x1="50" y1="29" x2="58" y2="22" stroke="#F5D5B8" stroke-width="2.5" stroke-linecap="round"/>
+            <line x1="6" y1="28" x2="2" y2="22" stroke="#1B2A3D" stroke-width="1.2" stroke-linecap="round"/>
+            <line x1="10" y1="26" x2="8" y2="20" stroke="#1B2A3D" stroke-width="1.2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <div>
+          <div class="appendix-tag">SWIMMING</div>
+          <div class="appendix-name">水平姿勢キープ</div>
+          <p class="appendix-desc">
+            水中では体の水平が崩れると抵抗が増えて遅くなる。動作の「最中」も含めて水平を保つことが速く泳ぐ条件。
+          </p>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="appendix-summary reveal">
+      ハイスピードな動きの前に <strong>姿勢と重心</strong> を整える「ニュートラルな水平バランス」を作る予備動作は、競技を問わず共通する原則として説明できる。
+    </div>
+  </div>
+</section>
+
+<!-- ============ FOOTER ============ -->
+<footer>
+  <div class="footer-baseball"></div>
+  <div class="footer-mark">水平チェック</div>
+  <div class="footer-quote">
+    打席に入ったら、まずひと呼吸。<br>
+    肩と腰を、地面と平行に。<br>
+    そこからがスイングのはじまり。
+  </div>
+  <div class="footer-meta">— LEVEL UP YOUR SWING —</div>
+</footer>
+
+<script>
+// === Reveal on scroll ===
+const observer = new IntersectionObserver((entries) => {
+  entries.forEach((e, i) => {
+    if (e.isIntersecting) {
+      setTimeout(() => e.target.classList.add('in'), i * 60);
+      observer.unobserve(e.target);
+    }
+  });
+}, { threshold: 0.12, rootMargin: '0px 0px -40px 0px' });
+
+document.querySelectorAll('.reveal').forEach(el => observer.observe(el));
+
+// === Reading progress ===
+const bar = document.getElementById('progressBar');
+window.addEventListener('scroll', () => {
+  const h = document.documentElement;
+  const pct = (h.scrollTop / (h.scrollHeight - h.clientHeight)) * 100;
+  bar.style.width = pct + '%';
+}, { passive: true });
+
+// === Theory toggle ===
+const toggle = document.getElementById('theoryToggle');
+const content = document.getElementById('theoryContent');
+toggle.addEventListener('click', () => {
+  toggle.classList.toggle('open');
+  content.classList.toggle('open');
+});
+
+// === Voice cards stagger animation on tap ===
+document.querySelectorAll('.voice-card').forEach((c) => {
+  c.addEventListener('click', () => {
+    c.style.transition = 'transform 0.4s cubic-bezier(.4,1.6,.6,1)';
+    c.style.transform = 'translate(0,0) scale(1.02)';
+    setTimeout(() => { c.style.transform = ''; }, 220);
+  });
+});
+</script>
+
+</body>
+</html>
