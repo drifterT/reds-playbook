@@ -1,0 +1,1018 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+<title>三塁ランナー・前進守備 守備プレイブック</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Noto+Sans+JP:wght@400;500;700;900&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg-deep: #0d1117;
+    --bg-panel: #161b22;
+    --bg-elev: #1f2632;
+    --line: #30363d;
+    --text: #f0f6fc;
+    --text-muted: #8b949e;
+    --accent: #e63946;
+    --accent-soft: rgba(230, 57, 70, 0.18);
+    --grass: #2d6a4f;
+    --grass-deep: #1b4332;
+    --dirt: #c9986a;
+    --dirt-deep: #a47148;
+    --chalk: #f1f5f9;
+    --p1b2b: #ffd166;
+    --ball: #ffffff;
+    --runner: #4cc9f0;
+  }
+
+  * { box-sizing: border-box; -webkit-tap-highlight-color: transparent; }
+
+  html, body {
+    margin: 0;
+    padding: 0;
+    background: var(--bg-deep);
+    color: var(--text);
+    font-family: 'Noto Sans JP', -apple-system, BlinkMacSystemFont, sans-serif;
+    overscroll-behavior: none;
+  }
+
+  body {
+    min-height: 100vh;
+    background:
+      radial-gradient(ellipse at top, rgba(230, 57, 70, 0.08) 0%, transparent 50%),
+      var(--bg-deep);
+  }
+
+  .app {
+    max-width: 720px;
+    margin: 0 auto;
+    padding: 16px 14px 80px;
+  }
+
+  /* Header */
+  .header {
+    margin-bottom: 14px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--line);
+  }
+  .header h1 {
+    margin: 0;
+    font-size: 18px;
+    font-weight: 900;
+    letter-spacing: 0.02em;
+  }
+  .header h1 .accent {
+    color: var(--accent);
+  }
+  .header .sub {
+    margin-top: 4px;
+    font-size: 11px;
+    color: var(--text-muted);
+    letter-spacing: 0.08em;
+  }
+
+  /* Pattern tabs */
+  .tabs {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    gap: 6px;
+    margin-bottom: 14px;
+  }
+  .tab {
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    color: var(--text-muted);
+    padding: 10px 4px 8px;
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.15s ease;
+    border-radius: 6px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 2px;
+    line-height: 1;
+  }
+  .tab .tab-label {
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 9px;
+    font-weight: 700;
+    letter-spacing: 0.02em;
+  }
+  .tab:hover {
+    border-color: var(--text-muted);
+    color: var(--text);
+  }
+  .tab.active {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+  }
+  .tab.active .tab-label {
+    color: rgba(255, 255, 255, 0.9);
+  }
+
+  /* Field container */
+  .field-wrap {
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 8px;
+    margin-bottom: 14px;
+    position: relative;
+  }
+  .field-svg {
+    width: 100%;
+    height: auto;
+    display: block;
+  }
+
+  /* Player styling */
+  .player {
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1);
+  }
+  .player-circle {
+    fill: var(--chalk);
+    stroke: #1a1a1a;
+    stroke-width: 1.8;
+  }
+  .player-label {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 22px;
+    fill: #1a1a1a;
+    text-anchor: middle;
+    dominant-baseline: central;
+    pointer-events: none;
+  }
+  .player.runner .player-circle {
+    fill: var(--runner);
+    stroke: #053b50;
+  }
+  .player.runner .player-label {
+    fill: #053b50;
+  }
+  .player.batter .player-circle {
+    fill: var(--runner);
+    stroke: #053b50;
+  }
+  .player.batter .player-label {
+    fill: #053b50;
+  }
+  .player.highlight .player-circle {
+    fill: var(--accent);
+    stroke: #4a0d12;
+    stroke-width: 2.5;
+  }
+  .player.highlight .player-label {
+    fill: white;
+    font-weight: 700;
+  }
+  .player.highlight .highlight-ring {
+    opacity: 1;
+  }
+  .highlight-ring {
+    fill: none;
+    stroke: var(--accent);
+    stroke-width: 2.5;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .player.highlight .highlight-ring {
+    opacity: 0.7;
+    animation: pulse 1.8s ease-in-out infinite;
+  }
+  @keyframes pulse {
+    0%, 100% { opacity: 0.75; }
+    50% { opacity: 0.15; }
+  }
+
+  /* Ball */
+  .ball {
+    transition: transform 0.8s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.3s;
+  }
+  .ball-circle {
+    fill: var(--ball);
+    stroke: #d62828;
+    stroke-width: 1.2;
+  }
+
+  /* Throw arrow */
+  .throw-line {
+    fill: none;
+    stroke: var(--ball);
+    stroke-width: 2.5;
+    stroke-dasharray: 6 4;
+    opacity: 0;
+    transition: opacity 0.3s;
+  }
+  .throw-line.visible {
+    opacity: 0.85;
+    animation: dash 1s linear infinite;
+  }
+  @keyframes dash {
+    to { stroke-dashoffset: -20; }
+  }
+
+  /* Step controls */
+  .controls {
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    padding: 14px;
+    margin-bottom: 14px;
+  }
+  .step-meta {
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+    margin-bottom: 10px;
+  }
+  .step-num {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 14px;
+    color: var(--accent);
+    letter-spacing: 0.1em;
+  }
+  .step-total {
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 0.1em;
+  }
+  .step-title {
+    font-size: 15px;
+    font-weight: 700;
+    margin: 0 0 6px;
+    line-height: 1.4;
+  }
+  .step-desc {
+    font-size: 12.5px;
+    line-height: 1.6;
+    color: var(--text-muted);
+    margin: 0;
+  }
+  .step-desc .hi {
+    color: var(--accent);
+    font-weight: 700;
+  }
+  .step-desc .hi-1b {
+    color: #ffd166;
+    font-weight: 700;
+  }
+
+  .btn-row {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 8px;
+    margin-top: 12px;
+  }
+  .btn {
+    background: var(--bg-elev);
+    border: 1px solid var(--line);
+    color: var(--text);
+    padding: 11px 6px;
+    font-family: 'Noto Sans JP', sans-serif;
+    font-size: 13px;
+    font-weight: 700;
+    cursor: pointer;
+    border-radius: 6px;
+    transition: all 0.15s;
+  }
+  .btn:hover:not(:disabled) {
+    background: var(--line);
+    border-color: var(--text-muted);
+  }
+  .btn:active:not(:disabled) {
+    transform: translateY(1px);
+  }
+  .btn:disabled {
+    opacity: 0.35;
+    cursor: not-allowed;
+  }
+  .btn.primary {
+    background: var(--accent);
+    border-color: var(--accent);
+    color: white;
+  }
+  .btn.primary:hover:not(:disabled) {
+    background: #d62828;
+    border-color: #d62828;
+  }
+
+  /* Legend */
+  .legend {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px 14px;
+    padding: 12px 14px;
+    background: var(--bg-panel);
+    border: 1px solid var(--line);
+    border-radius: 10px;
+    font-size: 11px;
+    color: var(--text-muted);
+  }
+  .legend-item {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+  }
+  .legend-dot {
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    border: 1.5px solid #1a1a1a;
+  }
+  .legend-dot.chalk { background: var(--chalk); }
+  .legend-dot.accent { background: var(--accent); border-color: #4a0d12; }
+  .legend-dot.runner { background: var(--runner); border-color: #053b50; }
+  .legend-dot.ball { background: white; border-color: #d62828; width: 9px; height: 9px; }
+
+  /* Footer */
+  .footer {
+    margin-top: 16px;
+    text-align: center;
+    font-size: 10px;
+    color: var(--text-muted);
+    letter-spacing: 0.05em;
+  }
+  .footer a {
+    color: var(--text-muted);
+    text-decoration: underline;
+  }
+
+  /* Mobile tweaks */
+  @media (max-width: 420px) {
+    .header h1 { font-size: 16px; }
+    .tab { font-size: 16px; padding: 9px 2px 7px; }
+    .tab .tab-label { font-size: 8px; }
+    .step-title { font-size: 14px; }
+    .step-desc { font-size: 12px; }
+    .btn { padding: 10px 4px; font-size: 12px; }
+  }
+</style>
+</head>
+<body>
+
+<div class="app">
+
+  <header class="header">
+    <h1>三塁ランナー・<span class="accent">前進守備</span> プレイブック</h1>
+    <div class="sub">SECOND &amp; FIRST BASEMAN MOVEMENTS — GROUND BALLS</div>
+  </header>
+
+  <nav class="tabs" id="tabs">
+    <button class="tab active" data-pattern="P"><span>P</span><span class="tab-label">投ゴロ</span></button>
+    <button class="tab" data-pattern="C"><span>C</span><span class="tab-label">捕ゴロ</span></button>
+    <button class="tab" data-pattern="1B"><span>1B</span><span class="tab-label">一ゴロ</span></button>
+    <button class="tab" data-pattern="2B"><span>2B</span><span class="tab-label">二ゴロ</span></button>
+    <button class="tab" data-pattern="3B"><span>3B</span><span class="tab-label">三ゴロ</span></button>
+    <button class="tab" data-pattern="SS"><span>SS</span><span class="tab-label">遊ゴロ</span></button>
+  </nav>
+
+  <div class="field-wrap">
+    <svg class="field-svg" viewBox="0 0 800 720" xmlns="http://www.w3.org/2000/svg" id="field">
+      <!-- Outfield grass -->
+      <rect x="0" y="0" width="800" height="720" fill="#1b4332"/>
+      <!-- Outfield arc -->
+      <path d="M 60 600 Q 60 200 400 80 Q 740 200 740 600 Z" fill="#2d6a4f"/>
+      <!-- Infield dirt -->
+      <path d="M 400 600 L 600 420 L 400 240 L 200 420 Z" fill="#c9986a" stroke="#a47148" stroke-width="1"/>
+      <!-- Infield dirt bigger circle -->
+      <circle cx="400" cy="465" r="170" fill="#c9986a" opacity="0"/>
+      <!-- Grass infield (the diamond grass) -->
+      <path d="M 400 580 L 580 420 L 400 260 L 220 420 Z" fill="#2d6a4f"/>
+
+      <!-- Foul lines (aligned with dirt diamond edges, extending to outfield arc) -->
+      <line x1="400" y1="600" x2="109" y2="338" stroke="#f1f5f9" stroke-width="2.5"/>
+      <line x1="400" y1="600" x2="691" y2="338" stroke="#f1f5f9" stroke-width="2.5"/>
+
+      <!-- Pitcher's mound -->
+      <circle cx="400" cy="475" r="34" fill="#a47148" stroke="#8b5a2b" stroke-width="1"/>
+      <rect x="394" y="468" width="12" height="4" fill="#f1f5f9" rx="0.5"/>
+
+      <!-- Bases -->
+      <rect x="554" y="414" width="14" height="14" fill="#f1f5f9" transform="rotate(45 561 421)"/>
+      <rect x="393" y="253" width="14" height="14" fill="#f1f5f9" transform="rotate(45 400 260)"/>
+      <rect x="232" y="414" width="14" height="14" fill="#f1f5f9" transform="rotate(45 239 421)"/>
+      <!-- Home plate -->
+      <polygon points="392,594 408,594 408,606 400,614 392,606" fill="#f1f5f9" stroke="#1a1a1a" stroke-width="0.5"/>
+
+      <!-- Base labels (small) -->
+      <text x="585" y="425" fill="#1a1a1a" font-family="Bebas Neue" font-size="13" opacity="0.55">1B</text>
+      <text x="408" y="252" fill="#1a1a1a" font-family="Bebas Neue" font-size="13" opacity="0.55">2B</text>
+      <text x="195" y="425" fill="#1a1a1a" font-family="Bebas Neue" font-size="13" opacity="0.55" text-anchor="end">3B</text>
+
+      <!-- Throw line (drawn dynamically) -->
+      <line id="throw-line" class="throw-line" x1="0" y1="0" x2="0" y2="0"/>
+
+      <!-- Players will be injected here -->
+      <g id="players"></g>
+
+      <!-- Ball -->
+      <g class="ball" id="ball" style="opacity: 0">
+        <circle class="ball-circle" cx="0" cy="0" r="7"/>
+      </g>
+    </svg>
+  </div>
+
+  <div class="controls">
+    <div class="step-meta">
+      <span class="step-num" id="step-num">STEP 01</span>
+      <span class="step-total" id="step-total">/ 04</span>
+    </div>
+    <h2 class="step-title" id="step-title">—</h2>
+    <p class="step-desc" id="step-desc">—</p>
+
+    <div class="btn-row">
+      <button class="btn" id="btn-prev">◀ 戻る</button>
+      <button class="btn" id="btn-reset">最初へ</button>
+      <button class="btn primary" id="btn-next">次へ ▶</button>
+    </div>
+  </div>
+
+  <div class="legend">
+    <div class="legend-item"><span class="legend-dot accent"></span>セカンド/ファースト</div>
+    <div class="legend-item"><span class="legend-dot chalk"></span>その他の守備</div>
+    <div class="legend-item"><span class="legend-dot runner"></span>ランナー/打者</div>
+    <div class="legend-item"><span class="legend-dot ball"></span>ボール</div>
+  </div>
+
+  <div class="footer">
+    動きの参考:三球入魂 <a href="https://baseball.fx-education.com/" target="_blank" rel="noopener">baseball.fx-education.com</a>
+  </div>
+
+</div>
+
+<script>
+/* ─────────────────────────────────────────────────────────
+   POSITION CONSTANTS
+   Field coordinate system: viewBox 800 × 720
+   Home plate at (400, 600), 2B at (400, 260)
+─────────────────────────────────────────────────────────── */
+
+const POS = {
+  // Bases / Home
+  HOME:    { x: 400, y: 600 },
+  B1:      { x: 561, y: 421 },
+  B2:      { x: 400, y: 260 },
+  B3:      { x: 239, y: 421 },
+  MOUND:   { x: 400, y: 475 },
+
+  // Initial (前進守備) positions
+  P_START:  { x: 400, y: 475 },
+  C_START:  { x: 400, y: 635 },
+  F1_START: { x: 525, y: 480 },   // 1B forward
+  F2_START: { x: 470, y: 415 },   // 2B forward
+  F3_START: { x: 275, y: 480 },   // 3B forward
+  SS_START: { x: 330, y: 415 },   // SS forward
+  LF_START: { x: 175, y: 220 },
+  CF_START: { x: 400, y: 165 },
+  RF_START: { x: 625, y: 220 },
+
+  // Runners
+  R3_START: { x: 235, y: 425 },   // on 3rd
+  BAT_START:{ x: 425, y: 605 },   // at home plate
+
+  // Ball spots near each fielder for "捕球" moment
+  BALL_AT_P:  { x: 400, y: 495 },
+  BALL_AT_C:  { x: 400, y: 615 },
+  BALL_AT_1B: { x: 498, y: 488 },
+  BALL_AT_2B: { x: 485, y: 425 },
+  BALL_AT_3B: { x: 300, y: 500 },
+  BALL_AT_SS: { x: 340, y: 425 },
+};
+
+/* ─────────────────────────────────────────────────────────
+   ROSTER — IDs in defensive order
+─────────────────────────────────────────────────────────── */
+
+const ROSTER = [
+  { id: 'P',  label: 'P',  start: POS.P_START },
+  { id: 'C',  label: 'C',  start: POS.C_START },
+  { id: '1B', label: '1B', start: POS.F1_START, highlight: true },
+  { id: '2B', label: '2B', start: POS.F2_START, highlight: true },
+  { id: '3B', label: '3B', start: POS.F3_START },
+  { id: 'SS', label: 'SS', start: POS.SS_START },
+  { id: 'LF', label: 'LF', start: POS.LF_START },
+  { id: 'CF', label: 'CF', start: POS.CF_START },
+  { id: 'RF', label: 'RF', start: POS.RF_START },
+  { id: 'R3', label: 'R', start: POS.R3_START, runner: true },
+  { id: 'BT', label: 'B', start: POS.BAT_START, batter: true },
+];
+
+/* ─────────────────────────────────────────────────────────
+   HELPERS
+─────────────────────────────────────────────────────────── */
+
+// Starting frame used by every pattern (前進守備セット)
+function startFrame() {
+  const f = {};
+  ROSTER.forEach(p => f[p.id] = { ...p.start });
+  return f;
+}
+
+// Move the runner from 3B toward home along the baseline (t = 0..1)
+function r3ToHome(t) {
+  return {
+    x: POS.R3_START.x + (POS.HOME.x - POS.R3_START.x) * t,
+    y: POS.R3_START.y + (POS.HOME.y - POS.R3_START.y) * t
+  };
+}
+
+// Move the batter from home toward 1st (t = 0..1)
+function batToFirst(t) {
+  return {
+    x: POS.BAT_START.x + (POS.B1.x - POS.BAT_START.x) * t,
+    y: POS.BAT_START.y + (POS.B1.y - POS.BAT_START.y) * t
+  };
+}
+
+/* ─────────────────────────────────────────────────────────
+   PATTERN DEFINITIONS
+   Each step has:
+     title    – step heading
+     desc     – HTML description (use <span class="hi"> for 2B, hi-1b for 1B)
+     pos      – position overrides for this step (otherwise inherit start)
+     ball     – {x,y} or null  (null = hidden)
+     throw    – [{x1,y1}, {x2,y2}] or null  (dashed throw line)
+─────────────────────────────────────────────────────────── */
+
+const PATTERNS = {
+
+  // ────────────────────────────────────────────
+  // 1. ピッチャーゴロ
+  // ────────────────────────────────────────────
+  P: {
+    name: 'ピッチャーゴロ',
+    steps: [
+      {
+        title: '初期位置・前進守備でセット',
+        desc: '三塁ランナーは本塁突入を狙う。内野は前進守備で構える。',
+        pos: {},
+        ball: { x: POS.BAT_START.x - 5, y: POS.BAT_START.y - 12 },
+        throw: null
+      },
+      {
+        title: '投手前へ転がる打球',
+        desc: '<span class="hi">セカンド</span>は二遊間寄りのゴロに備え打球処理へ反応。<span class="hi-1b">ファースト</span>は一塁ベースへ向かう。',
+        pos: {
+          '2B': { x: 430, y: 460 },   // toward pitcher
+          '1B': { x: POS.B1.x - 10, y: POS.B1.y + 5 },
+          'BT': batToFirst(0.35)
+        },
+        ball: POS.BALL_AT_P,
+        throw: null
+      },
+      {
+        title: 'ピッチャー捕球を確認',
+        desc: 'ピッチャーが捕球。<span class="hi">セカンド</span>はそれを確認し、悪送球に備え<strong>二塁ベース</strong>へ。<span class="hi-1b">ファースト</span>は一塁ベース上で待機。',
+        pos: {
+          '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
+          '1B': { x: POS.B1.x, y: POS.B1.y },
+          'R3': r3ToHome(0.4),
+          'BT': batToFirst(0.55)
+        },
+        ball: POS.BALL_AT_P,
+        throw: null
+      },
+      {
+        title: '本塁へ送球・三塁ランナーをアウトに',
+        desc: 'ピッチャー→キャッチャーへ送球。<span class="hi">セカンド</span>は二塁ベース、<span class="hi-1b">ファースト</span>は一塁ベースでカバー継続。',
+        pos: {
+          '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
+          '1B': { x: POS.B1.x, y: POS.B1.y },
+          'R3': r3ToHome(0.75),
+          'BT': batToFirst(0.8)
+        },
+        ball: POS.BALL_AT_C,
+        throw: [POS.BALL_AT_P, POS.BALL_AT_C]
+      }
+    ]
+  },
+
+  // ────────────────────────────────────────────
+  // 2. キャッチャーゴロ
+  // ────────────────────────────────────────────
+  C: {
+    name: 'キャッチャーゴロ',
+    steps: [
+      {
+        title: '初期位置・前進守備でセット',
+        desc: 'スクイズ崩れや当たり損ねの想定。三塁ランナーは本塁突入の構え。',
+        pos: {},
+        ball: { x: POS.BAT_START.x - 5, y: POS.BAT_START.y - 12 },
+        throw: null
+      },
+      {
+        title: 'キャッチャー前へ転がる打球',
+        desc: '<span class="hi-1b">ファースト</span>は一塁ベースへ。<span class="hi">セカンド</span>はキャッチャーが一塁送球する想定で<strong>一塁送球のカバーリング</strong>(一塁ベース後方)へ向かう。',
+        pos: {
+          '1B': { x: POS.B1.x - 8, y: POS.B1.y + 3 },
+          '2B': { x: 540, y: 395 },   // en route, going BEHIND 1B (outfield side)
+          'R3': r3ToHome(0.25),
+          'BT': batToFirst(0.3)
+        },
+        ball: { x: 400, y: 605 },
+        throw: null
+      },
+      {
+        title: 'ランナー本塁突入 → キャッチャータッチ',
+        desc: 'ランナーが本塁へ突っ込むため、キャッチャーは送球せず本塁でタッチに行く。<span class="hi">セカンド</span>は一塁後方でカバーを継続。',
+        pos: {
+          '1B': { x: POS.B1.x, y: POS.B1.y },
+          '2B': { x: 595, y: 405 },   // backup position BEHIND 1B (outfield side)
+          'R3': r3ToHome(0.85),
+          'BT': batToFirst(0.6)
+        },
+        ball: POS.BALL_AT_C,
+        throw: null
+      },
+      {
+        title: '打者走者一塁セーフ → セカンドは二塁へ',
+        desc: '打者走者が一塁セーフになる(キャッチャーが送球を捨てたため)。<span class="hi">セカンド</span>は二塁進塁を防ぐため<strong>二塁ベース</strong>へ移動。',
+        pos: {
+          '1B': { x: POS.B1.x, y: POS.B1.y },
+          '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
+          'R3': { x: POS.HOME.x - 10, y: POS.HOME.y - 8 },
+          'BT': { x: POS.B1.x - 14, y: POS.B1.y + 10 }
+        },
+        ball: POS.BALL_AT_C,
+        throw: null
+      }
+    ]
+  },
+
+  // ────────────────────────────────────────────
+  // 3. ファーストゴロ
+  // ────────────────────────────────────────────
+  '1B': {
+    name: 'ファーストゴロ',
+    steps: [
+      {
+        title: '初期位置・前進守備でセット',
+        desc: '弱い打球の場合、ファーストはさらに前進して処理する想定。',
+        pos: {},
+        ball: { x: POS.BAT_START.x - 5, y: POS.BAT_START.y - 12 },
+        throw: null
+      },
+      {
+        title: 'ファースト前にゴロ',
+        desc: '<span class="hi-1b">ファースト</span>は前進して捕球体勢。<span class="hi">セカンド</span>は打球処理を目指して反応(ファーストが捕れない可能性に備える)。',
+        pos: {
+          '1B': { x: 485, y: 500 },   // forward fielding, IN FAIR TERRITORY
+          '2B': { x: 470, y: 460 },   // moving toward ball
+          'R3': r3ToHome(0.3),
+          'BT': batToFirst(0.3)
+        },
+        ball: POS.BALL_AT_1B,
+        throw: null
+      },
+      {
+        title: 'ファースト捕球→本塁送球',
+        desc: '<span class="hi-1b">ファースト</span>が捕球して本塁へ送球。<span class="hi">セカンド</span>はファーストが一塁へ戻れない場合に備え<strong>一塁ベースカバー</strong>へ。',
+        pos: {
+          '1B': { x: 485, y: 500 },   // still forward (just threw home)
+          '2B': { x: POS.B1.x - 5, y: POS.B1.y + 8 },   // covering 1B
+          'R3': r3ToHome(0.75),
+          'BT': batToFirst(0.7)
+        },
+        ball: POS.BALL_AT_C,
+        throw: [POS.BALL_AT_1B, POS.BALL_AT_C]
+      },
+      {
+        title: 'ファースト一塁復帰 → セカンドは二塁へ',
+        desc: '<span class="hi-1b">ファースト</span>が一塁ベースへ戻れる場合は、<span class="hi">セカンド</span>は<strong>二塁ベース</strong>へ移動して打者走者の進塁を防ぐ。',
+        pos: {
+          '1B': { x: POS.B1.x, y: POS.B1.y },
+          '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
+          'R3': { x: POS.HOME.x - 10, y: POS.HOME.y - 8 },
+          'BT': { x: POS.B1.x - 14, y: POS.B1.y + 10 }
+        },
+        ball: POS.BALL_AT_C,
+        throw: null
+      }
+    ]
+  },
+
+  // ────────────────────────────────────────────
+  // 4. セカンドゴロ
+  // ────────────────────────────────────────────
+  '2B': {
+    name: 'セカンドゴロ',
+    steps: [
+      {
+        title: '初期位置・前進守備でセット',
+        desc: '内野は全員前進。打者走者と三塁ランナーの動きに備える。',
+        pos: {},
+        ball: { x: POS.BAT_START.x - 5, y: POS.BAT_START.y - 12 },
+        throw: null
+      },
+      {
+        title: 'セカンド前にゴロ',
+        desc: '<span class="hi">セカンド</span>は素早く捕球の構え。<span class="hi-1b">ファースト</span>は一塁ベースへ。',
+        pos: {
+          '2B': { x: 480, y: 440 },   // fielding spot
+          '1B': { x: POS.B1.x - 10, y: POS.B1.y + 5 },
+          'R3': r3ToHome(0.3),
+          'BT': batToFirst(0.3)
+        },
+        ball: POS.BALL_AT_2B,
+        throw: null
+      },
+      {
+        title: 'セカンド捕球→本塁送球',
+        desc: '<span class="hi">セカンド</span>が捕球して<strong>本塁へ素早く強い送球</strong>。一塁側に逸れるとキャッチャーが追いタッチになるので注意。',
+        pos: {
+          '2B': { x: 480, y: 440 },
+          '1B': { x: POS.B1.x, y: POS.B1.y },
+          'R3': r3ToHome(0.75),
+          'BT': batToFirst(0.65)
+        },
+        ball: POS.BALL_AT_C,
+        throw: [POS.BALL_AT_2B, POS.BALL_AT_C]
+      },
+      {
+        title: '送球後 → セカンドは二塁ベースへ',
+        desc: '本塁送球後、<span class="hi">セカンド</span>は打者走者の二塁進塁に備え<strong>二塁ベース</strong>へ。<span class="hi-1b">ファースト</span>は一塁ベース。',
+        pos: {
+          '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
+          '1B': { x: POS.B1.x, y: POS.B1.y },
+          'R3': { x: POS.HOME.x - 10, y: POS.HOME.y - 8 },
+          'BT': { x: POS.B1.x - 14, y: POS.B1.y + 10 }
+        },
+        ball: POS.BALL_AT_C,
+        throw: null
+      }
+    ]
+  },
+
+  // ────────────────────────────────────────────
+  // 5. サードゴロ
+  // ────────────────────────────────────────────
+  '3B': {
+    name: 'サードゴロ',
+    steps: [
+      {
+        title: '初期位置・前進守備でセット',
+        desc: '三塁線寄りの打球は送球ラインが三塁ランナーと重なる可能性あり。',
+        pos: {},
+        ball: { x: 380, y: 590 },   // toward 3B side
+        throw: null
+      },
+      {
+        title: 'サード前にゴロ',
+        desc: '<span class="hi-1b">ファースト</span>は一塁ベースへ。<span class="hi">セカンド</span>は<strong>即座に二塁ベース</strong>へ向かう(打者走者の進塁を防ぐ)。',
+        pos: {
+          '3B': { x: 295, y: 490 },   // fielding (fair, on dirt)
+          '1B': { x: POS.B1.x - 10, y: POS.B1.y + 5 },
+          '2B': { x: 435, y: 340 },   // moving to 2B base
+          'R3': r3ToHome(0.3),
+          'BT': batToFirst(0.3)
+        },
+        ball: POS.BALL_AT_3B,
+        throw: null
+      },
+      {
+        title: 'サード捕球→本塁送球',
+        desc: 'サードが本塁へ送球(ランナーの走行ラインを避ける)。<span class="hi">セカンド</span>は二塁、<span class="hi-1b">ファースト</span>は一塁。',
+        pos: {
+          '3B': { x: 295, y: 490 },
+          '1B': { x: POS.B1.x, y: POS.B1.y },
+          '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
+          'R3': r3ToHome(0.75),
+          'BT': batToFirst(0.65)
+        },
+        ball: POS.BALL_AT_C,
+        throw: [POS.BALL_AT_3B, POS.BALL_AT_C]
+      },
+      {
+        title: 'ベースカバー完了',
+        desc: '<span class="hi">セカンド</span>は二塁ベース、<span class="hi-1b">ファースト</span>は一塁ベースでそれぞれ待機。',
+        pos: {
+          '3B': { x: 295, y: 490 },
+          '1B': { x: POS.B1.x, y: POS.B1.y },
+          '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
+          'R3': { x: POS.HOME.x - 10, y: POS.HOME.y - 8 },
+          'BT': { x: POS.B1.x - 14, y: POS.B1.y + 10 }
+        },
+        ball: POS.BALL_AT_C,
+        throw: null
+      }
+    ]
+  },
+
+  // ────────────────────────────────────────────
+  // 6. ショートゴロ
+  // ────────────────────────────────────────────
+  'SS': {
+    name: 'ショートゴロ',
+    steps: [
+      {
+        title: '初期位置・前進守備でセット',
+        desc: '三塁ランナーは本塁突入を狙う。',
+        pos: {},
+        ball: { x: POS.BAT_START.x - 5, y: POS.BAT_START.y - 12 },
+        throw: null
+      },
+      {
+        title: 'ショート前にゴロ',
+        desc: 'ショートが捕球体勢。<span class="hi-1b">ファースト</span>は一塁ベースへ。<span class="hi">セカンド</span>は打球反応しつつ捕球を確認。',
+        pos: {
+          'SS': { x: 340, y: 440 },
+          '1B': { x: POS.B1.x - 10, y: POS.B1.y + 5 },
+          '2B': { x: 450, y: 400 },   // small react
+          'R3': r3ToHome(0.3),
+          'BT': batToFirst(0.3)
+        },
+        ball: POS.BALL_AT_SS,
+        throw: null
+      },
+      {
+        title: 'ショート捕球→本塁送球',
+        desc: 'ショートが本塁へ強い送球。<span class="hi">セカンド</span>は<strong>二塁ベース</strong>へ入る(打者走者の進塁を防ぐ)。',
+        pos: {
+          'SS': { x: 340, y: 440 },
+          '1B': { x: POS.B1.x, y: POS.B1.y },
+          '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
+          'R3': r3ToHome(0.75),
+          'BT': batToFirst(0.65)
+        },
+        ball: POS.BALL_AT_C,
+        throw: [POS.BALL_AT_SS, POS.BALL_AT_C]
+      },
+      {
+        title: 'ベースカバー完了',
+        desc: '<span class="hi">セカンド</span>は二塁、<span class="hi-1b">ファースト</span>は一塁でカバー継続。',
+        pos: {
+          'SS': { x: 340, y: 440 },
+          '1B': { x: POS.B1.x, y: POS.B1.y },
+          '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
+          'R3': { x: POS.HOME.x - 10, y: POS.HOME.y - 8 },
+          'BT': { x: POS.B1.x - 14, y: POS.B1.y + 10 }
+        },
+        ball: POS.BALL_AT_C,
+        throw: null
+      }
+    ]
+  }
+};
+
+/* ─────────────────────────────────────────────────────────
+   RENDERING
+─────────────────────────────────────────────────────────── */
+
+const SVG_NS = 'http://www.w3.org/2000/svg';
+
+function buildPlayers() {
+  const group = document.getElementById('players');
+  group.innerHTML = '';
+
+  ROSTER.forEach(p => {
+    const g = document.createElementNS(SVG_NS, 'g');
+    g.classList.add('player');
+    g.dataset.id = p.id;
+    if (p.runner) g.classList.add('runner');
+    if (p.batter) g.classList.add('batter');
+    if (p.highlight) g.classList.add('highlight');
+
+    // pulse ring (only visible on highlighted players)
+    const ring = document.createElementNS(SVG_NS, 'circle');
+    ring.classList.add('highlight-ring');
+    ring.setAttribute('cx', 0);
+    ring.setAttribute('cy', 0);
+    ring.setAttribute('r', 26);
+    g.appendChild(ring);
+
+    const c = document.createElementNS(SVG_NS, 'circle');
+    c.classList.add('player-circle');
+    c.setAttribute('cx', 0);
+    c.setAttribute('cy', 0);
+    c.setAttribute('r', 19);
+    g.appendChild(c);
+
+    const t = document.createElementNS(SVG_NS, 'text');
+    t.classList.add('player-label');
+    t.setAttribute('x', 0);
+    t.setAttribute('y', 1);
+    t.textContent = p.label;
+    g.appendChild(t);
+
+    // initial position
+    g.setAttribute('transform', `translate(${p.start.x}, ${p.start.y})`);
+
+    group.appendChild(g);
+  });
+}
+
+function renderStep(patternKey, stepIndex) {
+  const pattern = PATTERNS[patternKey];
+  const step = pattern.steps[stepIndex];
+
+  // Move every player to either an override pos (if defined) or back to its start
+  ROSTER.forEach(p => {
+    const target = step.pos[p.id] || p.start;
+    const el = document.querySelector(`g.player[data-id="${p.id}"]`);
+    if (el) {
+      el.setAttribute('transform', `translate(${target.x}, ${target.y})`);
+    }
+  });
+
+  // Ball
+  const ball = document.getElementById('ball');
+  if (step.ball) {
+    ball.setAttribute('transform', `translate(${step.ball.x}, ${step.ball.y})`);
+    ball.style.opacity = '1';
+  } else {
+    ball.style.opacity = '0';
+  }
+
+  // Throw line
+  const line = document.getElementById('throw-line');
+  if (step.throw) {
+    line.setAttribute('x1', step.throw[0].x);
+    line.setAttribute('y1', step.throw[0].y);
+    line.setAttribute('x2', step.throw[1].x);
+    line.setAttribute('y2', step.throw[1].y);
+    line.classList.add('visible');
+  } else {
+    line.classList.remove('visible');
+  }
+
+  // Step text panel
+  document.getElementById('step-num').textContent = `STEP ${String(stepIndex + 1).padStart(2, '0')}`;
+  document.getElementById('step-total').textContent = `/ ${String(pattern.steps.length).padStart(2, '0')}`;
+  document.getElementById('step-title').textContent = step.title;
+  document.getElementById('step-desc').innerHTML = step.desc;
+
+  // Buttons enabled state
+  document.getElementById('btn-prev').disabled = stepIndex === 0;
+  document.getElementById('btn-next').disabled = stepIndex === pattern.steps.length - 1;
+}
+
+/* ─────────────────────────────────────────────────────────
+   STATE & EVENTS
+─────────────────────────────────────────────────────────── */
+
+const state = {
+  pattern: 'P',
+  step: 0,
+};
+
+function setPattern(key) {
+  state.pattern = key;
+  state.step = 0;
+  document.querySelectorAll('.tab').forEach(t => {
+    t.classList.toggle('active', t.dataset.pattern === key);
+  });
+  renderStep(state.pattern, state.step);
+}
+
+function nextStep() {
+  const max = PATTERNS[state.pattern].steps.length - 1;
+  if (state.step < max) {
+    state.step += 1;
+    renderStep(state.pattern, state.step);
+  }
+}
+
+function prevStep() {
+  if (state.step > 0) {
+    state.step -= 1;
+    renderStep(state.pattern, state.step);
+  }
+}
+
+function resetStep() {
+  state.step = 0;
+  renderStep(state.pattern, state.step);
+}
+
+/* ─────────────────────────────────────────────────────────
+   INIT
+─────────────────────────────────────────────────────────── */
+
+document.addEventListener('DOMContentLoaded', () => {
+  buildPlayers();
+
+  document.querySelectorAll('.tab').forEach(t => {
+    t.addEventListener('click', () => setPattern(t.dataset.pattern));
+  });
+  document.getElementById('btn-next').addEventListener('click', nextStep);
+  document.getElementById('btn-prev').addEventListener('click', prevStep);
+  document.getElementById('btn-reset').addEventListener('click', resetStep);
+
+  // Keyboard navigation (handy on desktop)
+  document.addEventListener('keydown', (e) => {
+    if (e.key === 'ArrowRight') nextStep();
+    if (e.key === 'ArrowLeft') prevStep();
+    if (e.key === 'r' || e.key === 'R') resetStep();
+  });
+
+  renderStep(state.pattern, state.step);
+});
+</script>
+
+</body>
+</html>
