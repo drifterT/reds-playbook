@@ -530,6 +530,37 @@ function batToFirst(t) {
 }
 
 /* ─────────────────────────────────────────────────────────
+   OUTFIELDER MOVEMENT PRESETS
+   Outfielders follow two principles:
+     ① Move toward the ball direction (Phase 1)
+     ② Move to back up the base where the throw is going (Phase 2)
+─────────────────────────────────────────────────────────── */
+
+// Phase 1: charging in toward a RIGHT-side ground ball
+const OF_FWD_R = {
+  'LF': { x: 195, y: 260 },   // slight forward, slight right
+  'CF': { x: 430, y: 200 },   // forward, shift right
+  'RF': { x: 565, y: 285 }    // forward, shift left (toward the ball)
+};
+
+// Phase 1: charging in toward a LEFT-side ground ball
+const OF_FWD_L = {
+  'LF': { x: 225, y: 285 },   // forward, shift right (toward the ball)
+  'CF': { x: 370, y: 200 },   // forward, shift left
+  'RF': { x: 605, y: 260 }    // slight forward, slight left
+};
+
+// Phase 2: backup positions
+//   LF → behind 3B    (for rundown / left-side plays)
+//   CF → behind 2B    (for batter advancing to 2B)
+//   RF → behind 1B    (for batter on 1B / right-side plays)
+const OF_BACKUP = {
+  'LF': { x: 215, y: 378 },
+  'CF': { x: 400, y: 215 },
+  'RF': { x: 585, y: 378 }
+};
+
+/* ─────────────────────────────────────────────────────────
    PATTERN DEFINITIONS
    Each step has:
      title    – step heading
@@ -556,8 +587,9 @@ const PATTERNS = {
       },
       {
         title: '投手前(ややセカンド寄り)へ転がる打球',
-        desc: '<span class="hi">セカンド</span>はセカンド寄りのゴロに備え打球処理へ反応。<span class="hi-1b">ファースト</span>は一塁ベースへ向かう。<strong>ショートは二塁ベースカバー</strong>へ向かう。',
+        desc: '<span class="hi">セカンド</span>はセカンド寄りのゴロに備え打球処理へ反応。<span class="hi-1b">ファースト</span>は一塁ベースへ向かう。<strong>ショートは二塁ベースカバー</strong>へ向かう。外野は打球方向へチャージ。',
         pos: {
+          ...OF_FWD_R,
           '2B': { x: 430, y: 460 },   // toward pitcher
           '1B': { x: POS.B1.x - 10, y: POS.B1.y + 5 },
           'SS': { x: 370, y: 350 },   // SS heading to 2B base
@@ -568,8 +600,9 @@ const PATTERNS = {
       },
       {
         title: 'ピッチャー捕球を確認',
-        desc: 'ピッチャーが捕球。<span class="hi">セカンド</span>は所定の位置付近へ。<span class="hi-1b">ファースト</span>は一塁ベース上で待機。<strong>ショートが二塁ベース</strong>でカバー。',
+        desc: 'ピッチャーが捕球。<span class="hi">セカンド</span>は所定の位置付近へ。<span class="hi-1b">ファースト</span>は一塁ベース上で待機。<strong>ショートが二塁ベース</strong>でカバー。外野は各塁の送球カバーへ。',
         pos: {
+          ...OF_BACKUP,
           '2B': { x: 470, y: 415 },   // back to starting area (NOT 2B base)
           '1B': { x: POS.B1.x, y: POS.B1.y },
           'SS': { x: POS.B2.x, y: POS.B2.y + 8 },   // SS at 2B base
@@ -581,8 +614,9 @@ const PATTERNS = {
       },
       {
         title: '本塁へ送球・三塁ランナーをアウトに',
-        desc: 'ピッチャー→キャッチャーへ送球。<span class="hi-1b">ファースト</span>は一塁ベース。二塁ベースカバーは<strong>ショート</strong>が担う。',
+        desc: 'ピッチャー→キャッチャーへ送球。<span class="hi-1b">ファースト</span>は一塁ベース。二塁ベースカバーは<strong>ショート</strong>が担う。外野は各塁の後方でカバー継続。',
         pos: {
+          ...OF_BACKUP,
           '2B': { x: 470, y: 415 },
           '1B': { x: POS.B1.x, y: POS.B1.y },
           'SS': { x: POS.B2.x, y: POS.B2.y + 8 },
@@ -610,8 +644,9 @@ const PATTERNS = {
       },
       {
         title: 'キャッチャー前(右側)へ転がる打球',
-        desc: '<span class="hi-1b">ファースト</span>は一塁ベースへ。<span class="hi">セカンド</span>はキャッチャーが一塁送球する想定で<strong>一塁送球のカバーリング</strong>(一塁ベース後方)へ向かう。<strong>ショートは二塁ベースカバー</strong>へ向かう。',
+        desc: '<span class="hi-1b">ファースト</span>は一塁ベースへ。<span class="hi">セカンド</span>はキャッチャーが一塁送球する想定で<strong>一塁送球のカバーリング</strong>(一塁ベース後方)へ向かう。<strong>ショートは二塁ベースカバー</strong>へ向かう。外野は打球方向へチャージ。',
         pos: {
+          ...OF_FWD_R,
           '1B': { x: POS.B1.x - 8, y: POS.B1.y + 3 },
           '2B': { x: 540, y: 395 },   // en route, going BEHIND 1B (outfield side)
           'SS': { x: 370, y: 350 },   // SS heading to 2B base
@@ -623,8 +658,9 @@ const PATTERNS = {
       },
       {
         title: 'ランナー本塁突入 → キャッチャータッチ',
-        desc: 'ランナーが本塁へ突っ込むため、キャッチャーは送球せず本塁でタッチに行く。<span class="hi">セカンド</span>は一塁後方でカバーを継続。<strong>ショートが二塁ベース</strong>に入る。',
+        desc: 'ランナーが本塁へ突っ込むため、キャッチャーは送球せず本塁でタッチに行く。<span class="hi">セカンド</span>は一塁後方でカバーを継続。<strong>ショートが二塁ベース</strong>に入る。外野は各塁の送球カバーへ。',
         pos: {
+          ...OF_BACKUP,
           '1B': { x: POS.B1.x, y: POS.B1.y },
           '2B': { x: 595, y: 405 },   // backup position BEHIND 1B (outfield side)
           'SS': { x: POS.B2.x, y: POS.B2.y + 8 },   // SS at 2B base
@@ -636,8 +672,9 @@ const PATTERNS = {
       },
       {
         title: '打者走者一塁セーフ → ベースカバー完了',
-        desc: '打者走者が一塁セーフになる。<span class="hi-1b">ファースト</span>は一塁ベース。<span class="hi">セカンド</span>は所定の位置付近へ。二塁ベースカバーは<strong>ショート</strong>が担う。',
+        desc: '打者走者が一塁セーフになる。<span class="hi-1b">ファースト</span>は一塁ベース。<span class="hi">セカンド</span>は所定の位置付近へ。二塁ベースカバーは<strong>ショート</strong>が担う。外野は各塁の後方でカバー継続。',
         pos: {
+          ...OF_BACKUP,
           '1B': { x: POS.B1.x, y: POS.B1.y },
           '2B': { x: 500, y: 430 },   // returning toward position (not 2B base)
           'SS': { x: POS.B2.x, y: POS.B2.y + 8 },   // SS at 2B base
@@ -665,8 +702,9 @@ const PATTERNS = {
       },
       {
         title: 'ファースト前にゴロ',
-        desc: '<span class="hi-1b">ファースト</span>は前進して捕球体勢。<span class="hi">セカンド</span>は打球処理を目指して反応(ファーストが捕れない可能性に備える)。<strong>ショートは二塁ベースカバー</strong>へ向かう。',
+        desc: '<span class="hi-1b">ファースト</span>は前進して捕球体勢。<span class="hi">セカンド</span>は打球処理を目指して反応(ファーストが捕れない可能性に備える)。<strong>ショートは二塁ベースカバー</strong>へ向かう。外野は打球方向(右寄り)へチャージ。',
         pos: {
+          ...OF_FWD_R,
           '1B': { x: 485, y: 500 },   // forward fielding, IN FAIR TERRITORY
           '2B': { x: 470, y: 460 },   // moving toward ball
           'SS': { x: 375, y: 350 },   // SS heading to 2B base
@@ -678,8 +716,9 @@ const PATTERNS = {
       },
       {
         title: 'ファースト捕球→本塁送球',
-        desc: '<span class="hi-1b">ファースト</span>が捕球して本塁へ送球。<span class="hi">セカンド</span>はファーストが一塁へ戻れない場合に備え<strong>一塁ベースカバー</strong>へ。<strong>ショートが二塁ベース</strong>に入る。',
+        desc: '<span class="hi-1b">ファースト</span>が捕球して本塁へ送球。<span class="hi">セカンド</span>はファーストが一塁へ戻れない場合に備え<strong>一塁ベースカバー</strong>へ。<strong>ショートが二塁ベース</strong>に入る。外野は各塁の送球カバーへ。',
         pos: {
+          ...OF_BACKUP,
           '1B': { x: 485, y: 500 },   // still forward (just threw home)
           '2B': { x: POS.B1.x - 5, y: POS.B1.y + 8 },   // covering 1B
           'SS': { x: POS.B2.x, y: POS.B2.y + 8 },   // SS at 2B base
@@ -691,8 +730,9 @@ const PATTERNS = {
       },
       {
         title: 'ファースト一塁復帰・ベースカバー完了',
-        desc: '<span class="hi-1b">ファースト</span>が一塁ベースへ戻る。<span class="hi">セカンド</span>は所定の位置へ。二塁ベースカバーは<strong>ショート</strong>が担う。',
+        desc: '<span class="hi-1b">ファースト</span>が一塁ベースへ戻る。<span class="hi">セカンド</span>は所定の位置へ。二塁ベースカバーは<strong>ショート</strong>が担う。外野は各塁の後方でカバー継続。',
         pos: {
+          ...OF_BACKUP,
           '1B': { x: POS.B1.x, y: POS.B1.y },
           '2B': { x: 500, y: 430 },   // returning toward position (not 2B base)
           'SS': { x: POS.B2.x, y: POS.B2.y + 8 },   // SS at 2B base
@@ -720,8 +760,9 @@ const PATTERNS = {
       },
       {
         title: 'セカンド前にゴロ',
-        desc: '<span class="hi">セカンド</span>は素早く捕球の構え。<span class="hi-1b">ファースト</span>は一塁ベースへ。<strong>ショートは二塁ベースカバー</strong>へ向かう。',
+        desc: '<span class="hi">セカンド</span>は素早く捕球の構え。<span class="hi-1b">ファースト</span>は一塁ベースへ。<strong>ショートは二塁ベースカバー</strong>へ向かう。外野は打球方向(右寄り)へチャージ。',
         pos: {
+          ...OF_FWD_R,
           '2B': { x: 480, y: 440 },   // fielding spot
           '1B': { x: POS.B1.x - 10, y: POS.B1.y + 5 },
           'SS': { x: 375, y: 350 },   // SS heading to 2B base
@@ -733,8 +774,9 @@ const PATTERNS = {
       },
       {
         title: 'セカンド捕球→本塁送球',
-        desc: '<span class="hi">セカンド</span>が捕球して<strong>本塁へ素早く強い送球</strong>。一塁側に逸れるとキャッチャーが追いタッチになるので注意。<strong>ショートが二塁ベース</strong>に入る。',
+        desc: '<span class="hi">セカンド</span>が捕球して<strong>本塁へ素早く強い送球</strong>。一塁側に逸れるとキャッチャーが追いタッチになるので注意。<strong>ショートが二塁ベース</strong>に入る。外野は各塁の送球カバーへ。',
         pos: {
+          ...OF_BACKUP,
           '2B': { x: 480, y: 440 },
           '1B': { x: POS.B1.x, y: POS.B1.y },
           'SS': { x: POS.B2.x, y: POS.B2.y + 8 },   // SS at 2B base
@@ -746,8 +788,9 @@ const PATTERNS = {
       },
       {
         title: '送球後・ベースカバー完了',
-        desc: '本塁送球後、<span class="hi">セカンド</span>は所定の位置へ戻る。<span class="hi-1b">ファースト</span>は一塁ベース。二塁ベースカバーは<strong>ショート</strong>が担う。',
+        desc: '本塁送球後、<span class="hi">セカンド</span>は所定の位置へ戻る。<span class="hi-1b">ファースト</span>は一塁ベース。二塁ベースカバーは<strong>ショート</strong>が担う。外野は各塁の後方でカバー継続。',
         pos: {
+          ...OF_BACKUP,
           '2B': { x: 470, y: 415 },   // back toward start position (NOT 2B base)
           '1B': { x: POS.B1.x, y: POS.B1.y },
           'SS': { x: POS.B2.x, y: POS.B2.y + 8 },   // SS at 2B base
@@ -775,8 +818,9 @@ const PATTERNS = {
       },
       {
         title: 'サード前にゴロ',
-        desc: '<span class="hi-1b">ファースト</span>は一塁ベースへ。<span class="hi">セカンド</span>は<strong>即座に二塁ベース</strong>へ向かう(打者走者の進塁を防ぐ)。ショートは<strong>三塁手の打球処理をバックアップ</strong>(エラー時の備え)。',
+        desc: '<span class="hi-1b">ファースト</span>は一塁ベースへ。<span class="hi">セカンド</span>は<strong>即座に二塁ベース</strong>へ向かう(打者走者の進塁を防ぐ)。ショートは<strong>三塁手の打球処理をバックアップ</strong>(エラー時の備え)。外野は打球方向(左寄り)へチャージ。',
         pos: {
+          ...OF_FWD_L,
           '3B': { x: 295, y: 490 },   // fielding (fair, on dirt)
           '1B': { x: POS.B1.x - 10, y: POS.B1.y + 5 },
           '2B': { x: 435, y: 340 },   // moving to 2B base
@@ -789,8 +833,9 @@ const PATTERNS = {
       },
       {
         title: 'サード捕球→本塁送球',
-        desc: 'サードが本塁へ送球(ランナーの走行ラインを避ける)。<span class="hi">セカンド</span>は二塁、<span class="hi-1b">ファースト</span>は一塁。ショートは<strong>三塁ベースカバー</strong>へ移動。',
+        desc: 'サードが本塁へ送球(ランナーの走行ラインを避ける)。<span class="hi">セカンド</span>は二塁、<span class="hi-1b">ファースト</span>は一塁。ショートは<strong>三塁ベースカバー</strong>へ移動。外野は各塁の送球カバーへ。',
         pos: {
+          ...OF_BACKUP,
           '3B': { x: 295, y: 490 },
           '1B': { x: POS.B1.x, y: POS.B1.y },
           '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
@@ -803,8 +848,9 @@ const PATTERNS = {
       },
       {
         title: 'ベースカバー完了',
-        desc: '<span class="hi">セカンド</span>は二塁、<span class="hi-1b">ファースト</span>は一塁。<strong>ショートが三塁ベース</strong>でカバー(ランダウンプレーに備える)。',
+        desc: '<span class="hi">セカンド</span>は二塁、<span class="hi-1b">ファースト</span>は一塁。<strong>ショートが三塁ベース</strong>でカバー(ランダウンプレーに備える)。外野は各塁の後方でカバー継続。',
         pos: {
+          ...OF_BACKUP,
           '3B': { x: 295, y: 490 },
           '1B': { x: POS.B1.x, y: POS.B1.y },
           '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
@@ -828,13 +874,14 @@ const PATTERNS = {
         title: '初期位置・前進守備でセット',
         desc: '三塁ランナーは本塁突入を狙う。',
         pos: {},
-        ball: { x: POS.BAT_START.x - 5, y: POS.BAT_START.y - 12 },
+        ball: { x: 390, y: 588 },   // toward SS side (left of center)
         throw: null
       },
       {
         title: 'ショート前にゴロ',
-        desc: 'ショートが捕球体勢。<span class="hi-1b">ファースト</span>は一塁ベースへ。<span class="hi">セカンド</span>は打球反応しつつ捕球を確認。',
+        desc: 'ショートが捕球体勢。<span class="hi-1b">ファースト</span>は一塁ベースへ。<span class="hi">セカンド</span>は打球反応しつつ捕球を確認。外野は打球方向(左寄り)へチャージ。',
         pos: {
+          ...OF_FWD_L,
           'SS': { x: 340, y: 440 },
           '1B': { x: POS.B1.x - 10, y: POS.B1.y + 5 },
           '2B': { x: 450, y: 400 },   // small react
@@ -846,8 +893,9 @@ const PATTERNS = {
       },
       {
         title: 'ショート捕球→本塁送球',
-        desc: 'ショートが本塁へ強い送球。<span class="hi">セカンド</span>は<strong>二塁ベース</strong>へ入る(打者走者の進塁を防ぐ)。',
+        desc: 'ショートが本塁へ強い送球。<span class="hi">セカンド</span>は<strong>二塁ベース</strong>へ入る(打者走者の進塁を防ぐ)。外野は各塁の送球カバーへ。',
         pos: {
+          ...OF_BACKUP,
           'SS': { x: 340, y: 440 },
           '1B': { x: POS.B1.x, y: POS.B1.y },
           '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
@@ -859,8 +907,9 @@ const PATTERNS = {
       },
       {
         title: 'ベースカバー完了',
-        desc: '<span class="hi">セカンド</span>は二塁、<span class="hi-1b">ファースト</span>は一塁でカバー継続。',
+        desc: '<span class="hi">セカンド</span>は二塁、<span class="hi-1b">ファースト</span>は一塁でカバー継続。外野は各塁の後方でカバー継続。',
         pos: {
+          ...OF_BACKUP,
           'SS': { x: 340, y: 440 },
           '1B': { x: POS.B1.x, y: POS.B1.y },
           '2B': { x: POS.B2.x, y: POS.B2.y + 8 },
