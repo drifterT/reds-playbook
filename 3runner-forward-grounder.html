@@ -465,7 +465,10 @@ const POS = {
   C_START:  { x: 400, y: 635 },
   F1_START: { x: 525, y: 480 },   // 1B forward
   F2_START: { x: 470, y: 415 },   // 2B forward
-  F3_START: { x: 275, y: 480 },   // 3B forward
+  // 3B holds the runner ON the base (R3 + <2 outs scenario) — the rest of
+  // the infield is "in" but 3B stays at the bag to limit the runner's lead
+  // and respond to pickoffs from the pitcher.
+  F3_START: { x: 245, y: 429 },
   SS_START: { x: 330, y: 415 },   // SS forward
   LF_START: { x: 175, y: 220 },
   CF_START: { x: 400, y: 165 },
