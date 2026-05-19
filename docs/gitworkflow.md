@@ -29,7 +29,3 @@ DrifterT は GitHub をブラウザで運用するため、変更確認は PR �
    - コミット済み: Yes/No
    - push済み（GitHub可視）: Yes/No
    - mainマージ済み: Yes/No
-
-## 現在未反映の変更
-- `regular-practice-menu.html` に「アップ 10枚（記述済み）」セクションを追加した更新は、現時点で main 未反映。
-- この更新も上記ルールで compare URL を提示し、PR 経由で反映する。
