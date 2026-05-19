@@ -7,7 +7,7 @@
   <style>
     :root{--bg:#f8f4ea;--ink:#1b2a3d;--muted:#4d6074;--line:#d9d1c1;--card:#fff;--accent:#c43a2e;--ok:#205d3f;--todo:#8e5f1d}
     body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.7;margin:0;background:var(--bg);color:var(--ink)}
-    .wrap{max-width:860px;margin:0 auto;padding:24px}
+    .wrap{max-width:920px;margin:0 auto;padding:24px}
     a{color:#0b61a4}
     h1{font-size:1.9rem;margin:.2rem 0 .4rem}
     h2{font-size:1.3rem;margin:0 0 10px}
@@ -15,14 +15,14 @@
     p{margin:.4rem 0}
     .lead{color:var(--muted)}
     .panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:14px 0}
-    .grid{display:grid;gap:10px}
     .kpi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
     .pill{display:inline-block;border-radius:999px;padding:3px 10px;font-size:.8rem;font-weight:700}
-    .done{background:#e8f5ee;color:var(--ok)}
-    .todo{background:#fff1dd;color:var(--todo)}
+    .done{background:#e8f5ee;color:var(--ok)} .todo{background:#fff1dd;color:var(--todo)}
     ul{margin:8px 0 0 20px}
     .drill{border-top:1px dashed var(--line);padding-top:10px;margin-top:10px}
-    @media (max-width:640px){.kpi{grid-template-columns:1fr}}
+    .meta{font-size:.92rem;color:var(--muted)}
+    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    @media (max-width:740px){.kpi,.grid2{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
@@ -34,7 +34,7 @@
     <section class="panel kpi">
       <div><strong>総カード数</strong><br>18枚</div>
       <div><strong>記述済み</strong><br>アップ 10枚</div>
-      <div><strong>未着手</strong><br>8枚（2箇所3 / 4箇所2 / 打撃3）</div>
+      <div><strong>要更新</strong><br>8枚を今回詳細化</div>
     </section>
 
     <section class="panel">
@@ -46,43 +46,54 @@
     </section>
 
     <section class="panel">
-      <h2>アップ（10枚） <span class="pill done">記述済み</span></h2>
-      <div class="drill"><h3>アップ-01 体操〜ダッシュ <span class="pill todo">要確認</span></h3><p>主眼・設定の詳細を追記予定。</p></div>
-      <div class="drill"><h3>アップ-02 ジャンプ系</h3><p>パワーポジションの確認。4種ジャンプを各5回。</p></div>
-      <div class="drill"><h3>アップ-03 歩き素振り <span class="pill todo">要確認</span></h3><p>バッティング系の狙い・設定を追記予定。</p></div>
-      <div class="drill"><h3>アップ-04 3人組・近距離2箇所CB</h3><p>15回×3セット。主眼の明文化を追記予定。</p></div>
-      <div class="drill"><h3>アップ-05 2人ペア・ボールハンドリング</h3><p>ショートバウンド〜2個捕球など。主眼を追記予定。</p></div>
-      <div class="drill"><h3>アップ-06 叩き付け</h3><p>投：高く弾ませる／捕：ショートバウンド捕球。</p></div>
-      <div class="drill"><h3>アップ-07 正対スロー</h3><p>上体の捻りとリリース確認。捕球後の一塁ステップまで。</p></div>
-      <div class="drill"><h3>アップ-08 体重移動スロー</h3><p>前後前の重心移動＋前足ブレーキを確認。</p></div>
-      <div class="drill"><h3>アップ-09 自由投法スロー</h3><p>フォーム自由で投球感覚を統合。</p></div>
-      <div class="drill"><h3>アップ-10 ラスト10</h3><p>アップの締めとして集中して10球。</p></div>
+      <h2>2箇所キャッチボール（3枚） <span class="pill done">追記済み</span></h2>
+      <div class="drill">
+        <h3>2箇所-01 チーム対抗・1分間成功数</h3>
+        <p class="meta">主眼：正確な捕球→素早い送球を1分間で反復し、集中力とテンポを揃える。</p>
+        <ul><li>設定：2チーム対抗、1分×2〜3セット。</li><li>着眼：捕球姿勢・声かけ・ミス後の切替。</li></ul>
+      </div>
+      <div class="drill">
+        <h3>2箇所-02 全員で1分35回チャレンジ＋個別指導</h3>
+        <p class="meta">主眼：全体の連携速度を上げつつ、失敗原因を個別修正する。</p>
+        <ul><li>設定：チーム全体で35回目標。未達時は原因を分解して再挑戦。</li><li>着眼：リリースの早さ、捕球準備、送球の高さ。</li></ul>
+      </div>
+      <div class="drill">
+        <h3>2箇所-03 ランナーつき対戦形式</h3>
+        <p class="meta">主眼：実戦想定で「捕って終わり」にしない判断と送球を習慣化。</p>
+        <ul><li>設定：ランナー役を置き、アウト条件を決めて対戦。</li><li>着眼：次塁を意識した送球判断、連携の声。</li></ul>
+      </div>
     </section>
 
     <section class="panel">
-      <h2>2箇所キャッチボール（3枚） <span class="pill todo">未着手</span></h2>
-      <ul>
-        <li>2箇所-01：チーム対抗・1分間成功数</li>
-        <li>2箇所-02：全員で1分35回チャレンジ＋個別指導</li>
-        <li>2箇所-03：ランナーつき対戦形式</li>
-      </ul>
+      <h2>4箇所キャッチボール（2枚） <span class="pill done">追記済み</span></h2>
+      <div class="drill">
+        <h3>4箇所-01 順回し／逆回し／本二一三</h3>
+        <p class="meta">主眼：内野全体の送球ラインと捕球後の体向きを統一する。</p>
+        <ul><li>設定：順回し→逆回し→指定ルート（本二一三）を各2巡。</li><li>着眼：足運び、体の正対、送球の山なり回避。</li></ul>
+      </div>
+      <div class="drill">
+        <h3>4箇所-02 ランダム・ボール2個 <span class="pill todo">要最終確定</span></h3>
+        <p class="meta">主眼：同時処理時の優先順位と安全な送球判断を鍛える。</p>
+        <ul><li>設定：ボール2個で同時進行。コーチ合図で投球先を変更。</li><li>未確定：どの塁への送球を許可するか（次回コーチMTGで確定）。</li></ul>
+      </div>
     </section>
 
     <section class="panel">
-      <h2>4箇所キャッチボール（2枚） <span class="pill todo">未着手</span></h2>
-      <ul>
-        <li>4箇所-01：順回し／逆回し／本二一三 ほか</li>
-        <li>4箇所-02：ランダム・ボール2個（投球先ルールは要確定）</li>
-      </ul>
-    </section>
-
-    <section class="panel">
-      <h2>バッティング練習（3枚） <span class="pill todo">未着手</span></h2>
-      <ul>
-        <li>打撃-01：パターン①（21名想定・メイン＋ケージ併用）</li>
-        <li>打撃-02：パターン②（20名想定・打撃と別メニュー半々）</li>
-        <li>打撃-03：パターン③（球数重視・大人6名）</li>
-      </ul>
+      <h2>バッティング練習（3枚） <span class="pill done">追記済み</span></h2>
+      <div class="grid2">
+        <div class="drill" style="margin-top:0">
+          <h3>打撃-01 パターン①（21名想定）</h3>
+          <ul><li>メイン＋ケージ併用で、実打席数と基礎反復を両立。</li><li>コーチ配置：打席管理2、ケージ1、安全管理1。</li></ul>
+        </div>
+        <div class="drill" style="margin-top:0">
+          <h3>打撃-02 パターン②（20名想定）</h3>
+          <ul><li>打撃班と別メニュー班を半分ずつ回す。</li><li>待機時間を減らし、集中の切れを防止。</li></ul>
+        </div>
+      </div>
+      <div class="drill">
+        <h3>打撃-03 パターン③（球数重視・大人6名）</h3>
+        <ul><li>1人あたり球数を最大化。トス/回収/補助を分担して回転率を上げる。</li><li>安全管理担当を固定し、打球方向の管理を徹底。</li></ul>
+      </div>
     </section>
   </main>
 </body>
