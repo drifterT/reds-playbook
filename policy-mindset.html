@@ -17,10 +17,13 @@
     .site-nav a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:#fff}
     h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.12;margin:.2rem 0 .45rem}
     h2{font-size:1.2rem;margin:0;color:var(--accent)}
+    h3{font-size:1rem;margin:14px 0 4px;color:var(--ink)}
     p{margin:.4rem 0}
     .lead{max-width:720px;color:var(--muted)}
     .card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:18px;margin:14px 0;box-shadow:var(--shadow)}
     .card-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:8px}
+    .guidance-block{border-top:1px solid rgba(217,209,193,.8);padding-top:10px;margin-top:10px}
+    .guidance-block:first-of-type{border-top:0;padding-top:0}
     .pill{display:inline-block;border-radius:999px;padding:3px 10px;font-size:.78rem;font-weight:800;white-space:nowrap}
     .fixed{background:#e8f5ee;color:#205d3f}
     .confirm{background:#fff1dd;color:#8e5f1d}
@@ -47,12 +50,30 @@
         <h2>コーチ心得</h2>
         <span class="pill fixed">確定</span>
       </div>
-      <ul>
-        <li>練習開始前に「今日の主眼」を30秒で共有する（何を見るかを先に揃える）。</li>
-        <li>回数の消化より、1回の質を優先する。修正は短く・具体的に1点ずつ伝える。</li>
-        <li>指示は役割別（投球者／捕球者／打者）に分け、同時に多くを求めない。</li>
-        <li>失敗の原因は責めずに構造化する（姿勢・重心・足運び・タイミング）。</li>
-      </ul>
+      <div class="guidance-block">
+        <h3>練習前に揃えること</h3>
+        <ul>
+          <li>今日の主眼を短く共有する。メニュー名だけで始めず、「何を見る練習か」を先に揃える。</li>
+          <li>主眼は一度に多くしない。投球者／捕球者／打者など、役割ごとに見るポイントを分ける。</li>
+          <li>選手に伝える言葉は、コーチ間でできるだけ揃える。</li>
+        </ul>
+      </div>
+      <div class="guidance-block">
+        <h3>練習中に見ること</h3>
+        <ul>
+          <li>回数の消化より、1回の質を見る。</li>
+          <li>ミスを責めるのではなく、原因を姿勢・重心・足運び・タイミングなどに分けて見る。</li>
+          <li>修正は短く、具体的に、1点ずつ伝える。</li>
+        </ul>
+      </div>
+      <div class="guidance-block">
+        <h3>練習後に残すこと</h3>
+        <ul>
+          <li>次回も続ける点、変える点、要確認の点を分ける。</li>
+          <li>選手個人だけでなく、練習設計や伝え方も振り返る。</li>
+          <li>コーチ間で判断が割れた内容は、確定させずに要確認として残す。</li>
+        </ul>
+      </div>
     </section>
 
     <section class="card">
