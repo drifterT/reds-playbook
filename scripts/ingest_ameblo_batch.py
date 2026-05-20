@@ -11,6 +11,7 @@ import time
 from ameblo_ingest_common import (
     can_fetch,
     candidate_phrases,
+    clean_extracted_text,
     detect_keywords,
     entry_id,
     fetch_url,
@@ -74,6 +75,47 @@ def parsed_record(item: dict, html_text: str, raw_path: Path, parsed_path: Path,
     }
 
 
+def reprocess_existing_records(state: dict, raw_dir: Path, parsed_dir: Path, taxonomy_path: Path, limit: int) -> int:
+    processed = list(state.get("processed_urls", {}).values())
+    count = 0
+    for item in processed[:limit]:
+        raw_path = Path(item.get("raw_path") or raw_dir / f"{entry_id(item['url'])}.html")
+        if not raw_path.exists():
+            continue
+        parsed_path = Path(item.get("parsed_path") or parsed_dir / f"{entry_id(item['url'])}.json")
+        html_text = raw_path.read_text(encoding="utf-8", errors="replace")
+        write_json(parsed_path, parsed_record(item, html_text, raw_path, parsed_path, taxonomy_path))
+        count += 1
+    return count
+
+
+def repair_existing_records(parsed_dir: Path, taxonomy_path: Path) -> int:
+    keywords_by_category = load_keywords(taxonomy_path)
+    count = 0
+    for path in sorted(parsed_dir.glob("*.json")):
+        record = read_json(path, {})
+        old_excerpt = record.get("content_excerpt_for_review", "")
+        old_phrases = "\n".join(record.get("candidate_phrases", []))
+        cleaned_source = clean_extracted_text(f"{old_excerpt}\n{old_phrases}", record.get("title", ""))
+        if not cleaned_source:
+            cleaned_source = record.get("title", "").strip()
+        classification_source = f"{record.get('title', '')}\n{cleaned_source}"
+        detected = detect_keywords(classification_source, keywords_by_category)
+        record["content_excerpt_for_review"] = short_text(cleaned_source, 120)
+        record["detected_keywords"] = detected
+        record["candidate_phrases"] = candidate_phrases(classification_source, detected)
+        record["summary_for_internal_review"] = (
+            "検出キーワード: " + " / ".join(item["keyword"] for item in detected[:8])
+            if detected
+            else "検出キーワードなし。AIレビューまたは手動確認が必要。"
+        )
+        record.setdefault("source_policy", {})["store_full_text_in_repo"] = False
+        record["repaired_without_raw_html"] = True
+        write_json(path, record)
+        count += 1
+    return count
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--state", default="data/ameblo/ingestion_state.json")
@@ -83,6 +125,8 @@ def main() -> int:
     parser.add_argument("--taxonomy", default="data/ameblo/keyword_taxonomy.json")
     parser.add_argument("--limit", type=int, default=10)
     parser.add_argument("--delay-seconds", type=float, default=2.0)
+    parser.add_argument("--reprocess-existing", action="store_true")
+    parser.add_argument("--repair-existing-parsed", action="store_true")
     parser.add_argument("--dry-run", action="store_true")
     args = parser.parse_args()
 
@@ -95,6 +139,17 @@ def main() -> int:
 
     if args.dry_run:
         print(f"Dry run: pending={len(pending)}, limit={limit}, would_process={len(batch)}")
+        if args.reprocess_existing:
+            raw_dir = Path(args.raw_dir)
+            raw_count = 0
+            for item in list(state.get("processed_urls", {}).values())[:limit]:
+                raw_path = Path(item.get("raw_path") or raw_dir / f"{entry_id(item['url'])}.html")
+                if raw_path.exists():
+                    raw_count += 1
+            print(f"Dry run: would reprocess existing records with raw HTML: {raw_count}")
+        if args.repair_existing_parsed:
+            parsed_count = len(list(Path(args.parsed_dir).glob("*.json")))
+            print(f"Dry run: would repair existing parsed JSON records without raw HTML: {parsed_count}")
         for item in batch:
             print(f"- {item.get('url')} ({item.get('theme_label')})")
         print("No network fetch or state update performed.")
@@ -106,6 +161,14 @@ def main() -> int:
     raw_dir.mkdir(parents=True, exist_ok=True)
     parsed_dir.mkdir(parents=True, exist_ok=True)
     log_dir.mkdir(parents=True, exist_ok=True)
+    if args.reprocess_existing:
+        count = reprocess_existing_records(state, raw_dir, parsed_dir, Path(args.taxonomy), limit)
+        print(f"Reprocessed existing parsed records from raw HTML: {count}")
+        return 0
+    if args.repair_existing_parsed:
+        count = repair_existing_records(parsed_dir, Path(args.taxonomy))
+        print(f"Repaired existing parsed JSON records without raw HTML: {count}")
+        return 0
     robots = load_robots()
     processed = state.setdefault("processed_urls", {})
     blocked = state.setdefault("blocked_urls", [])

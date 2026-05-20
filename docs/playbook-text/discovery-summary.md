@@ -1,6 +1,6 @@
 # Ameblo Theme Discovery Summary
 
-Generated at: 2026-05-20T14:42:38Z
+Generated at: 2026-05-20T14:59:56Z
 
 Parsed articles: 10
 
@@ -15,18 +15,15 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
   - https://ameblo.jp/kinegawareds/entry-12881874075.html
   - https://ameblo.jp/kinegawareds/entry-12882815632.html
   - https://ameblo.jp/kinegawareds/entry-12883527925.html
-- Matched keywords: キャッチボール, ランダウン
+- Matched keywords: キャッチボール, ランダウン, 捕球
 - Needs AI review: yes
 
 ## バッティング候補
 
-- Matched articles: 4
+- Matched articles: 1
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12840590860.html
-  - https://ameblo.jp/kinegawareds/entry-12847046140.html
-  - https://ameblo.jp/kinegawareds/entry-12866166661.html
-  - https://ameblo.jp/kinegawareds/entry-12881874075.html
-- Matched keywords: トップ, バッティング
+- Matched keywords: バッティング
 - Needs AI review: yes
 
 ## 走塁候補

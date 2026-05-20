@@ -8,26 +8,19 @@
   "fetched_at": "2026-05-20T14:42:24Z",
   "status": "fetched",
   "text_length": 759,
-  "content_excerpt_for_review": "ランダウンプレー（挟殺プレー）参考動画 | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） ホーム ピグ アメブロ 芸能人ブログ 人気ブログ 新規登録 ログイン 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） 公式ブログ...",
+  "content_excerpt_for_review": "緊迫の中で、ランダウンプレーを練習しています⚾ #新風 #巨人 #東京 #tokyo #giants_90th #野球 #プロ野球 #宮崎",
   "detected_keywords": [
     {
       "category": "守備",
       "keyword": "ランダウンプレー",
-      "count": 3
-    },
-    {
-      "category": "道具",
-      "keyword": "バット",
-      "count": 1
+      "count": 2
     }
   ],
   "candidate_phrases": [
-    "ランダウンプレー（挟殺プレー）参考動画 | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属）",
-    "ランダウンプレー（挟殺プレー）参考動画",
-    "緊迫の中で、ランダウンプレーを練習しています⚾ #新風 #巨人 #東京 #tokyo #giants_90th #野球 #プロ野球 #宮崎...",
-    "『11月の野球体験会のご案内』 「カラーバットとカラーボールで野球する場所すらなくなってます」まずは【遊べる場所】の提供をさせて頂きたいとい..."
+    "『ランダウンプレー（挟殺プレー）参考動画』",
+    "緊迫の中で、ランダウンプレーを練習しています⚾ #新風 #巨人 #東京 #tokyo #giants_90th #野球 #プロ野球 #宮崎"
   ],
-  "summary_for_internal_review": "検出キーワード: ランダウンプレー / バット",
+  "summary_for_internal_review": "検出キーワード: ランダウンプレー",
   "raw_path": "data/ameblo/raw_articles/entry-12866064969.html",
   "parsed_path": "data/ameblo/parsed_articles/entry-12866064969.json",
   "content_hash": "2507cbfbbd0b90ba34e4aefb4e1a2063514757bd1d2151f4658c90291a70da80",
@@ -35,5 +28,6 @@
     "public_republish_allowed": false,
     "store_full_text_in_repo": false,
     "use_for_internal_theme_discovery": true
-  }
+  },
+  "repaired_without_raw_html": true
 }

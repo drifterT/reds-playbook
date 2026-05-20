@@ -8,7 +8,7 @@
   "fetched_at": "2026-05-20T14:42:22Z",
   "status": "fetched",
   "text_length": 602,
-  "content_excerpt_for_review": "キャッチャーのバックアップからの・・・応用 | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） ホーム ピグ アメブロ 芸能人ブログ 人気ブログ 新規登録 ログイン 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） 公式ブ...",
+  "content_excerpt_for_review": "キャッチボールの精度ってとこに",
   "detected_keywords": [
     {
       "category": "守備",
@@ -27,5 +27,6 @@
     "public_republish_allowed": false,
     "store_full_text_in_repo": false,
     "use_for_internal_theme_discovery": true
-  }
+  },
+  "repaired_without_raw_html": true
 }
