@@ -39,6 +39,9 @@
     .drill{background:rgba(255,255,255,.48);border:1px solid var(--line);border-radius:8px;padding:14px}
     .drill-title{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
     .meta{font-size:.92rem;color:var(--muted)}
+    .card-fields{display:grid;gap:8px;margin-top:10px}
+    .field{font-size:.92rem}
+    .field strong{color:var(--ink)}
     ul{margin:8px 0 0 20px}
     .placeholder{border-style:dashed;background:rgba(255,255,255,.28)}
     footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
@@ -82,7 +85,7 @@
         <h2>練習の流れ</h2>
         <span class="pill fixed">確定</span>
       </div>
-      <p class="section-intro">順番は、体の準備からテンポ作り、判断、実戦へつなげるための標準型。グラウンド条件で入れ替える場合も、その日の主眼は変えずに進める。</p>
+      <p class="section-intro">順番は、体の準備からテンポ作り、判断、実戦へつなげるための標準型。グラウンド条件で入れ替える場合も、その日のねらいは変えずに進める。</p>
       <div class="flow-grid">
         <article class="flow-card">
           <h3>基本型</h3>
@@ -99,7 +102,7 @@
           <ul>
             <li>時間やグラウンド条件に合わせて、打撃と4箇所の順番を入れ替える型。</li>
             <li>変更理由をコーチ間で共有してから始める。</li>
-            <li>順番を変えても、その日の主眼は変えない。</li>
+            <li>順番を変えても、その日のねらいは変えない。</li>
           </ul>
         </article>
       </div>
@@ -114,7 +117,7 @@
       <div class="card-list">
         <article class="drill">
           <div class="drill-title"><h3>アップ-01 体操〜ダッシュ</h3><span class="pill confirm">要確認</span></div>
-          <p class="meta">主眼・設定・着眼点は要追記。体操からダッシュへつなぎ、練習に入る準備を整える。</p>
+          <p class="meta">ねらい・設定・見るポイントは要追記。体操からダッシュへつなぎ、練習に入る準備を整える。</p>
         </article>
         <article class="drill">
           <div class="drill-title"><h3>アップ-02 ジャンプ系（パワーポジション確認）</h3><span class="pill fixed">確定</span></div>
@@ -122,15 +125,15 @@
         </article>
         <article class="drill">
           <div class="drill-title"><h3>アップ-03 歩き素振り</h3><span class="pill confirm">要確認</span></div>
-          <p class="meta">主眼・設定・着眼点は要追記。バッティング系のため確認点はコーチで詰める。</p>
+          <p class="meta">ねらい・設定・見るポイントは要追記。バッティング系のため確認点はコーチで詰める。</p>
         </article>
         <article class="drill">
           <div class="drill-title"><h3>アップ-04 3人組・近距離2箇所キャッチボール</h3><span class="pill add">要追記</span></div>
-          <p class="meta">設定：15回 × 3セット／近距離。主眼と着眼点は後日追記。</p>
+          <p class="meta">設定：15回 × 3セット／近距離。ねらいと見るポイントは後日追記。</p>
         </article>
         <article class="drill">
           <div class="drill-title"><h3>アップ-05 2人ペア・ボールハンドリング</h3><span class="pill add">要追記</span></div>
-          <p class="meta">ショートバウンド〜ボール2個キャッチなど。主眼と着眼点は後日追記。</p>
+          <p class="meta">ショートバウンド〜ボール2個キャッチなど。ねらいと見るポイントは後日追記。</p>
         </article>
         <article class="drill">
           <div class="drill-title"><h3>アップ-06 叩き付け</h3><span class="pill fixed">確定</span></div>
@@ -162,17 +165,29 @@
       </div>
       <p class="section-intro">2箇所は、捕球から返球までのテンポを作るブロック。競争や回数チャレンジを入れる場合も、急ぐだけにならないように見るポイントを絞る。</p>
       <div class="card-list">
-        <article class="drill placeholder">
-          <div class="drill-title"><h3>2箇所-01 チーム対抗・1分間成功数</h3><span class="pill draft">準備中</span></div>
-          <p class="meta">主眼・やり方・設定・着眼点は後日更新予定。</p>
+        <article class="drill">
+          <div class="drill-title"><h3>2箇所-01 チーム対抗・1分間成功数</h3><span class="pill confirm">要確認</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>捕ってから返すまでのテンポを上げ、チームで連続成功を目指す。</div>
+            <div class="field"><strong>やり方：</strong>チームごとに分かれ、1分間で成功数を数える。</div>
+            <div class="field"><strong>設定：</strong>時間は1分。人数、距離、ミス時の扱いは要確認。</div>
+            <div class="field"><strong>見るポイント：</strong>捕球後に止まらず次の送球準備へ入れているか。急ぎすぎて雑になっていないか。</div>
+            <div class="field"><strong>要確認：</strong>成功数のカウントルール、ミス時に数え直すか累計にするか。</div>
+          </div>
         </article>
-        <article class="drill placeholder">
-          <div class="drill-title"><h3>2箇所-02 全員で1分35回チャレンジ＋個別指導</h3><span class="pill draft">準備中</span></div>
-          <p class="meta">主眼・やり方・設定・着眼点は後日更新予定。</p>
+        <article class="drill">
+          <div class="drill-title"><h3>2箇所-02 全員で1分35回チャレンジ＋個別指導</h3><span class="pill confirm">要確認</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>全体のテンポをそろえながら、必要な選手には短く個別指導を入れる。</div>
+            <div class="field"><strong>やり方：</strong>全員で1分35回を目標にし、個別指導は流れを止めすぎず1点に絞る。</div>
+            <div class="field"><strong>設定：</strong>時間は1分、目標は35回。担当分けは要確認。</div>
+            <div class="field"><strong>見るポイント：</strong>捕球から返球までのリズム、送球の質、個別指導の長さ。</div>
+            <div class="field"><strong>要確認：</strong>35回の基準を学年や人数で変えるか。個別指導対象の選び方。</div>
+          </div>
         </article>
         <article class="drill placeholder">
           <div class="drill-title"><h3>2箇所-03 ランナーつき対戦形式</h3><span class="pill draft">準備中</span></div>
-          <p class="meta">主眼・やり方・設定・着眼点は後日更新予定。</p>
+          <p class="meta">ねらい・やり方・設定・見るポイントは後日更新予定。対戦条件と安全管理ルールは要確認。</p>
         </article>
       </div>
     </section>
@@ -184,9 +199,15 @@
       </div>
       <p class="section-intro">4箇所は、送球方向と次の準備をそろえるブロック。順回し、逆回し、指定順など、型ごとに見るポイントを変える。</p>
       <div class="card-list">
-        <article class="drill placeholder">
-          <div class="drill-title"><h3>4箇所-01 順回し／逆回し／本二一三 ほか</h3><span class="pill draft">準備中</span></div>
-          <p class="meta">主眼・やり方・設定・着眼点は後日更新予定。</p>
+        <article class="drill">
+          <div class="drill-title"><h3>4箇所-01 順回し／逆回し／本二一三 ほか</h3><span class="pill confirm">要確認</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>送球方向、次の準備、カバー意識をそろえる。</div>
+            <div class="field"><strong>やり方：</strong>順回し、逆回し、指定順でボールを回し、型ごとに見るポイントを変える。</div>
+            <div class="field"><strong>設定：</strong>人数、回数、正式な指定順は要確認。距離はグラウンド条件で調整する。</div>
+            <div class="field"><strong>見るポイント：</strong>送球方向の準備、捕球後の足運び、待つ側の構えと声。</div>
+            <div class="field"><strong>要確認：</strong>「本二一三」など指定順の正式ルール、人数不足時の配置。</div>
+          </div>
         </article>
         <article class="drill placeholder">
           <div class="drill-title"><h3>4箇所-02 ランダム・ボール2個</h3><span class="pill confirm">要確認</span></div>
