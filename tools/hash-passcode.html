@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="robots" content="noindex,nofollow">
+  <title>Passcode Hash Helper</title>
+  <style>
+    :root{--bg:#f8f4ea;--paper:#fffaf0;--ink:#1b2a3d;--muted:#52667b;--line:#d9d1c1;--accent:#c43a2e}
+    *{box-sizing:border-box}
+    body{margin:0;padding:24px 16px;background:var(--bg);color:var(--ink);font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif;line-height:1.7}
+    main{max-width:720px;margin:0 auto;background:var(--paper);border:1px solid var(--line);border-radius:8px;padding:22px}
+    h1{margin:0 0 8px;font-size:1.7rem}
+    p{color:var(--muted)}
+    label{display:block;margin-top:18px;font-weight:800}
+    input,textarea{width:100%;margin-top:6px;border:1px solid var(--line);border-radius:8px;padding:10px 12px;font:inherit;background:#fff;color:var(--ink)}
+    textarea{min-height:100px;resize:vertical}
+    button{margin-top:12px;border:0;border-radius:8px;padding:10px 14px;background:var(--accent);color:#fff;font:inherit;font-weight:800;cursor:pointer}
+    code{word-break:break-all}
+  </style>
+</head>
+<body>
+  <main>
+    <h1>Passcode Hash Helper</h1>
+    <p>ローカル開発用の補助ページです。公開ナビゲーションからはリンクしません。入力したアクセスコードの SHA-256 hash を生成します。</p>
+
+    <label for="passcode">アクセスコード</label>
+    <input id="passcode" type="password" autocomplete="new-password">
+    <button id="generate" type="button">hash を生成</button>
+
+    <label for="hash">SHA-256 hash</label>
+    <textarea id="hash" readonly></textarea>
+    <p><code>auth.js</code> の <code>PASSCODE_HASH_PLACEHOLDER</code> を、生成した hash に置き換えてください。</p>
+  </main>
+
+  <script>
+    async function sha256(value){
+      const bytes = new TextEncoder().encode(value);
+      const digest = await crypto.subtle.digest("SHA-256", bytes);
+      return Array.from(new Uint8Array(digest))
+        .map(byte => byte.toString(16).padStart(2, "0"))
+        .join("");
+    }
+
+    document.getElementById("generate").addEventListener("click", async () => {
+      const passcode = document.getElementById("passcode").value;
+      document.getElementById("hash").value = passcode ? await sha256(passcode) : "";
+    });
+  </script>
+</body>
+</html>
