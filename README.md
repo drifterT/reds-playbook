@@ -41,7 +41,7 @@ Run from the repository root:
 
 ```bash
 python3 scripts/discover_ameblo_urls.py
-python3 scripts/fetch_ameblo.py --max-articles 50
+python3 scripts/fetch_ameblo.py --input data/ameblo/discovered_urls.json --max-articles 50
 python3 scripts/build_ameblo_index.py
 python3 scripts/map_ameblo_to_playbook.py
 ```
@@ -50,7 +50,7 @@ For a smaller test:
 
 ```bash
 python3 scripts/discover_ameblo_urls.py
-python3 scripts/fetch_ameblo.py --max-articles 20
+python3 scripts/fetch_ameblo.py --input data/ameblo/discovered_urls.json --max-articles 20
 ```
 
 Outputs are saved under:
@@ -60,6 +60,7 @@ Outputs are saved under:
 - `data/ameblo/discovered_urls.json`
 - `data/ameblo/source_urls.txt`
 - `data/ameblo/article_index.json`
+- `data/ameblo/manual_articles/`
 - `data/ameblo/raw/`
 - `docs/content-source-map.md`
 - `docs/keyword-taxonomy.md`
@@ -69,6 +70,41 @@ Source Ameblo article URLs are preserved in:
 - `data/ameblo/articles.json`
 - `data/ameblo/article_index.json`
 - `docs/content-source-map.md`
+
+### Manual Ameblo article input
+
+When robots.txt blocks automatic article fetching, keep the URL and add only the articles that need review by hand.
+
+1. Add article URLs, one per line, to `data/ameblo/source_urls.txt`.
+2. Run discovery and fetch to record URL status:
+
+```bash
+python3 scripts/discover_ameblo_urls.py
+python3 scripts/fetch_ameblo.py --input data/ameblo/discovered_urls.json --max-articles 20
+```
+
+3. Check blocked or failed URLs in `data/ameblo/failed_urls.json`.
+4. For a selected article, create a file under `data/ameblo/manual_articles/`, for example `data/ameblo/manual_articles/entry-12555442306.md`:
+
+```markdown
+---
+url: https://ameblo.jp/kinegawareds/entry-12555442306.html
+title: Optional title
+date: Optional date
+source_type: manual_copy
+---
+
+Paste a short manually supplied text excerpt or working summary here.
+```
+
+5. Regenerate the index and planning map:
+
+```bash
+python3 scripts/build_ameblo_index.py
+python3 scripts/map_ameblo_to_playbook.py
+```
+
+Manual article bodies are indexed as `manual_body_added` and classified with the same taxonomy rules as fetched articles. Keep the original Ameblo URL in the metadata so future `参考記事` links can point to the public source URL.
 
 Notes:
 

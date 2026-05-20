@@ -2,28 +2,31 @@
   {
     "url": "https://ameblo.jp/kinegawareds/entry-12555442306.html",
     "sources": [
-      "source_urls_txt"
+      "source_urls_txt",
+      "previous_failed"
     ],
-    "source": "source_urls_txt",
-    "discovered_at": "2026-05-20T06:24:54Z",
+    "source": "source_urls_txt | previous_failed",
+    "discovered_at": "2026-05-20T06:32:16Z",
     "status": "pending"
   },
   {
     "url": "https://ameblo.jp/kinegawareds/entry-12857620895.html",
     "sources": [
-      "source_urls_txt"
+      "source_urls_txt",
+      "previous_failed"
     ],
-    "source": "source_urls_txt",
-    "discovered_at": "2026-05-20T06:24:54Z",
+    "source": "source_urls_txt | previous_failed",
+    "discovered_at": "2026-05-20T06:32:16Z",
     "status": "pending"
   },
   {
     "url": "https://ameblo.jp/kinegawareds/entry-12887744090.html",
     "sources": [
-      "source_urls_txt"
+      "source_urls_txt",
+      "previous_failed"
     ],
-    "source": "source_urls_txt",
-    "discovered_at": "2026-05-20T06:24:54Z",
+    "source": "source_urls_txt | previous_failed",
+    "discovered_at": "2026-05-20T06:32:16Z",
     "status": "pending"
   }
 ]
