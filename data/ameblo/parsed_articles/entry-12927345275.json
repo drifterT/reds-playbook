@@ -1,0 +1,57 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12927345275.html",
+  "entry_id": "entry-12927345275",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『イチロー氏がこんな事を言ってくれてる。』",
+  "published_at": "2025-10-30",
+  "fetched_at": "2026-05-20T20:06:15Z",
+  "status": "fetched",
+  "text_length": 955,
+  "content_excerpt_for_review": "イチロー氏がこんな事を言ってくれてる。 イチロー氏が こんな事を言ってくれてるヨォ〜😍 レッズ内でも 同じような事を何度も言ってるので 聞いた事がある 選手もコーチも多いと思う。 素振りの“しすぎ”に待った「マイナスの可能性」 イチロー氏が...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "キャッチボール",
+      "count": 3
+    },
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "伝える",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "選手もコーチも多いと思う",
+    "MLBマリナーズの会長付特別補佐兼インストラクターを務めるイチロー氏が、昨年11月9日から2日間にわたり大阪・大冠高で野球部員たちを指導",
+    "その中で、素振りやキャッチボールなどを「1つ1つ丁寧にやるイメージで」と語る場面があった",
+    "◆素振りやキャッチボールなどを1つ1つ丁寧にやるイメージで",
+    "良くない形で1000スイングするならば、しない方がいい",
+    "伝える為なんだよ",
+    "素振りやキャッチボールは"
+  ],
+  "summary_for_internal_review": "検出キーワード: キャッチボール / スイング / コーチ / 伝える / 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12927345275.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12927345275.json",
+  "content_hash": "61878ec62f64edf02ced58eb3b51edbda7c01d77c9ff9328e5770d5d24f6eb11",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,44 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12910822533.html",
+  "entry_id": "entry-12910822533",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『見事に決まったサインプレー。』",
+  "published_at": "2025-06-30",
+  "fetched_at": "2026-05-20T20:06:04Z",
+  "status": "fetched",
+  "text_length": 1072,
+  "content_excerpt_for_review": "見事に決まったサインプレー。 見事に決まったサインプレー！！ って動画だね。（笑顔） 前記事（牽制を待つ一塁手の位置）で 紹介した動画は逆で あれは多分サインミスだったけどね。（笑） pic.twitter.com/akbB09K3Wi 【...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 2
+    },
+    {
+      "category": "守備",
+      "keyword": "キャッチボール",
+      "count": 1
+    },
+    {
+      "category": "ルール",
+      "keyword": "ルール",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "ある程度のキャッチボールが",
+    "セカンドランナーが",
+    "センターはファーストランナーが",
+    "これがルール内で点を取り合う"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー / キャッチボール / ルール",
+  "raw_path": "data/ameblo/raw_articles/entry-12910822533.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12910822533.json",
+  "content_hash": "727bf01fd531598726d68910aa78b7989383c32ccc20e22c7f12fab674e83d96",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

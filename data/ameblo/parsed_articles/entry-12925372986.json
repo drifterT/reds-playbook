@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12925372986.html",
+  "entry_id": "entry-12925372986",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『キャッチャーの体型』",
+  "published_at": "2025-09-05",
+  "fetched_at": "2026-05-20T20:06:09Z",
+  "status": "fetched",
+  "text_length": 446,
+  "content_excerpt_for_review": "キャッチャーの体型 2年連続で 東京勢の準優勝で終わった 夏の甲子園。 今年の大会は好試合が多く 個人的には面白かった印象。（笑顔） で、感じた事。 何となくだけど キャッチャーの体型が 以前とは変わってきているような・・・ 昭和の時代の...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ルール",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "コリジョンでルールが明確され"
+  ],
+  "summary_for_internal_review": "検出キーワード: ルール",
+  "raw_path": "data/ameblo/raw_articles/entry-12925372986.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12925372986.json",
+  "content_hash": "f3374fa878a8f641e221f8e634985ef29c114d49fa9cf6bd835e5028305cd695",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

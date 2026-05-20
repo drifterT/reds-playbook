@@ -1,0 +1,33 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12925804728.html",
+  "entry_id": "entry-12925804728",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『3つの『B』』",
+  "published_at": "2025-09-23",
+  "fetched_at": "2026-05-20T20:06:13Z",
+  "status": "fetched",
+  "text_length": 1780,
+  "content_excerpt_for_review": "3つの『B』 動画は見ていたんだけど コメントが英語だから 見逃してたぁ～！！ 😭 前記事に関連してって言うより そのものだな。😅 If nobody is on base & there’s a pop up hit behind 1st...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 3
+    }
+  ],
+  "candidate_phrases": [
+    "例えばねランナー無しでのサードゴロ",
+    "ランナー1塁だったら",
+    "例えばランナーサードで"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー",
+  "raw_path": "data/ameblo/raw_articles/entry-12925804728.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12925804728.json",
+  "content_hash": "afd4975bfdbfac6aac780c524a280d723430ac9b0c1c47b2d485aab184d985a3",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
