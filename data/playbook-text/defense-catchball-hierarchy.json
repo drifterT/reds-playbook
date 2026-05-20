@@ -1,0 +1,102 @@
+{
+  "generated_at": "2026-05-20",
+  "scope": "Playbook Text defense/catchball hierarchy draft",
+  "source_policy": {
+    "use_ameblo_as": "source URLs and conceptual background only",
+    "do_not_copy_long_text": true,
+    "do_not_bypass_robots": true,
+    "do_not_include_child_personal_information": true
+  },
+  "input_files": [
+    "docs/keyword-taxonomy.md",
+    "docs/content-source-map.md",
+    "data/ameblo/article_index.json",
+    "data/ameblo/discovered_urls.json",
+    "data/ameblo/manual_articles/",
+    "data/ameblo/source_urls.txt"
+  ],
+  "source_summary": {
+    "ameblo_urls_preserved": 3,
+    "fetched_articles": 0,
+    "manual_body_added": 1,
+    "manual_notes_used_directly": [
+      "data/ameblo/manual_articles/catchball-material-001.md",
+      "data/ameblo/manual_articles/four-place-material-001.md"
+    ],
+    "blocked_by_robots": 2
+  },
+  "chapters": [
+    {
+      "id": "D-CB-01",
+      "title": "キャッチボール観",
+      "keywords": ["キャッチボールはその選手の野球感を映す鏡", "キャッチボール", "声", "準備"],
+      "subtopics": ["相手が捕れる球を返す", "捕る前から次の準備をする", "声と構えを切らさない", "速さと雑さを分ける"],
+      "source_basis": ["docs/keyword-taxonomy.md", "data/ameblo/manual_articles/catchball-material-001.md"]
+    },
+    {
+      "id": "D-CB-02",
+      "title": "捕ってから返すテンポ",
+      "keywords": ["捕ってから返すまでのテンポ", "連続成功", "1分間", "1分35回", "個別指導"],
+      "subtopics": ["捕球後に止まらない", "返球までのリズムをそろえる", "連続成功を数える意味", "個別指導は1点に絞る"],
+      "practice_cards": ["アップ-04", "アップ-10", "2箇所-01", "2箇所-02"],
+      "source_basis": ["data/ameblo/manual_articles/catchball-material-001.md", "docs/content-source-map.md"]
+    },
+    {
+      "id": "D-CB-03",
+      "title": "送球につながる捕球",
+      "keywords": ["スローイングにつなげる捕球", "持ち替え", "安定した送球", "捕球後の足運び"],
+      "subtopics": ["捕球後の足運び", "持ち替え", "送球方向への準備", "安定した送球につなげる"],
+      "practice_cards": ["アップ-07", "アップ-08", "アップ-09", "アップ-10", "4箇所-01"],
+      "source_basis": ["docs/keyword-taxonomy.md", "data/ameblo/manual_articles/four-place-material-001.md"]
+    },
+    {
+      "id": "D-CB-04",
+      "title": "送球方向と順番の設計",
+      "keywords": ["送球方向", "次の準備", "カバー意識", "順回し", "逆回し", "ホーム2塁1塁3塁"],
+      "subtopics": ["順回し・逆回し", "指定順", "待つ側の構えと声", "カバー意識", "人数不足時の配置"],
+      "practice_cards": ["4箇所-01"],
+      "source_basis": ["data/ameblo/manual_articles/four-place-material-001.md"]
+    },
+    {
+      "id": "D-CB-05",
+      "title": "複数ボールと安全停止",
+      "keywords": ["ボール2個", "４箇所ランダム", "状況判断", "安全停止", "声かけ"],
+      "subtopics": ["ボール2個の位置を把握する", "投げる前に送球先を声で伝える", "送球が飛んできた方向への返球は禁止", "返球先の選択", "危ない場面では止める"],
+      "practice_cards": ["4箇所-02"],
+      "source_basis": ["data/ameblo/manual_articles/four-place-material-001.md", "practice-catchball.html"]
+    },
+    {
+      "id": "D-CB-06",
+      "title": "ランナーつきの判断",
+      "keywords": ["ランナー", "勝敗条件", "アウト判定", "送球線", "安全管理"],
+      "subtopics": ["ランナーを見る", "送球先を固定してから対戦性を上げる", "勝敗条件を先に決める", "送球線とランナーが重なる場合は止める", "対戦形式は安全管理ができる場合のみ"],
+      "practice_cards": ["2箇所-03"],
+      "source_basis": ["data/ameblo/manual_articles/catchball-material-001.md", "docs/keyword-taxonomy.md"]
+    },
+    {
+      "id": "D-CB-07",
+      "title": "タッグ・ランダウン・ケースプレーへの接続",
+      "keywords": ["タッグ（タッチ）", "ランダウンプレー", "状況に応じた優先度", "ケースプレー"],
+      "subtopics": ["タッグの入り方", "ランダウンプレー", "優先度の判断", "ケースノックへの接続"],
+      "practice_cards": [],
+      "source_basis": ["docs/keyword-taxonomy.md"]
+    }
+  ],
+  "source_urls": [
+    {
+      "url": "https://ameblo.jp/kinegawareds/entry-12555442306.html",
+      "status": "manual_body_added",
+      "use_for_this_hierarchy": "background_only"
+    },
+    {
+      "url": "https://ameblo.jp/kinegawareds/entry-12857620895.html",
+      "status": "blocked_by_robots",
+      "use_for_this_hierarchy": "not_used_no_body"
+    },
+    {
+      "url": "https://ameblo.jp/kinegawareds/entry-12887744090.html",
+      "status": "blocked_by_robots",
+      "use_for_this_hierarchy": "not_used_no_body"
+    }
+  ]
+}
