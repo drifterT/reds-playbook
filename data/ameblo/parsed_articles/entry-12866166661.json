@@ -8,24 +8,18 @@
   "fetched_at": "2026-05-20T14:42:27Z",
   "status": "fetched",
   "text_length": 973,
-  "content_excerpt_for_review": "ピックオフプレー？？？ | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） ホーム ピグ アメブロ 芸能人ブログ 人気ブログ 新規登録 ログイン 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） 公式ブログ ブログトップ...",
+  "content_excerpt_for_review": "それぞれのランナーの",
   "detected_keywords": [
     {
       "category": "ルール",
       "keyword": "ランナー",
       "count": 1
-    },
-    {
-      "category": "道具",
-      "keyword": "バット",
-      "count": 1
     }
   ],
   "candidate_phrases": [
-    "それぞれのランナーの",
-    "『11月の野球体験会のご案内』 「カラーバットとカラーボールで野球する場所すらなくなってます」まずは【遊べる場所】の提供をさせて頂きたいとい..."
+    "それぞれのランナーの"
   ],
-  "summary_for_internal_review": "検出キーワード: ランナー / バット",
+  "summary_for_internal_review": "検出キーワード: ランナー",
   "raw_path": "data/ameblo/raw_articles/entry-12866166661.html",
   "parsed_path": "data/ameblo/parsed_articles/entry-12866166661.json",
   "content_hash": "ef0d84155ea7ac1b574f08d47b62101683fa720a981d5d95045dd9fbb9693f25",
@@ -33,5 +27,6 @@
     "public_republish_allowed": false,
     "store_full_text_in_repo": false,
     "use_for_internal_theme_discovery": true
-  }
+  },
+  "repaired_without_raw_html": true
 }

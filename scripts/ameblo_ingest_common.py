@@ -18,6 +18,33 @@ ROBOTS_URL = "https://ameblo.jp/robots.txt"
 USER_AGENT = "reds-playbook-theme-ingestor/0.1 (+https://github.com/drifterT/reds-playbook)"
 ARTICLE_RE = re.compile(r"https://ameblo\.jp/kinegawareds/entry-\d+\.html")
 THEME_RE = re.compile(r"https://ameblo\.jp/kinegawareds/theme-\d+\.html")
+ARTICLE_BODY_MARKERS = (
+    "entrybody",
+    "skin-entrybody",
+    "articletext",
+    "article-text",
+    "entry-text",
+    "article-body",
+    "js-entrybody",
+)
+UI_NOISE_TERMS = (
+    "ホーム",
+    "ピグ",
+    "アメブロ",
+    "芸能人ブログ",
+    "人気ブログ",
+    "新規登録",
+    "ログイン",
+    "夢に向かって！木根川レッズ",
+    "葛飾区少年軟式野球連盟所属",
+    "公式ブログ",
+    "ブログトップ",
+    "記事一覧",
+    "画像一覧",
+    "コメントする",
+    "リブログする",
+    "このブログをフォローする",
+)
 
 
 def now_iso() -> str:
@@ -114,24 +141,73 @@ class PageTextExtractor(HTMLParser):
     def text(self) -> str:
         joined = html.unescape(" ".join(self.parts))
         lines = [re.sub(r"\s+", " ", line).strip() for line in joined.splitlines()]
-        noise = {"記事一覧", "画像一覧", "コメントする", "リブログする", "このブログをフォローする"}
-        return "\n".join(line for line in lines if line and line not in noise)
+        return "\n".join(line for line in lines if line and line not in UI_NOISE_TERMS)
+
+
+class ArticleBodyExtractor(HTMLParser):
+    def __init__(self) -> None:
+        super().__init__()
+        self.candidates: list[str] = []
+        self.current: list[str] | None = None
+        self.capture_depth = 0
+        self.skip_depth = 0
+
+    def handle_starttag(self, tag: str, attrs) -> None:
+        attr_text = " ".join(str(value).lower() for _key, value in attrs if value)
+        is_body_marker = tag == "article" or any(marker in attr_text for marker in ARTICLE_BODY_MARKERS)
+        if is_body_marker and self.capture_depth == 0:
+            self.current = []
+            self.capture_depth = 1
+        elif self.capture_depth:
+            self.capture_depth += 1
+
+        if self.capture_depth and tag in {"script", "style", "noscript", "svg"}:
+            self.skip_depth += 1
+        if self.capture_depth and tag in {"p", "br", "li", "div", "section", "article", "h1", "h2", "h3"}:
+            self.current_append("\n")
+
+    def handle_endtag(self, tag: str) -> None:
+        if self.capture_depth and tag in {"script", "style", "noscript", "svg"} and self.skip_depth:
+            self.skip_depth -= 1
+        if self.capture_depth and tag in {"p", "li", "div", "section", "article"}:
+            self.current_append("\n")
+        if self.capture_depth:
+            self.capture_depth -= 1
+            if self.capture_depth == 0 and self.current is not None:
+                text = self.clean_join(self.current)
+                if text:
+                    self.candidates.append(text)
+                self.current = None
+
+    def handle_data(self, data: str) -> None:
+        if not self.capture_depth or self.skip_depth:
+            return
+        text = data.strip()
+        if text:
+            self.current_append(text)
+
+    def current_append(self, value: str) -> None:
+        if self.current is not None:
+            self.current.append(value)
+
+    @staticmethod
+    def clean_join(parts: list[str]) -> str:
+        joined = html.unescape(" ".join(parts))
+        lines = [re.sub(r"\s+", " ", line).strip() for line in joined.splitlines()]
+        return "\n".join(line for line in lines if line and line not in UI_NOISE_TERMS)
 
 
 def text_from_html(html_text: str) -> str:
-    candidates = []
-    for pattern in (
-        r"<article[\s\S]*?</article>",
-        r"<div[^>]+(?:entryBody|skin-entryBody|articleText|js-entryBody)[^>]*>[\s\S]*?</div>",
-        r"<body[\s\S]*?</body>",
-    ):
-        match = re.search(pattern, html_text, re.I)
-        if match:
-            candidates.append(match.group(0))
-    source = max(candidates, key=len) if candidates else html_text
+    article_parser = ArticleBodyExtractor()
+    article_parser.feed(html_text)
+    candidates = [clean_extracted_text(text) for text in article_parser.candidates]
+    candidates = [text for text in candidates if len(text) >= 40]
+    if candidates:
+        return max(candidates, key=len)
+
     parser = PageTextExtractor()
-    parser.feed(source)
-    return parser.text()
+    parser.feed(html_text)
+    return clean_extracted_text(parser.text(), title_from_html(html_text))
 
 
 def meta_value(html_text: str, *names: str) -> str:
@@ -155,6 +231,31 @@ def title_from_html(html_text: str) -> str:
     if not match:
         return ""
     return re.sub(r"\s+", " ", html.unescape(match.group(1))).strip()
+
+
+def clean_extracted_text(text: str, title: str = "") -> str:
+    clean = html.unescape(text)
+    for term in UI_NOISE_TERMS:
+        clean = clean.replace(term, " ")
+    if title:
+        title_only = re.sub(r"\s*\|.*$", "", title).strip()
+        title_plain = title_only.strip("「」『』")
+        for title_variant in (title, title_only, title_plain):
+            if title_variant:
+                clean = clean.replace(title_variant, " ")
+    clean = re.sub(r"木根川レッズ[（(]\s*[）)]", " ", clean)
+    clean = re.sub(r"木根川レッズ[（(][^）)]*[）)]", " ", clean)
+    clean = re.sub(r"[（(]\s*[）)]", " ", clean)
+    clean = re.sub(r"\s*\|\s*", " ", clean)
+    clean = re.sub(r"『[^』]*野球体験会のご案内[^。]*", " ", clean)
+    clean = re.sub(r"「カラーバット[^。]*", " ", clean)
+    clean = re.sub(r"(ブログ|トップ|フォロー|ランキング|プロフィール)\s*", " ", clean)
+    clean = re.sub(r"(?:(?<=\s)|^)(公式ブ|公|トッ|ト|カッ)(?=\s|$)", " ", clean)
+    for _ in range(4):
+        clean = re.sub(r"(.{8,120}?)\s+\1", r"\1", clean)
+    lines = [re.sub(r"\s+", " ", line).strip(" .　") for line in clean.splitlines()]
+    lines = [line for line in lines if line and line not in UI_NOISE_TERMS]
+    return "\n".join(lines)
 
 
 def published_at_from_html(html_text: str) -> str | None:

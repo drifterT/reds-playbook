@@ -8,7 +8,7 @@
   "fetched_at": "2026-05-20T14:42:12Z",
   "status": "fetched",
   "text_length": 695,
-  "content_excerpt_for_review": "カット2ま〜い！！ | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） ホーム ピグ アメブロ 芸能人ブログ 人気ブログ 新規登録 ログイン 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） 公式ブログ ブログトップ カッ...",
+  "content_excerpt_for_review": "バッターランナーの",
   "detected_keywords": [
     {
       "category": "ルール",
@@ -27,5 +27,6 @@
     "public_republish_allowed": false,
     "store_full_text_in_repo": false,
     "use_for_internal_theme_discovery": true
-  }
+  },
+  "repaired_without_raw_html": true
 }

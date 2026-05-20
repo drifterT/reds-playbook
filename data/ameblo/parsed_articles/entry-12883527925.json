@@ -8,45 +8,40 @@
   "fetched_at": "2026-05-20T14:42:36Z",
   "status": "fetched",
   "text_length": 1215,
-  "content_excerpt_for_review": "このフライでタッチアップ？ | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） ホーム ピグ アメブロ 芸能人ブログ 人気ブログ 新規登録 ログイン 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） 公式ブログ ブログトッ...",
+  "content_excerpt_for_review": "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キャッチボールの時の捕球時の キャッチボールの段階で その後ランナーを目視 ランナーのスタートを確認...",
   "detected_keywords": [
     {
       "category": "守備",
       "keyword": "キャッチボール",
-      "count": 7
+      "count": 10
     },
     {
       "category": "ルール",
       "keyword": "ランナー",
-      "count": 2
-    },
-    {
-      "category": "メンタル、姿勢",
-      "keyword": "もったいない",
-      "count": 1
-    },
-    {
-      "category": "守備",
-      "keyword": "持ち替え",
-      "count": 1
+      "count": 10
     },
     {
       "category": "走塁",
       "keyword": "スタート",
-      "count": 1
+      "count": 5
+    },
+    {
+      "category": "守備",
+      "keyword": "持ち替え",
+      "count": 4
     }
   ],
   "candidate_phrases": [
+    "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ...",
+    "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ",
+    "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ",
     "その後ランナーを目視",
     "ランナーのスタートを確認",
     "慌てたためボールの持ち替えも",
     "この為の練習はキャッチボールの段階から",
-    "キャッチボール前の",
-    "キャッチボールの時の捕球時の",
-    "キャッチボールの段階で",
-    "キャッチボールさえも"
+    "キャッチボール前の"
   ],
-  "summary_for_internal_review": "検出キーワード: キャッチボール / ランナー / もったいない / 持ち替え / スタート",
+  "summary_for_internal_review": "検出キーワード: キャッチボール / ランナー / スタート / 持ち替え",
   "raw_path": "data/ameblo/raw_articles/entry-12883527925.html",
   "parsed_path": "data/ameblo/parsed_articles/entry-12883527925.json",
   "content_hash": "94ce3139092c09330abe30b7cc9a1d5bb1da6c36619c0d5f2b36a348a2875b6b",
@@ -54,5 +49,6 @@
     "public_republish_allowed": false,
     "store_full_text_in_repo": false,
     "use_for_internal_theme_discovery": true
-  }
+  },
+  "repaired_without_raw_html": true
 }
