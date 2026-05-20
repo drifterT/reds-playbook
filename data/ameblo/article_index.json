@@ -1,7 +1,8 @@
 {
-  "generated_at": "2026-05-20T06:32:26Z",
-  "article_count": 3,
+  "generated_at": "2026-05-20T07:40:25Z",
+  "article_count": 6,
   "status_counts": {
+    "manual_note": 3,
     "manual_body_added": 1,
     "blocked_by_robots": 2
   },
@@ -18,7 +19,166 @@
   ],
   "articles": [
     {
+      "url": "",
+      "source_id": "manual:four-place-material-001",
+      "canonical_url": "",
+      "title": "4箇所キャッチボール材料メモ",
+      "date": "",
+      "excerpt": "4箇所キャッチボールの準備中カードを整理するための短い材料メモ。\nAmeblo記事本文の転載ではなく、カード化するための観点メモ。\n\n## 4箇所-01 順回し／逆回し／本二一三 ほか\n\n### ねらい\n- 送球方向、次の準備、カバー意識をそろえる。\n- 決まった順番の中で、捕球から送球までの動きを安定させる。\n\n### やり方\n- 順回し、逆回し、指定順で...",
+      "fetch_status": "manual_note",
+      "classification_status": "classified_from_manual_note",
+      "body_length": 679,
+      "manual_source_path": "data/ameblo/manual_articles/four-place-material-001.md",
+      "source_type": "manual_note",
+      "target_hint": "practice_four_point_catchball",
+      "source_categories": [
+        "守備",
+        "指導方法",
+        "ルール",
+        "戦術、戦略"
+      ],
+      "matched_keywords": [
+        {
+          "category": "守備",
+          "keyword": "キャッチボール",
+          "title_hits": 1,
+          "body_hits": 1,
+          "score": 6
+        },
+        {
+          "category": "ルール",
+          "keyword": "ルール",
+          "title_hits": 0,
+          "body_hits": 1,
+          "score": 1
+        },
+        {
+          "category": "ルール",
+          "keyword": "状況判断",
+          "title_hits": 0,
+          "body_hits": 1,
+          "score": 1
+        },
+        {
+          "category": "指導方法",
+          "keyword": "見る",
+          "title_hits": 0,
+          "body_hits": 3,
+          "score": 3
+        },
+        {
+          "category": "戦術、戦略",
+          "keyword": "状況判断",
+          "title_hits": 0,
+          "body_hits": 1,
+          "score": 1
+        }
+      ],
+      "keyword_match_count": 8,
+      "relevance_score_by_source_category": {
+        "守備": 6,
+        "ルール": 2,
+        "指導方法": 3,
+        "戦術、戦略": 1
+      },
+      "target_sections": [
+        "practice_four_point_catchball"
+      ],
+      "relevance_score_by_target_section": {
+        "practice_four_point_catchball": 108
+      },
+      "recommended_use": "summary_source",
+      "notes": "Strong candidate for future rewritten explanation; avoid long verbatim copying."
+    },
+    {
+      "url": "",
+      "source_id": "manual:catchball-material-001",
+      "canonical_url": "",
+      "title": "2箇所キャッチボール材料メモ",
+      "date": "",
+      "excerpt": "2箇所キャッチボールの準備中カードを整理するための短い材料メモ。\nAmeblo記事本文の転載ではなく、カード化するための観点メモ。\n\n## 2箇所-01 チーム対抗・1分間成功数\n\n### ねらい\n- 捕ってから返すまでのテンポを上げる。\n- チーム内で集中して連続成功を目指す。\n\n### やり方\n- チームごとに分かれて、1分間で何回成功できるかを数える。...",
+      "fetch_status": "manual_note",
+      "classification_status": "classified_from_manual_note",
+      "body_length": 974,
+      "manual_source_path": "data/ameblo/manual_articles/catchball-material-001.md",
+      "source_type": "manual_note",
+      "target_hint": "practice_two_point_catchball",
+      "source_categories": [
+        "指導方法",
+        "ルール",
+        "守備",
+        "走塁"
+      ],
+      "matched_keywords": [
+        {
+          "category": "守備",
+          "keyword": "キャッチボール",
+          "title_hits": 1,
+          "body_hits": 1,
+          "score": 6
+        },
+        {
+          "category": "走塁",
+          "keyword": "スタート",
+          "title_hits": 0,
+          "body_hits": 1,
+          "score": 1
+        },
+        {
+          "category": "ルール",
+          "keyword": "ルール",
+          "title_hits": 0,
+          "body_hits": 2,
+          "score": 2
+        },
+        {
+          "category": "ルール",
+          "keyword": "ランナー",
+          "title_hits": 0,
+          "body_hits": 5,
+          "score": 5
+        },
+        {
+          "category": "指導方法",
+          "keyword": "指導",
+          "title_hits": 0,
+          "body_hits": 5,
+          "score": 5
+        },
+        {
+          "category": "指導方法",
+          "keyword": "見る",
+          "title_hits": 0,
+          "body_hits": 3,
+          "score": 3
+        },
+        {
+          "category": "指導方法",
+          "keyword": "伝える",
+          "title_hits": 0,
+          "body_hits": 1,
+          "score": 1
+        }
+      ],
+      "keyword_match_count": 19,
+      "relevance_score_by_source_category": {
+        "守備": 6,
+        "走塁": 1,
+        "ルール": 7,
+        "指導方法": 9
+      },
+      "target_sections": [
+        "practice_two_point_catchball"
+      ],
+      "relevance_score_by_target_section": {
+        "practice_two_point_catchball": 92
+      },
+      "recommended_use": "summary_source",
+      "notes": "Strong candidate for future rewritten explanation; avoid long verbatim copying."
+    },
+    {
       "url": "https://ameblo.jp/kinegawareds/entry-12555442306.html",
+      "source_id": "manual:entry-12555442306",
       "canonical_url": "https://ameblo.jp/kinegawareds/entry-12555442306.html",
       "title": "手動本文テスト: コーチ心得と練習設計",
       "date": "",
@@ -28,6 +188,7 @@
       "body_length": 108,
       "manual_source_path": "data/ameblo/manual_articles/entry-12555442306.md",
       "source_type": "manual_copy",
+      "target_hint": "",
       "source_categories": [
         "指導方法"
       ],
@@ -105,6 +266,58 @@
       },
       "recommended_use": "reference_link",
       "notes": "Candidate for future visible reference link after owner review."
+    },
+    {
+      "url": "",
+      "source_id": "manual:batting-material-001",
+      "canonical_url": "",
+      "title": "バッティング練習材料メモ",
+      "date": "",
+      "excerpt": "バッティング練習3パターンの準備中カードを整理するための短い材料メモ。\nAmeblo記事本文の転載ではなく、カード化するための観点メモ。\n\n## 打撃-01 パターン① 21名想定・メイン＋ケージ併用\n\n### ねらい\n- 人数が多い日の打撃量を確保しながら、安全にローテーションする。\n\n### やり方\n- メイン打撃とケージを併用する。\n- 待機、打撃、守...",
+      "fetch_status": "manual_note",
+      "classification_status": "classified_from_manual_note",
+      "body_length": 966,
+      "manual_source_path": "data/ameblo/manual_articles/batting-material-001.md",
+      "source_type": "manual_note",
+      "target_hint": "practice_batting",
+      "source_categories": [
+        "指導方法"
+      ],
+      "matched_keywords": [
+        {
+          "category": "指導方法",
+          "keyword": "指導",
+          "title_hits": 0,
+          "body_hits": 1,
+          "score": 1
+        },
+        {
+          "category": "指導方法",
+          "keyword": "コーチ",
+          "title_hits": 0,
+          "body_hits": 3,
+          "score": 3
+        },
+        {
+          "category": "指導方法",
+          "keyword": "見る",
+          "title_hits": 0,
+          "body_hits": 3,
+          "score": 3
+        }
+      ],
+      "keyword_match_count": 7,
+      "relevance_score_by_source_category": {
+        "指導方法": 7
+      },
+      "target_sections": [
+        "practice_batting"
+      ],
+      "relevance_score_by_target_section": {
+        "practice_batting": 60
+      },
+      "recommended_use": "summary_source",
+      "notes": "Strong candidate for future rewritten explanation; avoid long verbatim copying."
     },
     {
       "url": "https://ameblo.jp/kinegawareds/entry-12857620895.html",

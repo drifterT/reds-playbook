@@ -48,7 +48,7 @@ def md_escape(text: str) -> str:
 
 
 def article_link(article: dict) -> str:
-    title = md_escape(article.get("title")) or article.get("url", "Untitled")
+    title = md_escape(article.get("title")) or article.get("url") or article.get("source_id", "Untitled")
     url = article.get("url", "")
     if not url:
         return title
@@ -71,7 +71,7 @@ def relevant_articles(articles: list[dict], section_id: str, limit: int = 8) -> 
         a for a in articles
         if section_id in a.get("target_sections", [])
         and a.get("recommended_use") != "not_use"
-        and a.get("classification_status") in {"classified", "classified_from_manual_body"}
+        and a.get("classification_status") in {"classified", "classified_from_manual_body", "classified_from_manual_note"}
     ]
     chosen.sort(key=lambda a: a.get("relevance_score_by_target_section", {}).get(section_id, 0), reverse=True)
     return chosen[:limit]
@@ -88,7 +88,9 @@ def render_article_bullets(articles: list[dict], section_id: str) -> list[str]:
         kws = keywords(article)
         lines.extend([
             f"- {article_link(article)}",
-            f"  - URL: {article.get('url', '')}",
+            f"  - URL: {article.get('url') or 'not applicable'}",
+            f"  - Source ID: {article.get('source_id') or 'not applicable'}",
+            f"  - Manual source path: {article.get('manual_source_path') or 'not applicable'}",
             f"  - Canonical URL: {article.get('canonical_url') or 'not captured'}",
             f"  - Date: {article.get('date') or 'not captured'}",
             f"  - Source categories: {', '.join(article.get('source_categories', [])) or 'none'}",
@@ -105,7 +107,7 @@ def render_section(section_id: str, group: str, label: str, purpose: str, articl
         f"### {label}",
         "",
         f"- Current purpose: {purpose}",
-        "- Related Ameblo articles:",
+        "- Related source materials:",
         *render_article_bullets(related, section_id),
         "- Concepts to extract:",
         "  - Keep only practical concepts that help coaches and parents understand the section.",
@@ -144,7 +146,8 @@ def main() -> int:
     pending_count = status_counts.get("pending", 0)
     fetched_count = status_counts.get("fetched", 0) + status_counts.get("cached", 0)
     manual_count = status_counts.get("manual_body_added", 0)
-    no_body = [article for article in articles if article.get("classification_status") not in {"classified", "classified_from_manual_body"}]
+    manual_note_count = status_counts.get("manual_note", 0)
+    no_body = [article for article in articles if article.get("classification_status") not in {"classified", "classified_from_manual_body", "classified_from_manual_note"}]
 
     high_priority = [
         article for article in articles
@@ -169,6 +172,7 @@ def main() -> int:
         f"- Discovered URL count: {len(discovered) or fetch_log.get('discovered_count', 0)}",
         f"- Fetched article count: {fetched_count or fetch_log.get('fetched_count', len(articles_raw))}",
         f"- Manual body added count: {manual_count}",
+        f"- Manual note count: {manual_note_count}",
         f"- Blocked by robots count: {blocked_count}",
         f"- Pending manual input count: {pending_count}",
         f"- Number of articles indexed: {index.get('article_count', len(articles))}",
@@ -194,7 +198,9 @@ def main() -> int:
         for article in high_priority:
             lines.extend([
                 f"- {article_link(article)}",
-                f"  - URL: {article.get('url', '')}",
+                f"  - URL: {article.get('url') or 'not applicable'}",
+                f"  - Source ID: {article.get('source_id') or 'not applicable'}",
+                f"  - Manual source path: {article.get('manual_source_path') or 'not applicable'}",
                 f"  - Canonical URL: {article.get('canonical_url') or 'not captured'}",
                 f"  - Date: {article.get('date') or 'not captured'}",
                 f"  - Matched keywords: {', '.join(keywords(article)) or 'none'}",
@@ -213,7 +219,7 @@ def main() -> int:
     if no_body:
         for article in no_body:
             lines.extend([
-                f"- [{article.get('url')}]({article.get('url')})",
+                f"- [{article.get('url') or article.get('source_id')}]({article.get('url') or article.get('source_id')})",
                 f"  - Fetch status: {article.get('fetch_status')}",
                 f"  - Classification status: {article.get('classification_status')}",
                 f"  - Notes: {article.get('notes')}",
