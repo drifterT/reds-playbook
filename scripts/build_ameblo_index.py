@@ -90,21 +90,26 @@ def parse_manual_article(path: Path) -> dict | None:
                     key, value = line.split(":", 1)
                     metadata[key.strip()] = value.strip()
     url = metadata.get("url", "")
-    if not ARTICLE_RE.fullmatch(url):
+    if url and not ARTICLE_RE.fullmatch(url):
         return None
     body = body.strip()
+    source_type = metadata.get("source_type") or "manual_copy"
+    is_note = source_type == "manual_note"
+    source_id = metadata.get("source_id") or f"manual:{path.stem}"
     return {
         "url": url,
-        "canonical_url": metadata.get("canonical_url") or url,
-        "title": metadata.get("title") or "",
+        "source_id": source_id,
+        "canonical_url": metadata.get("canonical_url") or (url if url else ""),
+        "title": metadata.get("title") or path.stem,
         "date": metadata.get("date") or "",
         "body_text": body,
         "body_excerpt": body[:180] + ("..." if len(body) > 180 else ""),
         "source_html_path": str(path),
-        "fetch_status": "manual_body_added",
-        "classification_status": "classified_from_manual_body",
+        "fetch_status": "manual_note" if is_note else "manual_body_added",
+        "classification_status": "classified_from_manual_note" if is_note else "classified_from_manual_body",
         "manual_source_path": str(path),
-        "source_type": metadata.get("source_type") or "manual_copy",
+        "source_type": source_type,
+        "target_hint": metadata.get("target_hint") or "",
     }
 
 
@@ -178,6 +183,9 @@ def score_targets(article: dict, source_scores_by_id: dict[str, int], matched_ke
 
     if not scores:
         scores["other"] = 1 if keyword_set else 0
+    target_hint = article.get("target_hint", "")
+    if target_hint in TARGET_SECTIONS:
+        scores[target_hint] += 50
     return dict(sorted(scores.items(), key=lambda item: item[1], reverse=True))
 
 
@@ -263,12 +271,17 @@ def main() -> int:
         source_categories, source_scores_by_label, matched_keywords, keyword_match_count = classify_source_categories(article, taxonomy)
         source_scores_by_id = {label_to_id[label]: score for label, score in source_scores_by_label.items() if label in label_to_id}
         target_scores = score_targets(article, source_scores_by_id, matched_keywords)
+        if article.get("source_type") == "manual_note" and article.get("target_hint") in TARGET_SECTIONS:
+            target_hint = article["target_hint"]
+            target_scores = {target_hint: target_scores.get(target_hint, 50)}
         target_sections = [name for name, score in target_scores.items() if score > 0]
         if not target_sections:
             target_sections = ["other"]
         use = recommended_use(target_scores, source_scores_by_label, article)
-        indexed_by_url[article.get("url", "")] = {
+        record_key = article.get("url") or article.get("source_id", "")
+        indexed_by_url[record_key] = {
             "url": article.get("url", ""),
+            "source_id": article.get("source_id", ""),
             "canonical_url": article.get("canonical_url", ""),
             "title": article.get("title", ""),
             "date": article.get("date", ""),
@@ -278,6 +291,7 @@ def main() -> int:
             "body_length": len(article.get("body_text", "")),
             "manual_source_path": article.get("manual_source_path", ""),
             "source_type": article.get("source_type", ""),
+            "target_hint": article.get("target_hint", ""),
             "source_categories": source_categories,
             "matched_keywords": matched_keywords,
             "keyword_match_count": keyword_match_count,
@@ -288,7 +302,7 @@ def main() -> int:
             "notes": notes_for(use, target_scores),
         }
 
-    indexed = [record for record in indexed_by_url.values() if record.get("url")]
+    indexed = [record for record in indexed_by_url.values() if record.get("url") or record.get("source_id")]
     indexed.sort(key=lambda item: max(item["relevance_score_by_target_section"].values() or [0]), reverse=True)
     status_counts = defaultdict(int)
     for item in indexed:

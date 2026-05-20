@@ -13,10 +13,11 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 - Discovered URL count: 3
 - Fetched article count: 0
 - Manual body added count: 1
+- Manual note count: 3
 - Blocked by robots count: 2
 - Pending manual input count: 0
-- Number of articles indexed: 3
-- Generation timestamp: 2026-05-20T06:32:32Z
+- Number of articles indexed: 6
+- Generation timestamp: 2026-05-20T07:40:31Z
 - Fetch blockers or limitations: 3 failed/skipped URLs logged in `data/ameblo/failed_urls.json`.
 
 ## 方針・心得
@@ -24,9 +25,11 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 ### コーチ心得
 
 - Current purpose: Practice and coaching principles for adults.
-- Related Ameblo articles:
+- Related source materials:
 - [手動本文テスト: コーチ心得と練習設計](https://ameblo.jp/kinegawareds/entry-12555442306.html)
   - URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
+  - Source ID: manual:entry-12555442306
+  - Manual source path: data/ameblo/manual_articles/entry-12555442306.md
   - Canonical URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
   - Date: not captured
   - Source categories: 指導方法
@@ -43,7 +46,7 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 ### 選手心得
 
 - Current purpose: Player behavior and mindset guidance.
-- Related Ameblo articles:
+- Related source materials:
 - Direct article support is weak or not fetched yet.
 - Treat current site notes as owner-provided content and mark detailed expansion as 要確認.
 - Concepts to extract:
@@ -56,9 +59,11 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 ### コーチ配置
 
 - Current purpose: Operational assignment of coaches. Treat current notes as owner-provided policy.
-- Related Ameblo articles:
+- Related source materials:
 - [手動本文テスト: コーチ心得と練習設計](https://ameblo.jp/kinegawareds/entry-12555442306.html)
   - URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
+  - Source ID: manual:entry-12555442306
+  - Manual source path: data/ameblo/manual_articles/entry-12555442306.md
   - Canonical URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
   - Date: not captured
   - Source categories: 指導方法
@@ -77,9 +82,11 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 ### 練習の流れ
 
 - Current purpose: Standard sequence and rationale for practice blocks.
-- Related Ameblo articles:
+- Related source materials:
 - [手動本文テスト: コーチ心得と練習設計](https://ameblo.jp/kinegawareds/entry-12555442306.html)
   - URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
+  - Source ID: manual:entry-12555442306
+  - Manual source path: data/ameblo/manual_articles/entry-12555442306.md
   - Canonical URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
   - Date: not captured
   - Source categories: 指導方法
@@ -96,7 +103,7 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 ### アップ
 
 - Current purpose: Warmup, movement foundation, throwing foundation, and body preparation.
-- Related Ameblo articles:
+- Related source materials:
 - Direct article support is weak or not fetched yet.
 - Treat current site notes as owner-provided content and mark detailed expansion as 要確認.
 - Concepts to extract:
@@ -109,9 +116,17 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 ### 2箇所キャッチボール
 
 - Current purpose: Catchball structure and quick catch-to-throw repetitions.
-- Related Ameblo articles:
-- Direct article support is weak or not fetched yet.
-- Treat current site notes as owner-provided content and mark detailed expansion as 要確認.
+- Related source materials:
+- 2箇所キャッチボール材料メモ
+  - URL: not applicable
+  - Source ID: manual:catchball-material-001
+  - Manual source path: data/ameblo/manual_articles/catchball-material-001.md
+  - Canonical URL: not captured
+  - Date: not captured
+  - Source categories: 指導方法, ルール, 守備, 走塁
+  - Matched keywords: キャッチボール, スタート, ルール, ランナー, 指導, 見る, 伝える
+  - Use: summary_source
+  - How to reflect in site: summarize concepts in practical Japanese after owner review; keep the source URL for possible 参考記事 links.
 - Concepts to extract:
   - Keep only practical concepts that help coaches and parents understand the section.
   - Do not copy long text verbatim.
@@ -122,9 +137,17 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 ### 4箇所キャッチボール
 
 - Current purpose: Four-station throw/catch structure and multi-ball decision practice.
-- Related Ameblo articles:
-- Direct article support is weak or not fetched yet.
-- Treat current site notes as owner-provided content and mark detailed expansion as 要確認.
+- Related source materials:
+- 4箇所キャッチボール材料メモ
+  - URL: not applicable
+  - Source ID: manual:four-place-material-001
+  - Manual source path: data/ameblo/manual_articles/four-place-material-001.md
+  - Canonical URL: not captured
+  - Date: not captured
+  - Source categories: 守備, 指導方法, ルール, 戦術、戦略
+  - Matched keywords: キャッチボール, ルール, 状況判断, 見る
+  - Use: summary_source
+  - How to reflect in site: summarize concepts in practical Japanese after owner review; keep the source URL for possible 参考記事 links.
 - Concepts to extract:
   - Keep only practical concepts that help coaches and parents understand the section.
   - Do not copy long text verbatim.
@@ -135,9 +158,17 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 ### バッティング練習
 
 - Current purpose: Batting practice structure and related hitting concepts.
-- Related Ameblo articles:
-- Direct article support is weak or not fetched yet.
-- Treat current site notes as owner-provided content and mark detailed expansion as 要確認.
+- Related source materials:
+- バッティング練習材料メモ
+  - URL: not applicable
+  - Source ID: manual:batting-material-001
+  - Manual source path: data/ameblo/manual_articles/batting-material-001.md
+  - Canonical URL: not captured
+  - Date: not captured
+  - Source categories: 指導方法
+  - Matched keywords: 指導, コーチ, 見る
+  - Use: summary_source
+  - How to reflect in site: summarize concepts in practical Japanese after owner review; keep the source URL for possible 参考記事 links.
 - Concepts to extract:
   - Keep only practical concepts that help coaches and parents understand the section.
   - Do not copy long text verbatim.
@@ -149,6 +180,8 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 
 - [手動本文テスト: コーチ心得と練習設計](https://ameblo.jp/kinegawareds/entry-12555442306.html)
   - URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
+  - Source ID: manual:entry-12555442306
+  - Manual source path: data/ameblo/manual_articles/entry-12555442306.md
   - Canonical URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
   - Date: not captured
   - Matched keywords: 指導, コーチ, 見る, 伝える, 練習設計, 評価, 原因を見る, 目的を伝える
