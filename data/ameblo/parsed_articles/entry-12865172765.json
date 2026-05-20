@@ -1,0 +1,43 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12865172765.html",
+  "entry_id": "entry-12865172765",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『阪神甲子園球場生誕100周年記念大会』",
+  "published_at": "2024-09-05",
+  "fetched_at": "2026-05-20T14:42:19Z",
+  "status": "fetched",
+  "text_length": 1033,
+  "content_excerpt_for_review": "阪神甲子園球場生誕100周年記念大会 | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） ホーム ピグ アメブロ 芸能人ブログ 人気ブログ 新規登録 ログイン 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） 公式ブログ...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 1
+    },
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 1
+    },
+    {
+      "category": "戦術、戦略",
+      "keyword": "戦術",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "低反発バットになって",
+    "戦術的な事が変化するか？等々",
+    "ランナーをアウトにする事"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー / バット / 戦術",
+  "raw_path": "data/ameblo/raw_articles/entry-12865172765.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12865172765.json",
+  "content_hash": "41c9471d4c8979124ed872f11468bceda913e2347cd674c6b63137beb32b3802",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,122 @@
+[
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12840590860.html",
+    "theme_id": "reds_baseball",
+    "theme_label": "木根川レッズ野球編",
+    "status": "fetched",
+    "first_seen_at": "2026-05-20T14:41:53Z",
+    "last_attempt_at": "2026-05-20T14:42:09Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12840590860.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12840590860.json",
+    "error": null
+  },
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12847046140.html",
+    "theme_id": "reds_baseball",
+    "theme_label": "木根川レッズ野球編",
+    "status": "fetched",
+    "first_seen_at": "2026-05-20T14:41:53Z",
+    "last_attempt_at": "2026-05-20T14:42:12Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12847046140.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12847046140.json",
+    "error": null
+  },
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12860102703.html",
+    "theme_id": "reds_baseball",
+    "theme_label": "木根川レッズ野球編",
+    "status": "fetched",
+    "first_seen_at": "2026-05-20T14:41:53Z",
+    "last_attempt_at": "2026-05-20T14:42:15Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12860102703.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12860102703.json",
+    "error": null
+  },
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12865172765.html",
+    "theme_id": "reds_baseball",
+    "theme_label": "木根川レッズ野球編",
+    "status": "fetched",
+    "first_seen_at": "2026-05-20T14:41:53Z",
+    "last_attempt_at": "2026-05-20T14:42:19Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12865172765.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12865172765.json",
+    "error": null
+  },
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12865401621.html",
+    "theme_id": "reds_baseball",
+    "theme_label": "木根川レッズ野球編",
+    "status": "fetched",
+    "first_seen_at": "2026-05-20T14:41:53Z",
+    "last_attempt_at": "2026-05-20T14:42:22Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12865401621.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12865401621.json",
+    "error": null
+  },
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12866064969.html",
+    "theme_id": "reds_baseball",
+    "theme_label": "木根川レッズ野球編",
+    "status": "fetched",
+    "first_seen_at": "2026-05-20T14:41:53Z",
+    "last_attempt_at": "2026-05-20T14:42:24Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12866064969.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12866064969.json",
+    "error": null
+  },
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12866166661.html",
+    "theme_id": "reds_baseball",
+    "theme_label": "木根川レッズ野球編",
+    "status": "fetched",
+    "first_seen_at": "2026-05-20T14:41:53Z",
+    "last_attempt_at": "2026-05-20T14:42:27Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12866166661.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12866166661.json",
+    "error": null
+  },
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12881874075.html",
+    "theme_id": "reds_baseball",
+    "theme_label": "木根川レッズ野球編",
+    "status": "fetched",
+    "first_seen_at": "2026-05-20T14:41:53Z",
+    "last_attempt_at": "2026-05-20T14:42:30Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12881874075.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12881874075.json",
+    "error": null
+  },
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12882815632.html",
+    "theme_id": "reds_baseball",
+    "theme_label": "木根川レッズ野球編",
+    "status": "fetched",
+    "first_seen_at": "2026-05-20T14:41:53Z",
+    "last_attempt_at": "2026-05-20T14:42:33Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12882815632.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12882815632.json",
+    "error": null
+  },
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12883527925.html",
+    "theme_id": "reds_baseball",
+    "theme_label": "木根川レッズ野球編",
+    "status": "fetched",
+    "first_seen_at": "2026-05-20T14:41:53Z",
+    "last_attempt_at": "2026-05-20T14:42:36Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12883527925.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12883527925.json",
+    "error": null
+  }
+]

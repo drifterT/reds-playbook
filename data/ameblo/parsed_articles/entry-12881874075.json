@@ -1,0 +1,53 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12881874075.html",
+  "entry_id": "entry-12881874075",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『ツーランタッチアップ？』",
+  "published_at": "2025-01-30",
+  "fetched_at": "2026-05-20T14:42:30Z",
+  "status": "fetched",
+  "text_length": 1255,
+  "content_excerpt_for_review": "ツーランタッチアップ？ | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） ホーム ピグ アメブロ 芸能人ブログ 人気ブログ 新規登録 ログイン 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） 公式ブログ ブログトップ...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 4
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 4
+    },
+    {
+      "category": "守備",
+      "keyword": "キャッチボール",
+      "count": 1
+    },
+    {
+      "category": "走塁",
+      "keyword": "スライディング",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "ランナーは迷わずホームへ向かう",
+    "カットマンは無駄なキャッチボールせずに",
+    "ランナーを目視（牽制）しながら",
+    "持って行くように指導するかな",
+    "ランナーに関しては",
+    "スライディングした後に",
+    "ナイスランナーだったのかな？",
+    "選手を叱るような指導者も"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー / 指導 / キャッチボール / スライディング",
+  "raw_path": "data/ameblo/raw_articles/entry-12881874075.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12881874075.json",
+  "content_hash": "d7f4a80edb418aecf2551a0b02c95814bcef5251901f013c8d2d1e377808286c",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

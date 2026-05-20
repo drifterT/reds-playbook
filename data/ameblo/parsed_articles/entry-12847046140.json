@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12847046140.html",
+  "entry_id": "entry-12847046140",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『カット2ま〜い！！』",
+  "published_at": "2024-08-09",
+  "fetched_at": "2026-05-20T14:42:12Z",
+  "status": "fetched",
+  "text_length": 695,
+  "content_excerpt_for_review": "カット2ま〜い！！ | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） ホーム ピグ アメブロ 芸能人ブログ 人気ブログ 新規登録 ログイン 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） 公式ブログ ブログトップ カッ...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "バッターランナーの"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー",
+  "raw_path": "data/ameblo/raw_articles/entry-12847046140.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12847046140.json",
+  "content_hash": "4c3b372a3a1af323da00fc9ec917c0ea1e72f93dd72d34435ca73a251ed8b67e",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

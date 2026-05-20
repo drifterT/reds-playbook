@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12865401621.html",
+  "entry_id": "entry-12865401621",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『キャッチャーのバックアップからの・・・応用』",
+  "published_at": "2024-09-15",
+  "fetched_at": "2026-05-20T14:42:22Z",
+  "status": "fetched",
+  "text_length": 602,
+  "content_excerpt_for_review": "キャッチャーのバックアップからの・・・応用 | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） ホーム ピグ アメブロ 芸能人ブログ 人気ブログ 新規登録 ログイン 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） 公式ブ...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "キャッチボール",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "キャッチボールの精度ってとこに"
+  ],
+  "summary_for_internal_review": "検出キーワード: キャッチボール",
+  "raw_path": "data/ameblo/raw_articles/entry-12865401621.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12865401621.json",
+  "content_hash": "57ec5a6159387f6d29a2bdfe7b22d055e8479e832bd95ff2d3446d9691dbbc60",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
