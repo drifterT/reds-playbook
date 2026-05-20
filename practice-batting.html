@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#1b2a3d">
-  <meta name="description" content="人数、大人の配置、安全管理に応じた打撃練習パターン。">
+  <meta name="description" content="安全管理、守備側の1プレー完了、待機選手の動き、打つボールの段階をそろえて運用するバッティング練習ページ。">
   <title>バッティング練習｜木根川レッズ</title>
   <script src="guard.js"></script>
   <style>
@@ -65,42 +65,94 @@
     </nav>
 
     <h1>バッティング練習</h1>
-    <p class="lead">人数、大人の配置、安全管理に応じた打撃練習パターン。</p>
+    <p class="lead">バッティング練習は、球数を確保するだけでなく、安全管理、守備側の1プレー完了、待機選手の動き、打つボールの段階をそろえて運用する。</p>
+
+    <nav class="page-nav" aria-label="ページ内ナビゲーション">
+      <a href="#batting-guidance">バッティング練習心得</a>
+      <a href="#batting-01">パターン① 21名想定</a>
+      <a href="#batting-02">パターン② 20名想定・半分打撃</a>
+      <a href="#batting-03">パターン③ 球数重視</a>
+    </nav>
+
+    <section class="panel" id="batting-guidance">
+      <div class="section-head">
+        <h2>バッティング練習心得</h2>
+      </div>
+      <p class="section-intro">球数を増やすことと、安全管理を薄くしないことを両立する。守備をつける場合は、守備側の1プレー完了までを練習として見る。</p>
+      <div class="card-list">
+        <article class="drill">
+          <div class="drill-title"><h3>ねらい</h3></div>
+          <div class="card-fields">
+            <div class="field">安全を確保した上で、できるだけ多く打つ機会を作る。</div>
+            <div class="field">選手ごとの段階に合わせて、打つボールの速さや種類を選ぶ。</div>
+            <div class="field">守備をつける場合は、守備側の1プレーを最後まで行わせる。</div>
+          </div>
+        </article>
+        <article class="drill">
+          <div class="drill-title"><h3>運用ルール</h3></div>
+          <div class="card-fields">
+            <div class="field">守備をつけて行う場合は、守備の1プレーが終わるまで次の球を投げない。</div>
+            <div class="field">安全確保とルールの明確化はコーチの役目とする。</div>
+            <div class="field">数を打たせることも重要なので、サンドボール、シャトル打ち等を混ぜて効率化する。</div>
+            <div class="field">形を問わず、1日に1人100球程度を打たせることを理想とする。ただし球数を増やす場合も、安全管理を薄くしない。</div>
+          </div>
+        </article>
+        <article class="drill">
+          <div class="drill-title"><h3>打つボールの段階</h3></div>
+          <div class="card-fields">
+            <div class="field"><strong>1.</strong> 力強いスイングができる</div>
+            <div class="field"><strong>2.</strong> 遅いボールが打てる</div>
+            <div class="field"><strong>3.</strong> 速いボールが打てる</div>
+            <div class="field"><strong>4.</strong> 速度に関係なく打てる</div>
+            <div class="field">速いボールを打つ練習も入れる。ただし、遅いボールが打てていない選手に速いボールばかり投げることは避ける。</div>
+          </div>
+        </article>
+        <article class="drill">
+          <div class="drill-title"><h3>選手バッピについて</h3></div>
+          <div class="card-fields">
+            <div class="field">安全を確保した上で、ある程度制球できる選手にバッティングピッチャーを任せることは可。</div>
+            <div class="field">正規距離で投げる場合は、投手として目的を持たせる。単に打たせる役にしない。</div>
+            <div class="field">または、12m程度の距離からキャッチボール投げで投げさせる。</div>
+            <div class="field">いずれの場合も、安全管理とコーチの確認を前提とする。</div>
+          </div>
+        </article>
+      </div>
+    </section>
 
     <section class="panel" id="batting">
       <div class="section-head">
         <h2>バッティング練習</h2>
       </div>
-      <p class="section-intro">バッティング構成カードは、技術指導の細部ではなく、練習方法・コーチ配置・場所の可視化を中心に整理する。人数と大人の数に合わせてパターンを選ぶ。</p>
+      <p class="section-intro">技術指導の細部ではなく、練習方法・コーチ配置・場所の可視化を中心に整理する。人数と大人の数に合わせてパターンを選ぶ。</p>
       <div class="card-list">
         <article class="drill" id="batting-01">
           <div class="drill-title"><h3>打撃-01 パターン① 21名想定・メイン＋ケージ併用</h3><span class="pill confirm">要確認</span></div>
           <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>人数が多い日に、メイン打撃とケージを併用して打撃量を確保する。</div>
-            <div class="field"><strong>やり方：</strong>打席、待機、守備または補助に分け、ローテーション順を決めて回す。</div>
-            <div class="field"><strong>設定：</strong>想定21名。配置図、ローテーション、大人の必要人数は要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>待ち時間、打席周辺の安全、メイン側とケージ側の担当。</div>
-            <div class="field"><strong>要確認：</strong>ケージ側の担当、打球方向、立入禁止エリア。</div>
+            <div class="field"><strong>ねらい：</strong>21名程度で、メイン打撃とケージ打撃を併用し、守備つき打撃と補助打撃を並行して打撃量を確保する。</div>
+            <div class="field"><strong>やり方：</strong>7名×3グループを想定。メインは守備7名と打者7名で行い、守備側は内1名をキャッチャー、打者側はコーチャーも行う。1ストライクから開始し、打ったら走る。ランナーは残り、盗塁なしの第二リードとする。ケージ側ではサンドボール2箇所または1箇所、シャトル1箇所を行う。</div>
+            <div class="field"><strong>設定：</strong>想定21名、7名×3グループ。大人は計5名（メインバッピ、メイン守備管理、サンドボールバッピ2名、シャトルバッピ1名）。巡数は2巡〜3巡。</div>
+            <div class="field"><strong>見るポイント：</strong>守備の1プレー完了前に次の球を投げていないか。打者、走者、守備、コーチャーの動線が重なっていないか。ケージ側にも大人の目が届いているか。</div>
+            <div class="field"><strong>要確認：</strong>配置図、グループの回し方、サンドボールを2箇所にするか1箇所にするか、ランナー残りの扱い、第二リードの細かいルール。</div>
           </div>
         </article>
         <article class="drill" id="batting-02">
           <div class="drill-title"><h3>打撃-02 パターン② 20名想定・打撃と別メニュー半々</h3><span class="pill confirm">要確認</span></div>
           <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>打撃待ちを減らし、別メニュー側も練習量を確保する。</div>
-            <div class="field"><strong>やり方：</strong>打撃グループと別メニューグループに分け、一定時間または巡数で交代する。</div>
-            <div class="field"><strong>設定：</strong>想定20名。別メニュー内容と交代条件は要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>両グループにコーチの目が届いているか。移動で時間を失っていないか。</div>
-            <div class="field"><strong>要確認：</strong>別メニュー側の担当、移動導線、安全管理担当。</div>
+            <div class="field"><strong>ねらい：</strong>20名程度で、半分打撃、半分別メニューに分け、打撃待ちを減らしながら全員が動く時間を増やす。</div>
+            <div class="field"><strong>やり方：</strong>5名×4グループを想定。10名がバッティング練習を行い、守備とバッティングを交互に行う。残り10名は空きスペースで別メニューを行い、一定時間または巡数で交代する。</div>
+            <div class="field"><strong>設定：</strong>想定20名、5名×4グループ。大人は計4名（バッピ、守備管理、別メニューグループA担当、別メニューグループB担当）。打撃側10名、別メニュー側10名。</div>
+            <div class="field"><strong>見るポイント：</strong>別メニュー側がただの待機になっていないか。両方にコーチの目が届いているか。グループ交代時の移動導線が安全か。守備側の1プレー完了後に次の球を投げているか。</div>
+            <div class="field"><strong>要確認：</strong>別メニューの具体内容、交代条件、移動導線、打撃側と別メニュー側の場所、守備管理担当の立ち位置。</div>
           </div>
         </article>
         <article class="drill" id="batting-03">
           <div class="drill-title"><h3>打撃-03 パターン③ 球数重視・大人6名</h3><span class="pill confirm">要確認</span></div>
           <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>大人6名を確保できる日に、球数を増やして打撃経験を確保する。</div>
-            <div class="field"><strong>やり方：</strong>打席補助、トスまたはマシン、安全管理、球拾い、待機選手管理を分担する。</div>
-            <div class="field"><strong>設定：</strong>大人6名。球数、打席数、球拾い配置、待機場所は要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>球数を増やしても安全管理が薄くなっていないか。</div>
-            <div class="field"><strong>要確認：</strong>大人6名の役割表、安全担当、待機場所。</div>
+            <div class="field"><strong>ねらい：</strong>大人6名を確保できる日に、サンドボール、シャトル、テニスボール、ソフトボール等を組み合わせ、効率よく打つ量を増やす。</div>
+            <div class="field"><strong>やり方：</strong>10名×2グループを想定。片方は打撃、もう片方は別メニューを行う。打撃側では複数の打撃ステーションを並行し、一定時間または球数で交代する。</div>
+            <div class="field"><strong>設定：</strong>想定20名、10名×2グループ。大人は計6名（バッピ5名、別メニューグループ担当1名）。打撃ステーションはサンドボール2箇所、シャトル1箇所、テニスボール1箇所、ソフトボール1箇所。</div>
+            <div class="field"><strong>見るポイント：</strong>球数を増やしても安全管理が薄くなっていないか。各ステーションの打球方向と待機場所が整理されているか。選手の段階に合ったボール・速さで打たせているか。</div>
+            <div class="field"><strong>要確認：</strong>1人あたりの球数、各ステーションの配置、交代条件、打球方向、立入禁止エリア、別メニュー内容、大人6名の具体配置。</div>
           </div>
         </article>
       </div>
