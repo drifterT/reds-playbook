@@ -29,6 +29,6 @@ The site is deployable directly from the repository root with GitHub Pages.
 ## Access gate
 
 This site uses a lightweight client-side access gate for casual viewing control.
-Before publishing with a real access code, open `tools/hash-passcode.html`, generate a SHA-256 hash, and replace `PASSCODE_HASH_PLACEHOLDER` in `auth.js` with that hash.
+To rotate the access code, open `tools/hash-passcode.html`, generate a SHA-256 hash, and replace `ALLOWED_PASSCODE_HASH` in `auth.js` with that hash.
 
 Do not commit the raw access code.
