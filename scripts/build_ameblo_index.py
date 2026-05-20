@@ -77,6 +77,49 @@ def write_json(path: Path, data) -> None:
     path.write_text(json.dumps(data, ensure_ascii=False, indent=2) + "\n", encoding="utf-8")
 
 
+def parse_manual_article(path: Path) -> dict | None:
+    text = path.read_text(encoding="utf-8", errors="replace")
+    metadata = {}
+    body = text
+    if text.startswith("---"):
+        parts = text.split("---", 2)
+        if len(parts) == 3:
+            _, raw_meta, body = parts
+            for line in raw_meta.splitlines():
+                if ":" in line:
+                    key, value = line.split(":", 1)
+                    metadata[key.strip()] = value.strip()
+    url = metadata.get("url", "")
+    if not ARTICLE_RE.fullmatch(url):
+        return None
+    body = body.strip()
+    return {
+        "url": url,
+        "canonical_url": metadata.get("canonical_url") or url,
+        "title": metadata.get("title") or "",
+        "date": metadata.get("date") or "",
+        "body_text": body,
+        "body_excerpt": body[:180] + ("..." if len(body) > 180 else ""),
+        "source_html_path": str(path),
+        "fetch_status": "manual_body_added",
+        "classification_status": "classified_from_manual_body",
+        "manual_source_path": str(path),
+        "source_type": metadata.get("source_type") or "manual_copy",
+    }
+
+
+def load_manual_articles(path: Path) -> list[dict]:
+    path.mkdir(parents=True, exist_ok=True)
+    articles = []
+    for file_path in sorted(path.glob("*")):
+        if file_path.suffix.lower() not in {".md", ".txt"}:
+            continue
+        article = parse_manual_article(file_path)
+        if article:
+            articles.append(article)
+    return articles
+
+
 def count_keyword(text: str, keyword: str, cap: int = 5) -> int:
     if not keyword:
         return 0
@@ -188,11 +231,13 @@ def main() -> int:
     parser.add_argument("--input", default="data/ameblo/articles.json")
     parser.add_argument("--discovered", default="data/ameblo/discovered_urls.json")
     parser.add_argument("--failed", default="data/ameblo/failed_urls.json")
+    parser.add_argument("--manual-articles", default="data/ameblo/manual_articles")
     parser.add_argument("--taxonomy", default="data/ameblo/keyword_taxonomy.json")
     parser.add_argument("--output", default="data/ameblo/article_index.json")
     args = parser.parse_args()
 
     articles = read_json(Path(args.input), [])
+    manual_articles = load_manual_articles(Path(args.manual_articles))
     discovered = read_json(Path(args.discovered), [])
     failed = read_json(Path(args.failed), [])
     taxonomy = read_json(Path(args.taxonomy), {"categories": []})
@@ -214,7 +259,7 @@ def main() -> int:
             note = "robots.txt により本文取得不可。URLは手動確認候補として保持。"
         indexed_by_url[url] = empty_index_record(url, status, note)
 
-    for article in articles:
+    for article in articles + manual_articles:
         source_categories, source_scores_by_label, matched_keywords, keyword_match_count = classify_source_categories(article, taxonomy)
         source_scores_by_id = {label_to_id[label]: score for label, score in source_scores_by_label.items() if label in label_to_id}
         target_scores = score_targets(article, source_scores_by_id, matched_keywords)
@@ -229,8 +274,10 @@ def main() -> int:
             "date": article.get("date", ""),
             "excerpt": article.get("body_excerpt", ""),
             "fetch_status": article.get("fetch_status", "fetched"),
-            "classification_status": "classified",
+            "classification_status": article.get("classification_status", "classified"),
             "body_length": len(article.get("body_text", "")),
+            "manual_source_path": article.get("manual_source_path", ""),
+            "source_type": article.get("source_type", ""),
             "source_categories": source_categories,
             "matched_keywords": matched_keywords,
             "keyword_match_count": keyword_match_count,

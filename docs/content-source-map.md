@@ -12,10 +12,11 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 
 - Discovered URL count: 3
 - Fetched article count: 0
-- Blocked by robots count: 3
+- Manual body added count: 1
+- Blocked by robots count: 2
 - Pending manual input count: 0
 - Number of articles indexed: 3
-- Generation timestamp: 2026-05-20T06:24:54Z
+- Generation timestamp: 2026-05-20T06:32:32Z
 - Fetch blockers or limitations: 3 failed/skipped URLs logged in `data/ameblo/failed_urls.json`.
 
 ## 方針・心得
@@ -24,8 +25,14 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 
 - Current purpose: Practice and coaching principles for adults.
 - Related Ameblo articles:
-- Direct article support is weak or not fetched yet.
-- Treat current site notes as owner-provided content and mark detailed expansion as 要確認.
+- [手動本文テスト: コーチ心得と練習設計](https://ameblo.jp/kinegawareds/entry-12555442306.html)
+  - URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
+  - Canonical URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
+  - Date: not captured
+  - Source categories: 指導方法
+  - Matched keywords: 指導, コーチ, 見る, 伝える, 練習設計, 評価, 原因を見る, 目的を伝える
+  - Use: reference_link
+  - How to reflect in site: summarize concepts in practical Japanese after owner review; keep the source URL for possible 参考記事 links.
 - Concepts to extract:
   - Keep only practical concepts that help coaches and parents understand the section.
   - Do not copy long text verbatim.
@@ -50,8 +57,14 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 
 - Current purpose: Operational assignment of coaches. Treat current notes as owner-provided policy.
 - Related Ameblo articles:
-- Direct article support is weak or not fetched yet.
-- Treat current site notes as owner-provided content and mark detailed expansion as 要確認.
+- [手動本文テスト: コーチ心得と練習設計](https://ameblo.jp/kinegawareds/entry-12555442306.html)
+  - URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
+  - Canonical URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
+  - Date: not captured
+  - Source categories: 指導方法
+  - Matched keywords: 指導, コーチ, 見る, 伝える, 練習設計, 評価, 原因を見る, 目的を伝える
+  - Use: reference_link
+  - How to reflect in site: summarize concepts in practical Japanese after owner review; keep the source URL for possible 参考記事 links.
 - Concepts to extract:
   - Keep only practical concepts that help coaches and parents understand the section.
   - Do not copy long text verbatim.
@@ -65,8 +78,14 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 
 - Current purpose: Standard sequence and rationale for practice blocks.
 - Related Ameblo articles:
-- Direct article support is weak or not fetched yet.
-- Treat current site notes as owner-provided content and mark detailed expansion as 要確認.
+- [手動本文テスト: コーチ心得と練習設計](https://ameblo.jp/kinegawareds/entry-12555442306.html)
+  - URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
+  - Canonical URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
+  - Date: not captured
+  - Source categories: 指導方法
+  - Matched keywords: 指導, コーチ, 見る, 伝える, 練習設計, 評価, 原因を見る, 目的を伝える
+  - Use: reference_link
+  - How to reflect in site: summarize concepts in practical Japanese after owner review; keep the source URL for possible 参考記事 links.
 - Concepts to extract:
   - Keep only practical concepts that help coaches and parents understand the section.
   - Do not copy long text verbatim.
@@ -128,14 +147,17 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 
 ## High-priority Articles
 
-- No high-priority articles identified yet.
+- [手動本文テスト: コーチ心得と練習設計](https://ameblo.jp/kinegawareds/entry-12555442306.html)
+  - URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
+  - Canonical URL: https://ameblo.jp/kinegawareds/entry-12555442306.html
+  - Date: not captured
+  - Matched keywords: 指導, コーチ, 見る, 伝える, 練習設計, 評価, 原因を見る, 目的を伝える
+  - Target sections: policy_coach_mindset, practice_flow, policy_coach_assignment
+  - Use: reference_link
+  - Reason: High relevance across multiple target sections or strong section score.
 
 ## URL Status / Body Not Retrieved
 
-- [https://ameblo.jp/kinegawareds/entry-12555442306.html](https://ameblo.jp/kinegawareds/entry-12555442306.html)
-  - Fetch status: blocked_by_robots
-  - Classification status: not_classified_no_body
-  - Notes: robots.txt により本文取得不可。URLは手動確認候補として保持。
 - [https://ameblo.jp/kinegawareds/entry-12857620895.html](https://ameblo.jp/kinegawareds/entry-12857620895.html)
   - Fetch status: blocked_by_robots
   - Classification status: not_classified_no_body
@@ -147,7 +169,6 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 
 ## Do-not-use / Low Priority Articles
 
-- [https://ameblo.jp/kinegawareds/entry-12555442306.html](https://ameblo.jp/kinegawareds/entry-12555442306.html) - no clear fit for current priority sections.
 - [https://ameblo.jp/kinegawareds/entry-12857620895.html](https://ameblo.jp/kinegawareds/entry-12857620895.html) - no clear fit for current priority sections.
 - [https://ameblo.jp/kinegawareds/entry-12887744090.html](https://ameblo.jp/kinegawareds/entry-12887744090.html) - no clear fit for current priority sections.
 
