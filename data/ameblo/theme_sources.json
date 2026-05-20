@@ -1,0 +1,42 @@
+{
+  "allowed_theme_sources": [
+    {
+      "id": "serious_baseball_talk",
+      "label": "ちょっと真面目な野球話",
+      "url": "https://ameblo.jp/kinegawareds/theme-10108552712.html",
+      "enabled": true
+    },
+    {
+      "id": "reds_baseball",
+      "label": "木根川レッズ野球編",
+      "url": "https://ameblo.jp/kinegawareds/theme-10108552520.html",
+      "enabled": true
+    },
+    {
+      "id": "reds_general",
+      "label": "木根川レッズ全般",
+      "url": "https://ameblo.jp/kinegawareds/theme-10108538568.html",
+      "enabled": true
+    },
+    {
+      "id": "reds_foundation",
+      "label": "木根川レッズ基礎編",
+      "url": "https://ameblo.jp/kinegawareds/theme-10116429640.html",
+      "enabled": true
+    },
+    {
+      "id": "youth_baseball_general",
+      "label": "学童野球全般",
+      "url": "https://ameblo.jp/kinegawareds/theme-10108552699.html",
+      "enabled": true
+    }
+  ],
+  "policy": {
+    "only_allowed_theme_sources": true,
+    "crawl_other_themes": false,
+    "crawl_global_archive": false,
+    "crawl_external_links": false,
+    "max_articles_per_run": 10,
+    "store_full_text_in_repo": false
+  }
+}

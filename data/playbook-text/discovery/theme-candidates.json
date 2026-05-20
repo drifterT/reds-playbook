@@ -1,0 +1,50 @@
+{
+  "generated_at": "2026-05-20T14:25:52Z",
+  "article_count": 0,
+  "themes": [
+    {
+      "theme_key": "defense_catchball",
+      "label": "守備・キャッチボール候補",
+      "matched_article_urls": [],
+      "matched_keywords": [],
+      "candidate_phrases": [],
+      "needs_ai_review": true
+    },
+    {
+      "theme_key": "batting",
+      "label": "バッティング候補",
+      "matched_article_urls": [],
+      "matched_keywords": [],
+      "candidate_phrases": [],
+      "needs_ai_review": true
+    },
+    {
+      "theme_key": "baserunning",
+      "label": "走塁候補",
+      "matched_article_urls": [],
+      "matched_keywords": [],
+      "candidate_phrases": [],
+      "needs_ai_review": true
+    },
+    {
+      "theme_key": "coaching_method",
+      "label": "指導方法候補",
+      "matched_article_urls": [],
+      "matched_keywords": [],
+      "candidate_phrases": [],
+      "needs_ai_review": true
+    },
+    {
+      "theme_key": "body_mobility",
+      "label": "身体構造・ストレッチ候補",
+      "matched_article_urls": [],
+      "matched_keywords": [],
+      "candidate_phrases": [],
+      "needs_ai_review": true
+    }
+  ],
+  "source_policy": {
+    "stores_full_text": false,
+    "uses_short_excerpt_and_metadata": true
+  }
+}

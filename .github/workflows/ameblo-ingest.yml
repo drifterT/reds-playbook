@@ -1,0 +1,54 @@
+name: Ameblo Ingest
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch:
+    inputs:
+      limit:
+        description: "Number of article URLs to process"
+        required: false
+        default: "10"
+
+permissions:
+  contents: write
+
+jobs:
+  ingest:
+    runs-on: ubuntu-latest
+    if: github.event_name != 'push'
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+
+      - name: Discover approved theme article URLs
+        run: python3 scripts/discover_ameblo_theme_articles.py --delay-seconds 2
+
+      - name: Ingest small batch
+        run: python3 scripts/ingest_ameblo_batch.py --limit "${{ github.event.inputs.limit || '10' }}" --delay-seconds 2
+
+      - name: Extract Playbook Text candidates
+        run: python3 scripts/extract_playbook_theme_candidates.py
+
+      - name: Validate JSON outputs
+        run: |
+          python3 -m json.tool data/ameblo/theme_sources.json > /tmp/theme_sources_check.json
+          python3 -m json.tool data/ameblo/ingestion_state.json > /tmp/ingestion_state_check.json
+          python3 -m json.tool data/playbook-text/discovery/theme-candidates.json > /tmp/theme_candidates_check.json
+
+      - name: Commit changes if needed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add data/ameblo/ingestion_state.json data/ameblo/parsed_articles data/ameblo/ingestion_logs data/playbook-text/discovery docs/playbook-text/discovery-summary.md
+          if git diff --cached --quiet; then
+            echo "No ingestion changes to commit."
+          else
+            git commit -m "Update Ameblo ingestion data"
+            git push
+          fi
