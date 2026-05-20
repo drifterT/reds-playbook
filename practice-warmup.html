@@ -1,0 +1,190 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1b2a3d">
+  <meta name="description" content="体操、ジャンプ系、歩き素振り、キャッチボール前の送球準備までを確認するページ。">
+  <title>アップ｜木根川レッズ</title>
+  <script src="guard.js"></script>
+  <style>
+    :root{--bg:#f8f4ea;--ink:#1b2a3d;--muted:#4d6074;--line:#d9d1c1;--card:#fffaf0;--accent:#c43a2e;--ok:#205d3f;--todo:#8e5f1d;--wait:#52667b;--shadow:0 10px 26px rgba(27,42,61,.08)}
+    *{box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif;line-height:1.7;margin:0;background:linear-gradient(180deg,rgba(47,104,79,.08),transparent 250px),var(--bg);color:var(--ink)}
+    .wrap{max-width:960px;margin:0 auto;padding:22px 20px 42px}
+    .site-nav,.page-nav{display:flex;flex-wrap:wrap;gap:8px}
+    .site-nav{margin-bottom:26px}
+    .site-nav a,.page-nav a{border:1px solid var(--line);border-radius:999px;background:rgba(255,250,240,.8);padding:6px 12px;text-decoration:none;color:var(--ink);font-size:.9rem;font-weight:700}
+    .site-nav a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:#fff}
+    .page-nav{margin:18px 0 0}
+    h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.12;margin:.2rem 0 .45rem}
+    h2{font-size:1.3rem;margin:0 0 10px}
+    h3{font-size:1.05rem;margin:0}
+    p{margin:.4rem 0}
+    .lead{max-width:740px;color:var(--muted)}
+    .panel{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px;margin:14px 0;box-shadow:var(--shadow)}
+    .section-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+    .section-intro{color:var(--muted);margin:4px 0 12px}
+    .flow-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+    .flow-card{background:rgba(255,255,255,.46);border:1px solid var(--line);border-radius:8px;padding:14px}
+    .flow-card h3{margin-bottom:6px}
+    .flow-card{display:block;color:var(--ink);text-decoration:none}
+    .flow-card:hover{border-color:var(--accent)}
+    .pill{display:inline-block;border-radius:999px;padding:3px 10px;font-size:.78rem;font-weight:800;white-space:nowrap}
+    .fixed{background:#e8f5ee;color:var(--ok)}
+    .confirm{background:#fff1dd;color:var(--todo)}
+    .draft{background:#eef2f5;color:var(--wait)}
+    .add{background:#fff7d6;color:#7a5a00}
+    .card-list{display:grid;gap:10px;margin-top:12px}
+    .drill{background:rgba(255,255,255,.48);border:1px solid var(--line);border-radius:8px;padding:14px}
+    .drill-title{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+    .meta{font-size:.92rem;color:var(--muted)}
+    .card-fields{display:grid;gap:8px;margin-top:10px}
+    .field{font-size:.92rem}
+    .field strong{color:var(--ink)}
+    ul{margin:8px 0 0 20px}
+    .placeholder{border-style:dashed;background:rgba(255,255,255,.28)}
+    footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
+    @media (max-width:740px){
+      .wrap{padding:18px 16px 36px}
+      .flow-grid{grid-template-columns:1fr}
+      .section-head,.drill-title{display:block}
+      .pill{margin-top:6px}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="site-nav" aria-label="サイト内ナビゲーション">
+      <a href="index.html">トップ</a>
+      <a href="regular-practice-menu.html">練習メニュー</a>
+      <a href="practice-warmup.html" aria-current="page">アップ</a>
+      <a href="practice-catchball.html">キャッチボール</a>
+      <a href="practice-batting.html">バッティング</a>
+      <a href="policy-mindset.html">方針・心得</a>
+    </nav>
+
+    <h1>アップ</h1>
+    <p class="lead">体操、ジャンプ系、歩き素振り、キャッチボール前の送球準備までを確認するページ。</p>
+
+    <nav class="page-nav" aria-label="ページ内ナビゲーション">
+      <a href="#warmup-01">体操〜ダッシュ</a>
+      <a href="#warmup-02">ジャンプ系</a>
+      <a href="#warmup-03">歩き素振り</a>
+      <a href="#warmup-04">近距離2箇所</a>
+      <a href="#warmup-05">ボールハンドリング</a>
+      <a href="#warmup-06">叩き付け</a>
+      <a href="#warmup-07">正対スロー</a>
+      <a href="#warmup-08">体重移動スロー</a>
+      <a href="#warmup-09">自由投法スロー</a>
+      <a href="#warmup-10">ラスト10</a>
+    </nav>
+
+    <section class="panel" id="warmup">
+      <div class="section-head">
+        <h2>アップ</h2>
+      </div>
+      <p class="section-intro">アップは体を温めるだけでなく、投げる・捕る・打つ前の土台を確認する時間。回数を急がず、姿勢、重心、ステップ、テンポを見る。</p>
+      <div class="card-list">
+        <article class="drill" id="warmup-01">
+          <div class="drill-title"><h3>アップ-01 体操〜ダッシュ</h3><span class="pill confirm">要確認</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>練習に入る前の体の準備をし、姿勢と動きの入り方を整える。</div>
+            <div class="field"><strong>やり方：</strong>体操からダッシュへつなげる。全力で雑に走らず、姿勢とスタートを確認する。</div>
+            <div class="field"><strong>設定：</strong>回数、距離、順番は要確認。</div>
+            <div class="field"><strong>見るポイント：</strong>姿勢、体全体の使い方、ダッシュ前後の集中。</div>
+            <div class="field"><strong>要確認：</strong>ダッシュ距離、本数、並び方、低学年と高学年で分けるか。</div>
+          </div>
+        </article>
+        <article class="drill" id="warmup-02">
+          <div class="drill-title"><h3>アップ-02 ジャンプ系（パワーポジション確認）</h3><span class="pill fixed">確定</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>パワーポジションと体の使い方を確認する。</div>
+            <div class="field"><strong>やり方：</strong>ジャンプスクワット、胸に腿をつけるジャンプ、足を伸ばしたままつま先を触るジャンプ、大の字ジャンプを行う。</div>
+            <div class="field"><strong>設定：</strong>各5回。回数重視ではなく、1回ごとの姿勢と動作を見る。</div>
+            <div class="field"><strong>見るポイント：</strong>着地姿勢、膝・股関節・上体のバランス、反動だけで雑に跳んでいないか。</div>
+          </div>
+        </article>
+        <article class="drill" id="warmup-03">
+          <div class="drill-title"><h3>アップ-03 歩き素振り</h3><span class="pill confirm">要確認</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>打つ前の体の使い方、リズム、バランスを動きの中で確認する。</div>
+            <div class="field"><strong>やり方：</strong>歩きながら素振りを行い、急がず1回ごとの形とリズムを確認する。</div>
+            <div class="field"><strong>設定：</strong>回数、距離、向きは要確認。</div>
+            <div class="field"><strong>見るポイント：</strong>体が突っ込んでいないか、歩きながらバランスを保てているか、振る前の準備。</div>
+            <div class="field"><strong>要確認：</strong>実施回数、進行方向、学年別の分け方、バッティング章との接続。</div>
+          </div>
+        </article>
+        <article class="drill" id="warmup-04">
+          <div class="drill-title"><h3>アップ-04 3人組・近距離2箇所キャッチボール</h3><span class="pill add">要追記</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>近い距離で、捕ってから返すテンポと正確に返す感覚を作る。</div>
+            <div class="field"><strong>やり方：</strong>3人グループで近距離2箇所キャッチボールを行う。</div>
+            <div class="field"><strong>設定：</strong>15回 × 3セット。距離は近距離、具体的な目安は要確認。</div>
+            <div class="field"><strong>見るポイント：</strong>捕ってから返すまで止まっていないか、相手が捕りやすい球を返しているか。</div>
+            <div class="field"><strong>要確認：</strong>近距離の目安、3人の回し方、ミス時のカウント。</div>
+          </div>
+        </article>
+        <article class="drill" id="warmup-05">
+          <div class="drill-title"><h3>アップ-05 2人ペア・ボールハンドリング</h3><span class="pill add">要追記</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>捕球前の準備、手元の反応、ボールへの入り方を確認する。</div>
+            <div class="field"><strong>やり方：</strong>2人ペアで、ボールハンドリング、ショートバウンド捕球、ボール2個キャッチなどを行う。</div>
+            <div class="field"><strong>設定：</strong>回数、距離、種目順は要確認。</div>
+            <div class="field"><strong>見るポイント：</strong>待ちすぎず準備できているか、ショートバウンドに入れているか、足と体も使えているか。</div>
+            <div class="field"><strong>要確認：</strong>種目ごとの回数、ボール2個キャッチの安全条件、低学年への実施可否。</div>
+          </div>
+        </article>
+        <article class="drill" id="warmup-06">
+          <div class="drill-title"><h3>アップ-06 叩き付け</h3><span class="pill fixed">確定</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>強く叩き付ける動作と、ショートバウンド捕球を確認する。</div>
+            <div class="field"><strong>やり方：</strong>両足使用OKで一人10球、次にグローブ足のみ着けた状態で一人10球行う。</div>
+            <div class="field"><strong>設定：</strong>一人10球 × 2種類。距離は要確認。</div>
+            <div class="field"><strong>見るポイント：</strong>体を使って叩き付けているか、高く弾ませようとしているか、捕球姿勢が崩れていないか。</div>
+            <div class="field"><strong>要確認：</strong>距離、交代方法、グローブ足のみの表現が伝わるか。</div>
+          </div>
+        </article>
+        <article class="drill" id="warmup-07">
+          <div class="drill-title"><h3>アップ-07 正対スロー（捻り確認）</h3><span class="pill fixed">確定</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>下半身を固定した状態で、上体の捻りとリリースポイントを確認する。</div>
+            <div class="field"><strong>やり方：</strong>相手と正対し、グローブと逆の足を一歩前に出した状態で投げる。捕球者は「捕ったらファースト」のステップを踏む。</div>
+            <div class="field"><strong>設定：</strong>一人10球。距離は約16m。</div>
+            <div class="field"><strong>見るポイント：</strong>上体の捻り、下半身が流れていないか、リリースポイント、捕球後の一歩目。</div>
+          </div>
+        </article>
+        <article class="drill" id="warmup-08">
+          <div class="drill-title"><h3>アップ-08 体重移動スロー</h3><span class="pill fixed">確定</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>体重移動と前足ブレーキを使って投げる感覚を確認する。</div>
+            <div class="field"><strong>やり方：</strong>前・後ろ・前の体重移動をしてから投げる。捕球者は「捕ったらファースト」のステップを踏む。</div>
+            <div class="field"><strong>設定：</strong>一人10球。距離は約16m。</div>
+            <div class="field"><strong>見るポイント：</strong>大きな体重移動、前足ブレーキ、上体だけで投げていないか、捕球後の一歩目。</div>
+          </div>
+        </article>
+        <article class="drill" id="warmup-09">
+          <div class="drill-title"><h3>アップ-09 自由投法スロー</h3><span class="pill fixed">確定</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>ここまで確認した動きを、通常の投げ方に近い形でつなげる。</div>
+            <div class="field"><strong>やり方：</strong>自由な投法で一人10球投げる。捕球者は「捕ったらファースト」のステップを踏む。</div>
+            <div class="field"><strong>設定：</strong>一人10球。距離は約16m。</div>
+            <div class="field"><strong>見るポイント：</strong>確認した動きが自由投法でも残っているか、投げ急いで崩れていないか、捕球後のステップ。</div>
+          </div>
+        </article>
+        <article class="drill" id="warmup-10">
+          <div class="drill-title"><h3>アップ-10 ラスト10</h3><span class="pill fixed">確定</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>捕ってすぐ返すテンポと集中をそろえ、次のメニューへ入る準備を作る。</div>
+            <div class="field"><strong>やり方：</strong>捕ったらすぐ相手に返し、連続10回成功を目指す。</div>
+            <div class="field"><strong>設定：</strong>連続10回。距離は約16m。</div>
+            <div class="field"><strong>見るポイント：</strong>返球までの速さ、急ぎすぎて雑になっていないか、連続中の声と集中。</div>
+          </div>
+        </article>
+      </div>
+      <p class="section-intro">アップ終了に差が出る場合は、手ゴロノックや壁当てなどで短く調整する。進行が大きく遅れる場合は、全体練習の流れを優先して区切り、次のメニューへ進む。</p>
+    </section>
+  </main>
+  <footer class="wrap">木根川レッズ プレイブック / アップ</footer>
+</body>
+</html>

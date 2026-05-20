@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1b2a3d">
+  <meta name="description" content="捕って返すテンポ、送球方向、判断、安全停止を確認する練習カード。">
+  <title>2箇所・4箇所キャッチボール｜木根川レッズ</title>
+  <script src="guard.js"></script>
+  <style>
+    :root{--bg:#f8f4ea;--ink:#1b2a3d;--muted:#4d6074;--line:#d9d1c1;--card:#fffaf0;--accent:#c43a2e;--ok:#205d3f;--todo:#8e5f1d;--wait:#52667b;--shadow:0 10px 26px rgba(27,42,61,.08)}
+    *{box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif;line-height:1.7;margin:0;background:linear-gradient(180deg,rgba(47,104,79,.08),transparent 250px),var(--bg);color:var(--ink)}
+    .wrap{max-width:960px;margin:0 auto;padding:22px 20px 42px}
+    .site-nav,.page-nav{display:flex;flex-wrap:wrap;gap:8px}
+    .site-nav{margin-bottom:26px}
+    .site-nav a,.page-nav a{border:1px solid var(--line);border-radius:999px;background:rgba(255,250,240,.8);padding:6px 12px;text-decoration:none;color:var(--ink);font-size:.9rem;font-weight:700}
+    .site-nav a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:#fff}
+    .page-nav{margin:18px 0 0}
+    h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.12;margin:.2rem 0 .45rem}
+    h2{font-size:1.3rem;margin:0 0 10px}
+    h3{font-size:1.05rem;margin:0}
+    p{margin:.4rem 0}
+    .lead{max-width:740px;color:var(--muted)}
+    .panel{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px;margin:14px 0;box-shadow:var(--shadow)}
+    .section-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+    .section-intro{color:var(--muted);margin:4px 0 12px}
+    .flow-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+    .flow-card{background:rgba(255,255,255,.46);border:1px solid var(--line);border-radius:8px;padding:14px}
+    .flow-card h3{margin-bottom:6px}
+    .flow-card{display:block;color:var(--ink);text-decoration:none}
+    .flow-card:hover{border-color:var(--accent)}
+    .pill{display:inline-block;border-radius:999px;padding:3px 10px;font-size:.78rem;font-weight:800;white-space:nowrap}
+    .fixed{background:#e8f5ee;color:var(--ok)}
+    .confirm{background:#fff1dd;color:var(--todo)}
+    .draft{background:#eef2f5;color:var(--wait)}
+    .add{background:#fff7d6;color:#7a5a00}
+    .card-list{display:grid;gap:10px;margin-top:12px}
+    .drill{background:rgba(255,255,255,.48);border:1px solid var(--line);border-radius:8px;padding:14px}
+    .drill-title{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
+    .meta{font-size:.92rem;color:var(--muted)}
+    .card-fields{display:grid;gap:8px;margin-top:10px}
+    .field{font-size:.92rem}
+    .field strong{color:var(--ink)}
+    ul{margin:8px 0 0 20px}
+    .placeholder{border-style:dashed;background:rgba(255,255,255,.28)}
+    footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
+    @media (max-width:740px){
+      .wrap{padding:18px 16px 36px}
+      .flow-grid{grid-template-columns:1fr}
+      .section-head,.drill-title{display:block}
+      .pill{margin-top:6px}
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <nav class="site-nav" aria-label="サイト内ナビゲーション">
+      <a href="index.html">トップ</a>
+      <a href="regular-practice-menu.html">練習メニュー</a>
+      <a href="practice-warmup.html">アップ</a>
+      <a href="practice-catchball.html" aria-current="page">キャッチボール</a>
+      <a href="practice-batting.html">バッティング</a>
+      <a href="policy-mindset.html">方針・心得</a>
+    </nav>
+
+    <h1>2箇所・4箇所キャッチボール</h1>
+    <p class="lead">捕って返すテンポ、送球方向、判断、安全停止を確認する練習カード。</p>
+
+    <nav class="page-nav" aria-label="ページ内ナビゲーション">
+      <a href="#two-place">2箇所</a>
+      <a href="#four-place">4箇所</a>
+    </nav>
+
+    <section class="panel" id="two-place">
+      <div class="section-head">
+        <h2>2箇所キャッチボール</h2>
+      </div>
+      <p class="section-intro">2箇所は、捕球から返球までのテンポを作るブロック。競争や回数チャレンジを入れる場合も、急ぐだけにならないように見るポイントを絞る。</p>
+      <div class="card-list">
+        <article class="drill" id="two-place-01">
+          <div class="drill-title"><h3>2箇所-01 チーム対抗・1分間成功数</h3><span class="pill confirm">要確認</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>捕ってから返すまでのテンポを上げ、チームで連続成功を目指す。</div>
+            <div class="field"><strong>やり方：</strong>チームごとに分かれ、1分間で成功数を数える。</div>
+            <div class="field"><strong>設定：</strong>時間は1分。人数、距離、ミス時の扱いは要確認。</div>
+            <div class="field"><strong>見るポイント：</strong>捕球後に止まらず次の送球準備へ入れているか。急ぎすぎて雑になっていないか。</div>
+            <div class="field"><strong>要確認：</strong>成功数のカウントルール、ミス時に数え直すか累計にするか。</div>
+          </div>
+        </article>
+        <article class="drill" id="two-place-02">
+          <div class="drill-title"><h3>2箇所-02 全員で1分35回チャレンジ＋個別指導</h3><span class="pill confirm">要確認</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>全体のテンポをそろえながら、必要な選手には短く個別指導を入れる。</div>
+            <div class="field"><strong>やり方：</strong>全員で1分35回を目標にし、個別指導は流れを止めすぎず1点に絞る。</div>
+            <div class="field"><strong>設定：</strong>時間は1分、目標は35回。担当分けは要確認。</div>
+            <div class="field"><strong>見るポイント：</strong>捕球から返球までのリズム、送球の質、個別指導の長さ。</div>
+            <div class="field"><strong>要確認：</strong>35回の基準を学年や人数で変えるか。個別指導対象の選び方。</div>
+          </div>
+        </article>
+        <article class="drill" id="two-place-03">
+          <div class="drill-title"><h3>2箇所-03 ランナーつき対戦形式</h3><span class="pill confirm">要確認</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>ランナーがいる状況で、捕球後の判断と送球テンポを確認する。</div>
+            <div class="field"><strong>やり方：</strong>ランナーなしでテンポを確認し、ランナーあり・送球先固定から段階的に進める。</div>
+            <div class="field"><strong>設定：</strong>人数、距離、ランナーのスタート位置、送球先、勝敗条件は要確認。</div>
+            <div class="field"><strong>見るポイント：</strong>ランナーを見て慌てていないか。捕球側の準備を確認してから投げているか。</div>
+            <div class="field"><strong>要確認：</strong>アウト判定、得点判定、やり直し条件、必要なコーチ人数。対戦形式は安全管理ができる場合のみ。</div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" id="four-place">
+      <div class="section-head">
+        <h2>4箇所キャッチボール</h2>
+      </div>
+      <p class="section-intro">4箇所は、送球方向と次の準備をそろえるブロック。順回し、逆回し、指定順など、型ごとに見るポイントを変える。</p>
+      <div class="card-list">
+        <article class="drill" id="four-place-01">
+          <div class="drill-title"><h3>4箇所-01 順回し／逆回し／ホーム2塁1塁3塁 ほか</h3><span class="pill confirm">要確認</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>送球方向、次の準備、カバー意識をそろえる。</div>
+            <div class="field"><strong>やり方：</strong>順回し、逆回し、指定順でボールを回し、型ごとに見るポイントを変える。</div>
+            <div class="field"><strong>設定：</strong>人数、回数、正式な指定順は要確認。距離はグラウンド条件で調整する。</div>
+            <div class="field"><strong>見るポイント：</strong>送球方向の準備、捕球後の足運び、待つ側の構えと声。</div>
+            <div class="field"><strong>要確認：</strong>「ホーム2塁1塁3塁」など指定順の正式ルール、人数不足時の配置。</div>
+          </div>
+        </article>
+        <article class="drill" id="four-place-02">
+          <div class="drill-title"><h3>4箇所-02 ランダム・ボール2個</h3><span class="pill confirm">要確認</span></div>
+          <div class="card-fields">
+            <div class="field"><strong>ねらい：</strong>ボール2個が動く中で、周囲確認、声かけ、送球判断、安全停止を練習する。</div>
+            <div class="field"><strong>やり方：</strong>固定順から始め、指定順、限定ランダムへ段階的に進める。投げる前に送球先を声で伝える。</div>
+            <div class="field"><strong>設定：</strong>ボール2個。ホーム／1塁／2塁／3塁を想定。送球が飛んできた方向への返球は禁止する。1塁で2塁からの送球を受けた場合、次に送球できるのは3塁またはホーム。開始位置、投げてよい塁、人数、時間、回数は要確認。</div>
+            <div class="field"><strong>見るポイント：</strong>投げる前に送球先を見ているか。ボール2個の位置を把握し、危ない場面で止められるか。</div>
+            <div class="field"><strong>要確認：</strong>中止の声かけ、必要なコーチ人数、完全ランダムまで実施するか。完全ランダムは安全条件が満たせる場合のみ。</div>
+          </div>
+        </article>
+      </div>
+    </section>
+  </main>
+  <footer class="wrap">木根川レッズ プレイブック / 2箇所・4箇所キャッチボール</footer>
+</body>
+</html>
