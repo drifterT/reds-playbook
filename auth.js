@@ -4,8 +4,7 @@
   const AUTH_KEY = "redsPlaybookAuth";
   const AUTH_TIME_KEY = "redsPlaybookAuthTime";
   const SESSION_MS = 30 * 24 * 60 * 60 * 1000;
-  // Replace this hash with the SHA-256 hash of the real passcode before publishing.
-  const ALLOWED_PASSCODE_HASH = "PASSCODE_HASH_PLACEHOLDER";
+  const ALLOWED_PASSCODE_HASH = "0f0a1dededa7467d68629e39019182cf6e34c2b09d0f14ee6b98781c7fcd890d";
 
   function getNextUrl(){
     const params = new URLSearchParams(window.location.search);
