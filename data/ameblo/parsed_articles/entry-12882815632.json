@@ -1,0 +1,47 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12882815632.html",
+  "entry_id": "entry-12882815632",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『1・3塁からのダブルスチール』",
+  "published_at": "2025-02-09",
+  "fetched_at": "2026-05-20T14:42:33Z",
+  "status": "fetched",
+  "text_length": 1205,
+  "content_excerpt_for_review": "1・3塁からのダブルスチール | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） ホーム ピグ アメブロ 芸能人ブログ 人気ブログ 新規登録 ログイン 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） 公式ブログ ブログト...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 5
+    },
+    {
+      "category": "守備",
+      "keyword": "キャッチボール",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "基本はサードランナーを目視し",
+    "ランナーの動きが確認しやすい",
+    "まぁ基本は動きながらのキャッチボールが",
+    "もう一つ、これはランナーの方",
+    "サードのコーチャーボックスの",
+    "ヒットでのセカンドランナーの",
+    "ファーストランナーだった時の"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー / キャッチボール / コーチ",
+  "raw_path": "data/ameblo/raw_articles/entry-12882815632.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12882815632.json",
+  "content_hash": "e8e09d3c0140dc3b9d8f2cb9ba69cb37f797e76488b6d4ff1e1a46ccad2e60bc",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

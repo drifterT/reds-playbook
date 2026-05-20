@@ -1,0 +1,43 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12840590860.html",
+  "entry_id": "entry-12840590860",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『トスバッティングに関して（ペッパーじゃないよ）』",
+  "published_at": "2024-05-30",
+  "fetched_at": "2026-05-20T14:42:09Z",
+  "status": "fetched",
+  "text_length": 547,
+  "content_excerpt_for_review": "トスバッティングに関して（ペッパーじゃないよ） | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） ホーム ピグ アメブロ 芸能人ブログ 人気ブログ 新規登録 ログイン 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） 公...",
+  "detected_keywords": [
+    {
+      "category": "バッティング",
+      "keyword": "トスバッティング",
+      "count": 2
+    },
+    {
+      "category": "バッティング",
+      "keyword": "ペッパー",
+      "count": 2
+    },
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "トスバッティングに関して（ペッパーじゃないよ） | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属）",
+    "トスバッティングに関して（ペッパーじゃないよ）",
+    "『5・6月の野球体験会のご案内』 「カラーバットとカラーボールで野球する場所すらなくなってます」まずは【遊べる場所】の提供をさせて頂きたいと..."
+  ],
+  "summary_for_internal_review": "検出キーワード: トスバッティング / ペッパー / バット",
+  "raw_path": "data/ameblo/raw_articles/entry-12840590860.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12840590860.json",
+  "content_hash": "9584b14b86a413a33a958966022e0905a68983ab41c75660dd3306665fef4809",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

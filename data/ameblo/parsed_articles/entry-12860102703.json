@@ -1,0 +1,43 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12860102703.html",
+  "entry_id": "entry-12860102703",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『タッチの際のベースへの入り方』",
+  "published_at": "2024-08-19",
+  "fetched_at": "2026-05-20T14:42:15Z",
+  "status": "fetched",
+  "text_length": 669,
+  "content_excerpt_for_review": "タッチの際のベースへの入り方 | 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） ホーム ピグ アメブロ 芸能人ブログ 人気ブログ 新規登録 ログイン 夢に向かって！木根川レッズ（葛飾区少年軟式野球連盟所属） 公式ブログ ブログト...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 8
+    },
+    {
+      "category": "指導方法",
+      "keyword": "伝える",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "高学年には伝えるようにしている事",
+    "特にランナーの進行方向と",
+    "ランナーセカンドの際に",
+    "ランナーの走路より後を守っている",
+    "ランナーより素早く動いて",
+    "ランナーの前に回り込んで",
+    "ランナーの動きと野手の動きが",
+    "ランナーの後ろになっちゃうと"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー / 伝える",
+  "raw_path": "data/ameblo/raw_articles/entry-12860102703.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12860102703.json",
+  "content_hash": "f6e38b5adc0d4c68064ced3d35b7920f74fb5263a3158c1b1fe43f99e83f0c01",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
