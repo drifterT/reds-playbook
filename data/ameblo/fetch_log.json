@@ -1,0 +1,11 @@
+{
+  "generated_at": "2026-05-20T06:13:12Z",
+  "blog_top": "https://ameblo.jp/kinegawareds/",
+  "user_agent": "reds-playbook-content-mapper/0.1 (+https://github.com/drifterT/reds-playbook)",
+  "max_articles": 20,
+  "delay_seconds": 2.0,
+  "discovered_count": 0,
+  "fetched_count": 0,
+  "failed_count": 1,
+  "failed_urls_path": "data/ameblo/failed_urls.json"
+}
