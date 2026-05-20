@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12899445366.html",
+  "entry_id": "entry-12899445366",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『敵に背を向けるな！！』",
+  "published_at": "2025-06-19",
+  "fetched_at": "2026-05-20T20:06:00Z",
+  "status": "fetched",
+  "text_length": 616,
+  "content_excerpt_for_review": "敵に背を向けるな！！ ボールから目を切るなぁ～ 敵に背中を見せたら 戦国時代の戦の最中だったら 後から切られちゃうぞぉ～ バックアップやカバーというのは 行け！と言われるからとか 行くのが決まりだからとかで 行くんじゃないんだよね。 小学生...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12899445366.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12899445366.json",
+  "content_hash": "62f8293ec4558b6f1454c81701fe59d735e706c4c8fd6b175aad8bd402ea3405",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

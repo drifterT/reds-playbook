@@ -1,0 +1,44 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12914022495.html",
+  "entry_id": "entry-12914022495",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『ルーズボールにするなぁ〜！！』",
+  "published_at": "2025-09-20",
+  "fetched_at": "2026-05-20T20:06:06Z",
+  "status": "fetched",
+  "text_length": 1189,
+  "content_excerpt_for_review": "ルーズボールにするなぁ〜！！ ルーズボールって何だろう？ サッカーやバスケなどでは 両チームの誰もが保持していない ボールの事なんだけど このボールにいち早く反応し マイボールにした方に 新たなチャンスが生まれたりする。 野球の場合は？ こ...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 2
+    },
+    {
+      "category": "ルール",
+      "keyword": "ルール",
+      "count": 1
+    },
+    {
+      "category": "戦術、戦略",
+      "keyword": "戦術",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "ランナーがもう1人",
+    "ルールをまだ把握していない年代だと",
+    "少しでも相手のランナーを",
+    "戦術的な事が入ってきて"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー / ルール / 戦術",
+  "raw_path": "data/ameblo/raw_articles/entry-12914022495.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12914022495.json",
+  "content_hash": "13d1ded8915217a8390d63672600364b927034402c19c6406ccca7afe0ca1298",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12937311670.html",
+  "entry_id": "entry-12937311670",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『ドジャースに見る『3B』』",
+  "published_at": "2025-10-12",
+  "fetched_at": "2026-05-20T20:06:17Z",
+  "status": "fetched",
+  "text_length": 891,
+  "content_excerpt_for_review": "ドジャースに見る『3B』 強力打線や日本人選手に 注目が集まりがちだけど これがドジャースの『3B』 pic.twitter.com/IscwBAfQ12 【参考動画】 — ジュンジーキネ w（木根川レッズ 加藤） (@kinegaware...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "ゴロ捕球",
+      "count": 1
+    },
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "見る",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "ドジャースに見る『3B』",
+    "ノーアウトランナー2塁からの",
+    "ゴロ捕球後に正確にサード送球"
+  ],
+  "summary_for_internal_review": "検出キーワード: ゴロ捕球 / ランナー / 見る",
+  "raw_path": "data/ameblo/raw_articles/entry-12937311670.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12937311670.json",
+  "content_hash": "0f6d47dcc0a52e6cbc004b12ccc3216ba6ca2c6d26f871c970715fb0c569a48e",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

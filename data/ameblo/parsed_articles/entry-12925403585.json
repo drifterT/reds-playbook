@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12925403585.html",
+  "entry_id": "entry-12925403585",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『菊池雄星投手のこんな言葉』",
+  "published_at": "2025-11-04",
+  "fetched_at": "2026-05-20T20:06:11Z",
+  "status": "fetched",
+  "text_length": 1177,
+  "content_excerpt_for_review": "ネット上ではかなり拡散されている 朝日新聞の記事の画像です。 下は朝日新聞デジタルよりの全文です。 的を射た言葉だと思う。 自分の殻を破るには：大リーガー_菊池雄星さん – 株式会社RIAコア・ブレインズ ria-corebrains.co...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12925403585.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12925403585.json",
+  "content_hash": "e43d1821b94982aded6d844517aa1d5ae0c046d37c052eabab36ada92200e6e4",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

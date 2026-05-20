@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12894197991.html",
+  "entry_id": "entry-12894197991",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『二塁盗塁時の送球コース別盗塁阻止率』",
+  "published_at": "2025-05-15",
+  "fetched_at": "2026-05-20T20:05:58Z",
+  "status": "fetched",
+  "text_length": 614,
+  "content_excerpt_for_review": "二塁盗塁時の送球コース別盗塁阻止率 こんな統計結果を見つけたよ。（笑顔） 一塁側に投げた方が・・ っていうのは今も昔も 変わらないと思うけど 一昔前であれば58.4％の位置が 一番アウトにしやすいんじゃないか？ なんて言われたよね？ でも今...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12894197991.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12894197991.json",
+  "content_hash": "10cf7a4c93152ad03a411fd90702b00bce6342ec8af9166468a7b957992d528e",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

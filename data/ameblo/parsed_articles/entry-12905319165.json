@@ -1,0 +1,33 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12905319165.html",
+  "entry_id": "entry-12905319165",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『牽制球を待つ一塁手の位置』",
+  "published_at": "2025-06-26",
+  "fetched_at": "2026-05-20T20:06:02Z",
+  "status": "fetched",
+  "text_length": 1140,
+  "content_excerpt_for_review": "今回はこんな動画の紹介です。（笑顔） well you don't see that every day pic.twitter.com/RHcKAmWpMA — Codify (@CodifyBaseball) April 19, 202...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 3
+    }
+  ],
+  "candidate_phrases": [
+    "ベースに向かってくるランナーの",
+    "ランナーが安全に戻れるリードする距離の目安ね",
+    "このランナーも"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー",
+  "raw_path": "data/ameblo/raw_articles/entry-12905319165.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12905319165.json",
+  "content_hash": "0aad0defa4817c6f524c354c25d480d7801a32a0c9e844dabd7bf7a74dd636eb",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
