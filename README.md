@@ -1,2 +1,27 @@
 # reds-playbook
-Coaching playbook for Kinegawa Reds youth baseball — built for mobile.
+
+Coaching playbook for Kinegawa Reds youth baseball, built as a mobile-first static website for GitHub Pages.
+
+## Site pages
+
+- `index.html` - top page and section hub
+- `regular-practice-menu.html` - standard practice menu
+- `policy-mindset.html` - coaching policy and team mindset
+- `Horizontal-balance.html` - horizontal balance teaching page
+- `3runner-forward-grounder.html` - interactive front-defense case playbook
+
+## Local review
+
+From the repository root:
+
+```bash
+python3 -m http.server 8000
+```
+
+Then open:
+
+```text
+http://127.0.0.1:8000/
+```
+
+The site is deployable directly from the repository root with GitHub Pages.

@@ -3,24 +3,36 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1b2a3d">
+  <meta name="description" content="木根川レッズのコーチ心得、選手心得、コーチ配置の運用基準。">
   <title>方針・心得｜木根川レッズ</title>
   <style>
-    :root{--bg:#f8f4ea;--ink:#1b2a3d;--muted:#4d6074;--line:#d9d1c1;--card:#fff;--accent:#c43a2e}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.7;margin:0;background:var(--bg);color:var(--ink)}
-    .wrap{max-width:900px;margin:0 auto;padding:24px}
-    a{color:#0b61a4}
-    h1{font-size:1.9rem;margin:.2rem 0 .4rem}
+    :root{--bg:#f8f4ea;--ink:#1b2a3d;--muted:#4d6074;--line:#d9d1c1;--card:#fffaf0;--accent:#c43a2e;--accent-deep:#8e2a20;--shadow:0 10px 26px rgba(27,42,61,.08)}
+    *{box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif;line-height:1.7;margin:0;background:linear-gradient(180deg,rgba(196,58,46,.07),transparent 250px),var(--bg);color:var(--ink)}
+    .wrap{max-width:940px;margin:0 auto;padding:22px 20px 42px}
+    .site-nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+    .site-nav a{border:1px solid var(--line);border-radius:999px;background:rgba(255,250,240,.8);padding:6px 12px;text-decoration:none;color:var(--ink);font-size:.9rem;font-weight:700}
+    .site-nav a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:#fff}
+    h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.12;margin:.2rem 0 .45rem}
     h2{font-size:1.2rem;margin:0 0 8px;color:var(--accent)}
     p{margin:.4rem 0}
-    .lead{color:var(--muted)}
-    .card{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:12px 0}
+    .lead{max-width:720px;color:var(--muted)}
+    .card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:18px;margin:14px 0;box-shadow:var(--shadow)}
     ul{margin:8px 0 0 20px}
     .note{font-size:.92rem;color:var(--muted)}
+    footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
   </style>
 </head>
 <body>
   <main class="wrap">
-    <p><a href="index.html">← トップに戻る</a></p>
+    <nav class="site-nav" aria-label="サイト内ナビゲーション">
+      <a href="index.html">トップ</a>
+      <a href="regular-practice-menu.html">練習メニュー</a>
+      <a href="policy-mindset.html" aria-current="page">方針・心得</a>
+      <a href="Horizontal-balance.html">水平チェック</a>
+      <a href="3runner-forward-grounder.html">前進守備</a>
+    </nav>
     <h1>方針・心得</h1>
     <p class="lead">チーム運営の不変ルールを集約し、コーチ・保護者の認識を揃えるためのページ。</p>
 
@@ -55,5 +67,6 @@
       <p class="note">※ 天候・人数・グラウンド条件で当日調整するが、安全管理担当だけは必ず固定する。</p>
     </section>
   </main>
+  <footer class="wrap">木根川レッズ プレイブック / 方針・心得</footer>
 </body>
 </html>

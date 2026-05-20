@@ -349,9 +349,6 @@ body::before{
   padding:72px 0;
   background:var(--cream-deep);
   position:relative;
-  margin:0 -22px;
-  padding-left:22px;
-  padding-right:22px;
 }
 .steps::before,.steps::after{
   content:'';
@@ -510,9 +507,6 @@ body::before{
   padding:72px 0;
   background:var(--ink);
   color:var(--paper);
-  margin:0 -22px;
-  padding-left:22px;
-  padding-right:22px;
   position:relative;
   overflow:hidden;
 }
@@ -691,7 +685,6 @@ footer{
   padding:48px 22px 32px;
   text-align:center;
   border-top:5px double var(--red);
-  margin:0 -22px;
   position:relative;
   z-index:2;
 }
@@ -763,9 +756,6 @@ footer{
 .effects{
   padding:72px 0;
   background:var(--cream-deep);
-  margin:0 -22px;
-  padding-left:22px;
-  padding-right:22px;
   position:relative;
 }
 .effects::before,.effects::after{
@@ -1192,6 +1182,8 @@ footer{
 .quick-links{margin-top:20px;display:grid;gap:10px;}
 .quick-link{display:block;background:#fff;border:1px solid rgba(27,42,61,0.2);border-left:4px solid var(--red);padding:12px 14px;text-decoration:none;color:var(--ink);font-weight:700;box-shadow:2px 2px 0 rgba(27,42,61,0.08);}
 .quick-link small{display:block;font-weight:500;color:var(--ink-soft);}
+.home-link{display:inline-flex;margin-bottom:18px;color:var(--ink-soft);font-size:13px;font-weight:700;text-decoration:none;}
+.home-link:hover{text-decoration:underline;color:var(--ink);}
 
 @media (min-width:480px){
   .hero{padding:88px 0 64px;}
@@ -1206,6 +1198,7 @@ footer{
 <!-- ============ HERO ============ -->
 <section class="hero">
   <div class="container">
+    <a class="home-link reveal" href="index.html">← プレイブックトップ</a>
     <div class="hero-mark reveal">
       <div class="hero-mark-icon"></div>
       <span class="hero-mark-text">PRE-MOTION ROUTINE</span>
@@ -1232,6 +1225,10 @@ footer{
       <a class="quick-link" href="policy-mindset.html">
         方針・心得
         <small>コーチ心得・選手心得・コーチ配置</small>
+      </a>
+      <a class="quick-link" href="3runner-forward-grounder.html">
+        三塁ランナー・前進守備
+        <small>ケース別の守備位置と連携をインタラクティブに確認</small>
       </a>
     </div>
     <div class="scroll-cue reveal">
