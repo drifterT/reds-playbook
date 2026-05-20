@@ -23,8 +23,6 @@
     p{margin:.4rem 0}
     .lead{max-width:740px;color:var(--muted)}
     .panel{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px;margin:14px 0;box-shadow:var(--shadow)}
-    .summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-    .summary div{border-left:4px solid var(--accent);padding-left:12px}
     .section-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
     .section-intro{color:var(--muted);margin:4px 0 12px}
     .flow-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
@@ -47,7 +45,7 @@
     footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
     @media (max-width:740px){
       .wrap{padding:18px 16px 36px}
-      .summary,.flow-grid{grid-template-columns:1fr}
+      .flow-grid{grid-template-columns:1fr}
       .section-head,.drill-title{display:block}
       .pill{margin-top:6px}
     }
@@ -73,11 +71,6 @@
       <a href="#four-place">4箇所</a>
       <a href="#batting">バッティング</a>
     </nav>
-
-    <section class="panel summary" aria-label="カード概要">
-      <div><strong>総カード数</strong><br>18枚</div>
-      <div><strong>記述済み</strong><br>アップ 10枚</div>
-    </section>
 
     <section class="panel" id="flow">
       <div class="section-head">
@@ -110,7 +103,6 @@
     <section class="panel" id="warmup">
       <div class="section-head">
         <h2>アップ 10枚</h2>
-        <span class="pill fixed">記述済み</span>
       </div>
       <p class="section-intro">アップは体を温めるだけでなく、投げる・捕る・打つ前の土台を確認する時間。回数を急がず、姿勢、重心、ステップ、テンポを見る。</p>
       <div class="card-list">
