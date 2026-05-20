@@ -96,23 +96,12 @@
     .card-desc{margin:0;color:var(--muted);font-size:.95rem}
     .card-action{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:12px;font-weight:800;color:var(--accent-deep)}
     .card-action span:last-child{font-size:1.2rem;line-height:1}
-    .status{
-      display:grid;
-      grid-template-columns:repeat(3,minmax(0,1fr));
-      gap:10px;
-      margin-top:14px;
-    }
-    .metric{background:rgba(255,250,240,.72);border:1px solid var(--line);border-radius:8px;padding:14px}
-    .metric strong{display:block;font-size:1.4rem;line-height:1.1;color:var(--accent)}
-    .metric span{display:block;margin-top:5px;color:var(--muted);font-size:.86rem}
-    footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
-    .footer-row{display:flex;justify-content:space-between;align-items:center;gap:12px;flex-wrap:wrap}
-    .logout-link{border:1px solid var(--line);border-radius:999px;background:rgba(255,250,240,.72);padding:5px 12px;color:var(--accent-deep);font:inherit;font-weight:800;text-decoration:none;cursor:pointer}
+    .logout-link{display:inline-flex;margin-top:14px;border:1px solid var(--line);border-radius:999px;background:rgba(255,255,255,.72);padding:5px 12px;color:var(--accent-deep);font:inherit;font-size:.88rem;font-weight:800;text-decoration:none;cursor:pointer}
     .logout-link:hover{border-color:rgba(196,58,46,.55)}
     @media (max-width:760px){
       .wrap{padding:18px 16px 38px}
       .hero{grid-template-columns:1fr;gap:18px;padding-top:18px}
-      .grid,.status{grid-template-columns:1fr}
+      .grid{grid-template-columns:1fr}
       .section-head{display:block}
       .section-note{margin-top:4px}
     }
@@ -133,6 +122,7 @@
           <li>技術説明は「水平チェック」を共有</li>
           <li>ケース練習は「前進守備」で動きを確認</li>
         </ul>
+        <a class="logout-link" href="#" id="logoutLink">ログアウト</a>
       </aside>
     </section>
 
@@ -190,18 +180,6 @@
         <div class="card-action"><span>開く</span><span>→</span></div>
       </a>
     </div>
-
-    <section class="status" aria-label="サイト概要">
-      <div class="metric"><strong>4</strong><span>公開ページ</span></div>
-      <div class="metric"><strong>18</strong><span>練習カード</span></div>
-      <div class="metric"><strong>root</strong><span>GitHub Pages 配信単位</span></div>
-    </section>
   </main>
-  <footer class="wrap">
-    <div class="footer-row">
-      <span>木根川レッズ プレイブック / static site for GitHub Pages</span>
-      <a class="logout-link" href="#" id="logoutLink">ログアウト</a>
-    </div>
-  </footer>
 </body>
 </html>
