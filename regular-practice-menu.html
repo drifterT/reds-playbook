@@ -4,7 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta name="theme-color" content="#1b2a3d">
-  <meta name="description" content="木根川レッズの常設レギュラー練習メニュー。アップ、2箇所、4箇所、バッティングの標準カード。">
+  <meta name="description" content="練習の流れと、アップ・キャッチボール・バッティング各メニューへの入口。">
   <title>レギュラー練習メニュー｜木根川レッズ</title>
   <script src="guard.js"></script>
   <style>
@@ -28,6 +28,8 @@
     .flow-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
     .flow-card{background:rgba(255,255,255,.46);border:1px solid var(--line);border-radius:8px;padding:14px}
     .flow-card h3{margin-bottom:6px}
+    .flow-card{display:block;color:var(--ink);text-decoration:none}
+    .flow-card:hover{border-color:var(--accent)}
     .pill{display:inline-block;border-radius:999px;padding:3px 10px;font-size:.78rem;font-weight:800;white-space:nowrap}
     .fixed{background:#e8f5ee;color:var(--ok)}
     .confirm{background:#fff1dd;color:var(--todo)}
@@ -56,20 +58,18 @@
     <nav class="site-nav" aria-label="サイト内ナビゲーション">
       <a href="index.html">トップ</a>
       <a href="regular-practice-menu.html" aria-current="page">練習メニュー</a>
+      <a href="practice-warmup.html">アップ</a>
+      <a href="practice-catchball.html">キャッチボール</a>
+      <a href="practice-batting.html">バッティング</a>
       <a href="policy-mindset.html">方針・心得</a>
-      <a href="Horizontal-balance.html">水平チェック</a>
-      <a href="3runner-forward-grounder.html">前進守備</a>
     </nav>
 
     <h1>レギュラー練習メニュー</h1>
-    <p class="lead">常設の標準メニュー。週次でメニューを入れ替えるのではなく、カード単位の不変／可変で運用する。</p>
+    <p class="lead">練習の流れと、アップ・キャッチボール・バッティング各メニューへの入口。</p>
 
     <nav class="page-nav" aria-label="ページ内ナビゲーション">
       <a href="#flow">練習の流れ</a>
-      <a href="#warmup">アップ</a>
-      <a href="#two-place">2箇所</a>
-      <a href="#four-place">4箇所</a>
-      <a href="#batting">バッティング</a>
+      <a href="#details">詳細ページ</a>
     </nav>
 
     <section class="panel" id="flow">
@@ -100,215 +100,24 @@
       </div>
     </section>
 
-    <section class="panel" id="warmup">
+    <section class="panel" id="details">
       <div class="section-head">
-        <h2>アップ 10枚</h2>
+        <h2>詳細ページ</h2>
       </div>
-      <p class="section-intro">アップは体を温めるだけでなく、投げる・捕る・打つ前の土台を確認する時間。回数を急がず、姿勢、重心、ステップ、テンポを見る。</p>
-      <div class="card-list">
-        <article class="drill">
-          <div class="drill-title"><h3>アップ-01 体操〜ダッシュ</h3><span class="pill confirm">要確認</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>練習に入る前の体の準備をし、姿勢と動きの入り方を整える。</div>
-            <div class="field"><strong>やり方：</strong>体操からダッシュへつなげる。全力で雑に走らず、姿勢とスタートを確認する。</div>
-            <div class="field"><strong>設定：</strong>回数、距離、順番は要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>姿勢、体全体の使い方、ダッシュ前後の集中。</div>
-            <div class="field"><strong>要確認：</strong>ダッシュ距離、本数、並び方、低学年と高学年で分けるか。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>アップ-02 ジャンプ系（パワーポジション確認）</h3><span class="pill fixed">確定</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>パワーポジションと体の使い方を確認する。</div>
-            <div class="field"><strong>やり方：</strong>ジャンプスクワット、胸に腿をつけるジャンプ、足を伸ばしたままつま先を触るジャンプ、大の字ジャンプを行う。</div>
-            <div class="field"><strong>設定：</strong>各5回。回数重視ではなく、1回ごとの姿勢と動作を見る。</div>
-            <div class="field"><strong>見るポイント：</strong>着地姿勢、膝・股関節・上体のバランス、反動だけで雑に跳んでいないか。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>アップ-03 歩き素振り</h3><span class="pill confirm">要確認</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>打つ前の体の使い方、リズム、バランスを動きの中で確認する。</div>
-            <div class="field"><strong>やり方：</strong>歩きながら素振りを行い、急がず1回ごとの形とリズムを確認する。</div>
-            <div class="field"><strong>設定：</strong>回数、距離、向きは要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>体が突っ込んでいないか、歩きながらバランスを保てているか、振る前の準備。</div>
-            <div class="field"><strong>要確認：</strong>実施回数、進行方向、学年別の分け方、バッティング章との接続。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>アップ-04 3人組・近距離2箇所キャッチボール</h3><span class="pill add">要追記</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>近い距離で、捕ってから返すテンポと正確に返す感覚を作る。</div>
-            <div class="field"><strong>やり方：</strong>3人グループで近距離2箇所キャッチボールを行う。</div>
-            <div class="field"><strong>設定：</strong>15回 × 3セット。距離は近距離、具体的な目安は要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>捕ってから返すまで止まっていないか、相手が捕りやすい球を返しているか。</div>
-            <div class="field"><strong>要確認：</strong>近距離の目安、3人の回し方、ミス時のカウント。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>アップ-05 2人ペア・ボールハンドリング</h3><span class="pill add">要追記</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>捕球前の準備、手元の反応、ボールへの入り方を確認する。</div>
-            <div class="field"><strong>やり方：</strong>2人ペアで、ボールハンドリング、ショートバウンド捕球、ボール2個キャッチなどを行う。</div>
-            <div class="field"><strong>設定：</strong>回数、距離、種目順は要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>待ちすぎず準備できているか、ショートバウンドに入れているか、足と体も使えているか。</div>
-            <div class="field"><strong>要確認：</strong>種目ごとの回数、ボール2個キャッチの安全条件、低学年への実施可否。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>アップ-06 叩き付け</h3><span class="pill fixed">確定</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>強く叩き付ける動作と、ショートバウンド捕球を確認する。</div>
-            <div class="field"><strong>やり方：</strong>両足使用OKで一人10球、次にグローブ足のみ着けた状態で一人10球行う。</div>
-            <div class="field"><strong>設定：</strong>一人10球 × 2種類。距離は要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>体を使って叩き付けているか、高く弾ませようとしているか、捕球姿勢が崩れていないか。</div>
-            <div class="field"><strong>要確認：</strong>距離、交代方法、グローブ足のみの表現が伝わるか。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>アップ-07 正対スロー（捻り確認）</h3><span class="pill fixed">確定</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>下半身を固定した状態で、上体の捻りとリリースポイントを確認する。</div>
-            <div class="field"><strong>やり方：</strong>相手と正対し、グローブと逆の足を一歩前に出した状態で投げる。捕球者は「捕ったらファースト」のステップを踏む。</div>
-            <div class="field"><strong>設定：</strong>一人10球。距離は約16m。</div>
-            <div class="field"><strong>見るポイント：</strong>上体の捻り、下半身が流れていないか、リリースポイント、捕球後の一歩目。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>アップ-08 体重移動スロー</h3><span class="pill fixed">確定</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>体重移動と前足ブレーキを使って投げる感覚を確認する。</div>
-            <div class="field"><strong>やり方：</strong>前・後ろ・前の体重移動をしてから投げる。捕球者は「捕ったらファースト」のステップを踏む。</div>
-            <div class="field"><strong>設定：</strong>一人10球。距離は約16m。</div>
-            <div class="field"><strong>見るポイント：</strong>大きな体重移動、前足ブレーキ、上体だけで投げていないか、捕球後の一歩目。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>アップ-09 自由投法スロー</h3><span class="pill fixed">確定</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>ここまで確認した動きを、通常の投げ方に近い形でつなげる。</div>
-            <div class="field"><strong>やり方：</strong>自由な投法で一人10球投げる。捕球者は「捕ったらファースト」のステップを踏む。</div>
-            <div class="field"><strong>設定：</strong>一人10球。距離は約16m。</div>
-            <div class="field"><strong>見るポイント：</strong>確認した動きが自由投法でも残っているか、投げ急いで崩れていないか、捕球後のステップ。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>アップ-10 ラスト10</h3><span class="pill fixed">確定</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>捕ってすぐ返すテンポと集中をそろえ、次のメニューへ入る準備を作る。</div>
-            <div class="field"><strong>やり方：</strong>捕ったらすぐ相手に返し、連続10回成功を目指す。</div>
-            <div class="field"><strong>設定：</strong>連続10回。距離は約16m。</div>
-            <div class="field"><strong>見るポイント：</strong>返球までの速さ、急ぎすぎて雑になっていないか、連続中の声と集中。</div>
-          </div>
-        </article>
-      </div>
-      <p class="section-intro">アップ終了に差が出る場合は、手ゴロノックや壁当てなどで短く調整する。進行が大きく遅れる場合は、全体練習の流れを優先して区切り、次のメニューへ進む。</p>
-    </section>
-
-    <section class="panel" id="two-place">
-      <div class="section-head">
-        <h2>2箇所キャッチボール 3枚</h2>
-      </div>
-      <p class="section-intro">2箇所は、捕球から返球までのテンポを作るブロック。競争や回数チャレンジを入れる場合も、急ぐだけにならないように見るポイントを絞る。</p>
-      <div class="card-list">
-        <article class="drill">
-          <div class="drill-title"><h3>2箇所-01 チーム対抗・1分間成功数</h3><span class="pill confirm">要確認</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>捕ってから返すまでのテンポを上げ、チームで連続成功を目指す。</div>
-            <div class="field"><strong>やり方：</strong>チームごとに分かれ、1分間で成功数を数える。</div>
-            <div class="field"><strong>設定：</strong>時間は1分。人数、距離、ミス時の扱いは要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>捕球後に止まらず次の送球準備へ入れているか。急ぎすぎて雑になっていないか。</div>
-            <div class="field"><strong>要確認：</strong>成功数のカウントルール、ミス時に数え直すか累計にするか。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>2箇所-02 全員で1分35回チャレンジ＋個別指導</h3><span class="pill confirm">要確認</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>全体のテンポをそろえながら、必要な選手には短く個別指導を入れる。</div>
-            <div class="field"><strong>やり方：</strong>全員で1分35回を目標にし、個別指導は流れを止めすぎず1点に絞る。</div>
-            <div class="field"><strong>設定：</strong>時間は1分、目標は35回。担当分けは要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>捕球から返球までのリズム、送球の質、個別指導の長さ。</div>
-            <div class="field"><strong>要確認：</strong>35回の基準を学年や人数で変えるか。個別指導対象の選び方。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>2箇所-03 ランナーつき対戦形式</h3><span class="pill confirm">要確認</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>ランナーがいる状況で、捕球後の判断と送球テンポを確認する。</div>
-            <div class="field"><strong>やり方：</strong>ランナーなしでテンポを確認し、ランナーあり・送球先固定から段階的に進める。</div>
-            <div class="field"><strong>設定：</strong>人数、距離、ランナーのスタート位置、送球先、勝敗条件は要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>ランナーを見て慌てていないか。捕球側の準備を確認してから投げているか。</div>
-            <div class="field"><strong>要確認：</strong>アウト判定、得点判定、やり直し条件、必要なコーチ人数。対戦形式は安全管理ができる場合のみ。</div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="panel" id="four-place">
-      <div class="section-head">
-        <h2>4箇所キャッチボール 2枚</h2>
-      </div>
-      <p class="section-intro">4箇所は、送球方向と次の準備をそろえるブロック。順回し、逆回し、指定順など、型ごとに見るポイントを変える。</p>
-      <div class="card-list">
-        <article class="drill">
-          <div class="drill-title"><h3>4箇所-01 順回し／逆回し／ホーム2塁1塁3塁 ほか</h3><span class="pill confirm">要確認</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>送球方向、次の準備、カバー意識をそろえる。</div>
-            <div class="field"><strong>やり方：</strong>順回し、逆回し、指定順でボールを回し、型ごとに見るポイントを変える。</div>
-            <div class="field"><strong>設定：</strong>人数、回数、正式な指定順は要確認。距離はグラウンド条件で調整する。</div>
-            <div class="field"><strong>見るポイント：</strong>送球方向の準備、捕球後の足運び、待つ側の構えと声。</div>
-            <div class="field"><strong>要確認：</strong>「ホーム2塁1塁3塁」など指定順の正式ルール、人数不足時の配置。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>4箇所-02 ランダム・ボール2個</h3><span class="pill confirm">要確認</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>ボール2個が動く中で、周囲確認、声かけ、送球判断、安全停止を練習する。</div>
-            <div class="field"><strong>やり方：</strong>固定順から始め、指定順、限定ランダムへ段階的に進める。投げる前に送球先を声で伝える。</div>
-            <div class="field"><strong>設定：</strong>ボール2個。ホーム／1塁／2塁／3塁を想定。送球が飛んできた方向への返球は禁止する。1塁で2塁からの送球を受けた場合、次に送球できるのは3塁またはホーム。開始位置、投げてよい塁、人数、時間、回数は要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>投げる前に送球先を見ているか。ボール2個の位置を把握し、危ない場面で止められるか。</div>
-            <div class="field"><strong>要確認：</strong>中止の声かけ、必要なコーチ人数、完全ランダムまで実施するか。完全ランダムは安全条件が満たせる場合のみ。</div>
-          </div>
-        </article>
-      </div>
-    </section>
-
-    <section class="panel" id="batting">
-      <div class="section-head">
-        <h2>バッティング練習 3枚</h2>
-      </div>
-      <p class="section-intro">バッティング構成カードは、技術指導の細部ではなく、練習方法・コーチ配置・場所の可視化を中心に整理する。人数と大人の数に合わせてパターンを選ぶ。</p>
-      <div class="card-list">
-        <article class="drill">
-          <div class="drill-title"><h3>打撃-01 パターン① 21名想定・メイン＋ケージ併用</h3><span class="pill confirm">要確認</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>人数が多い日に、メイン打撃とケージを併用して打撃量を確保する。</div>
-            <div class="field"><strong>やり方：</strong>打席、待機、守備または補助に分け、ローテーション順を決めて回す。</div>
-            <div class="field"><strong>設定：</strong>想定21名。配置図、ローテーション、大人の必要人数は要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>待ち時間、打席周辺の安全、メイン側とケージ側の担当。</div>
-            <div class="field"><strong>要確認：</strong>ケージ側の担当、打球方向、立入禁止エリア。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>打撃-02 パターン② 20名想定・打撃と別メニュー半々</h3><span class="pill confirm">要確認</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>打撃待ちを減らし、別メニュー側も練習量を確保する。</div>
-            <div class="field"><strong>やり方：</strong>打撃グループと別メニューグループに分け、一定時間または巡数で交代する。</div>
-            <div class="field"><strong>設定：</strong>想定20名。別メニュー内容と交代条件は要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>両グループにコーチの目が届いているか。移動で時間を失っていないか。</div>
-            <div class="field"><strong>要確認：</strong>別メニュー側の担当、移動導線、安全管理担当。</div>
-          </div>
-        </article>
-        <article class="drill">
-          <div class="drill-title"><h3>打撃-03 パターン③ 球数重視・大人6名</h3><span class="pill confirm">要確認</span></div>
-          <div class="card-fields">
-            <div class="field"><strong>ねらい：</strong>大人6名を確保できる日に、球数を増やして打撃経験を確保する。</div>
-            <div class="field"><strong>やり方：</strong>打席補助、トスまたはマシン、安全管理、球拾い、待機選手管理を分担する。</div>
-            <div class="field"><strong>設定：</strong>大人6名。球数、打席数、球拾い配置、待機場所は要確認。</div>
-            <div class="field"><strong>見るポイント：</strong>球数を増やしても安全管理が薄くなっていないか。</div>
-            <div class="field"><strong>要確認：</strong>大人6名の役割表、安全担当、待機場所。</div>
-          </div>
-        </article>
+      <p class="section-intro">現場で見るカードは、内容ごとに分けて確認する。</p>
+      <div class="flow-grid">
+        <a class="flow-card" href="practice-warmup.html">
+          <h3>アップ</h3>
+          <p class="meta">体操、ジャンプ系、歩き素振り、キャッチボール前の送球準備まで。</p>
+        </a>
+        <a class="flow-card" href="practice-catchball.html">
+          <h3>2箇所・4箇所キャッチボール</h3>
+          <p class="meta">捕って返すテンポ、送球方向、判断、安全停止を確認する練習。</p>
+        </a>
+        <a class="flow-card" href="practice-batting.html">
+          <h3>バッティング練習</h3>
+          <p class="meta">人数、大人の配置、安全管理に応じた打撃練習パターン。</p>
+        </a>
       </div>
     </section>
   </main>
