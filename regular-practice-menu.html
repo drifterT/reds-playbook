@@ -3,31 +3,44 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1b2a3d">
+  <meta name="description" content="木根川レッズの常設レギュラー練習メニュー。アップ、2箇所、4箇所、バッティングの標準カード。">
   <title>レギュラー練習メニュー｜木根川レッズ</title>
   <style>
-    :root{--bg:#f8f4ea;--ink:#1b2a3d;--muted:#4d6074;--line:#d9d1c1;--card:#fff;--accent:#c43a2e;--ok:#205d3f;--todo:#8e5f1d}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.7;margin:0;background:var(--bg);color:var(--ink)}
-    .wrap{max-width:920px;margin:0 auto;padding:24px}
-    a{color:#0b61a4}
-    h1{font-size:1.9rem;margin:.2rem 0 .4rem}
+    :root{--bg:#f8f4ea;--ink:#1b2a3d;--muted:#4d6074;--line:#d9d1c1;--card:#fffaf0;--accent:#c43a2e;--ok:#205d3f;--todo:#8e5f1d;--shadow:0 10px 26px rgba(27,42,61,.08)}
+    *{box-sizing:border-box}
+    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif;line-height:1.7;margin:0;background:linear-gradient(180deg,rgba(47,104,79,.08),transparent 250px),var(--bg);color:var(--ink)}
+    .wrap{max-width:960px;margin:0 auto;padding:22px 20px 42px}
+    .site-nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
+    .site-nav a{border:1px solid var(--line);border-radius:999px;background:rgba(255,250,240,.8);padding:6px 12px;text-decoration:none;color:var(--ink);font-size:.9rem;font-weight:700}
+    .site-nav a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:#fff}
+    h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.12;margin:.2rem 0 .45rem}
     h2{font-size:1.3rem;margin:0 0 10px}
     h3{font-size:1.05rem;margin:0 0 8px}
     p{margin:.4rem 0}
-    .lead{color:var(--muted)}
-    .panel{background:var(--card);border:1px solid var(--line);border-radius:10px;padding:16px;margin:14px 0}
+    .lead{max-width:740px;color:var(--muted)}
+    .panel{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px;margin:14px 0;box-shadow:var(--shadow)}
     .kpi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+    .kpi div{border-left:4px solid var(--accent);padding-left:12px}
     .pill{display:inline-block;border-radius:999px;padding:3px 10px;font-size:.8rem;font-weight:700}
     .done{background:#e8f5ee;color:var(--ok)} .todo{background:#fff1dd;color:var(--todo)}
     ul{margin:8px 0 0 20px}
     .drill{border-top:1px dashed var(--line);padding-top:10px;margin-top:10px}
     .meta{font-size:.92rem;color:var(--muted)}
     .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
     @media (max-width:740px){.kpi,.grid2{grid-template-columns:1fr}}
   </style>
 </head>
 <body>
   <main class="wrap">
-    <p><a href="index.html">← トップに戻る</a></p>
+    <nav class="site-nav" aria-label="サイト内ナビゲーション">
+      <a href="index.html">トップ</a>
+      <a href="regular-practice-menu.html" aria-current="page">練習メニュー</a>
+      <a href="policy-mindset.html">方針・心得</a>
+      <a href="Horizontal-balance.html">水平チェック</a>
+      <a href="3runner-forward-grounder.html">前進守備</a>
+    </nav>
     <h1>レギュラー練習メニュー</h1>
     <p class="lead">常設の標準メニュー。週次でメニューを入れ替えるのではなく、カード単位の不変／可変で運用する。</p>
 
@@ -111,5 +124,6 @@
       </div>
     </section>
   </main>
+  <footer class="wrap">木根川レッズ プレイブック / レギュラー練習メニュー</footer>
 </body>
 </html>

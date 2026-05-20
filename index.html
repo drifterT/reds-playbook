@@ -3,41 +3,197 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#1b2a3d">
+  <meta name="description" content="木根川レッズのコーチ陣・保護者向けプレイブック。練習メニュー、方針、指導資料、状況判断をスマートフォンで確認できます。">
   <title>木根川レッズ プレイブック</title>
   <style>
-    :root{--bg:#f8f4ea;--ink:#1b2a3d;--muted:#4d6074;--line:#d9d1c1;--card:#fff;--accent:#c43a2e}
-    body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.7;margin:0;background:var(--bg);color:var(--ink)}
-    .wrap{max-width:900px;margin:0 auto;padding:28px 20px 40px}
-    h1{font-size:2rem;margin:0 0 8px}
-    p{margin:.4rem 0}
-    .lead{color:var(--muted);margin-bottom:18px}
-    .grid{display:grid;grid-template-columns:1fr;gap:12px}
-    .card{display:block;background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:10px;padding:14px 16px;text-decoration:none;color:var(--ink)}
-    .card-title{font-weight:700;font-size:1.05rem}
-    .card-desc{font-size:.92rem;color:var(--muted)}
+    :root{
+      --bg:#f8f4ea;
+      --paper:#fffaf0;
+      --ink:#1b2a3d;
+      --muted:#52667b;
+      --line:#d9d1c1;
+      --accent:#c43a2e;
+      --accent-deep:#8e2a20;
+      --field:#2f684f;
+      --gold:#d49b2a;
+      --shadow:0 14px 34px rgba(27,42,61,.10);
+    }
+    *{box-sizing:border-box}
+    body{
+      margin:0;
+      font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif;
+      line-height:1.75;
+      background:
+        linear-gradient(180deg,rgba(196,58,46,.08),transparent 300px),
+        radial-gradient(circle at 12px 12px,rgba(27,42,61,.06) 1px,transparent 1px),
+        var(--bg);
+      background-size:auto,24px 24px,auto;
+      color:var(--ink);
+    }
+    a{color:inherit}
+    .wrap{max-width:980px;margin:0 auto;padding:24px 20px 48px}
+    .hero{
+      display:grid;
+      grid-template-columns:1.15fr .85fr;
+      gap:28px;
+      align-items:end;
+      padding:28px 0 24px;
+      border-bottom:1px solid var(--line);
+    }
+    .eyebrow{
+      display:inline-flex;
+      align-items:center;
+      gap:8px;
+      margin:0 0 14px;
+      color:var(--accent);
+      font-size:.78rem;
+      font-weight:800;
+      letter-spacing:.12em;
+    }
+    .eyebrow::before{content:"";width:28px;height:2px;background:var(--accent)}
+    h1{font-size:clamp(2.35rem,7vw,4.8rem);line-height:1.02;margin:0 0 12px;letter-spacing:.01em}
+    .lead{max-width:660px;margin:0;color:var(--muted);font-size:1.02rem}
+    .hero-panel{
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:18px;
+      box-shadow:var(--shadow);
+    }
+    .hero-panel strong{display:block;margin-bottom:8px}
+    .hero-panel ul{margin:0;padding-left:1.25rem;color:var(--muted);font-size:.94rem}
+    .section-head{display:flex;justify-content:space-between;gap:16px;align-items:end;margin:28px 0 14px}
+    h2{font-size:1.18rem;margin:0}
+    .section-note{margin:0;color:var(--muted);font-size:.9rem}
+    .grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
+    .card{
+      min-height:178px;
+      display:flex;
+      flex-direction:column;
+      justify-content:space-between;
+      gap:16px;
+      background:var(--paper);
+      border:1px solid var(--line);
+      border-radius:8px;
+      padding:18px;
+      text-decoration:none;
+      box-shadow:0 5px 18px rgba(27,42,61,.05);
+      transition:transform .16s ease,border-color .16s ease,box-shadow .16s ease;
+    }
+    .card:hover,.card:focus-visible{
+      transform:translateY(-2px);
+      border-color:rgba(196,58,46,.55);
+      box-shadow:var(--shadow);
+      outline:none;
+    }
+    .card-top{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+    .card-kicker{font-size:.75rem;font-weight:800;letter-spacing:.1em;color:var(--accent)}
+    .badge{flex:none;border:1px solid var(--line);border-radius:999px;padding:2px 9px;color:var(--muted);font-size:.75rem;background:#fff}
+    .card-title{display:block;margin:8px 0 6px;font-weight:850;font-size:1.24rem;line-height:1.35}
+    .card-desc{margin:0;color:var(--muted);font-size:.95rem}
+    .card-action{display:flex;align-items:center;justify-content:space-between;border-top:1px solid var(--line);padding-top:12px;font-weight:800;color:var(--accent-deep)}
+    .card-action span:last-child{font-size:1.2rem;line-height:1}
+    .status{
+      display:grid;
+      grid-template-columns:repeat(3,minmax(0,1fr));
+      gap:10px;
+      margin-top:14px;
+    }
+    .metric{background:rgba(255,250,240,.72);border:1px solid var(--line);border-radius:8px;padding:14px}
+    .metric strong{display:block;font-size:1.4rem;line-height:1.1;color:var(--accent)}
+    .metric span{display:block;margin-top:5px;color:var(--muted);font-size:.86rem}
+    footer{margin-top:34px;padding-top:18px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
+    @media (max-width:760px){
+      .wrap{padding:18px 16px 38px}
+      .hero{grid-template-columns:1fr;gap:18px;padding-top:18px}
+      .grid,.status{grid-template-columns:1fr}
+      .section-head{display:block}
+      .section-note{margin-top:4px}
+    }
   </style>
 </head>
 <body>
   <main class="wrap">
-    <h1>木根川レッズ プレイブック</h1>
-    <p class="lead">閲覧したいセクションを選んでください。</p>
+    <section class="hero">
+      <div>
+        <p class="eyebrow">KINEGAWA REDS PLAYBOOK</p>
+        <h1>木根川レッズ<br>プレイブック</h1>
+        <p class="lead">練習の進め方、チーム方針、技術指導、状況判断をスマートフォンで確認するための静的サイトです。コーチ陣と保護者が、同じ画面を見て同じ言葉で話せる状態をつくります。</p>
+      </div>
+      <aside class="hero-panel" aria-label="運用メモ">
+        <strong>運用の見方</strong>
+        <ul>
+          <li>練習前は「メニュー」と「方針」を確認</li>
+          <li>技術説明は「水平チェック」を共有</li>
+          <li>ケース練習は「前進守備」で動きを確認</li>
+        </ul>
+      </aside>
+    </section>
+
+    <div class="section-head">
+      <h2>セクション</h2>
+      <p class="section-note">GitHub Pages のリポジトリルートからそのまま配信できます。</p>
+    </div>
 
     <div class="grid">
-      <a class="card" href="policy-mindset.html">
-        <div class="card-title">方針・心得</div>
-        <div class="card-desc">コーチ心得・選手心得・コーチ配置（運用基準）</div>
+      <a class="card" href="regular-practice-menu.html">
+        <div>
+          <div class="card-top">
+            <span class="card-kicker">PRACTICE</span>
+            <span class="badge">常設メニュー</span>
+          </div>
+          <span class="card-title">レギュラー練習メニュー</span>
+          <p class="card-desc">アップ、2箇所、4箇所、バッティング、シート練習までの標準フローとドリルカード。</p>
+        </div>
+        <div class="card-action"><span>開く</span><span>→</span></div>
       </a>
 
-      <a class="card" href="regular-practice-menu.html">
-        <div class="card-title">レギュラー練習メニュー</div>
-        <div class="card-desc">練習フローと各カード（2箇所・4箇所・バッティング）</div>
+      <a class="card" href="policy-mindset.html">
+        <div>
+          <div class="card-top">
+            <span class="card-kicker">TEAM</span>
+            <span class="badge">不変ルール</span>
+          </div>
+          <span class="card-title">方針・心得</span>
+          <p class="card-desc">コーチ心得、選手心得、コーチ配置の基準。練習日の判断を揃えるための土台。</p>
+        </div>
+        <div class="card-action"><span>開く</span><span>→</span></div>
       </a>
 
       <a class="card" href="Horizontal-balance.html">
-        <div class="card-title">Horizontal-balance</div>
-        <div class="card-desc">旧 index.html（水平チェック）ページ</div>
+        <div>
+          <div class="card-top">
+            <span class="card-kicker">SKILL</span>
+            <span class="badge">打撃・守備</span>
+          </div>
+          <span class="card-title">水平チェック</span>
+          <p class="card-desc">打席に入って最初の1秒。肩と腰の水平を起点に、スイングと送球の再現性を整える指導資料。</p>
+        </div>
+        <div class="card-action"><span>開く</span><span>→</span></div>
+      </a>
+
+      <a class="card" href="3runner-forward-grounder.html">
+        <div>
+          <div class="card-top">
+            <span class="card-kicker">CASE</span>
+            <span class="badge">状況判断</span>
+          </div>
+          <span class="card-title">三塁ランナー・前進守備</span>
+          <p class="card-desc">投ゴロ、捕ゴロ、内野各方向のゴロで、二塁手・一塁手を中心に動きを確認するインタラクティブ図解。</p>
+        </div>
+        <div class="card-action"><span>開く</span><span>→</span></div>
       </a>
     </div>
+
+    <section class="status" aria-label="サイト概要">
+      <div class="metric"><strong>4</strong><span>公開ページ</span></div>
+      <div class="metric"><strong>18</strong><span>練習カード</span></div>
+      <div class="metric"><strong>root</strong><span>GitHub Pages 配信単位</span></div>
+    </section>
   </main>
+  <footer class="wrap">
+    <span>木根川レッズ プレイブック / static site for GitHub Pages</span>
+  </footer>
 </body>
 </html>
