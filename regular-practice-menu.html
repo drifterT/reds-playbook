@@ -26,6 +26,10 @@
     .summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
     .summary div{border-left:4px solid var(--accent);padding-left:12px}
     .section-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+    .section-intro{color:var(--muted);margin:4px 0 12px}
+    .flow-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:10px;margin-top:12px}
+    .flow-card{background:rgba(255,255,255,.46);border:1px solid var(--line);border-radius:8px;padding:14px}
+    .flow-card h3{margin-bottom:6px}
     .pill{display:inline-block;border-radius:999px;padding:3px 10px;font-size:.78rem;font-weight:800;white-space:nowrap}
     .fixed{background:#e8f5ee;color:var(--ok)}
     .confirm{background:#fff1dd;color:var(--todo)}
@@ -40,7 +44,7 @@
     footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
     @media (max-width:740px){
       .wrap{padding:18px 16px 36px}
-      .summary{grid-template-columns:1fr}
+      .summary,.flow-grid{grid-template-columns:1fr}
       .section-head,.drill-title{display:block}
       .pill{margin-top:6px}
     }
@@ -78,10 +82,27 @@
         <h2>練習の流れ</h2>
         <span class="pill fixed">確定</span>
       </div>
-      <ul>
-        <li>基本型：アップ → 2箇所 → 4箇所 → バッティング → シート</li>
-        <li>午前木根B型：アップ → 2箇所 → バッティング → 4箇所 → シート</li>
-      </ul>
+      <p class="section-intro">順番は、体の準備からテンポ作り、判断、実戦へつなげるための標準型。グラウンド条件で入れ替える場合も、その日の主眼は変えずに進める。</p>
+      <div class="flow-grid">
+        <article class="flow-card">
+          <h3>基本型</h3>
+          <p class="meta">アップ → 2箇所 → 4箇所 → バッティング → シート</p>
+          <ul>
+            <li>アップで体の準備と動作確認を行う。</li>
+            <li>2箇所で捕る、投げる、返すテンポを作る。</li>
+            <li>4箇所で方向、順番、状況判断を入れる。</li>
+          </ul>
+        </article>
+        <article class="flow-card">
+          <h3>午前木根B型</h3>
+          <p class="meta">アップ → 2箇所 → バッティング → 4箇所 → シート</p>
+          <ul>
+            <li>時間やグラウンド条件に合わせて、打撃と4箇所の順番を入れ替える型。</li>
+            <li>変更理由をコーチ間で共有してから始める。</li>
+            <li>順番を変えても、その日の主眼は変えない。</li>
+          </ul>
+        </article>
+      </div>
     </section>
 
     <section class="panel" id="warmup">
@@ -89,6 +110,7 @@
         <h2>アップ 10枚</h2>
         <span class="pill fixed">記述済み</span>
       </div>
+      <p class="section-intro">アップは体を温めるだけでなく、投げる・捕る・打つ前の土台を確認する時間。回数を急がず、姿勢、重心、ステップ、テンポを見る。</p>
       <div class="card-list">
         <article class="drill">
           <div class="drill-title"><h3>アップ-01 体操〜ダッシュ</h3><span class="pill confirm">要確認</span></div>
@@ -116,11 +138,11 @@
         </article>
         <article class="drill">
           <div class="drill-title"><h3>アップ-07 正対スロー（捻り確認）</h3><span class="pill fixed">確定</span></div>
-          <p class="meta">上体の捻り、リリースポイント、捕球後の「捕ったらファースト」のステップを確認する。</p>
+          <p class="meta">投球者は上体の捻りとリリースポイントを確認する。捕球者は捕球後の「捕ったらファースト」のステップを確認する。</p>
         </article>
         <article class="drill">
           <div class="drill-title"><h3>アップ-08 体重移動スロー</h3><span class="pill fixed">確定</span></div>
-          <p class="meta">大きな体重移動と前足ブレーキ、捕球後の「捕ったらファースト」のステップを確認する。</p>
+          <p class="meta">投球者は大きな体重移動と前足ブレーキを確認する。捕球者は捕球後の「捕ったらファースト」のステップを確認する。</p>
         </article>
         <article class="drill">
           <div class="drill-title"><h3>アップ-09 自由投法スロー</h3><span class="pill fixed">確定</span></div>
@@ -128,7 +150,7 @@
         </article>
         <article class="drill">
           <div class="drill-title"><h3>アップ-10 ラスト10</h3><span class="pill fixed">確定</span></div>
-          <p class="meta">テンポよく、捕ったらすぐ返す。連続10回成功を目指す。</p>
+          <p class="meta">テンポよく、捕ったらすぐ返す。最後に連続10回成功を目指し、返球までの速さとリズムを揃える。</p>
         </article>
       </div>
     </section>
@@ -138,6 +160,7 @@
         <h2>2箇所キャッチボール 3枚</h2>
         <span class="pill draft">準備中</span>
       </div>
+      <p class="section-intro">2箇所は、捕球から返球までのテンポを作るブロック。競争や回数チャレンジを入れる場合も、急ぐだけにならないように見るポイントを絞る。</p>
       <div class="card-list">
         <article class="drill placeholder">
           <div class="drill-title"><h3>2箇所-01 チーム対抗・1分間成功数</h3><span class="pill draft">準備中</span></div>
@@ -159,6 +182,7 @@
         <h2>4箇所キャッチボール 2枚</h2>
         <span class="pill draft">準備中</span>
       </div>
+      <p class="section-intro">4箇所は、送球方向と次の準備をそろえるブロック。順回し、逆回し、指定順など、型ごとに見るポイントを変える。</p>
       <div class="card-list">
         <article class="drill placeholder">
           <div class="drill-title"><h3>4箇所-01 順回し／逆回し／本二一三 ほか</h3><span class="pill draft">準備中</span></div>
@@ -176,7 +200,7 @@
         <h2>バッティング練習 3枚</h2>
         <span class="pill draft">準備中</span>
       </div>
-      <p class="meta">バッティング構成カードは、練習方法・コーチ配置・場所の可視化を中心に整理する。</p>
+      <p class="section-intro">バッティング構成カードは、技術指導の細部ではなく、練習方法・コーチ配置・場所の可視化を中心に整理する。人数と大人の数に合わせてパターンを選ぶ。</p>
       <div class="card-list">
         <article class="drill placeholder">
           <div class="drill-title"><h3>打撃-01 パターン① 21名想定・メイン＋ケージ併用</h3><span class="pill draft">準備中</span></div>
