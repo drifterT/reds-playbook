@@ -67,7 +67,12 @@ def keywords(article: dict, limit: int = 12) -> list[str]:
 
 
 def relevant_articles(articles: list[dict], section_id: str, limit: int = 8) -> list[dict]:
-    chosen = [a for a in articles if section_id in a.get("target_sections", []) and a.get("recommended_use") != "not_use"]
+    chosen = [
+        a for a in articles
+        if section_id in a.get("target_sections", [])
+        and a.get("recommended_use") != "not_use"
+        and a.get("classification_status") == "classified"
+    ]
     chosen.sort(key=lambda a: a.get("relevance_score_by_target_section", {}).get(section_id, 0), reverse=True)
     return chosen[:limit]
 
@@ -124,6 +129,7 @@ def main() -> int:
     parser.add_argument("--articles", default="data/ameblo/articles.json")
     parser.add_argument("--fetch-log", default="data/ameblo/fetch_log.json")
     parser.add_argument("--failed", default="data/ameblo/failed_urls.json")
+    parser.add_argument("--discovered", default="data/ameblo/discovered_urls.json")
     parser.add_argument("--output", default="docs/content-source-map.md")
     args = parser.parse_args()
 
@@ -131,8 +137,13 @@ def main() -> int:
     articles_raw = read_json(Path(args.articles), [])
     fetch_log = read_json(Path(args.fetch_log), {})
     failed = read_json(Path(args.failed), [])
+    discovered = read_json(Path(args.discovered), [])
     articles = index.get("articles", [])
-    by_section = {section_id: relevant_articles(articles, section_id, limit=5) for section_id, _, _, _ in SECTION_ORDER}
+    status_counts = index.get("status_counts", {})
+    blocked_count = status_counts.get("blocked_by_robots", 0)
+    pending_count = status_counts.get("pending", 0)
+    fetched_count = status_counts.get("fetched", 0) + status_counts.get("cached", 0)
+    no_body = [article for article in articles if article.get("classification_status") != "classified"]
 
     high_priority = [
         article for article in articles
@@ -154,8 +165,10 @@ def main() -> int:
         "",
         "## Source Processing Summary",
         "",
-        f"- Number of articles discovered: {fetch_log.get('discovered_count', len(articles_raw))}",
-        f"- Number of articles fetched: {fetch_log.get('fetched_count', len(articles_raw))}",
+        f"- Discovered URL count: {len(discovered) or fetch_log.get('discovered_count', 0)}",
+        f"- Fetched article count: {fetched_count or fetch_log.get('fetched_count', len(articles_raw))}",
+        f"- Blocked by robots count: {blocked_count}",
+        f"- Pending manual input count: {pending_count}",
         f"- Number of articles indexed: {index.get('article_count', len(articles))}",
         f"- Generation timestamp: {now_iso()}",
         f"- Fetch blockers or limitations: {len(failed)} failed/skipped URLs logged in `data/ameblo/failed_urls.json`.",
@@ -189,6 +202,22 @@ def main() -> int:
             ])
     else:
         lines.append("- No high-priority articles identified yet.")
+
+    lines.extend([
+        "",
+        "## URL Status / Body Not Retrieved",
+        "",
+    ])
+    if no_body:
+        for article in no_body:
+            lines.extend([
+                f"- [{article.get('url')}]({article.get('url')})",
+                f"  - Fetch status: {article.get('fetch_status')}",
+                f"  - Classification status: {article.get('classification_status')}",
+                f"  - Notes: {article.get('notes')}",
+            ])
+    else:
+        lines.append("- No body-missing URLs currently recorded.")
 
     lines.extend([
         "",

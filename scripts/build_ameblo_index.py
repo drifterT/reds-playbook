@@ -4,7 +4,7 @@
 from __future__ import annotations
 
 import argparse
-from collections import Counter, defaultdict
+from collections import defaultdict
 import json
 from pathlib import Path
 import re
@@ -22,6 +22,8 @@ TARGET_SECTIONS = [
     "practice_batting",
     "other",
 ]
+
+ARTICLE_RE = re.compile(r"https://ameblo\.jp/kinegawareds/entry-\d+\.html")
 
 
 TARGET_HINTS = {
@@ -160,17 +162,57 @@ def notes_for(use: str, target_scores: dict[str, int]) -> str:
     return "No clear fit for current priority sections."
 
 
+def empty_index_record(url: str, fetch_status: str, notes: str) -> dict:
+    return {
+        "url": url,
+        "canonical_url": None,
+        "title": None,
+        "date": None,
+        "excerpt": None,
+        "fetch_status": fetch_status,
+        "classification_status": "not_classified_no_body",
+        "body_length": 0,
+        "source_categories": [],
+        "matched_keywords": [],
+        "keyword_match_count": 0,
+        "relevance_score_by_source_category": {},
+        "target_sections": [],
+        "relevance_score_by_target_section": {},
+        "recommended_use": "not_use",
+        "notes": notes,
+    }
+
+
 def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", default="data/ameblo/articles.json")
+    parser.add_argument("--discovered", default="data/ameblo/discovered_urls.json")
+    parser.add_argument("--failed", default="data/ameblo/failed_urls.json")
     parser.add_argument("--taxonomy", default="data/ameblo/keyword_taxonomy.json")
     parser.add_argument("--output", default="data/ameblo/article_index.json")
     args = parser.parse_args()
 
     articles = read_json(Path(args.input), [])
+    discovered = read_json(Path(args.discovered), [])
+    failed = read_json(Path(args.failed), [])
     taxonomy = read_json(Path(args.taxonomy), {"categories": []})
     label_to_id = {cat["label"]: cat["id"] for cat in taxonomy.get("categories", [])}
-    indexed = []
+    indexed_by_url = {}
+
+    for item in discovered:
+        url = item.get("url")
+        if url:
+            indexed_by_url[url] = empty_index_record(url, item.get("status", "pending"), "本文未取得のため分類不可")
+
+    for item in failed:
+        url = item.get("url")
+        if not url or not ARTICLE_RE.fullmatch(url):
+            continue
+        status = item.get("fetch_status") or item.get("reason") or "failed"
+        note = "本文未取得のため分類不可"
+        if status == "blocked_by_robots":
+            note = "robots.txt により本文取得不可。URLは手動確認候補として保持。"
+        indexed_by_url[url] = empty_index_record(url, status, note)
 
     for article in articles:
         source_categories, source_scores_by_label, matched_keywords, keyword_match_count = classify_source_categories(article, taxonomy)
@@ -180,12 +222,14 @@ def main() -> int:
         if not target_sections:
             target_sections = ["other"]
         use = recommended_use(target_scores, source_scores_by_label, article)
-        indexed.append({
+        indexed_by_url[article.get("url", "")] = {
             "url": article.get("url", ""),
             "canonical_url": article.get("canonical_url", ""),
             "title": article.get("title", ""),
             "date": article.get("date", ""),
             "excerpt": article.get("body_excerpt", ""),
+            "fetch_status": article.get("fetch_status", "fetched"),
+            "classification_status": "classified",
             "body_length": len(article.get("body_text", "")),
             "source_categories": source_categories,
             "matched_keywords": matched_keywords,
@@ -195,12 +239,17 @@ def main() -> int:
             "relevance_score_by_target_section": target_scores,
             "recommended_use": use,
             "notes": notes_for(use, target_scores),
-        })
+        }
 
+    indexed = [record for record in indexed_by_url.values() if record.get("url")]
     indexed.sort(key=lambda item: max(item["relevance_score_by_target_section"].values() or [0]), reverse=True)
+    status_counts = defaultdict(int)
+    for item in indexed:
+        status_counts[item.get("fetch_status", "unknown")] += 1
     output = {
         "generated_at": now_iso(),
         "article_count": len(indexed),
+        "status_counts": dict(status_counts),
         "target_sections": TARGET_SECTIONS,
         "articles": indexed,
     }

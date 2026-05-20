@@ -213,6 +213,24 @@ def write_csv(path: Path, articles: list[dict]) -> None:
             writer.writerow({field: article.get(field, "") for field in fields})
 
 
+def urls_from_input(path: Path) -> list[str]:
+    if not path.exists():
+        return []
+    if path.suffix == ".txt":
+        return sorted(ARTICLE_RE.findall(path.read_text(encoding="utf-8", errors="replace")))
+    data = read_json(path, [])
+    urls = []
+    if isinstance(data, list):
+        for item in data:
+            if isinstance(item, str):
+                url = item
+            else:
+                url = item.get("url", "")
+            if ARTICLE_RE.fullmatch(url):
+                urls.append(url)
+    return sorted(set(urls))
+
+
 def discover_article_urls(max_articles: int, delay: float, output_dir: Path, refresh: bool, robots) -> tuple[list[str], list[dict]]:
     discovered: set[str] = set()
     failed: list[dict] = []
@@ -258,11 +276,25 @@ def fetch_articles(urls: Iterable[str], output_dir: Path, delay: float, refresh:
             status = "cached"
         else:
             if not can_fetch(robots, url):
-                failed.append({"url": url, "stage": "fetch", "error": "blocked_by_robots"})
+                failed.append({
+                    "url": url,
+                    "stage": "fetch",
+                    "reason": "blocked_by_robots",
+                    "checked_at": now_iso(),
+                    "fetch_status": "blocked_by_robots",
+                })
                 continue
             status_code, html_text, err = fetch_url(url)
             if err or status_code >= 400 or not html_text:
-                failed.append({"url": url, "stage": "fetch", "status": status_code, "error": err})
+                failed.append({
+                    "url": url,
+                    "stage": "fetch",
+                    "reason": "failed",
+                    "checked_at": now_iso(),
+                    "status": status_code,
+                    "error": err,
+                    "fetch_status": "failed",
+                })
                 continue
             raw_path.write_text(html_text, encoding="utf-8")
             fetched_at = now_iso()
@@ -294,6 +326,7 @@ def fetch_articles(urls: Iterable[str], output_dir: Path, delay: float, refresh:
 
 def main() -> int:
     parser = argparse.ArgumentParser()
+    parser.add_argument("--input", default="data/ameblo/discovered_urls.json")
     parser.add_argument("--max-articles", type=int, default=50)
     parser.add_argument("--delay-seconds", type=float, default=2.0)
     parser.add_argument("--refresh", action="store_true")
@@ -304,7 +337,13 @@ def main() -> int:
     output_dir.mkdir(parents=True, exist_ok=True)
     robots = load_robots()
 
-    discovered, discover_failed = discover_article_urls(args.max_articles, args.delay_seconds, output_dir, args.refresh, robots)
+    input_path = Path(args.input)
+    input_urls = urls_from_input(input_path)
+    discover_failed = []
+    if input_path.exists():
+        discovered = input_urls[:args.max_articles]
+    else:
+        discovered, discover_failed = discover_article_urls(args.max_articles, args.delay_seconds, output_dir, args.refresh, robots)
     articles, fetch_failed = fetch_articles(discovered, output_dir, args.delay_seconds, args.refresh, robots)
 
     failed = discover_failed + fetch_failed
@@ -317,6 +356,7 @@ def main() -> int:
         "user_agent": USER_AGENT,
         "max_articles": args.max_articles,
         "delay_seconds": args.delay_seconds,
+        "input": args.input,
         "discovered_count": len(discovered),
         "fetched_count": len(articles),
         "failed_count": len(failed),
