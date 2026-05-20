@@ -8,29 +8,42 @@
   <title>レギュラー練習メニュー｜木根川レッズ</title>
   <script src="guard.js"></script>
   <style>
-    :root{--bg:#f8f4ea;--ink:#1b2a3d;--muted:#4d6074;--line:#d9d1c1;--card:#fffaf0;--accent:#c43a2e;--ok:#205d3f;--todo:#8e5f1d;--shadow:0 10px 26px rgba(27,42,61,.08)}
+    :root{--bg:#f8f4ea;--ink:#1b2a3d;--muted:#4d6074;--line:#d9d1c1;--card:#fffaf0;--accent:#c43a2e;--ok:#205d3f;--todo:#8e5f1d;--wait:#52667b;--shadow:0 10px 26px rgba(27,42,61,.08)}
     *{box-sizing:border-box}
     body{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI","Hiragino Sans","Yu Gothic",sans-serif;line-height:1.7;margin:0;background:linear-gradient(180deg,rgba(47,104,79,.08),transparent 250px),var(--bg);color:var(--ink)}
     .wrap{max-width:960px;margin:0 auto;padding:22px 20px 42px}
-    .site-nav{display:flex;flex-wrap:wrap;gap:8px;margin-bottom:26px}
-    .site-nav a{border:1px solid var(--line);border-radius:999px;background:rgba(255,250,240,.8);padding:6px 12px;text-decoration:none;color:var(--ink);font-size:.9rem;font-weight:700}
+    .site-nav,.page-nav{display:flex;flex-wrap:wrap;gap:8px}
+    .site-nav{margin-bottom:26px}
+    .site-nav a,.page-nav a{border:1px solid var(--line);border-radius:999px;background:rgba(255,250,240,.8);padding:6px 12px;text-decoration:none;color:var(--ink);font-size:.9rem;font-weight:700}
     .site-nav a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:#fff}
+    .page-nav{margin:18px 0 0}
     h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.12;margin:.2rem 0 .45rem}
     h2{font-size:1.3rem;margin:0 0 10px}
-    h3{font-size:1.05rem;margin:0 0 8px}
+    h3{font-size:1.05rem;margin:0}
     p{margin:.4rem 0}
     .lead{max-width:740px;color:var(--muted)}
     .panel{background:var(--card);border:1px solid var(--line);border-radius:8px;padding:18px;margin:14px 0;box-shadow:var(--shadow)}
-    .kpi{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
-    .kpi div{border-left:4px solid var(--accent);padding-left:12px}
-    .pill{display:inline-block;border-radius:999px;padding:3px 10px;font-size:.8rem;font-weight:700}
-    .done{background:#e8f5ee;color:var(--ok)} .todo{background:#fff1dd;color:var(--todo)}
-    ul{margin:8px 0 0 20px}
-    .drill{border-top:1px dashed var(--line);padding-top:10px;margin-top:10px}
+    .summary{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:10px}
+    .summary div{border-left:4px solid var(--accent);padding-left:12px}
+    .section-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start}
+    .pill{display:inline-block;border-radius:999px;padding:3px 10px;font-size:.78rem;font-weight:800;white-space:nowrap}
+    .fixed{background:#e8f5ee;color:var(--ok)}
+    .confirm{background:#fff1dd;color:var(--todo)}
+    .draft{background:#eef2f5;color:var(--wait)}
+    .add{background:#fff7d6;color:#7a5a00}
+    .card-list{display:grid;gap:10px;margin-top:12px}
+    .drill{background:rgba(255,255,255,.48);border:1px solid var(--line);border-radius:8px;padding:14px}
+    .drill-title{display:flex;justify-content:space-between;gap:10px;align-items:flex-start}
     .meta{font-size:.92rem;color:var(--muted)}
-    .grid2{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+    ul{margin:8px 0 0 20px}
+    .placeholder{border-style:dashed;background:rgba(255,255,255,.28)}
     footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
-    @media (max-width:740px){.kpi,.grid2{grid-template-columns:1fr}}
+    @media (max-width:740px){
+      .wrap{padding:18px 16px 36px}
+      .summary{grid-template-columns:1fr}
+      .section-head,.drill-title{display:block}
+      .pill{margin-top:6px}
+    }
   </style>
 </head>
 <body>
@@ -42,86 +55,141 @@
       <a href="Horizontal-balance.html">水平チェック</a>
       <a href="3runner-forward-grounder.html">前進守備</a>
     </nav>
+
     <h1>レギュラー練習メニュー</h1>
     <p class="lead">常設の標準メニュー。週次でメニューを入れ替えるのではなく、カード単位の不変／可変で運用する。</p>
 
-    <section class="panel kpi">
+    <nav class="page-nav" aria-label="ページ内ナビゲーション">
+      <a href="#flow">練習の流れ</a>
+      <a href="#warmup">アップ</a>
+      <a href="#two-place">2箇所</a>
+      <a href="#four-place">4箇所</a>
+      <a href="#batting">バッティング</a>
+    </nav>
+
+    <section class="panel summary" aria-label="カード概要">
       <div><strong>総カード数</strong><br>18枚</div>
       <div><strong>記述済み</strong><br>アップ 10枚</div>
-      <div><strong>要更新</strong><br>8枚を今回詳細化</div>
+      <div><strong>準備中</strong><br>2箇所・4箇所・打撃</div>
     </section>
 
-    <section class="panel">
-      <h2>練習の流れ</h2>
+    <section class="panel" id="flow">
+      <div class="section-head">
+        <h2>練習の流れ</h2>
+        <span class="pill fixed">確定</span>
+      </div>
       <ul>
         <li>基本型：アップ → 2箇所 → 4箇所 → バッティング → シート</li>
         <li>午前木根B型：アップ → 2箇所 → バッティング → 4箇所 → シート</li>
       </ul>
     </section>
-<section class="panel">
-  <h2>アップ 10枚（記述済み） <span class="pill done">記述済み</span></h2>
-  <div class="drill">
-    <h3>アップ-01 体操〜ダッシュ <span class="pill todo">要確認</span></h3>
-    <p class="meta">主眼：体温と心拍を上げ、次ドリルに入る準備を整える。</p>
-  </div>
-  <div class="drill"><h3>アップ-02 ジャンプ系（パワーポジション確認）</h3><p class="meta">4種ジャンプを各5回。回数消化ではなく姿勢確認を優先。</p></div>
-  <div class="drill"><h3>アップ-03 歩き素振り <span class="pill todo">要確認</span></h3><p class="meta">バッティング前のリズム作り。狙いと設定は要追記。</p></div>
-  <div class="drill"><h3>アップ-04 3人組・近距離2箇所キャッチボール</h3><p class="meta">設定：15回×3セット。主眼の文言は次回更新。</p></div>
-  <div class="drill"><h3>アップ-05 2人ペア・ボールハンドリング</h3><p class="meta">ショートバウンド〜2個捕球。手元処理の反復。</p></div>
-  <div class="drill"><h3>アップ-06 叩き付け</h3><p class="meta">投：高く弾ませる / 捕：ショートバウンド捕球。</p></div>
-  <div class="drill"><h3>アップ-07 正対スロー（捻り確認）</h3><p class="meta">上体の捻りとリリース位置、捕球後の一塁ステップを確認。</p></div>
-  <div class="drill"><h3>アップ-08 体重移動スロー</h3><p class="meta">前後前の重心移動＋前足ブレーキを確認。</p></div>
-  <div class="drill"><h3>アップ-09 自由投法スロー</h3><p class="meta">投球感覚を統合し、次ブロックへ接続する。</p></div>
-  <div class="drill"><h3>アップ-10 ラスト10</h3><p class="meta">アップの締め。集中して10球を完遂。</p></div>
-</section>
-    <section class="panel">
-      <h2>2箇所キャッチボール（3枚） <span class="pill done">追記済み</span></h2>
-      <div class="drill">
-        <h3>2箇所-01 チーム対抗・1分間成功数</h3>
-        <p class="meta">主眼：正確な捕球→素早い送球を1分間で反復し、集中力とテンポを揃える。</p>
-        <ul><li>設定：2チーム対抗、1分×2〜3セット。</li><li>着眼：捕球姿勢・声かけ・ミス後の切替。</li></ul>
+
+    <section class="panel" id="warmup">
+      <div class="section-head">
+        <h2>アップ 10枚</h2>
+        <span class="pill fixed">記述済み</span>
       </div>
-      <div class="drill">
-        <h3>2箇所-02 全員で1分35回チャレンジ＋個別指導</h3>
-        <p class="meta">主眼：全体の連携速度を上げつつ、失敗原因を個別修正する。</p>
-        <ul><li>設定：チーム全体で35回目標。未達時は原因を分解して再挑戦。</li><li>着眼：リリースの早さ、捕球準備、送球の高さ。</li></ul>
-      </div>
-      <div class="drill">
-        <h3>2箇所-03 ランナーつき対戦形式</h3>
-        <p class="meta">主眼：実戦想定で「捕って終わり」にしない判断と送球を習慣化。</p>
-        <ul><li>設定：ランナー役を置き、アウト条件を決めて対戦。</li><li>着眼：次塁を意識した送球判断、連携の声。</li></ul>
+      <div class="card-list">
+        <article class="drill">
+          <div class="drill-title"><h3>アップ-01 体操〜ダッシュ</h3><span class="pill confirm">要確認</span></div>
+          <p class="meta">主眼・設定・着眼点は要追記。体操からダッシュへつなぎ、練習に入る準備を整える。</p>
+        </article>
+        <article class="drill">
+          <div class="drill-title"><h3>アップ-02 ジャンプ系（パワーポジション確認）</h3><span class="pill fixed">確定</span></div>
+          <p class="meta">各5回。回数をこなすことではなく、1回ごとの姿勢と体の使い方を確認する。</p>
+        </article>
+        <article class="drill">
+          <div class="drill-title"><h3>アップ-03 歩き素振り</h3><span class="pill confirm">要確認</span></div>
+          <p class="meta">主眼・設定・着眼点は要追記。バッティング系のため確認点はコーチで詰める。</p>
+        </article>
+        <article class="drill">
+          <div class="drill-title"><h3>アップ-04 3人組・近距離2箇所キャッチボール</h3><span class="pill add">要追記</span></div>
+          <p class="meta">設定：15回 × 3セット／近距離。主眼と着眼点は後日追記。</p>
+        </article>
+        <article class="drill">
+          <div class="drill-title"><h3>アップ-05 2人ペア・ボールハンドリング</h3><span class="pill add">要追記</span></div>
+          <p class="meta">ショートバウンド〜ボール2個キャッチなど。主眼と着眼点は後日追記。</p>
+        </article>
+        <article class="drill">
+          <div class="drill-title"><h3>アップ-06 叩き付け</h3><span class="pill fixed">確定</span></div>
+          <p class="meta">投球者は高く弾ませる。捕球者はショートバウンドで捕る。</p>
+        </article>
+        <article class="drill">
+          <div class="drill-title"><h3>アップ-07 正対スロー（捻り確認）</h3><span class="pill fixed">確定</span></div>
+          <p class="meta">上体の捻り、リリースポイント、捕球後の「捕ったらファースト」のステップを確認する。</p>
+        </article>
+        <article class="drill">
+          <div class="drill-title"><h3>アップ-08 体重移動スロー</h3><span class="pill fixed">確定</span></div>
+          <p class="meta">大きな体重移動と前足ブレーキ、捕球後の「捕ったらファースト」のステップを確認する。</p>
+        </article>
+        <article class="drill">
+          <div class="drill-title"><h3>アップ-09 自由投法スロー</h3><span class="pill fixed">確定</span></div>
+          <p class="meta">投球者は自由な投法。捕球者は「捕ったらファースト」のステップを確認する。</p>
+        </article>
+        <article class="drill">
+          <div class="drill-title"><h3>アップ-10 ラスト10</h3><span class="pill fixed">確定</span></div>
+          <p class="meta">テンポよく、捕ったらすぐ返す。連続10回成功を目指す。</p>
+        </article>
       </div>
     </section>
 
-    <section class="panel">
-      <h2>4箇所キャッチボール（2枚） <span class="pill done">追記済み</span></h2>
-      <div class="drill">
-        <h3>4箇所-01 順回し／逆回し／本二一三</h3>
-        <p class="meta">主眼：内野全体の送球ラインと捕球後の体向きを統一する。</p>
-        <ul><li>設定：順回し→逆回し→指定ルート（本二一三）を各2巡。</li><li>着眼：足運び、体の正対、送球の山なり回避。</li></ul>
+    <section class="panel" id="two-place">
+      <div class="section-head">
+        <h2>2箇所キャッチボール 3枚</h2>
+        <span class="pill draft">準備中</span>
       </div>
-      <div class="drill">
-        <h3>4箇所-02 ランダム・ボール2個 <span class="pill todo">要最終確定</span></h3>
-        <p class="meta">主眼：同時処理時の優先順位と安全な送球判断を鍛える。</p>
-        <ul><li>設定：ボール2個で同時進行。コーチ合図で投球先を変更。</li><li>未確定：どの塁への送球を許可するか（次回コーチMTGで確定）。</li></ul>
+      <div class="card-list">
+        <article class="drill placeholder">
+          <div class="drill-title"><h3>2箇所-01 チーム対抗・1分間成功数</h3><span class="pill draft">準備中</span></div>
+          <p class="meta">主眼・やり方・設定・着眼点は後日更新予定。</p>
+        </article>
+        <article class="drill placeholder">
+          <div class="drill-title"><h3>2箇所-02 全員で1分35回チャレンジ＋個別指導</h3><span class="pill draft">準備中</span></div>
+          <p class="meta">主眼・やり方・設定・着眼点は後日更新予定。</p>
+        </article>
+        <article class="drill placeholder">
+          <div class="drill-title"><h3>2箇所-03 ランナーつき対戦形式</h3><span class="pill draft">準備中</span></div>
+          <p class="meta">主眼・やり方・設定・着眼点は後日更新予定。</p>
+        </article>
       </div>
     </section>
 
-    <section class="panel">
-      <h2>バッティング練習（3枚） <span class="pill done">追記済み</span></h2>
-      <div class="grid2">
-        <div class="drill" style="margin-top:0">
-          <h3>打撃-01 パターン①（21名想定）</h3>
-          <ul><li>メイン＋ケージ併用で、実打席数と基礎反復を両立。</li><li>コーチ配置：打席管理2、ケージ1、安全管理1。</li></ul>
-        </div>
-        <div class="drill" style="margin-top:0">
-          <h3>打撃-02 パターン②（20名想定）</h3>
-          <ul><li>打撃班と別メニュー班を半分ずつ回す。</li><li>待機時間を減らし、集中の切れを防止。</li></ul>
-        </div>
+    <section class="panel" id="four-place">
+      <div class="section-head">
+        <h2>4箇所キャッチボール 2枚</h2>
+        <span class="pill draft">準備中</span>
       </div>
-      <div class="drill">
-        <h3>打撃-03 パターン③（球数重視・大人6名）</h3>
-        <ul><li>1人あたり球数を最大化。トス/回収/補助を分担して回転率を上げる。</li><li>安全管理担当を固定し、打球方向の管理を徹底。</li></ul>
+      <div class="card-list">
+        <article class="drill placeholder">
+          <div class="drill-title"><h3>4箇所-01 順回し／逆回し／本二一三 ほか</h3><span class="pill draft">準備中</span></div>
+          <p class="meta">主眼・やり方・設定・着眼点は後日更新予定。</p>
+        </article>
+        <article class="drill placeholder">
+          <div class="drill-title"><h3>4箇所-02 ランダム・ボール2個</h3><span class="pill confirm">要確認</span></div>
+          <p class="meta">どの塁に投げてよいか等のルールは後日確認。詳細は後日追記。</p>
+        </article>
+      </div>
+    </section>
+
+    <section class="panel" id="batting">
+      <div class="section-head">
+        <h2>バッティング練習 3枚</h2>
+        <span class="pill draft">準備中</span>
+      </div>
+      <p class="meta">バッティング構成カードは、練習方法・コーチ配置・場所の可視化を中心に整理する。</p>
+      <div class="card-list">
+        <article class="drill placeholder">
+          <div class="drill-title"><h3>打撃-01 パターン① 21名想定・メイン＋ケージ併用</h3><span class="pill draft">準備中</span></div>
+          <p class="meta">練習方法・コーチ配置・場所は後日更新予定。</p>
+        </article>
+        <article class="drill placeholder">
+          <div class="drill-title"><h3>打撃-02 パターン② 20名想定・打撃と別メニュー半々</h3><span class="pill draft">準備中</span></div>
+          <p class="meta">練習方法・コーチ配置・場所は後日更新予定。</p>
+        </article>
+        <article class="drill placeholder">
+          <div class="drill-title"><h3>打撃-03 パターン③ 球数重視・大人6名</h3><span class="pill draft">準備中</span></div>
+          <p class="meta">練習方法・コーチ配置・場所は後日更新予定。</p>
+        </article>
       </div>
     </section>
   </main>

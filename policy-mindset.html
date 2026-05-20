@@ -16,13 +16,18 @@
     .site-nav a{border:1px solid var(--line);border-radius:999px;background:rgba(255,250,240,.8);padding:6px 12px;text-decoration:none;color:var(--ink);font-size:.9rem;font-weight:700}
     .site-nav a[aria-current="page"]{background:var(--accent);border-color:var(--accent);color:#fff}
     h1{font-size:clamp(2rem,6vw,3.5rem);line-height:1.12;margin:.2rem 0 .45rem}
-    h2{font-size:1.2rem;margin:0 0 8px;color:var(--accent)}
+    h2{font-size:1.2rem;margin:0;color:var(--accent)}
     p{margin:.4rem 0}
     .lead{max-width:720px;color:var(--muted)}
     .card{background:var(--card);border:1px solid var(--line);border-left:4px solid var(--accent);border-radius:8px;padding:18px;margin:14px 0;box-shadow:var(--shadow)}
+    .card-head{display:flex;justify-content:space-between;gap:12px;align-items:flex-start;margin-bottom:8px}
+    .pill{display:inline-block;border-radius:999px;padding:3px 10px;font-size:.78rem;font-weight:800;white-space:nowrap}
+    .fixed{background:#e8f5ee;color:#205d3f}
+    .confirm{background:#fff1dd;color:#8e5f1d}
     ul{margin:8px 0 0 20px}
     .note{font-size:.92rem;color:var(--muted)}
     footer{margin-top:26px;padding-top:16px;border-top:1px solid var(--line);color:var(--muted);font-size:.88rem}
+    @media (max-width:740px){.card-head{display:block}.pill{margin-top:6px}}
   </style>
 </head>
 <body>
@@ -38,7 +43,10 @@
     <p class="lead">チーム運営の不変ルールを集約し、コーチ・保護者の認識を揃えるためのページ。</p>
 
     <section class="card">
-      <h2>コーチ心得（確定版 v1）</h2>
+      <div class="card-head">
+        <h2>コーチ心得</h2>
+        <span class="pill fixed">確定</span>
+      </div>
       <ul>
         <li>練習開始前に「今日の主眼」を30秒で共有する（何を見るかを先に揃える）。</li>
         <li>回数の消化より、1回の質を優先する。修正は短く・具体的に1点ずつ伝える。</li>
@@ -48,7 +56,10 @@
     </section>
 
     <section class="card">
-      <h2>選手心得（確定版 v1）</h2>
+      <div class="card-head">
+        <h2>選手心得</h2>
+        <span class="pill fixed">確定</span>
+      </div>
       <ul>
         <li>「なぜこの練習をするか」を理解してから取り組む。</li>
         <li>捕って終わりにせず、次のプレー（送球・カバー）までを1セットで行う。</li>
@@ -58,7 +69,10 @@
     </section>
 
     <section class="card">
-      <h2>コーチ配置（運用基準）</h2>
+      <div class="card-head">
+        <h2>コーチ配置</h2>
+        <span class="pill confirm">要確認</span>
+      </div>
       <ul>
         <li>アップ：全体進行 1名／フォーム確認 1〜2名</li>
         <li>2箇所・4箇所キャッチボール：レーン担当 2〜4名／全体観察 1名</li>
