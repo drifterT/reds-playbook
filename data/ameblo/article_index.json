@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T07:40:25Z",
+  "generated_at": "2026-05-20T10:08:53Z",
   "article_count": 6,
   "status_counts": {
     "manual_note": 3,
@@ -24,10 +24,10 @@
       "canonical_url": "",
       "title": "4箇所キャッチボール材料メモ",
       "date": "",
-      "excerpt": "4箇所キャッチボールの準備中カードを整理するための短い材料メモ。\nAmeblo記事本文の転載ではなく、カード化するための観点メモ。\n\n## 4箇所-01 順回し／逆回し／本二一三 ほか\n\n### ねらい\n- 送球方向、次の準備、カバー意識をそろえる。\n- 決まった順番の中で、捕球から送球までの動きを安定させる。\n\n### やり方\n- 順回し、逆回し、指定順で...",
+      "excerpt": "4箇所キャッチボールの準備中カードを整理するための短い材料メモ。\nAmeblo記事本文の転載ではなく、カード化するための観点メモ。\n\n## 4箇所-01 順回し／逆回し／ホーム2塁1塁3塁 ほか\n\n### ねらい\n- 送球方向、次の準備、カバー意識をそろえる。\n- 決まった順番の中で、捕球から送球までの動きを安定させる。\n\n### やり方\n- 順回し、逆回し...",
       "fetch_status": "manual_note",
       "classification_status": "classified_from_manual_note",
-      "body_length": 679,
+      "body_length": 689,
       "manual_source_path": "data/ameblo/manual_articles/four-place-material-001.md",
       "source_type": "manual_note",
       "target_hint": "practice_four_point_catchball",

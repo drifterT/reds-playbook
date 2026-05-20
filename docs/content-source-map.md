@@ -17,7 +17,7 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 - Blocked by robots count: 2
 - Pending manual input count: 0
 - Number of articles indexed: 6
-- Generation timestamp: 2026-05-20T07:40:31Z
+- Generation timestamp: 2026-05-20T10:08:53Z
 - Fetch blockers or limitations: 3 failed/skipped URLs logged in `data/ameblo/failed_urls.json`.
 
 ## 方針・心得
