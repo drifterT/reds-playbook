@@ -1,6 +1,9 @@
 {
-  "generated_at": "2026-05-20T06:14:09Z",
-  "article_count": 0,
+  "generated_at": "2026-05-20T06:24:54Z",
+  "article_count": 3,
+  "status_counts": {
+    "blocked_by_robots": 3
+  },
   "target_sections": [
     "policy_coach_mindset",
     "policy_player_mindset",
@@ -12,5 +15,60 @@
     "practice_batting",
     "other"
   ],
-  "articles": []
+  "articles": [
+    {
+      "url": "https://ameblo.jp/kinegawareds/entry-12555442306.html",
+      "canonical_url": null,
+      "title": null,
+      "date": null,
+      "excerpt": null,
+      "fetch_status": "blocked_by_robots",
+      "classification_status": "not_classified_no_body",
+      "body_length": 0,
+      "source_categories": [],
+      "matched_keywords": [],
+      "keyword_match_count": 0,
+      "relevance_score_by_source_category": {},
+      "target_sections": [],
+      "relevance_score_by_target_section": {},
+      "recommended_use": "not_use",
+      "notes": "robots.txt により本文取得不可。URLは手動確認候補として保持。"
+    },
+    {
+      "url": "https://ameblo.jp/kinegawareds/entry-12857620895.html",
+      "canonical_url": null,
+      "title": null,
+      "date": null,
+      "excerpt": null,
+      "fetch_status": "blocked_by_robots",
+      "classification_status": "not_classified_no_body",
+      "body_length": 0,
+      "source_categories": [],
+      "matched_keywords": [],
+      "keyword_match_count": 0,
+      "relevance_score_by_source_category": {},
+      "target_sections": [],
+      "relevance_score_by_target_section": {},
+      "recommended_use": "not_use",
+      "notes": "robots.txt により本文取得不可。URLは手動確認候補として保持。"
+    },
+    {
+      "url": "https://ameblo.jp/kinegawareds/entry-12887744090.html",
+      "canonical_url": null,
+      "title": null,
+      "date": null,
+      "excerpt": null,
+      "fetch_status": "blocked_by_robots",
+      "classification_status": "not_classified_no_body",
+      "body_length": 0,
+      "source_categories": [],
+      "matched_keywords": [],
+      "keyword_match_count": 0,
+      "relevance_score_by_source_category": {},
+      "target_sections": [],
+      "relevance_score_by_target_section": {},
+      "recommended_use": "not_use",
+      "notes": "robots.txt により本文取得不可。URLは手動確認候補として保持。"
+    }
+  ]
 }

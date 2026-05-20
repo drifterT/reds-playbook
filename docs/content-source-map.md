@@ -10,11 +10,13 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 
 ## Source Processing Summary
 
-- Number of articles discovered: 0
-- Number of articles fetched: 0
-- Number of articles indexed: 0
-- Generation timestamp: 2026-05-20T06:14:10Z
-- Fetch blockers or limitations: 1 failed/skipped URLs logged in `data/ameblo/failed_urls.json`.
+- Discovered URL count: 3
+- Fetched article count: 0
+- Blocked by robots count: 3
+- Pending manual input count: 0
+- Number of articles indexed: 3
+- Generation timestamp: 2026-05-20T06:24:54Z
+- Fetch blockers or limitations: 3 failed/skipped URLs logged in `data/ameblo/failed_urls.json`.
 
 ## 方針・心得
 
@@ -128,9 +130,26 @@ Source article URLs are preserved so future public pages can show 参考記事 l
 
 - No high-priority articles identified yet.
 
+## URL Status / Body Not Retrieved
+
+- [https://ameblo.jp/kinegawareds/entry-12555442306.html](https://ameblo.jp/kinegawareds/entry-12555442306.html)
+  - Fetch status: blocked_by_robots
+  - Classification status: not_classified_no_body
+  - Notes: robots.txt により本文取得不可。URLは手動確認候補として保持。
+- [https://ameblo.jp/kinegawareds/entry-12857620895.html](https://ameblo.jp/kinegawareds/entry-12857620895.html)
+  - Fetch status: blocked_by_robots
+  - Classification status: not_classified_no_body
+  - Notes: robots.txt により本文取得不可。URLは手動確認候補として保持。
+- [https://ameblo.jp/kinegawareds/entry-12887744090.html](https://ameblo.jp/kinegawareds/entry-12887744090.html)
+  - Fetch status: blocked_by_robots
+  - Classification status: not_classified_no_body
+  - Notes: robots.txt により本文取得不可。URLは手動確認候補として保持。
+
 ## Do-not-use / Low Priority Articles
 
-- Unrelated, too personal, or unsuitable article types should be marked `not_use` during owner review.
+- [https://ameblo.jp/kinegawareds/entry-12555442306.html](https://ameblo.jp/kinegawareds/entry-12555442306.html) - no clear fit for current priority sections.
+- [https://ameblo.jp/kinegawareds/entry-12857620895.html](https://ameblo.jp/kinegawareds/entry-12857620895.html) - no clear fit for current priority sections.
+- [https://ameblo.jp/kinegawareds/entry-12887744090.html](https://ameblo.jp/kinegawareds/entry-12887744090.html) - no clear fit for current priority sections.
 
 ## Future Public Reference Design
 

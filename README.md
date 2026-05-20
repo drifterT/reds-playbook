@@ -40,6 +40,7 @@ The Ameblo pipeline is a local content-planning tool. It is not linked from publ
 Run from the repository root:
 
 ```bash
+python3 scripts/discover_ameblo_urls.py
 python3 scripts/fetch_ameblo.py --max-articles 50
 python3 scripts/build_ameblo_index.py
 python3 scripts/map_ameblo_to_playbook.py
@@ -48,6 +49,7 @@ python3 scripts/map_ameblo_to_playbook.py
 For a smaller test:
 
 ```bash
+python3 scripts/discover_ameblo_urls.py
 python3 scripts/fetch_ameblo.py --max-articles 20
 ```
 
@@ -55,6 +57,8 @@ Outputs are saved under:
 
 - `data/ameblo/articles.json`
 - `data/ameblo/articles.csv`
+- `data/ameblo/discovered_urls.json`
+- `data/ameblo/source_urls.txt`
 - `data/ameblo/article_index.json`
 - `data/ameblo/raw/`
 - `docs/content-source-map.md`
