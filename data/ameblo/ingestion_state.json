@@ -1,0 +1,9 @@
+{
+  "last_run_at": null,
+  "max_articles_per_run": 10,
+  "processed_urls": {},
+  "pending_urls": [],
+  "failed_urls": [],
+  "blocked_urls": [],
+  "skipped_urls": []
+}
