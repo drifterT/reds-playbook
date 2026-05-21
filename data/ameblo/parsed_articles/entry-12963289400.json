@@ -1,0 +1,53 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12963289400.html",
+  "entry_id": "entry-12963289400",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『順番と順序（子供ロコモ）』",
+  "published_at": "2026-05-08",
+  "fetched_at": "2026-05-21T09:27:32Z",
+  "status": "fetched",
+  "text_length": 2088,
+  "content_excerpt_for_review": "Xでとても興味深いやり取りを 目にしたので リンクではなく スクショにて紹介させて頂きます。 この事に関しては 自分のみならず 長い間子供たちに 接してきてくれている 風間ヘッドも感じていた事。 特にコロナ禍以降は顕著に感じる。 『やっぱり...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "キャッチボール",
+      "count": 5
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 4
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 2
+    },
+    {
+      "category": "守備",
+      "keyword": "ランダウンプレー",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "ちなみに「キャッチボール」って言うのは",
+    "ピポットプレーや ランダウンプレー（挟殺）",
+    "キャッチボールがある程度出来なくては",
+    "キャッチボールも出来ない内は",
+    "じゃあキャッチボールは？",
+    "とあるコーチとの",
+    "その日の最初のキャッチボール前の",
+    "指導者の先生が"
+  ],
+  "summary_for_internal_review": "検出キーワード: キャッチボール / コーチ / 指導 / ランダウンプレー",
+  "raw_path": "data/ameblo/raw_articles/entry-12963289400.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12963289400.json",
+  "content_hash": "f8ea6b98d09d3dc28eae9bf3b38ed2458fa6830ca7b400d48a904a3d49bfcc81",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

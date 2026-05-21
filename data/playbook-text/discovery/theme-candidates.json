@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T02:43:28Z",
-  "article_count": 30,
+  "generated_at": "2026-05-21T09:27:40Z",
+  "article_count": 40,
   "themes": [
     {
       "theme_key": "defense_catchball",
@@ -17,27 +17,34 @@
         "https://ameblo.jp/kinegawareds/entry-12927345275.html",
         "https://ameblo.jp/kinegawareds/entry-12937311670.html",
         "https://ameblo.jp/kinegawareds/entry-12944551674.html",
-        "https://ameblo.jp/kinegawareds/entry-12948309606.html"
+        "https://ameblo.jp/kinegawareds/entry-12948309606.html",
+        "https://ameblo.jp/kinegawareds/entry-12954659412.html",
+        "https://ameblo.jp/kinegawareds/entry-12955785549.html",
+        "https://ameblo.jp/kinegawareds/entry-12963289400.html"
       ],
       "matched_keywords": [
         {
           "keyword": "キャッチボール",
-          "count": 7
+          "count": 8
         },
         {
           "keyword": "捕球",
-          "count": 3
+          "count": 5
         },
         {
           "keyword": "ランダウン",
-          "count": 1
+          "count": 2
         },
         {
           "keyword": "送球",
-          "count": 1
+          "count": 2
         },
         {
           "keyword": "カバー",
+          "count": 1
+        },
+        {
+          "keyword": "スローイング",
           "count": 1
         }
       ],
@@ -50,10 +57,10 @@
         "その中で、素振りやキャッチボールなどを「1つ1つ丁寧にやるイメージで」と語る場面があった",
         "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ",
         "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ...",
-        "キャッチボールの精度ってとこに",
-        "ゴロ捕球後に正確にサード送球",
-        "セカンドランナーが",
-        "センターはファーストランナーが"
+        "ちなみに「キャッチボール」って言うのは",
+        "イメージ的にはステップしながら捕球してターンしがらスローイング、くらいかと思う",
+        "キャッチボールがある程度出来なくては",
+        "キャッチボールの精度ってとこに"
       ],
       "needs_ai_review": true
     },
@@ -63,16 +70,18 @@
       "matched_article_urls": [
         "https://ameblo.jp/kinegawareds/entry-12840590860.html",
         "https://ameblo.jp/kinegawareds/entry-12927345275.html",
-        "https://ameblo.jp/kinegawareds/entry-12954339417.html"
+        "https://ameblo.jp/kinegawareds/entry-12954339417.html",
+        "https://ameblo.jp/kinegawareds/entry-12960102506.html",
+        "https://ameblo.jp/kinegawareds/entry-12960649818.html"
       ],
       "matched_keywords": [
         {
           "keyword": "スイング",
-          "count": 2
+          "count": 3
         },
         {
           "keyword": "バッティング",
-          "count": 1
+          "count": 2
         }
       ],
       "candidate_phrases": [
@@ -80,7 +89,10 @@
         "『トスバッティングに関して（ペッパーじゃないよ）』",
         "その中で、素振りやキャッチボールなどを「1つ1つ丁寧にやるイメージで」と語る場面があった",
         "コンディショニングコーチで有名な",
+        "フルスイングバント",
+        "レッズでも良く見る",
         "以前もお伝えしたように、 30mダッシュのタイムが良い程、スイングスピード、 打球速度、投手のボール速度は速くなる相関性が証明されている の...",
+        "吉田正尚のフルスイングが生んだ驚異のスピン量🤯",
         "選手もコーチも多いと思う"
       ],
       "needs_ai_review": true
@@ -101,35 +113,38 @@
         "https://ameblo.jp/kinegawareds/entry-12914022495.html",
         "https://ameblo.jp/kinegawareds/entry-12925804728.html",
         "https://ameblo.jp/kinegawareds/entry-12937311670.html",
-        "https://ameblo.jp/kinegawareds/entry-12937559466.html"
+        "https://ameblo.jp/kinegawareds/entry-12937559466.html",
+        "https://ameblo.jp/kinegawareds/entry-12956565550.html",
+        "https://ameblo.jp/kinegawareds/entry-12959401948.html",
+        "https://ameblo.jp/kinegawareds/entry-12962886637.html"
       ],
       "matched_keywords": [
         {
           "keyword": "ランナー",
-          "count": 13
+          "count": 16
         },
         {
           "keyword": "スライディング",
-          "count": 1
+          "count": 2
         },
         {
           "keyword": "スタート",
-          "count": 1
+          "count": 2
         }
       ],
       "candidate_phrases": [
+        "1アウトランナー1塁からの場面",
+        "「ランナーはピョンピョン跳ねたら、",
         "ある程度のキャッチボールが",
         "このランナーも",
         "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ",
         "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ...",
         "それぞれのランナーの",
+        "コタちゃんコーチから",
         "ゴロ捕球後に正確にサード送球",
+        "スタート方法",
         "セカンドランナーが",
-        "センターはファーストランナーが",
-        "ドジャースに見る『3B』",
-        "ノーアウトランナー2塁からの",
-        "バッターランナーの",
-        "ベースに向かってくるランナーの"
+        "センターはファーストランナーが"
       ],
       "needs_ai_review": true
     },
@@ -146,15 +161,28 @@
         "https://ameblo.jp/kinegawareds/entry-12947957831.html",
         "https://ameblo.jp/kinegawareds/entry-12948308713.html",
         "https://ameblo.jp/kinegawareds/entry-12948309606.html",
-        "https://ameblo.jp/kinegawareds/entry-12954339417.html"
+        "https://ameblo.jp/kinegawareds/entry-12954339417.html",
+        "https://ameblo.jp/kinegawareds/entry-12960102506.html",
+        "https://ameblo.jp/kinegawareds/entry-12962886637.html",
+        "https://ameblo.jp/kinegawareds/entry-12963289400.html",
+        "https://ameblo.jp/kinegawareds/entry-12963289958.html",
+        "https://ameblo.jp/kinegawareds/entry-12963581430.html"
       ],
       "matched_keywords": [
         {
           "keyword": "指導",
-          "count": 6
+          "count": 9
         },
         {
           "keyword": "コーチ",
+          "count": 6
+        },
+        {
+          "keyword": "見る",
+          "count": 3
+        },
+        {
+          "keyword": "育成",
           "count": 3
         },
         {
@@ -162,27 +190,23 @@
           "count": 2
         },
         {
-          "keyword": "見る",
-          "count": 1
-        },
-        {
-          "keyword": "育成",
+          "keyword": "評価",
           "count": 1
         }
       ],
       "candidate_phrases": [
         "MLBマリナーズの会長付特別補佐兼インストラクターを務めるイチロー氏が、昨年11月9日から2日間にわたり大阪・大冠高で野球部員たちを指導",
+        "「ランナーはピョンピョン跳ねたら、",
         "『「バナナ」・・・って野球の話か？（笑）』 成人の日の低学年の午後の練習でやっていたのがいわゆる「ライン外し」とか「バナナキャッチ」などと呼...",
         "『キャッチャーの構え（しゃがみ方）』 今回はキャッチャーのしゃがみ方だよ",
+        "『練習試合 』 育成世代の野球⚾️ 想定されることを予測して予習→実戦で課題を掘り出す→復習→予習の繰り返しのように思います",
+        "このスキームを持たない指導者は、実戦で指摘… ameblo.jp",
         "このスキームを持たない指導者は、実戦で指摘しまくるだけで、ミスは続く無限ループに突入→選手は何をやって良いのか分からず混乱😵‍💫って感じのよ...",
         "そして、指導者の落とし込み次第",
         "その中で、素振りやキャッチボールなどを「1つ1つ丁寧にやるイメージで」と語る場面があった",
-        "キャッチャーの構えに関しては",
-        "コンディショニングコーチで有名な",
-        "ゴロ捕球後に正確にサード送球",
-        "チームの内外の指導者から",
-        "ドジャースに見る『3B』",
-        "ノーアウトランナー2塁からの"
+        "それって指導か⁉️",
+        "ちなみに「キャッチボール」って言うのは",
+        "まずは目を開いてしっかりと見る"
       ],
       "needs_ai_review": true
     },
