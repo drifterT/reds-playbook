@@ -1,0 +1,38 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12959401948.html",
+  "entry_id": "entry-12959401948",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『良い教材動画ですねぇ〜』",
+  "published_at": "2026-03-21",
+  "fetched_at": "2026-05-21T09:27:20Z",
+  "status": "fetched",
+  "text_length": 1098,
+  "content_excerpt_for_review": "良い教材動画ですねぇ〜 『カット2ま〜い！！』 外野の深い場所からの返球の時の中継プレーの際に「カット2ま〜い！！」なんて声が掛かる時があるよね？ これは何でか？ 距離が遠くてカット1枚じゃ届かないから？ … ameblo.jp 去年の8月...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 2
+    },
+    {
+      "category": "走塁",
+      "keyword": "スライディング",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "1アウトランナー1塁からの場面",
+    "ライトのスライディングキャッチからの",
+    "例えばランナー3塁の場合の"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー / スライディング",
+  "raw_path": "data/ameblo/raw_articles/entry-12959401948.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12959401948.json",
+  "content_hash": "9bbc0c18c455fd1ca97358a87ca3d155572f37d30c78a63221ac91be32731ed6",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

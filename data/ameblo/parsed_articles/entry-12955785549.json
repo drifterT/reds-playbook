@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12955785549.html",
+  "entry_id": "entry-12955785549",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『カットマンの動き』",
+  "published_at": "2026-02-27",
+  "fetched_at": "2026-05-21T09:27:15Z",
+  "status": "fetched",
+  "text_length": 632,
+  "content_excerpt_for_review": "カットマンの動き 中継プレーのカットマンは半身ではなく正対する。外野からの送球が逸れた場合に対応しやすくなるだけでなく、良いボールが返ってきたらターンしながら送球するとボールに力が伝わりやすい。イメージ的にはステップしながら捕球してターンし...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "スローイング",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "イメージ的にはステップしながら捕球してターンしがらスローイング、くらいかと思う"
+  ],
+  "summary_for_internal_review": "検出キーワード: スローイング",
+  "raw_path": "data/ameblo/raw_articles/entry-12955785549.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12955785549.json",
+  "content_hash": "a58950b2e36182b9e3a3ea44b3399af743bddd7e48bb0f02e33bb70935b87c76",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

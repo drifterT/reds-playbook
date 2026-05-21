@@ -1,0 +1,58 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12963581430.html",
+  "entry_id": "entry-12963581430",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『現場に評論家はいらん』",
+  "published_at": "2026-05-18",
+  "fetched_at": "2026-05-21T09:27:38Z",
+  "status": "fetched",
+  "text_length": 1673,
+  "content_excerpt_for_review": "ゴロを取り損ねると「ちゃんと捕れ！」って言う、暴投すると「ちゃんと投げろ⚾️」って言う、フライを上げると「ゴロを打て」って言う それって指導か⁉️ 俺が子を預ける親なら、「いや、指摘はいいから、捕り方、投げ方、転がし方を教えろよ💢」って思う...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 7
+    },
+    {
+      "category": "指導方法",
+      "keyword": "見る",
+      "count": 2
+    },
+    {
+      "category": "指導方法",
+      "keyword": "育成",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "評価",
+      "count": 1
+    },
+    {
+      "category": "戦術、戦略",
+      "keyword": "戦術",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "それって指導か⁉️",
+    "まずは目を開いてしっかりと見る",
+    "指導者からは",
+    "戦術的な技術であったりするのは",
+    "『練習試合 』 育成世代の野球⚾️ 想定されることを予測して予習→実戦で課題を掘り出す→復習→予習の繰り返しのように思います",
+    "このスキームを持たない指導者は、実戦で指摘… ameblo.jp",
+    "我々指導者と呼ばれる者は",
+    "指導者であるべきで"
+  ],
+  "summary_for_internal_review": "検出キーワード: 指導 / 見る / 育成 / 評価 / 戦術",
+  "raw_path": "data/ameblo/raw_articles/entry-12963581430.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12963581430.json",
+  "content_hash": "bdfe183592d51174c20235a6ea44f15b79cdc2d52b61e12c4a50bb6609c2e7ec",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

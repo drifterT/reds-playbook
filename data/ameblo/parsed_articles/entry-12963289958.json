@@ -1,0 +1,43 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12963289958.html",
+  "entry_id": "entry-12963289958",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『順番と順序2（MTM）』",
+  "published_at": "2026-05-13",
+  "fetched_at": "2026-05-21T09:27:35Z",
+  "status": "fetched",
+  "text_length": 1293,
+  "content_excerpt_for_review": "『モチベーションって？？？』 モチベーションの本来の意味は英語では「motivation」と表記し「motive（動機や目的）」と「action（行動や働き）」から成り立っていて、直訳する… ameblo.jp 練習試合をするだけで 選手の...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "育成",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "直接コーチ陣に話した事はあるけど・・・",
+    "『練習試合 』 育成世代の野球⚾️ 想定されることを予測して予習→実戦で課題を掘り出す→復習→予習の繰り返しのように思います",
+    "このスキームを持たない指導者は、実戦で指摘… ameblo.jp"
+  ],
+  "summary_for_internal_review": "検出キーワード: コーチ / 指導 / 育成",
+  "raw_path": "data/ameblo/raw_articles/entry-12963289958.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12963289958.json",
+  "content_hash": "4ed894a405136a6782fa2b6ee2f119ebe193e3f74b293f249b47d80b19ba656c",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

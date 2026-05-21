@@ -1,0 +1,32 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12956565550.html",
+  "entry_id": "entry-12956565550",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『正対するピッチャーの場合のリード』",
+  "published_at": "2026-03-04",
+  "fetched_at": "2026-05-21T09:27:17Z",
+  "status": "fetched",
+  "text_length": 445,
+  "content_excerpt_for_review": "正対するピッチャーの場合のリード 正対するとは？ 一塁ランナーの場合の 左ピッチャー 三塁ランナーの場合の 右ピッチャー の事を言っています。（笑顔） 今回、達先生の仰っている この事も都度選手たちには 伝えている事。 覚えている選手も多い...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 2
+    }
+  ],
+  "candidate_phrases": [
+    "一塁ランナーの場合の",
+    "三塁ランナーの場合の"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー",
+  "raw_path": "data/ameblo/raw_articles/entry-12956565550.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12956565550.json",
+  "content_hash": "50ba994d5205fe982cfa378d4e04fa324fff59fde261758835bb481934b85b8d",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

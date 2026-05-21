@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12960649818.html",
+  "entry_id": "entry-12960649818",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『質の話』",
+  "published_at": "2026-04-08",
+  "fetched_at": "2026-05-21T09:27:26Z",
+  "status": "fetched",
+  "text_length": 1127,
+  "content_excerpt_for_review": "本当にその通りですよね。 結果的にナイスバッティングと、本当の意味でのナイスバッティングを考えないといけない。 試合で喜び、試合後は反省してもっと速い打球や角度を考えて練習する、と言う両面が必要。 https://t.co/0Q6CBZLK...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12960649818.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12960649818.json",
+  "content_hash": "0ff46434a83e7e214e4d5afa2cf3cc269cf0fe7fdc628bb1392b9199f6d4840b",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

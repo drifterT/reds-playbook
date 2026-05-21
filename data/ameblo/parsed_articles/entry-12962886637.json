@@ -1,0 +1,47 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12962886637.html",
+  "entry_id": "entry-12962886637",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『ピョンピョンしなぁ〜い。』",
+  "published_at": "2026-04-18",
+  "fetched_at": "2026-05-21T09:27:29Z",
+  "status": "fetched",
+  "text_length": 761,
+  "content_excerpt_for_review": "ピョンピョンしなぁ〜い。 コタちゃんコーチから 「ランナーはピョンピョン跳ねたら、 年俸2600万ドルの メジャーリーガーだって アウトになるんだぞぉー」 というメッセージと共に こんな参考動画が送られてきた。＼(^o^)／ ピッチャーがい...",
+  "detected_keywords": [
+    {
+      "category": "走塁",
+      "keyword": "スタート",
+      "count": 4
+    },
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 2
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "コタちゃんコーチから",
+    "「ランナーはピョンピョン跳ねたら、",
+    "スタート方法",
+    "第二リードのスタート方法の一つ",
+    "そこからのシャッフルスタート",
+    "ランナーで言えば",
+    "スタートからの"
+  ],
+  "summary_for_internal_review": "検出キーワード: スタート / ランナー / コーチ",
+  "raw_path": "data/ameblo/raw_articles/entry-12962886637.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12962886637.json",
+  "content_hash": "b3e394209750dc4a07d1be016af9645a426446beb34d54636e64ea41c49e25ad",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,45 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12960102506.html",
+  "entry_id": "entry-12960102506",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『吉田正尚選手は走っていた。（笑顔）』",
+  "published_at": "2026-04-13",
+  "fetched_at": "2026-05-21T09:27:23Z",
+  "status": "fetched",
+  "text_length": 832,
+  "content_excerpt_for_review": "吉田正尚選手は走っていた。（笑顔） 『こういう事があるから・・・』 野村祐希の珍しいアウト#lovefighters pic.twitter.com/hmTY7NAMyO— スティー凡人 (@ryoukun1205) Fe… ameblo....",
+  "detected_keywords": [
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 3
+    },
+    {
+      "category": "指導方法",
+      "keyword": "見る",
+      "count": 1
+    },
+    {
+      "category": "戦術、戦略",
+      "keyword": "作戦",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "吉田正尚のフルスイングが生んだ驚異のスピン量🤯",
+    "レッズでも良く見る",
+    "フルスイングバント",
+    "相手には有効な作戦？",
+    "吉田選手のスイングスピードを"
+  ],
+  "summary_for_internal_review": "検出キーワード: スイング / 見る / 作戦",
+  "raw_path": "data/ameblo/raw_articles/entry-12960102506.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12960102506.json",
+  "content_hash": "0cf435fd40d8dc5e3685500fe230916c0c94b68804ffe7e055974cc792302a58",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

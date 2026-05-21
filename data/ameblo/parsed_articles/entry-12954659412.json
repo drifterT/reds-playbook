@@ -1,0 +1,37 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12954659412.html",
+  "entry_id": "entry-12954659412",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『落ちてるボールはぁ〜？』",
+  "published_at": "2026-02-12",
+  "fetched_at": "2026-05-21T09:27:12Z",
+  "status": "fetched",
+  "text_length": 751,
+  "content_excerpt_for_review": "落ちてるボールはぁ〜？ 現場で見ていると…捕り損ねたボールをグラブで取りにいき、握り替えてから投げる選手が多いことに驚く。 右投げなら右手で取ってそのまま投げる。 その方が早いと思うけど、なぜか高校生の多くはグラブで取りにいく印象があります...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "ゴロ捕球",
+      "count": 1
+    },
+    {
+      "category": "守備",
+      "keyword": "持ち替え",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "持ち替えてじゃ遅くなるよね",
+    "普通のゴロ捕球の練習だって"
+  ],
+  "summary_for_internal_review": "検出キーワード: ゴロ捕球 / 持ち替え",
+  "raw_path": "data/ameblo/raw_articles/entry-12954659412.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12954659412.json",
+  "content_hash": "ac3a497fdccaf516f4819fffdba20b19d644f050693bf7d17ba5071b67635c43",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
