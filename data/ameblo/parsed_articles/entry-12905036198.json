@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12905036198.html",
+  "entry_id": "entry-12905036198",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『少年野球選手における投球関連肘痛の既往歴と頭頸部回旋の関連性』",
+  "published_at": "2025-11-09",
+  "fetched_at": "2026-05-21T14:50:49Z",
+  "status": "fetched",
+  "text_length": 2574,
+  "content_excerpt_for_review": "少年野球選手における投球関連肘痛の既往歴と頭頸部回旋の関連性 2024年2月23日に 医学会から こんな論文が発表されていたんだね。 少年野球選手における 投球関連肘痛の既往歴と 頭頸部回旋の関連性 Masumi Yoshimoto, PT...",
+  "detected_keywords": [
+    {
+      "category": "身体構造/ストレッチ",
+      "keyword": "姿勢",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "12,15 Sakata et al17は、修正可能な危険因子 として、1日100球、投手の姿勢、肘の伸展不足、胸椎 後弯角度を挙げている"
+  ],
+  "summary_for_internal_review": "検出キーワード: 姿勢",
+  "raw_path": "data/ameblo/raw_articles/entry-12905036198.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12905036198.json",
+  "content_hash": "3c67856db4b760d7fed23c8b862d4996643f126b4237bfd7a37e96b818598cae",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12924482852.html",
+  "entry_id": "entry-12924482852",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『良いことが書かれているなぁ〜』",
+  "published_at": "2025-08-24",
+  "fetched_at": "2026-05-21T14:51:02Z",
+  "status": "fetched",
+  "text_length": 341,
+  "content_excerpt_for_review": "良いことが書かれているなぁ〜 今日はX（旧Twitter）より2点 すげぇ〜良いことが書かれているよね。 内でも現場でも 何度も何度も言い続けている事。 バックアップとカバーの事。 野球の経験年数が 浅い選手が多い 今のレッズでは 最大の課...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12924482852.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12924482852.json",
+  "content_hash": "9bd35bf81b71a60db8d15da725a4decfdfa0f2bc7af0e5238e16b645eba8ac3e",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

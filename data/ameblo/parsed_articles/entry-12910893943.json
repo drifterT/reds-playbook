@@ -1,0 +1,43 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12910893943.html",
+  "entry_id": "entry-12910893943",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『集中力って？』",
+  "published_at": "2025-06-22",
+  "fetched_at": "2026-05-21T14:50:54Z",
+  "status": "fetched",
+  "text_length": 1891,
+  "content_excerpt_for_review": "集中力って？ 子供は集中力が無い？ それって本当？？ 自分はスペースインベーダーが 大流行した時代に思春期を過ごした世代。 そりゃ無我夢中になって 凄い集中力だったと思う。（笑） 当時の小学生なんかは 自分より凄い子もいたなぁ〜 まぁ上手く...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "キャッチボール",
+      "count": 1
+    },
+    {
+      "category": "ルール",
+      "keyword": "ルール",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "歴代コーチたちの間でも",
+    "例えばいくらキャッチボールが",
+    "ルールがある程度分かってからでないと"
+  ],
+  "summary_for_internal_review": "検出キーワード: キャッチボール / ルール / コーチ",
+  "raw_path": "data/ameblo/raw_articles/entry-12910893943.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12910893943.json",
+  "content_hash": "a1dd71c109df000f21c6362b38dccdcc1818c82eacfc1baa8a24f32802632834",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

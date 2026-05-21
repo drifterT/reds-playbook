@@ -1,0 +1,37 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12932327470.html",
+  "entry_id": "entry-12932327470",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『井上ひさし氏の名言』",
+  "published_at": "2025-09-26",
+  "fetched_at": "2026-05-21T14:51:04Z",
+  "status": "fetched",
+  "text_length": 760,
+  "content_excerpt_for_review": "井上ひさし氏の名言 日本の小説家であり 劇作家であり 放送作家でもあり 文化功労者でもある 井上ひさし氏のこんな名言がある。 むずかしことをやさしく やさしいことをふかく ふかいことをおもしろく おもしろいことをまじめに まじめなことをゆか...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "キャッチボール",
+      "count": 1
+    },
+    {
+      "category": "メンタル、姿勢",
+      "keyword": "継続",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "そしてキャッチボール、ボール回し・・・",
+    "継続ってのが結果に繋がってくる"
+  ],
+  "summary_for_internal_review": "検出キーワード: キャッチボール / 継続",
+  "raw_path": "data/ameblo/raw_articles/entry-12932327470.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12932327470.json",
+  "content_hash": "1578c837daf98a90b4e893e41b768a8fe0814e69d6882b994d21095750ecd94f",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

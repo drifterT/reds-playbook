@@ -1,0 +1,42 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12919195402.html",
+  "entry_id": "entry-12919195402",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『【祝】全国大会出場（オール葛飾女子アイリス）』",
+  "published_at": "2025-07-28",
+  "fetched_at": "2026-05-21T14:50:59Z",
+  "status": "fetched",
+  "text_length": 1002,
+  "content_excerpt_for_review": "オール葛飾アイリス 2年振りの全国大会出場！！ この目、いや！この眼！！ 獲物を狙う猛獣のような眼！ この眼を忘れるなよ。 これがレッズ戦士だ！！ ジュリ！ ピッチャーの時だけじゃないぞ、 守備でも打つ時でも同じだ！ サボるなよ。（笑） リ...",
+  "detected_keywords": [
+    {
+      "category": "メンタル、姿勢",
+      "keyword": "やるかやらないか",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "やるかやらないかが、きっとこれからの俺達を繋いでくれる",
+    "監督・コーチ、"
+  ],
+  "summary_for_internal_review": "検出キーワード: やるかやらないか / コーチ / 監督",
+  "raw_path": "data/ameblo/raw_articles/entry-12919195402.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12919195402.json",
+  "content_hash": "b9c246aefe3a9e7719d5425882013a39c5f6aad5672ec76b889061aff6450410",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

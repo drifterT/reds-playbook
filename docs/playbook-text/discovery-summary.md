@@ -1,14 +1,14 @@
 # Ameblo Theme Discovery Summary
 
-Generated at: 2026-05-21T09:27:40Z
+Generated at: 2026-05-21T14:51:13Z
 
-Parsed articles: 40
+Parsed articles: 50
 
 This summary uses URL, metadata, short excerpts, detected keywords, and candidate phrases only. It does not store full Ameblo article text.
 
 ## 守備・キャッチボール候補
 
-- Matched articles: 15
+- Matched articles: 19
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12865401621.html
   - https://ameblo.jp/kinegawareds/entry-12866064969.html
@@ -18,9 +18,9 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
   - https://ameblo.jp/kinegawareds/entry-12894197991.html
   - https://ameblo.jp/kinegawareds/entry-12899445366.html
   - https://ameblo.jp/kinegawareds/entry-12910822533.html
-  - https://ameblo.jp/kinegawareds/entry-12927345275.html
-  - https://ameblo.jp/kinegawareds/entry-12937311670.html
-- Matched keywords: キャッチボール, 捕球, ランダウン, 送球, カバー, スローイング
+  - https://ameblo.jp/kinegawareds/entry-12910893943.html
+  - https://ameblo.jp/kinegawareds/entry-12919195402.html
+- Matched keywords: キャッチボール, 捕球, ランダウン, 送球, カバー, 守備, スローイング
 - Needs AI review: yes
 
 ## バッティング候補
@@ -37,7 +37,7 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## 走塁候補
 
-- Matched articles: 16
+- Matched articles: 17
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12847046140.html
   - https://ameblo.jp/kinegawareds/entry-12860102703.html
@@ -54,25 +54,28 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## 指導方法候補
 
-- Matched articles: 15
+- Matched articles: 18
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12860102703.html
   - https://ameblo.jp/kinegawareds/entry-12881874075.html
   - https://ameblo.jp/kinegawareds/entry-12882815632.html
+  - https://ameblo.jp/kinegawareds/entry-12909994063.html
+  - https://ameblo.jp/kinegawareds/entry-12910893943.html
+  - https://ameblo.jp/kinegawareds/entry-12919195402.html
   - https://ameblo.jp/kinegawareds/entry-12927345275.html
   - https://ameblo.jp/kinegawareds/entry-12937311670.html
   - https://ameblo.jp/kinegawareds/entry-12937610718.html
   - https://ameblo.jp/kinegawareds/entry-12947957831.html
-  - https://ameblo.jp/kinegawareds/entry-12948308713.html
-  - https://ameblo.jp/kinegawareds/entry-12948309606.html
-  - https://ameblo.jp/kinegawareds/entry-12954339417.html
-- Matched keywords: 指導, コーチ, 見る, 育成, 伝える, 評価
+- Matched keywords: 指導, コーチ, 育成, 見る, 伝える, 評価
 - Needs AI review: yes
 
 ## 身体構造・ストレッチ候補
 
-- Matched articles: 1
+- Matched articles: 4
 - URLs:
+  - https://ameblo.jp/kinegawareds/entry-12905036198.html
+  - https://ameblo.jp/kinegawareds/entry-12909994063.html
+  - https://ameblo.jp/kinegawareds/entry-12911627328.html
   - https://ameblo.jp/kinegawareds/entry-12937610718.html
-- Matched keywords: 体幹
+- Matched keywords: 姿勢, ストレッチ, アフターケア, 体幹
 - Needs AI review: yes
