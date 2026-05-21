@@ -1,0 +1,38 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12953365936.html",
+  "entry_id": "entry-12953365936",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『今年もここから・・・必笑祈願』",
+  "published_at": "2026-01-16",
+  "fetched_at": "2026-05-21T19:46:37Z",
+  "status": "fetched",
+  "text_length": 516,
+  "content_excerpt_for_review": "今年もここから・・・必笑祈願 毎年の事なんだけど この時期の の記事アップは 時系列がバラバラになる事を お許しください。😅 レッズの活動は、1月10日（土） 新たなメンバーも加わって 毎年恒例の神社巡りからスタートしました。 必勝祈願なら...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 2
+    },
+    {
+      "category": "走塁",
+      "keyword": "スタート",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "毎年恒例の神社巡りからスタートしました",
+    "コーチ陣は午後からの",
+    "6年 VS コーチ陣 リベンジガチンコ対決"
+  ],
+  "summary_for_internal_review": "検出キーワード: コーチ / スタート",
+  "raw_path": "data/ameblo/raw_articles/entry-12953365936.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12953365936.json",
+  "content_hash": "298b8b938b67eaf7f5a83a0f79611e6536613723e8ad5c0b818ae55e186359ca",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

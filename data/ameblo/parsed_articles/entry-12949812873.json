@@ -1,0 +1,38 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12949812873.html",
+  "entry_id": "entry-12949812873",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『俺が育てた？？？』",
+  "published_at": "2026-02-22",
+  "fetched_at": "2026-05-21T19:46:27Z",
+  "status": "fetched",
+  "text_length": 613,
+  "content_excerpt_for_review": "〇〇を育てた名コーチってよく聞くけど その人1人\"だけ\"が関わっていた事なんて ほとんどないし、結局は色んな意見を 自分のモノにして結果を出した選手本人 が凄いだけなので、、、 まぁその書き方の方がインパクトが あるのもわかるけど 自戒を込...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 2
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "〇〇を育てた名コーチってよく聞くけど",
+    "外部指導を仰ぐ場合もあると思うし",
+    "指導されているのか？"
+  ],
+  "summary_for_internal_review": "検出キーワード: 指導 / コーチ",
+  "raw_path": "data/ameblo/raw_articles/entry-12949812873.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12949812873.json",
+  "content_hash": "96ac4f5875445c13a5da3f5f1f5315b603e3d7de7d83ce9c7c6492dffd9f828a",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12954655397.html",
+  "entry_id": "entry-12954655397",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『オレンジのチビッ子軍団』",
+  "published_at": "2026-01-31",
+  "fetched_at": "2026-05-21T19:46:46Z",
+  "status": "fetched",
+  "text_length": 713,
+  "content_excerpt_for_review": "オレンジのチビッ子軍団 色々な地域に行くと オレンジボール（D球）を見て 「コレってどこで売ってるんですか？」 なんて聞かれる事がある。 まぁ葛飾区ではポピュラーなんだけどね。😅 こんな感じで 八百屋や果物屋で購入可能です。（笑） ﾅ～ﾝﾃ...",
+  "detected_keywords": [
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 2
+    }
+  ],
+  "candidate_phrases": [
+    "バットが勝手に歩いて",
+    "ヘルメットやバットが"
+  ],
+  "summary_for_internal_review": "検出キーワード: バット",
+  "raw_path": "data/ameblo/raw_articles/entry-12954655397.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12954655397.json",
+  "content_hash": "4d682724c8476fd1b8c8b90982f8b0241d64be8cbcd4e11d02fabaae0c7696fb",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
