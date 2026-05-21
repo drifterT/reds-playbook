@@ -1,0 +1,44 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12953584061.html",
+  "entry_id": "entry-12953584061",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『「続き」・・・その前に。（笑）』",
+  "published_at": "2026-01-18",
+  "fetched_at": "2026-05-21T19:46:41Z",
+  "status": "fetched",
+  "text_length": 843,
+  "content_excerpt_for_review": "「 「 「 納会&卒団式の前日の 12/20（土）毎年恒例の レッズチャレンジマッチと 昭和 VS 平成のガチンコ対決 を開催しました。 「続き」その前に まずは、この記事をアップしないとね。（笑） まずはチャレンジマッチから。 6年生 V...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 2
+    },
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 1
+    },
+    {
+      "category": "ルール",
+      "keyword": "ルール",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "まぁ特別ルールがあったけど",
+    "毎年恒例の「ガチンコ」ですが、これは単なる野球対決というだけではなく学童野球の集大成として我々コーチ陣が最後に人生の厳しさを教えてあげなけれ...",
+    "最終回にランナーを溜めての",
+    "結局コーチ陣は2点差で敗北・・・😭"
+  ],
+  "summary_for_internal_review": "検出キーワード: コーチ / ランナー / ルール",
+  "raw_path": "data/ameblo/raw_articles/entry-12953584061.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12953584061.json",
+  "content_hash": "63f0999190bdd05b40790f7798cfed951bc99b5ece0875d87ecd4ce37bc96cbf",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,58 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12947991842.html",
+  "entry_id": "entry-12947991842",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『厳しい大会を戦い抜いた13+1人の戦士たち』",
+  "published_at": "2025-11-29",
+  "fetched_at": "2026-05-21T19:46:25Z",
+  "status": "fetched",
+  "text_length": 3994,
+  "content_excerpt_for_review": "出場権を獲得した 同時期に行われた 2つの上部大会 日程的にも・・・ 投手の台所状況も・・・ インフルエンザありぃ〜の 怪我人ありぃ〜の 本当に厳しい数週間を 戦い抜いた 13+1人 の戦士たち。 今はよく頑張った！ としか声の掛けようがな...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 3
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 2
+    },
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 2
+    },
+    {
+      "category": "戦術、戦略",
+      "keyword": "戦術",
+      "count": 1
+    },
+    {
+      "category": "戦術、戦略",
+      "keyword": "戦略",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "その間にサードを狙ったランナーを",
+    "「ランナーは完全無視して良いから",
+    "ランナーがセカンドにいるんだけど",
+    "他チームの指導者からは",
+    "戦術（決して戦略では無い）を駆使して",
+    "プレースタイルを決めて指導する",
+    "監督である自分に全責任がある",
+    "全て監督である自分の責任"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー / 指導 / 監督 / 戦術 / 戦略",
+  "raw_path": "data/ameblo/raw_articles/entry-12947991842.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12947991842.json",
+  "content_hash": "20393a32cc72777ef196f25cc8cf10a3b2d014eed5f78be2701425575625a107",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

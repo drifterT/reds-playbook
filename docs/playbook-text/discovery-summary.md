@@ -1,8 +1,8 @@
 # Ameblo Theme Discovery Summary
 
-Generated at: 2026-05-21T14:51:13Z
+Generated at: 2026-05-21T19:46:49Z
 
-Parsed articles: 50
+Parsed articles: 60
 
 This summary uses URL, metadata, short excerpts, detected keywords, and candidate phrases only. It does not store full Ameblo article text.
 
@@ -37,7 +37,7 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## 走塁候補
 
-- Matched articles: 17
+- Matched articles: 20
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12847046140.html
   - https://ameblo.jp/kinegawareds/entry-12860102703.html
@@ -54,7 +54,7 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## 指導方法候補
 
-- Matched articles: 18
+- Matched articles: 25
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12860102703.html
   - https://ameblo.jp/kinegawareds/entry-12881874075.html
@@ -66,16 +66,17 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
   - https://ameblo.jp/kinegawareds/entry-12937311670.html
   - https://ameblo.jp/kinegawareds/entry-12937610718.html
   - https://ameblo.jp/kinegawareds/entry-12947957831.html
-- Matched keywords: 指導, コーチ, 育成, 見る, 伝える, 評価
+- Matched keywords: コーチ, 指導, 育成, 見る, 伝える, 評価
 - Needs AI review: yes
 
 ## 身体構造・ストレッチ候補
 
-- Matched articles: 4
+- Matched articles: 5
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12905036198.html
   - https://ameblo.jp/kinegawareds/entry-12909994063.html
   - https://ameblo.jp/kinegawareds/entry-12911627328.html
   - https://ameblo.jp/kinegawareds/entry-12937610718.html
+  - https://ameblo.jp/kinegawareds/entry-12952721239.html
 - Matched keywords: 姿勢, ストレッチ, アフターケア, 体幹
 - Needs AI review: yes

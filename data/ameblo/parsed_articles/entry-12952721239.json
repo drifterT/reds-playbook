@@ -1,0 +1,42 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12952721239.html",
+  "entry_id": "entry-12952721239",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『この時期になると・・・』",
+  "published_at": "2026-01-27",
+  "fetched_at": "2026-05-21T19:46:35Z",
+  "status": "fetched",
+  "text_length": 1711,
+  "content_excerpt_for_review": "この時期になると この場でも何度か 同じような事を書いてきたけど 特に中学のチーム選びに 動いている 特に6年生に向けてだよぉ〜 もうちょっと早く記事に したかったんだけど このタイミングになっちゃった。😥 学童や中学のチーム選び。親は入団...",
+  "detected_keywords": [
+    {
+      "category": "身体構造/ストレッチ",
+      "keyword": "姿勢",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "指導者の姿勢はもちろんだが、見たいのは親同士の関係",
+    "『日本一適当な学童野球監督から6年生の親子へマジな助言』 学童野球をやって来た親子が、最初に真剣に悩む中学への進路・・・ 長くならないように..."
+  ],
+  "summary_for_internal_review": "検出キーワード: 姿勢 / 指導 / 監督",
+  "raw_path": "data/ameblo/raw_articles/entry-12952721239.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12952721239.json",
+  "content_hash": "31f1a8ba5259f24d75b081fba1961f16c76b4f0dcd6b236a6cc71f3d2c340afe",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

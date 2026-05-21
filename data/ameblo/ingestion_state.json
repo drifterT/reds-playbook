@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-05-21T14:51:13Z",
+  "last_run_at": "2026-05-21T19:46:48Z",
   "max_articles_per_run": 10,
   "processed_urls": {
     "https://ameblo.jp/kinegawareds/entry-12840590860.html": {
@@ -601,129 +601,129 @@
       "raw_path": "data/ameblo/raw_articles/entry-12937244303.html",
       "parsed_path": "data/ameblo/parsed_articles/entry-12937244303.json",
       "error": null
-    }
-  },
-  "pending_urls": [
-    {
+    },
+    "https://ameblo.jp/kinegawareds/entry-12947991842.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12947991842.html",
       "theme_id": "reds_general",
       "theme_label": "木根川レッズ全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-21T19:46:25Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12947991842.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12947991842.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12949812873.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12949812873.html",
       "theme_id": "reds_general",
       "theme_label": "木根川レッズ全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-21T19:46:27Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12949812873.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12949812873.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12951014526.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12951014526.html",
       "theme_id": "reds_general",
       "theme_label": "木根川レッズ全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-21T19:46:30Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12951014526.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12951014526.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12951608617.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12951608617.html",
       "theme_id": "reds_general",
       "theme_label": "木根川レッズ全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-21T19:46:32Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12951608617.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12951608617.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12952721239.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12952721239.html",
       "theme_id": "reds_general",
       "theme_label": "木根川レッズ全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-21T19:46:35Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12952721239.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12952721239.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12953365936.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12953365936.html",
       "theme_id": "reds_general",
       "theme_label": "木根川レッズ全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-21T19:46:37Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12953365936.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12953365936.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12953579593.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12953579593.html",
       "theme_id": "reds_general",
       "theme_label": "木根川レッズ全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-21T19:46:39Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12953579593.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12953579593.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12953584061.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12953584061.html",
       "theme_id": "reds_general",
       "theme_label": "木根川レッズ全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-21T19:46:41Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12953584061.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12953584061.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12953617633.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12953617633.html",
       "theme_id": "reds_general",
       "theme_label": "木根川レッズ全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-21T19:46:44Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12953617633.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12953617633.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12954655397.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12954655397.html",
       "theme_id": "reds_general",
       "theme_label": "木根川レッズ全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-21T19:46:46Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12954655397.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12954655397.json",
       "error": null
-    },
+    }
+  },
+  "pending_urls": [
     {
       "url": "https://ameblo.jp/kinegawareds/entry-12845776204.html",
       "theme_id": "serious_baseball_talk",

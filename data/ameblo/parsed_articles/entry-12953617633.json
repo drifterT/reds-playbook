@@ -1,0 +1,40 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12953617633.html",
+  "entry_id": "entry-12953617633",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『親子ソフトボール大会＆リベンジ！ガチンコ対決』",
+  "published_at": "2026-01-20",
+  "fetched_at": "2026-05-21T19:46:44Z",
+  "status": "fetched",
+  "text_length": 858,
+  "content_excerpt_for_review": "親子ソフトボール大会＆リベンジ！ガチンコ対決 以前は納会当日の午前中に開催していた 親子ソフトボール大会だったけど この日だと6年生のママたちや コーチ陣も納会の準備等で忙しく 参加をするのが難しく・・・ 特に多くのママたちから 「私たちも...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 3
+    },
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 2
+    }
+  ],
+  "candidate_phrases": [
+    "コーチ陣も納会の準備等で忙しく",
+    "コーチ陣との6年生の",
+    "監督は自分が務めさせて頂きましたが",
+    "コーチたちを舐めちゃいかんぞ",
+    "6年生の監督・・・オレだったけど"
+  ],
+  "summary_for_internal_review": "検出キーワード: コーチ / 監督",
+  "raw_path": "data/ameblo/raw_articles/entry-12953617633.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12953617633.json",
+  "content_hash": "f3ec04509d93d753126c7a131fa0ab476841de2d98942c3b8c46c0abd4488353",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

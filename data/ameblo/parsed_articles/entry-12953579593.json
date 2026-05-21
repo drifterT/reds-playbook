@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12953579593.html",
+  "entry_id": "entry-12953579593",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『速報？？？？（笑）』",
+  "published_at": "2026-01-16",
+  "fetched_at": "2026-05-21T19:46:39Z",
+  "status": "fetched",
+  "text_length": 377,
+  "content_excerpt_for_review": "速報？？？？（笑） 神社巡りの 記事からの 「続き」をアップしようと 思ったんだけど・・・ 速報？が入ってきたので こちらも速報でアップします。😅 『厳しい大会を戦い抜いた13+1人の戦士たち』 出場権を獲得した同時期に行われた2つの上部大...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12953579593.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12953579593.json",
+  "content_hash": "ddc61ecfe3fc3c302e68c26c62cde8820bc4481f605657988809eac28e149175",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

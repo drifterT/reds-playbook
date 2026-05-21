@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12951608617.html",
+  "entry_id": "entry-12951608617",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『2025年最終活動日（12/27・28 ）』",
+  "published_at": "2025-12-30",
+  "fetched_at": "2026-05-21T19:46:32Z",
+  "status": "fetched",
+  "text_length": 976,
+  "content_excerpt_for_review": "2025年最終活動日（12/27・28 ） 毎年この時期は それぞれのご家庭の用事もあるし 6年生に至っては 新しいステージへ向けて 中学チームへの体験やら準備で 忙しい時期になるので 自由参加の活動にしているんだけど・・・ 思いの他多くの...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "6年生 VS コーチ陣の"
+  ],
+  "summary_for_internal_review": "検出キーワード: コーチ",
+  "raw_path": "data/ameblo/raw_articles/entry-12951608617.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12951608617.json",
+  "content_hash": "1b38c950156c65dd77bfca44a77147fc54220f38fbb3e144720fff1883e734ab",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,32 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12951014526.html",
+  "entry_id": "entry-12951014526",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『2025年度 納会＆卒団式』",
+  "published_at": "2025-12-25",
+  "fetched_at": "2026-05-21T19:46:30Z",
+  "status": "fetched",
+  "text_length": 1402,
+  "content_excerpt_for_review": "昨年も心配された会場問題 今年は更に仲間も増えて 今までの会場では 床が抜けては困ると言う事で 新たな会場での 納会・卒団式になりました。（笑顔） 6年生の母ちゃん軍団を中心に 早い時期から会場探し・準備と 忙しい日々だったと思います。 素...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 2
+    }
+  ],
+  "candidate_phrases": [
+    "ねえねえ監督ぅ〜",
+    "監督も触ってみてぉー"
+  ],
+  "summary_for_internal_review": "検出キーワード: 監督",
+  "raw_path": "data/ameblo/raw_articles/entry-12951014526.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12951014526.json",
+  "content_hash": "652e8305ad7ce1d35a9fbeb6c2dbc4c9d45b450444af84ec248db50f878d277f",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
