@@ -1,0 +1,37 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12954339417.html",
+  "entry_id": "entry-12954339417",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『ラントレとセーフティーリードの事』",
+  "published_at": "2026-02-07",
+  "fetched_at": "2026-05-21T02:43:26Z",
+  "status": "fetched",
+  "text_length": 2662,
+  "content_excerpt_for_review": "コンディショニングコーチで有名な 立花龍司氏のこんなコメントを Xで見つけた。（笑顔） この時期、多くのチームがウエイトトレ重視でしょう。但し並行して行なうランニングを、冬場お決まりの「持久走」メインにしているチームは直ぐにやめてください。...",
+  "detected_keywords": [
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "コンディショニングコーチで有名な",
+    "以前もお伝えしたように、 30mダッシュのタイムが良い程、スイングスピード、 打球速度、投手のボール速度は速くなる相関性が証明されている の..."
+  ],
+  "summary_for_internal_review": "検出キーワード: スイング / コーチ",
+  "raw_path": "data/ameblo/raw_articles/entry-12954339417.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12954339417.json",
+  "content_hash": "dd0696289efd0349f9e769bf5ad65bb678af18b76bd6f3ad8ba08148e1b62b39",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

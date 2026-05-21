@@ -1,0 +1,44 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12948309606.html",
+  "entry_id": "entry-12948309606",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『チーバーくん』",
+  "published_at": "2026-01-01",
+  "fetched_at": "2026-05-21T02:43:23Z",
+  "status": "fetched",
+  "text_length": 989,
+  "content_excerpt_for_review": "これは少し前に チームのグループLINEで 紹介させて頂いた 伊豆原先生のコラムです。 この場にも残して おきたいと思います。 言葉が足りていない「正面に入れ！ 腰を落とせ！ 両手で捕れ！」という指導【高校野球から逆算した少年野球デキる選手...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 3
+    },
+    {
+      "category": "守備",
+      "keyword": "ゴロ捕球",
+      "count": 1
+    },
+    {
+      "category": "道具",
+      "keyword": "グローブ",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "言葉が足りていない「正面に入れ！ 腰を落とせ！ 両手で捕れ！」という指導【高校野球から逆算した少年野球デキる選手を育てる方法】 - ラブすぽ...",
+    "指導者の何気ないこの発言は果たして子ども達に正確に伝わってい […] love-spo.com",
+    "『「バナナ」・・・って野球の話か？（笑）』 成人の日の低学年の午後の練習でやっていたのがいわゆる「ライン外し」とか「バナナキャッチ」などと呼...",
+    "『グローブの進化』 レッズの選手は片手捕りで格好つけてる！捕球の基本は打球の軌道の正面に入って両手捕り！なんて陰で言っている他チームの人もい..."
+  ],
+  "summary_for_internal_review": "検出キーワード: 指導 / ゴロ捕球 / グローブ",
+  "raw_path": "data/ameblo/raw_articles/entry-12948309606.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12948309606.json",
+  "content_hash": "50ab6bdd39d9f28f6e7f88b2d2b45148e3776da615a975d3748104ca672b66ae",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

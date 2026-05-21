@@ -1,0 +1,38 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12944551674.html",
+  "entry_id": "entry-12944551674",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『そして負ける...』",
+  "published_at": "2025-11-27",
+  "fetched_at": "2026-05-21T02:43:12Z",
+  "status": "fetched",
+  "text_length": 877,
+  "content_excerpt_for_review": "そして負ける 一見すると少年野球のようなエクササイズだけど、その時期に不幸にしてこのような経験をしていない選手はいざという時に『ボールが手に着かない』、つまり大事な局面であっさりポロっとボールを落とす。 普段の試合では大丈夫でもプレッシャー...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "キャッチボール",
+      "count": 2
+    },
+    {
+      "category": "守備",
+      "keyword": "持ち替え",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "レッズでもキャッチボール前の",
+    "＞キャッチボール前の",
+    "これの多くはボールの持ち替えが"
+  ],
+  "summary_for_internal_review": "検出キーワード: キャッチボール / 持ち替え",
+  "raw_path": "data/ameblo/raw_articles/entry-12944551674.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12944551674.json",
+  "content_hash": "259e1acf04e776e25542e6658cbc869bc42a6974ae80da32f8a243a2562f5786",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,37 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12948308267.html",
+  "entry_id": "entry-12948308267",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『一夜漬け』",
+  "published_at": "2025-12-13",
+  "fetched_at": "2026-05-21T02:43:17Z",
+  "status": "fetched",
+  "text_length": 785,
+  "content_excerpt_for_review": "一夜漬け これも前回の記事と 同じような事なんだけど 大事な事なんだよね。 一夜漬けで上手くいくほど 甘くはないって事。😤 1ヶ月で強くなろうとするから無理が生じて怪我したり体調崩す確率が圧倒的に高まるわけで、1年かけて強くなることを考えれ...",
+  "detected_keywords": [
+    {
+      "category": "メンタル、姿勢",
+      "keyword": "継続",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "1ヶ月で強くなろうとするから無理が生じて怪我したり体調崩す確率が圧倒的に高まるわけで、1年かけて強くなることを考えれば必然的に継続可能な努力...",
+    "監督がベンチで"
+  ],
+  "summary_for_internal_review": "検出キーワード: 継続 / 監督",
+  "raw_path": "data/ameblo/raw_articles/entry-12948308267.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12948308267.json",
+  "content_hash": "72f763f0ea965849954a8717f77d384db98cfa4d145211b6d78b59a9e2df17ac",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

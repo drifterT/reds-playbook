@@ -1,0 +1,39 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12948308713.html",
+  "entry_id": "entry-12948308713",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『練習試合　』",
+  "published_at": "2026-01-02",
+  "fetched_at": "2026-05-21T02:43:20Z",
+  "status": "fetched",
+  "text_length": 455,
+  "content_excerpt_for_review": "練習試合 育成世代の野球⚾️ 想定されることを予測して予習→実戦で課題を掘り出す→復習→予習の繰り返しのように思います。 このスキームを持たない指導者は、実戦で指摘しまくるだけで、ミスは続く無限ループに突入→選手は何をやって良いのか分からず...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 3
+    },
+    {
+      "category": "指導方法",
+      "keyword": "育成",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "育成世代の野球⚾️",
+    "このスキームを持たない指導者は、実戦で指摘しまくるだけで、ミスは続く無限ループに突入→選手は何をやって良いのか分からず混乱😵‍💫って感じのよ...",
+    "我々指導者と呼ばれる者は",
+    "指導者であるべきで"
+  ],
+  "summary_for_internal_review": "検出キーワード: 指導 / 育成",
+  "raw_path": "data/ameblo/raw_articles/entry-12948308713.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12948308713.json",
+  "content_hash": "ab38cc694ad8eadc13169f3a37b34be600f7ca0daa663068a070d6aa35667b68",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

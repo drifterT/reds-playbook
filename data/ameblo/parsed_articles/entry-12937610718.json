@@ -1,0 +1,49 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12937610718.html",
+  "entry_id": "entry-12937610718",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『うんこ座り出来ますか？』",
+  "published_at": "2025-11-17",
+  "fetched_at": "2026-05-21T02:43:09Z",
+  "status": "fetched",
+  "text_length": 931,
+  "content_excerpt_for_review": "【 】 これは少し前にチームのグループLINEで 保護者の皆さんに 伝えたノートの表題です。（笑顔） 今の世代の選手に 「うんこ座り」と言っても ピンと来ないんだろうな。😅 まぁ昭和世代であれば 「ヤンキー座り」だね。 英語だと アジアンス...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "キャッチャーの構え",
+      "count": 3
+    },
+    {
+      "category": "守備",
+      "keyword": "キャッチング",
+      "count": 2
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    },
+    {
+      "category": "基礎運動能力",
+      "keyword": "体幹",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "日米でキャッチャーの構えに",
+    "キャッチャーの構えに関しては",
+    "『キャッチャーの構え（しゃがみ方）』 今回はキャッチャーのしゃがみ方だよ",
+    "岩松知毅(もじゃ)@69pineyurupoint キャッチング指導時に見せる実演 キャッチングが苦手な選手って体幹部分… ameblo.j..."
+  ],
+  "summary_for_internal_review": "検出キーワード: キャッチャーの構え / キャッチング / 指導 / 体幹",
+  "raw_path": "data/ameblo/raw_articles/entry-12937610718.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12937610718.json",
+  "content_hash": "71a88c5efa8b22d300cbe945806aa3b4d58fbb1301d4645bbf2bf1925f76dcc3",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

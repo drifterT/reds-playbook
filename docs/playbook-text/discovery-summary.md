@@ -1,14 +1,14 @@
 # Ameblo Theme Discovery Summary
 
-Generated at: 2026-05-20T20:06:19Z
+Generated at: 2026-05-21T02:43:28Z
 
-Parsed articles: 20
+Parsed articles: 30
 
 This summary uses URL, metadata, short excerpts, detected keywords, and candidate phrases only. It does not store full Ameblo article text.
 
 ## 守備・キャッチボール候補
 
-- Matched articles: 10
+- Matched articles: 12
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12865401621.html
   - https://ameblo.jp/kinegawareds/entry-12866064969.html
@@ -25,16 +25,17 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## バッティング候補
 
-- Matched articles: 2
+- Matched articles: 3
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12840590860.html
   - https://ameblo.jp/kinegawareds/entry-12927345275.html
-- Matched keywords: バッティング, スイング
+  - https://ameblo.jp/kinegawareds/entry-12954339417.html
+- Matched keywords: スイング, バッティング
 - Needs AI review: yes
 
 ## 走塁候補
 
-- Matched articles: 12
+- Matched articles: 13
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12847046140.html
   - https://ameblo.jp/kinegawareds/entry-12860102703.html
@@ -51,17 +52,25 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## 指導方法候補
 
-- Matched articles: 5
+- Matched articles: 10
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12860102703.html
   - https://ameblo.jp/kinegawareds/entry-12881874075.html
   - https://ameblo.jp/kinegawareds/entry-12882815632.html
   - https://ameblo.jp/kinegawareds/entry-12927345275.html
   - https://ameblo.jp/kinegawareds/entry-12937311670.html
-- Matched keywords: 伝える, 指導, コーチ, 見る
+  - https://ameblo.jp/kinegawareds/entry-12937610718.html
+  - https://ameblo.jp/kinegawareds/entry-12947957831.html
+  - https://ameblo.jp/kinegawareds/entry-12948308713.html
+  - https://ameblo.jp/kinegawareds/entry-12948309606.html
+  - https://ameblo.jp/kinegawareds/entry-12954339417.html
+- Matched keywords: 指導, コーチ, 伝える, 見る, 育成
 - Needs AI review: yes
 
 ## 身体構造・ストレッチ候補
 
-- Matched articles: 0
+- Matched articles: 1
+- URLs:
+  - https://ameblo.jp/kinegawareds/entry-12937610718.html
+- Matched keywords: 体幹
 - Needs AI review: yes
