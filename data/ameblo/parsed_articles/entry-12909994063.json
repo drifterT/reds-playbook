@@ -1,0 +1,46 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12909994063.html",
+  "entry_id": "entry-12909994063",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『子どもの体力をつける方法とは？体力アップのメリット。』",
+  "published_at": "2025-06-13",
+  "fetched_at": "2026-05-21T14:50:52Z",
+  "status": "fetched",
+  "text_length": 5350,
+  "content_excerpt_for_review": "子どもの体力をつける方法とは？体力アップのメリット。 これは昨年度の調査結果です。 もちろん平均値なので 数値よりも上の子もいれば 下の子もいるでしょう。 この差とはそれまで 過ごしてきた環境によるものも 大きいのかな？なんて思っています。...",
+  "detected_keywords": [
+    {
+      "category": "身体構造/ストレッチ",
+      "keyword": "姿勢",
+      "count": 5
+    },
+    {
+      "category": "身体構造/ストレッチ",
+      "keyword": "ストレッチ",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "育成",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "なぜなら、運動し体力をつけることは、意欲的に取り組む態度の育成に繋がるからです",
+    "これらの経験が、 子どもの前向きな姿勢や粘り強さ、自己肯定感に繋がります",
+    "②正しい姿勢をキープする",
+    "実は、 正しい姿勢をキープすることも体力アップに繋がります",
+    "姿勢がすぐにグシャッと潰れてしまう場合は、姿勢維持をする体力が足りていない可能性があります",
+    "例えば、ストレッチ"
+  ],
+  "summary_for_internal_review": "検出キーワード: 姿勢 / ストレッチ / 育成",
+  "raw_path": "data/ameblo/raw_articles/entry-12909994063.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12909994063.json",
+  "content_hash": "257e25d9a7c92a824e1bd0b7c33f4999903bfe9577b8a90fc75a2630d9a785c4",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

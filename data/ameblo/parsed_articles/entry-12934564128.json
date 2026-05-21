@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12934564128.html",
+  "entry_id": "entry-12934564128",
+  "theme_id": "reds_general",
+  "theme_label": "木根川レッズ全般",
+  "title": "『とても素敵な画像が送られてきた！』",
+  "published_at": "2025-10-07",
+  "fetched_at": "2026-05-21T14:51:09Z",
+  "status": "fetched",
+  "text_length": 888,
+  "content_excerpt_for_review": "とても素敵な画像が送られてきた！ 春季教育リーグの最終戦後に こんな素敵な画像が送られてきた。😍 春季教育リーグは 今まで切磋琢磨してきた 6年生の最後のリーグ戦。 この日に欠席だったジャガーズの1名は 卒業アルバムの撮影の日に欠席した生徒...",
+  "detected_keywords": [
+    {
+      "category": "メンタル、姿勢",
+      "keyword": "仲間の大切さ",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "仲間の大切さというものを"
+  ],
+  "summary_for_internal_review": "検出キーワード: 仲間の大切さ",
+  "raw_path": "data/ameblo/raw_articles/entry-12934564128.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12934564128.json",
+  "content_hash": "641c3f9d13869ad8cc6a2d0a2c4b43d28257561925ad0f8ced857d2402703f96",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

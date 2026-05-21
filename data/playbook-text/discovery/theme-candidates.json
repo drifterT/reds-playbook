@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-21T09:27:40Z",
-  "article_count": 40,
+  "generated_at": "2026-05-21T14:51:13Z",
+  "article_count": 50,
   "themes": [
     {
       "theme_key": "defense_catchball",
@@ -14,7 +14,11 @@
         "https://ameblo.jp/kinegawareds/entry-12894197991.html",
         "https://ameblo.jp/kinegawareds/entry-12899445366.html",
         "https://ameblo.jp/kinegawareds/entry-12910822533.html",
+        "https://ameblo.jp/kinegawareds/entry-12910893943.html",
+        "https://ameblo.jp/kinegawareds/entry-12919195402.html",
+        "https://ameblo.jp/kinegawareds/entry-12924482852.html",
         "https://ameblo.jp/kinegawareds/entry-12927345275.html",
+        "https://ameblo.jp/kinegawareds/entry-12932327470.html",
         "https://ameblo.jp/kinegawareds/entry-12937311670.html",
         "https://ameblo.jp/kinegawareds/entry-12944551674.html",
         "https://ameblo.jp/kinegawareds/entry-12948309606.html",
@@ -25,7 +29,7 @@
       "matched_keywords": [
         {
           "keyword": "キャッチボール",
-          "count": 8
+          "count": 10
         },
         {
           "keyword": "捕球",
@@ -41,6 +45,10 @@
         },
         {
           "keyword": "カバー",
+          "count": 2
+        },
+        {
+          "keyword": "守備",
           "count": 1
         },
         {
@@ -54,13 +62,13 @@
         "『ランダウンプレー（挟殺プレー）参考動画』",
         "ある程度のキャッチボールが",
         "これの多くはボールの持ち替えが",
+        "そしてキャッチボール、ボール回し・・・",
         "その中で、素振りやキャッチボールなどを「1つ1つ丁寧にやるイメージで」と語る場面があった",
         "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ",
         "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ...",
         "ちなみに「キャッチボール」って言うのは",
-        "イメージ的にはステップしながら捕球してターンしがらスローイング、くらいかと思う",
-        "キャッチボールがある程度出来なくては",
-        "キャッチボールの精度ってとこに"
+        "やるかやらないかが、きっとこれからの俺達を繋いでくれる",
+        "イメージ的にはステップしながら捕球してターンしがらスローイング、くらいかと思う"
       ],
       "needs_ai_review": true
     },
@@ -112,6 +120,7 @@
         "https://ameblo.jp/kinegawareds/entry-12910822533.html",
         "https://ameblo.jp/kinegawareds/entry-12914022495.html",
         "https://ameblo.jp/kinegawareds/entry-12925804728.html",
+        "https://ameblo.jp/kinegawareds/entry-12934536283.html",
         "https://ameblo.jp/kinegawareds/entry-12937311670.html",
         "https://ameblo.jp/kinegawareds/entry-12937559466.html",
         "https://ameblo.jp/kinegawareds/entry-12956565550.html",
@@ -125,7 +134,7 @@
         },
         {
           "keyword": "スライディング",
-          "count": 2
+          "count": 3
         },
         {
           "keyword": "スタート",
@@ -140,11 +149,11 @@
         "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ",
         "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ...",
         "それぞれのランナーの",
+        "オール葛飾の石川監督には",
         "コタちゃんコーチから",
         "ゴロ捕球後に正確にサード送球",
         "スタート方法",
-        "セカンドランナーが",
-        "センターはファーストランナーが"
+        "セカンドランナーが"
       ],
       "needs_ai_review": true
     },
@@ -155,6 +164,9 @@
         "https://ameblo.jp/kinegawareds/entry-12860102703.html",
         "https://ameblo.jp/kinegawareds/entry-12881874075.html",
         "https://ameblo.jp/kinegawareds/entry-12882815632.html",
+        "https://ameblo.jp/kinegawareds/entry-12909994063.html",
+        "https://ameblo.jp/kinegawareds/entry-12910893943.html",
+        "https://ameblo.jp/kinegawareds/entry-12919195402.html",
         "https://ameblo.jp/kinegawareds/entry-12927345275.html",
         "https://ameblo.jp/kinegawareds/entry-12937311670.html",
         "https://ameblo.jp/kinegawareds/entry-12937610718.html",
@@ -175,14 +187,14 @@
         },
         {
           "keyword": "コーチ",
-          "count": 6
-        },
-        {
-          "keyword": "見る",
-          "count": 3
+          "count": 8
         },
         {
           "keyword": "育成",
+          "count": 4
+        },
+        {
+          "keyword": "見る",
           "count": 3
         },
         {
@@ -196,17 +208,17 @@
       ],
       "candidate_phrases": [
         "MLBマリナーズの会長付特別補佐兼インストラクターを務めるイチロー氏が、昨年11月9日から2日間にわたり大阪・大冠高で野球部員たちを指導",
+        "②正しい姿勢をキープする",
         "「ランナーはピョンピョン跳ねたら、",
         "『「バナナ」・・・って野球の話か？（笑）』 成人の日の低学年の午後の練習でやっていたのがいわゆる「ライン外し」とか「バナナキャッチ」などと呼...",
         "『キャッチャーの構え（しゃがみ方）』 今回はキャッチャーのしゃがみ方だよ",
         "『練習試合 』 育成世代の野球⚾️ 想定されることを予測して予習→実戦で課題を掘り出す→復習→予習の繰り返しのように思います",
         "このスキームを持たない指導者は、実戦で指摘… ameblo.jp",
         "このスキームを持たない指導者は、実戦で指摘しまくるだけで、ミスは続く無限ループに突入→選手は何をやって良いのか分からず混乱😵‍💫って感じのよ...",
+        "これらの経験が、 子どもの前向きな姿勢や粘り強さ、自己肯定感に繋がります",
         "そして、指導者の落とし込み次第",
         "その中で、素振りやキャッチボールなどを「1つ1つ丁寧にやるイメージで」と語る場面があった",
-        "それって指導か⁉️",
-        "ちなみに「キャッチボール」って言うのは",
-        "まずは目を開いてしっかりと見る"
+        "それって指導か⁉️"
       ],
       "needs_ai_review": true
     },
@@ -214,17 +226,38 @@
       "theme_key": "body_mobility",
       "label": "身体構造・ストレッチ候補",
       "matched_article_urls": [
+        "https://ameblo.jp/kinegawareds/entry-12905036198.html",
+        "https://ameblo.jp/kinegawareds/entry-12909994063.html",
+        "https://ameblo.jp/kinegawareds/entry-12911627328.html",
         "https://ameblo.jp/kinegawareds/entry-12937610718.html"
       ],
       "matched_keywords": [
+        {
+          "keyword": "姿勢",
+          "count": 2
+        },
+        {
+          "keyword": "ストレッチ",
+          "count": 2
+        },
+        {
+          "keyword": "アフターケア",
+          "count": 1
+        },
         {
           "keyword": "体幹",
           "count": 1
         }
       ],
       "candidate_phrases": [
+        "12,15 Sakata et al17は、修正可能な危険因子 として、1日100球、投手の姿勢、肘の伸展不足、胸椎 後弯角度を挙げている",
+        "②正しい姿勢をキープする",
         "『キャッチャーの構え（しゃがみ方）』 今回はキャッチャーのしゃがみ方だよ",
+        "これらの経験が、 子どもの前向きな姿勢や粘り強さ、自己肯定感に繋がります",
+        "なぜなら、運動し体力をつけることは、意欲的に取り組む態度の育成に繋がるからです",
         "キャッチャーの構えに関しては",
+        "ストレッチをするならば",
+        "動的ストレッチ",
         "日米でキャッチャーの構えに"
       ],
       "needs_ai_review": true
