@@ -1,0 +1,36 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12937559466.html",
+  "entry_id": "entry-12937559466",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『ベッツの動き・・・これだよね。（笑顔）』",
+  "published_at": "2025-10-22",
+  "fetched_at": "2026-05-21T02:43:06Z",
+  "status": "fetched",
+  "text_length": 850,
+  "content_excerpt_for_review": "ベッツの動き・・・これだよね。（笑顔） フィリーズとドジャースの第2戦の9回の ベッツがセカンドでアウトとった後のこの動き。 丁寧にサードランナーに注意を向けて、走っていく前に走る姿。 なんか、小学生の時に習ったような、基礎中の基礎みたいな...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 6
+    }
+  ],
+  "candidate_phrases": [
+    "丁寧にサードランナーに注意を向けて、走っていく前に走る姿",
+    "次にランナーが進むであろう",
+    "ランナー3塁で内野ゴロ",
+    "ファーストでバッターランナーを",
+    "サードランナーは に",
+    "ランナーが次に進むであろう塁に"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー",
+  "raw_path": "data/ameblo/raw_articles/entry-12937559466.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12937559466.json",
+  "content_hash": "c66d5cb9543453609d8ee7e68b122489a1276ad22777eb5ed30eb7bfa6df19f0",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-20T20:06:19Z",
-  "article_count": 20,
+  "generated_at": "2026-05-21T02:43:28Z",
+  "article_count": 30,
   "themes": [
     {
       "theme_key": "defense_catchball",
@@ -15,16 +15,18 @@
         "https://ameblo.jp/kinegawareds/entry-12899445366.html",
         "https://ameblo.jp/kinegawareds/entry-12910822533.html",
         "https://ameblo.jp/kinegawareds/entry-12927345275.html",
-        "https://ameblo.jp/kinegawareds/entry-12937311670.html"
+        "https://ameblo.jp/kinegawareds/entry-12937311670.html",
+        "https://ameblo.jp/kinegawareds/entry-12944551674.html",
+        "https://ameblo.jp/kinegawareds/entry-12948309606.html"
       ],
       "matched_keywords": [
         {
           "keyword": "キャッチボール",
-          "count": 6
+          "count": 7
         },
         {
           "keyword": "捕球",
-          "count": 2
+          "count": 3
         },
         {
           "keyword": "ランダウン",
@@ -41,17 +43,17 @@
       ],
       "candidate_phrases": [
         "MLBマリナーズの会長付特別補佐兼インストラクターを務めるイチロー氏が、昨年11月9日から2日間にわたり大阪・大冠高で野球部員たちを指導",
+        "『「バナナ」・・・って野球の話か？（笑）』 成人の日の低学年の午後の練習でやっていたのがいわゆる「ライン外し」とか「バナナキャッチ」などと呼...",
         "『ランダウンプレー（挟殺プレー）参考動画』",
         "ある程度のキャッチボールが",
+        "これの多くはボールの持ち替えが",
         "その中で、素振りやキャッチボールなどを「1つ1つ丁寧にやるイメージで」と語る場面があった",
         "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ",
         "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ...",
         "キャッチボールの精度ってとこに",
         "ゴロ捕球後に正確にサード送球",
         "セカンドランナーが",
-        "センターはファーストランナーが",
-        "ドジャースに見る『3B』",
-        "ノーアウトランナー2塁からの"
+        "センターはファーストランナーが"
       ],
       "needs_ai_review": true
     },
@@ -60,15 +62,16 @@
       "label": "バッティング候補",
       "matched_article_urls": [
         "https://ameblo.jp/kinegawareds/entry-12840590860.html",
-        "https://ameblo.jp/kinegawareds/entry-12927345275.html"
+        "https://ameblo.jp/kinegawareds/entry-12927345275.html",
+        "https://ameblo.jp/kinegawareds/entry-12954339417.html"
       ],
       "matched_keywords": [
         {
-          "keyword": "バッティング",
-          "count": 1
+          "keyword": "スイング",
+          "count": 2
         },
         {
-          "keyword": "スイング",
+          "keyword": "バッティング",
           "count": 1
         }
       ],
@@ -76,6 +79,8 @@
         "MLBマリナーズの会長付特別補佐兼インストラクターを務めるイチロー氏が、昨年11月9日から2日間にわたり大阪・大冠高で野球部員たちを指導",
         "『トスバッティングに関して（ペッパーじゃないよ）』",
         "その中で、素振りやキャッチボールなどを「1つ1つ丁寧にやるイメージで」と語る場面があった",
+        "コンディショニングコーチで有名な",
+        "以前もお伝えしたように、 30mダッシュのタイムが良い程、スイングスピード、 打球速度、投手のボール速度は速くなる相関性が証明されている の...",
         "選手もコーチも多いと思う"
       ],
       "needs_ai_review": true
@@ -95,12 +100,13 @@
         "https://ameblo.jp/kinegawareds/entry-12910822533.html",
         "https://ameblo.jp/kinegawareds/entry-12914022495.html",
         "https://ameblo.jp/kinegawareds/entry-12925804728.html",
-        "https://ameblo.jp/kinegawareds/entry-12937311670.html"
+        "https://ameblo.jp/kinegawareds/entry-12937311670.html",
+        "https://ameblo.jp/kinegawareds/entry-12937559466.html"
       ],
       "matched_keywords": [
         {
           "keyword": "ランナー",
-          "count": 12
+          "count": 13
         },
         {
           "keyword": "スライディング",
@@ -135,48 +141,68 @@
         "https://ameblo.jp/kinegawareds/entry-12881874075.html",
         "https://ameblo.jp/kinegawareds/entry-12882815632.html",
         "https://ameblo.jp/kinegawareds/entry-12927345275.html",
-        "https://ameblo.jp/kinegawareds/entry-12937311670.html"
+        "https://ameblo.jp/kinegawareds/entry-12937311670.html",
+        "https://ameblo.jp/kinegawareds/entry-12937610718.html",
+        "https://ameblo.jp/kinegawareds/entry-12947957831.html",
+        "https://ameblo.jp/kinegawareds/entry-12948308713.html",
+        "https://ameblo.jp/kinegawareds/entry-12948309606.html",
+        "https://ameblo.jp/kinegawareds/entry-12954339417.html"
       ],
       "matched_keywords": [
+        {
+          "keyword": "指導",
+          "count": 6
+        },
+        {
+          "keyword": "コーチ",
+          "count": 3
+        },
         {
           "keyword": "伝える",
           "count": 2
         },
         {
-          "keyword": "指導",
-          "count": 2
-        },
-        {
-          "keyword": "コーチ",
-          "count": 2
-        },
-        {
           "keyword": "見る",
+          "count": 1
+        },
+        {
+          "keyword": "育成",
           "count": 1
         }
       ],
       "candidate_phrases": [
         "MLBマリナーズの会長付特別補佐兼インストラクターを務めるイチロー氏が、昨年11月9日から2日間にわたり大阪・大冠高で野球部員たちを指導",
+        "『「バナナ」・・・って野球の話か？（笑）』 成人の日の低学年の午後の練習でやっていたのがいわゆる「ライン外し」とか「バナナキャッチ」などと呼...",
+        "『キャッチャーの構え（しゃがみ方）』 今回はキャッチャーのしゃがみ方だよ",
+        "このスキームを持たない指導者は、実戦で指摘しまくるだけで、ミスは続く無限ループに突入→選手は何をやって良いのか分からず混乱😵‍💫って感じのよ...",
+        "そして、指導者の落とし込み次第",
         "その中で、素振りやキャッチボールなどを「1つ1つ丁寧にやるイメージで」と語る場面があった",
+        "キャッチャーの構えに関しては",
+        "コンディショニングコーチで有名な",
         "ゴロ捕球後に正確にサード送球",
+        "チームの内外の指導者から",
         "ドジャースに見る『3B』",
-        "ノーアウトランナー2塁からの",
-        "ランナーは迷わず へ向かう カットマンは無駄なキャッチボールせずに ランナーを目視（牽制）しながら 持って行くように指導するかな ランナーに",
-        "ランナーは迷わず へ向かう カットマンは無駄なキャッチボールせずに ランナーを目視（牽制）しながら 持って行くように指導するかな ランナーに...",
-        "基本はサードランナーを目視し ランナーの動きが確認しやすい まぁ基本は動きながらのキャッチボールが もう一つ、これはランナーの方 サードのコ",
-        "基本はサードランナーを目視し ランナーの動きが確認しやすい まぁ基本は動きながらのキャッチボールが もう一つ、これはランナーの方 サードのコ...",
-        "選手もコーチも多いと思う",
-        "高学年には伝えるようにしている事 特にランナーの進行方向と ランナーセカンドの際に ランナーの走路より後を守っている ランナーより素早く動い",
-        "高学年には伝えるようにしている事 特にランナーの進行方向と ランナーセカンドの際に ランナーの走路より後を守っている ランナーより素早く動い..."
+        "ノーアウトランナー2塁からの"
       ],
       "needs_ai_review": true
     },
     {
       "theme_key": "body_mobility",
       "label": "身体構造・ストレッチ候補",
-      "matched_article_urls": [],
-      "matched_keywords": [],
-      "candidate_phrases": [],
+      "matched_article_urls": [
+        "https://ameblo.jp/kinegawareds/entry-12937610718.html"
+      ],
+      "matched_keywords": [
+        {
+          "keyword": "体幹",
+          "count": 1
+        }
+      ],
+      "candidate_phrases": [
+        "『キャッチャーの構え（しゃがみ方）』 今回はキャッチャーのしゃがみ方だよ",
+        "キャッチャーの構えに関しては",
+        "日米でキャッチャーの構えに"
+      ],
       "needs_ai_review": true
     }
   ],

@@ -1,0 +1,32 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12947957831.html",
+  "entry_id": "entry-12947957831",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『ダイエット方法？（笑）』",
+  "published_at": "2025-12-11",
+  "fetched_at": "2026-05-21T02:43:14Z",
+  "status": "fetched",
+  "text_length": 812,
+  "content_excerpt_for_review": "Xにこんな投稿があった。 言い得て妙だよね。（笑顔） どのスポーツでも、 どんなトレーニングでも、 「やれば上手くなる、結果が出る。」 なんてメニューあるわけないじゃないですか？ 選手の取り組み次第。 そして、指導者の落とし込み次第。 ダイ...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 2
+    }
+  ],
+  "candidate_phrases": [
+    "そして、指導者の落とし込み次第",
+    "チームの内外の指導者から"
+  ],
+  "summary_for_internal_review": "検出キーワード: 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12947957831.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12947957831.json",
+  "content_hash": "d22b071f12edf1a9f0d47ba4947cfed52254c5019f39a69089750ca39afe5155",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

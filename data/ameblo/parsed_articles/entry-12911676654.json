@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12911676654.html",
+  "entry_id": "entry-12911676654",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『素振り』",
+  "published_at": "2025-08-11",
+  "fetched_at": "2026-05-21T02:43:00Z",
+  "status": "fetched",
+  "text_length": 712,
+  "content_excerpt_for_review": "素振り 海外から勉強に来ている 五ヶ国語くらい使える 語学力堪能な知り合いに アラビア語とかハングル（韓国語） って難しいよね？ どうやって覚えるの？ なんて聞いたら 日本語の方が全然難しい！ 日本語はひらがな、 カタカナ、漢字まであって...",
+  "detected_keywords": [
+    {
+      "category": "道具",
+      "keyword": "グローブ",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "『音』 高学年の練習中、 ひょんな事から捕球時のグローブの音という話になった"
+  ],
+  "summary_for_internal_review": "検出キーワード: グローブ",
+  "raw_path": "data/ameblo/raw_articles/entry-12911676654.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12911676654.json",
+  "content_hash": "616bc32b23badf128dd7e3a146dfbc84f97c3d72dbde572b4de8c5228b26dc27",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12933294739.html",
+  "entry_id": "entry-12933294739",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『カメハメ波ぁ〜〜〜〜！！』",
+  "published_at": "2025-10-17",
+  "fetched_at": "2026-05-21T02:43:03Z",
+  "status": "fetched",
+  "text_length": 458,
+  "content_excerpt_for_review": "カメハメ波ぁ〜〜〜〜！！ 今の選手世代は ドラゴンボールを知ってるのかな？？ 親世代は知ってるはず。 ま、いっかぁ〜 ジェネレーションギャップを 恐れずに話を進めるね。（笑） こ れが 体内の潜在エネルギーを凝縮させて 一気に放出させる技で...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12933294739.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12933294739.json",
+  "content_hash": "74d44e1f5fbf4e73fd8ea62ac18bb30dc7a631e6ece7561c1d1588bb9c656ff1",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
