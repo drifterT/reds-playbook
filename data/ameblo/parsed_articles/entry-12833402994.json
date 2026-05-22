@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12833402994.html",
+  "entry_id": "entry-12833402994",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『新しい仲間も増えてきたので（笑顔）【指導者＆パパ向け】』",
+  "published_at": "2024-01-24",
+  "fetched_at": "2026-05-22T19:26:50Z",
+  "status": "fetched",
+  "text_length": 802,
+  "content_excerpt_for_review": "新しい仲間も増えてきたので こんな記事を再掲させてもらいます。 【以下は2015年7月7日の記事です】 この動画「おもしれ～！」ってんで アップしたんじゃないよ。（笑） 子供に何かを教えるって事。 何かを気付かせるって事。 その原点は、 こ...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "伝える",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "子供に伝えるのは難しい理論じゃ～ない"
+  ],
+  "summary_for_internal_review": "検出キーワード: 伝える",
+  "raw_path": "data/ameblo/raw_articles/entry-12833402994.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12833402994.json",
+  "content_hash": "1c8f9804345da178884ba9d70b5563ce8ba17e2550f1e08416a4ddde9d728dad",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12851255535.html",
+  "entry_id": "entry-12851255535",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『選手たちは・・・』",
+  "published_at": "2024-05-13",
+  "fetched_at": "2026-05-22T19:27:00Z",
+  "status": "fetched",
+  "text_length": 409,
+  "content_excerpt_for_review": "選手たちは・・・ pic.twitter.com/9LP1TLNpr5 子供達はこんなに難しい事をやってるんだよね。 — ジュンジーキネ w（木根川レッズ 加藤） (@kinegawareds) May 7, 2024 選手たちは小学生です...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12851255535.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12851255535.json",
+  "content_hash": "55573f5abdad70cfbf40909f9456146636187ffb6623006133eaf3c4272390f8",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,43 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12849487590.html",
+  "entry_id": "entry-12849487590",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『The best in the world compete against themselves』",
+  "published_at": "2024-04-26",
+  "fetched_at": "2026-05-22T19:26:58Z",
+  "status": "fetched",
+  "text_length": 1425,
+  "content_excerpt_for_review": "The best in the world compete against themselves 大谷選手がゴジラ松井氏の ラン記録を 塗り替えた時の現地実況の和訳です。 pic.twitter.com/vVaIMDcdTp チーム関係者に...",
+  "detected_keywords": [
+    {
+      "category": "身体構造/ストレッチ",
+      "keyword": "ストレッチ",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "育成",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "見る",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "垣間見ることができる気がしますね",
+    "雲梯やストレッチ・・・etc",
+    "子供達を育てる、育成っていうのは"
+  ],
+  "summary_for_internal_review": "検出キーワード: ストレッチ / 育成 / 見る",
+  "raw_path": "data/ameblo/raw_articles/entry-12849487590.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12849487590.json",
+  "content_hash": "988c7fb610afbf573e5e1a9c100afcd63f86fc11ab479fc12859dc8fb7a75409",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12915428562.html",
+  "entry_id": "entry-12915428562",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『応援ハラスメント・・・（再掲）』",
+  "published_at": "2025-07-17",
+  "fetched_at": "2026-05-22T19:27:09Z",
+  "status": "fetched",
+  "text_length": 977,
+  "content_excerpt_for_review": "応援ハラスメント・・・（再掲） 2022年10月30日の 記事の再掲になります。 「応援ハラスメント」嫌な言葉です。 ヨーロッパでは「親フーリガン」と 言う言葉まであるようです。 前回、前々回とモチベーションという事で 記事を書かせて頂きま...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "指導者からの言葉なども同じだと思う"
+  ],
+  "summary_for_internal_review": "検出キーワード: 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12915428562.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12915428562.json",
+  "content_hash": "e4a9f8c9a44221b9dfff5192e4cd90a43ecefa367026d325f33e022e5784255b",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

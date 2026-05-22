@@ -1,0 +1,58 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12854964111.html",
+  "entry_id": "entry-12854964111",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『楽しい野球って？？（再掲＆加筆）』",
+  "published_at": "2024-06-06",
+  "fetched_at": "2026-05-22T19:27:03Z",
+  "status": "fetched",
+  "text_length": 2983,
+  "content_excerpt_for_review": "楽しい野球って？？（再掲＆加筆） 【最初に】 とある代の6年生が後輩に向けて話した 『「楽」と「楽しい」は同じ字を書くんだけど「楽してたら楽しくならないんだよなぁ～』の一言から レッズでは文章で何かを伝える場では「楽しい」ではなく「愉しい」...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 3
+    },
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 3
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 2
+    },
+    {
+      "category": "ルール",
+      "keyword": "ルール",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "伝える",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "レッズでは文章で何かを伝える場では「楽しい」ではなく「愉しい」の漢字を使うようにしてきましたが",
+    "社会的ルールに従うようになり",
+    "監督・コーチに見てもらいたい、",
+    "「監督・コーチが怖い」と感じてしまえば",
+    "「監督！見て！見て！」と",
+    "（緑のコーチさん、いつもありがとう（笑））",
+    "そんな事で指導者が分裂してしまうなどと",
+    "我々指導者（大人）の役割は、"
+  ],
+  "summary_for_internal_review": "検出キーワード: コーチ / 監督 / 指導 / ルール / 伝える",
+  "raw_path": "data/ameblo/raw_articles/entry-12854964111.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12854964111.json",
+  "content_hash": "1956de4cbbe61377ba01b91a243055397f6604e6a6f4db109b4375f74a63a3d3",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

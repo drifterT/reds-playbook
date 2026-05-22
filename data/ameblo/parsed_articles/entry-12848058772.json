@@ -1,0 +1,51 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12848058772.html",
+  "entry_id": "entry-12848058772",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『今年の2月に発売された一冊の本』",
+  "published_at": "2024-04-16",
+  "fetched_at": "2026-05-22T19:26:55Z",
+  "status": "fetched",
+  "text_length": 3322,
+  "content_excerpt_for_review": "以前から同じような事は何度も 内で書いてきたし コーチ達とも話した事もあるなぁ〜 まぁそれもこれも レッズの方針でもあるからね。（笑顔） 褒めて伸ばす？褒めるとおだてるは違うんだぜ！ とか 自由には自己責任がついて回るんだよぉ～。 とか ダ...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 3
+    },
+    {
+      "category": "指導方法",
+      "keyword": "伝える",
+      "count": 2
+    },
+    {
+      "category": "ルール",
+      "keyword": "ルール",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "見る",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "コーチ達とも話した事もあるなぁ〜",
+    "ダメな事はダメとしっかりと伝えるのは大人の責務だ！",
+    "それでも最低限のルールや規律は必要なんだよぉ〜",
+    "『ダメな事はダメと伝える事』 こんなツイートを見た",
+    "『ラグビーパークのコーチ９つの約束』 川向こうのおっさんコーチがFacebookでとても良い記事を紹介してくれた",
+    "カウンセリングで多くの家庭を見る中で 「 褒めて伸ばしている」つもりが、いつの間にか「子どもの問題を指摘しない」「ネガティブなところを示さな..."
+  ],
+  "summary_for_internal_review": "検出キーワード: コーチ / 伝える / ルール / 見る",
+  "raw_path": "data/ameblo/raw_articles/entry-12848058772.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12848058772.json",
+  "content_hash": "2f964620d3de656d5499c9fb5cdf96dead3f817dee7614bcbea457f411626083",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

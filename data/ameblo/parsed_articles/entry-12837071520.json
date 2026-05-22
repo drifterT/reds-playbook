@@ -1,0 +1,37 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12837071520.html",
+  "entry_id": "entry-12837071520",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『JSPOって聞いた事ある？』",
+  "published_at": "2024-02-10",
+  "fetched_at": "2026-05-22T19:26:53Z",
+  "status": "fetched",
+  "text_length": 1283,
+  "content_excerpt_for_review": "JSPOって聞いた事ある？ 少し前、選手に 全日本軟式野球連盟の 「JSBB」ってどうして『S』なの？ って聞かれたんだけど 実は J apan S oftball B ase b all Association の略称なんだよね。 えっ！...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ルール",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "育成",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "未来を担う子どもたちの健全な育成に、スポーツは大きな貢献ができると信じています",
+    "からだを動かすたのしさは、健康なからだを作り、他者との関わりやルールへの学びは、社会性を育み、達成のよろこびは努力の大切さを教えてくれます"
+  ],
+  "summary_for_internal_review": "検出キーワード: ルール / 育成",
+  "raw_path": "data/ameblo/raw_articles/entry-12837071520.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12837071520.json",
+  "content_hash": "d1efebe9740ef5bd6d3a29afe5881021fe5ad72b438257c346b9b1fa9c925841",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
