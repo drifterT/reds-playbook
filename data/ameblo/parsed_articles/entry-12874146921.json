@@ -1,0 +1,32 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12874146921.html",
+  "entry_id": "entry-12874146921",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『何をやるかではなくどうやるか』",
+  "published_at": "2024-11-13",
+  "fetched_at": "2026-05-22T02:44:19Z",
+  "status": "fetched",
+  "text_length": 558,
+  "content_excerpt_for_review": "ひじ抜け＝ダーツのような投げ方 チームの活動中にも良くいう事だけど こんな動画を参考にしてみてね。 動画内では 「伸展という動作は ボールの速さに 寄与しない」 ってあるけど それだけではなくて 肘の故障にも繋がりやすくもあるよ。 ハイタッ...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "キャッチボール",
+      "count": 2
+    }
+  ],
+  "candidate_phrases": [
+    "キャッチボールは大事だよ、",
+    "そのキャッチボールを"
+  ],
+  "summary_for_internal_review": "検出キーワード: キャッチボール",
+  "raw_path": "data/ameblo/raw_articles/entry-12874146921.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12874146921.json",
+  "content_hash": "3808a105d24fbdbbc9f4e89113a48241e5f28bc589302a3ef22e1de6c64e06bb",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

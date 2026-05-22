@@ -1,0 +1,38 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12853051275.html",
+  "entry_id": "entry-12853051275",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『ボールの捕球と握り替え』",
+  "published_at": "2024-05-25",
+  "fetched_at": "2026-05-22T02:44:13Z",
+  "status": "fetched",
+  "text_length": 1557,
+  "content_excerpt_for_review": "メジャー史上歴代最高の ショートス とも言われる 現役時代のオマー・ビスケル選手の グラブ捌き＆ボールの持ち替え。 そして日本一のショートス とも言われている 源田選手のグラブ捌き＆ボールの持ち替え。 これらは一流プレーヤーだからであって...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "持ち替え",
+      "count": 2
+    },
+    {
+      "category": "守備",
+      "keyword": "キャッチボール",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "グラブ捌き＆ボールの持ち替え",
+    "源田選手のグラブ捌き＆ボールの持ち替え",
+    "レッズがキャッチボール前に行っている"
+  ],
+  "summary_for_internal_review": "検出キーワード: 持ち替え / キャッチボール",
+  "raw_path": "data/ameblo/raw_articles/entry-12853051275.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12853051275.json",
+  "content_hash": "dc49959a669e9a17c28567521a3ea87c075679bfecdd9cfec511cb8b3e4c67e8",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

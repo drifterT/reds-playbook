@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12888141303.html",
+  "entry_id": "entry-12888141303",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『打撃に於けるタイミングに関して。』",
+  "published_at": "2025-03-07",
+  "fetched_at": "2026-05-22T02:44:31Z",
+  "status": "fetched",
+  "text_length": 448,
+  "content_excerpt_for_review": "打撃に於けるタイミングに関して。 pic.twitter.com/4T8L1hzi3w これはモロにチーム内で言ってる事だぁ〜！！ — ジュンジーキネ w（木根川レッズ 加藤） (@kinegawareds) February 28, 20...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "伝える",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "敢えて一言で伝えるならば"
+  ],
+  "summary_for_internal_review": "検出キーワード: 伝える",
+  "raw_path": "data/ameblo/raw_articles/entry-12888141303.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12888141303.json",
+  "content_hash": "54c9b6f67bdda37b7f4ae0bf7fec8dd1e9b83eae06b5f50a691b36e966c8cb7c",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

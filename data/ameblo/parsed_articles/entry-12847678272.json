@@ -1,0 +1,44 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12847678272.html",
+  "entry_id": "entry-12847678272",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『いわゆる「間」とか「タメ」って言われるやつ。』",
+  "published_at": "2024-04-29",
+  "fetched_at": "2026-05-22T02:44:07Z",
+  "status": "fetched",
+  "text_length": 1207,
+  "content_excerpt_for_review": "バッティング。 150kmの速球をファールしたあと、120km台のカーブにアジャストして本塁打したスイングです。 『踏出し足の【踵】』が接地した時の、骨盤～腕の運動量確保に注目。 これが確保できなければ変化球は手打ちになり、強い打球は望めま...",
+  "detected_keywords": [
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 2
+    },
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "150kmの速球をファールしたあと、120km台のカーブにアジャストして本塁打したスイングです",
+    "自分、指導の比較用に",
+    "バットも出て来ない",
+    "同時にバットを同じ方向に引くような動作になると"
+  ],
+  "summary_for_internal_review": "検出キーワード: バット / スイング / 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12847678272.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12847678272.json",
+  "content_hash": "7093436ca44b22c606f4cd9230b6e66c5daf76a0ee485b9d332e208d7fdda1f3",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

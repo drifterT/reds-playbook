@@ -1,0 +1,53 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12875078339.html",
+  "entry_id": "entry-12875078339",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『小学生に多いんじゃないかな？』",
+  "published_at": "2024-11-18",
+  "fetched_at": "2026-05-22T02:44:22Z",
+  "status": "fetched",
+  "text_length": 717,
+  "content_excerpt_for_review": "とても分かりやすい比較動画を紹介するね。（笑顔） 【課題】 ボールにバットが当たらない 【なぜ？】 スイング軌道がボール軌道に対して 接点が少なく当たる確率が低い 【改善策】 肩の入れ替えとバットのラインを一致させ ボール軌道に長い時間バッ...",
+  "detected_keywords": [
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 3
+    },
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 3
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "ボールにバットが当たらない",
+    "スイング軌道がボール軌道に対して",
+    "肩の入れ替えとバットのラインを一致させ",
+    "ボール軌道に長い時間バットが入るように",
+    "豪快なスイングに見えるからなのかな？",
+    "敢えてそのように指導していると言うことを",
+    "ヨッシーコーチから",
+    "ボールよりも下のスイングが多いと思うし"
+  ],
+  "summary_for_internal_review": "検出キーワード: スイング / バット / コーチ / 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12875078339.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12875078339.json",
+  "content_hash": "ef9eac162ea2813e99a77a2c4992770330e38bfe7270026bb4c687318551493a",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

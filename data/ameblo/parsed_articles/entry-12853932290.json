@@ -1,0 +1,48 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12853932290.html",
+  "entry_id": "entry-12853932290",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『1・2・3の「2」の考え方』",
+  "published_at": "2024-06-09",
+  "fetched_at": "2026-05-22T02:44:17Z",
+  "status": "fetched",
+  "text_length": 2258,
+  "content_excerpt_for_review": "バッティングというのは 簡単に言ってしまうと 手で持っているバットを振って ボールを打つ訳なんだけど その工程として 下半身からなんて言われるよね？ まずは構えて、そこから 前脚を大きく上げたり 前脚の踵をあげたりで 後脚に荷重を掛ける 後...",
+  "detected_keywords": [
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 10
+    },
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 8
+    },
+    {
+      "category": "身体構造/ストレッチ",
+      "keyword": "ストレッチ",
+      "count": 5
+    }
+  ],
+  "candidate_phrases": [
+    "手で持っているバットを振って",
+    "バットが同時に前に出てしまって",
+    "スイングにパワーが生まれないのと同時に",
+    "バットでボールを捉える事が難しい",
+    "同時にバットが出てきてしまう様な事ね",
+    "バットが出てきてしまう事は",
+    "150kmの速球をファールしたあと、120km台のカーブにアジャストして本塁打したスイングです",
+    "バックスイング（引き）があるんだよね"
+  ],
+  "summary_for_internal_review": "検出キーワード: スイング / バット / ストレッチ",
+  "raw_path": "data/ameblo/raw_articles/entry-12853932290.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12853932290.json",
+  "content_hash": "5038087360cd6fa23ceb782e562d4d915024a99559edd060aff353b0a48dddd4",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12875961033.html",
+  "entry_id": "entry-12875961033",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『WBSCプレミア12での小園選手』",
+  "published_at": "2024-12-01",
+  "fetched_at": "2026-05-22T02:44:25Z",
+  "status": "fetched",
+  "text_length": 402,
+  "content_excerpt_for_review": "WBSCプレミア12での小園選手 プレミア12は残念ながら 侍ジャパンの準優勝で終わりました。 そんな中で今回は 小園選手を観察してみたいと思います。 （動画はスローにしてあります） 説明書きは 少しでも分かりやすいようにと 大雑把に書いて...",
+  "detected_keywords": [
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "（バットの出所等も含めて）"
+  ],
+  "summary_for_internal_review": "検出キーワード: バット",
+  "raw_path": "data/ameblo/raw_articles/entry-12875961033.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12875961033.json",
+  "content_hash": "2280b0aca4af1533fadef1a28de972dcce9c8722de55274a1137f05da7b50c23",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
