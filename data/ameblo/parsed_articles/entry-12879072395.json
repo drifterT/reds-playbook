@@ -1,0 +1,37 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12879072395.html",
+  "entry_id": "entry-12879072395",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『出来るか出来ないかは大したことじゃ〜ない！』",
+  "published_at": "2025-01-05",
+  "fetched_at": "2026-05-22T19:27:07Z",
+  "status": "fetched",
+  "text_length": 1240,
+  "content_excerpt_for_review": "出来るか出来ないかは大したことじゃ〜ない！ X（旧Twitter）で 潮田さんとまさ先生が こんな事をコメントしてくれています。 まさ先生のこの図は分かりやすいね。（笑顔） まさ先生のサイト ↓ ﾓﾋﾞﾘﾃｨ･ｽﾀｼﾞｵ（歩くのが速い人は若...",
+  "detected_keywords": [
+    {
+      "category": "メンタル、姿勢",
+      "keyword": "やるかやらないか",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "」とか「チームの指導者に対して失礼じゃないか？」なんて声を聞くのですがやっぱり止め… ameblo.jp",
+    "やるかやらないかが、"
+  ],
+  "summary_for_internal_review": "検出キーワード: やるかやらないか / 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12879072395.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12879072395.json",
+  "content_hash": "824df1d74eb4a3e822ef761e0782742a420291a8a449e26dbf3ead387c7b3339",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

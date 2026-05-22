@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12874143781.html",
+  "entry_id": "entry-12874143781",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『イチロー氏も同じような事を言ってくれているね。（笑顔）』",
+  "published_at": "2025-01-09",
+  "fetched_at": "2026-05-22T19:27:05Z",
+  "status": "fetched",
+  "text_length": 136,
+  "content_excerpt_for_review": "イチロー氏も同じような事を言ってくれているね。（笑顔） 正しくコレだよなぁ～ 自分はこの 「何か光が見える」の 少しでも手助けが出来れば・・・ なんて思っているんだよね。 「無理！って言ったらお仕置きだぞぉ〜！」 って言うのは、こういう事で...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12874143781.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12874143781.json",
+  "content_hash": "a10fe2899641d9469e2e13d04c4d07c1eaa2e0e2ab4f6a275c5be7c90c244053",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

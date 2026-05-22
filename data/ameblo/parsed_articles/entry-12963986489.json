@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12963986489.html",
+  "entry_id": "entry-12963986489",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『トス・・・最高の教材動画』",
+  "published_at": "2026-05-23",
+  "fetched_at": "2026-05-22T19:26:48Z",
+  "status": "fetched",
+  "text_length": 397,
+  "content_excerpt_for_review": "トス・・・最高の教材動画 この動画は 同じ試合内での 同じ選手による トスの⭕️と❌の とても分かり易い 教材動画だね。 私も同じこと言ってます ボールを持った腕は後ろに振らずに、身体の前から押し出すようにと普段から子供たちに指導しています...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "ボールを持った腕は後ろに振らずに、身体の前から押し出すようにと普段から子供たちに指導しています"
+  ],
+  "summary_for_internal_review": "検出キーワード: 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12963986489.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12963986489.json",
+  "content_hash": "936c86988c28c6561def2f5305027d750be9c724fb390428724f44bf054daa72",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

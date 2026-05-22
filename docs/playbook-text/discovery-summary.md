@@ -1,8 +1,8 @@
 # Ameblo Theme Discovery Summary
 
-Generated at: 2026-05-22T14:25:52Z
+Generated at: 2026-05-22T19:27:12Z
 
-Parsed articles: 90
+Parsed articles: 100
 
 This summary uses URL, metadata, short excerpts, detected keywords, and candidate phrases only. It does not store full Ameblo article text.
 
@@ -59,27 +59,28 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## 指導方法候補
 
-- Matched articles: 38
+- Matched articles: 46
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12791952988.html
   - https://ameblo.jp/kinegawareds/entry-12793081944.html
   - https://ameblo.jp/kinegawareds/entry-12793546946.html
   - https://ameblo.jp/kinegawareds/entry-12808945703.html
+  - https://ameblo.jp/kinegawareds/entry-12833402994.html
+  - https://ameblo.jp/kinegawareds/entry-12837071520.html
   - https://ameblo.jp/kinegawareds/entry-12847678272.html
-  - https://ameblo.jp/kinegawareds/entry-12860102703.html
-  - https://ameblo.jp/kinegawareds/entry-12875078339.html
-  - https://ameblo.jp/kinegawareds/entry-12881874075.html
-  - https://ameblo.jp/kinegawareds/entry-12882815632.html
-  - https://ameblo.jp/kinegawareds/entry-12888141303.html
+  - https://ameblo.jp/kinegawareds/entry-12848058772.html
+  - https://ameblo.jp/kinegawareds/entry-12849487590.html
+  - https://ameblo.jp/kinegawareds/entry-12854964111.html
 - Matched keywords: 指導, コーチ, 育成, 伝える, 見る, 評価
 - Needs AI review: yes
 
 ## 身体構造・ストレッチ候補
 
-- Matched articles: 9
+- Matched articles: 10
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12806521348.html
   - https://ameblo.jp/kinegawareds/entry-12830538628.html
+  - https://ameblo.jp/kinegawareds/entry-12849487590.html
   - https://ameblo.jp/kinegawareds/entry-12853932290.html
   - https://ameblo.jp/kinegawareds/entry-12905036198.html
   - https://ameblo.jp/kinegawareds/entry-12909994063.html
@@ -87,5 +88,5 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
   - https://ameblo.jp/kinegawareds/entry-12937610718.html
   - https://ameblo.jp/kinegawareds/entry-12952721239.html
   - https://ameblo.jp/kinegawareds/entry-12959157583.html
-- Matched keywords: 姿勢, ストレッチ, 体幹, アフターケア
+- Matched keywords: ストレッチ, 姿勢, 体幹, アフターケア
 - Needs AI review: yes
