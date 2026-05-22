@@ -1,0 +1,41 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12888493238.html",
+  "entry_id": "entry-12888493238",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『今シーズンのオ〜タニさん。（笑顔）』",
+  "published_at": "2025-03-10",
+  "fetched_at": "2026-05-22T08:53:15Z",
+  "status": "fetched",
+  "text_length": 1320,
+  "content_excerpt_for_review": "今シーズンのオ〜タニさん。（笑顔） 前の記事にも関連する事になります。（笑顔） 度々同じような事は でも書いてきたし 実際の現場でも 注意点として伝えてきているけど まだまだ勘違いが多いようなので。 『観察してみてね。2』 スポヲタ@sup...",
+  "detected_keywords": [
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 4
+    },
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 3
+    }
+  ],
+  "candidate_phrases": [
+    "スイングは始まってはいないよね？",
+    "同時にバットのスイングが",
+    "下がるのとバットが同時に同方向へ",
+    "＝スイングが始まってしまっている",
+    "バットを止められなくなる",
+    "バットは手で持っているので"
+  ],
+  "summary_for_internal_review": "検出キーワード: バット / スイング",
+  "raw_path": "data/ameblo/raw_articles/entry-12888493238.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12888493238.json",
+  "content_hash": "3a71fde33822c48450ca95df34efe07453750898620d080fef97f2367f698d82",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

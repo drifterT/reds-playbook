@@ -1,0 +1,37 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12913853454.html",
+  "entry_id": "entry-12913853454",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『回転効率』",
+  "published_at": "2025-09-12",
+  "fetched_at": "2026-05-22T08:53:32Z",
+  "status": "fetched",
+  "text_length": 1025,
+  "content_excerpt_for_review": "分かりやすい動画を2点。 静止画でも見比べてみてね。 ストレート系の回転数が多いピッチャーの特徴として、リリースを後方から見た時にボールが指で隠れている面積が多いということがあります。 それだけしっかりとボールの中心をとらえている、というこ...",
+  "detected_keywords": [
+    {
+      "category": "ピッチング",
+      "keyword": "ボールの握り方",
+      "count": 1
+    },
+    {
+      "category": "守備",
+      "keyword": "持ち替え",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "ボールの握り方なんかも",
+    "持ち替え、送球の段階で"
+  ],
+  "summary_for_internal_review": "検出キーワード: ボールの握り方 / 持ち替え",
+  "raw_path": "data/ameblo/raw_articles/entry-12913853454.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12913853454.json",
+  "content_hash": "ec164753b05b40e1a3f17201d135d3c7e10ab66a045ed65f102e9aa6191f03c4",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

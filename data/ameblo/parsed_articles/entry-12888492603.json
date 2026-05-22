@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12888492603.html",
+  "entry_id": "entry-12888492603",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『ピッチャーのセカンド送球』",
+  "published_at": "2025-03-13",
+  "fetched_at": "2026-05-22T08:53:12Z",
+  "status": "fetched",
+  "text_length": 787,
+  "content_excerpt_for_review": "ピッチャーのセカンド送球 主に高学年の活動場所になるであろう 新しいグランドでの初練習の時に 伝えた事なんだけど・・・覚えてるかな？ ピッチャーのセカンド送球に関する事ね。 まぁファーストへの送球も 基本的には同じなんだけど。 昔は動画のよ...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "指導された人も"
+  ],
+  "summary_for_internal_review": "検出キーワード: 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12888492603.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12888492603.json",
+  "content_hash": "355e0e6a7d48e41f5f0cfa116007c3482fdce7de539508a81061d7498ae80488",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

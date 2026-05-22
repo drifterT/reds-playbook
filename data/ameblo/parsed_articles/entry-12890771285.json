@@ -1,0 +1,53 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12890771285.html",
+  "entry_id": "entry-12890771285",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『大谷選手のインタビュー記事』",
+  "published_at": "2025-04-02",
+  "fetched_at": "2026-05-22T08:53:17Z",
+  "status": "fetched",
+  "text_length": 2592,
+  "content_excerpt_for_review": "発売中のNumber 1116号に こんなインタビュー記事が掲載されている。 《単独インタビュー》ドジャース大谷翔平が開幕前に明かしていた“究極の打撃論”「ボールを100の力で潰しにいく」「データに対して解を知る」の真意とは？（石田雄太）...",
+  "detected_keywords": [
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 10
+    },
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 10
+    },
+    {
+      "category": "メンタル、姿勢",
+      "keyword": "もったいない",
+      "count": 2
+    },
+    {
+      "category": "戦術、戦略",
+      "keyword": "戦術",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "メジャー8年目、スイングの完成度は？",
+    "練習方法もそうですし、スイングの仕方もそうです",
+    "昔はボールにスピンをかけて飛ばしなさいと言われて、僕もその意識でバットを振っていました",
+    "でも今はそういう軌道（のスイング）で振って飛ばそうとすると、効率が悪いし、もったいないんです」",
+    "――もったいない？",
+    "そういう軌道でバットを振ろうと思っています」",
+    "――それは、ピッチャーが投げたボールの軌道に対してスイングも同じ軌道で入れていけばボールの真芯をバットの芯で捉えられるということですか",
+    "「スイングの軌道がボールの軌道に合っていればボールの真後ろを叩けますし、そういう軌道をバットがきちんと通っていれば、タイミングがちょっと遅れ..."
+  ],
+  "summary_for_internal_review": "検出キーワード: スイング / バット / もったいない / 戦術",
+  "raw_path": "data/ameblo/raw_articles/entry-12890771285.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12890771285.json",
+  "content_hash": "9d9de7d68ad621973475c0bf24d6a0cfff737a563e9c4970f60b62bf137d95b3",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
