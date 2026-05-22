@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12807494329.html",
+  "entry_id": "entry-12807494329",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『こんな時代になっちゃったのかな？・・・』",
+  "published_at": "2023-06-16",
+  "fetched_at": "2026-05-22T14:25:40Z",
+  "status": "fetched",
+  "text_length": 282,
+  "content_excerpt_for_review": "こんな時代になっちゃったのかな？・・・ 全日本軟式野球連盟が直々に このような通知を 出さなくちゃならないような 時代になっちゃったのかな？ ここに書かれている事は、 レッズの運営方針として ず～っと言い続け 伝え続けている事で この場でも...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12807494329.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12807494329.json",
+  "content_hash": "202db81c8e519629b20a89197ab811db41a0314b1fd762eec8fca061451dacfd",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

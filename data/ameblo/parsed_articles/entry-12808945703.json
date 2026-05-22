@@ -1,0 +1,32 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12808945703.html",
+  "entry_id": "entry-12808945703",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『【指導者向け参考動画】』",
+  "published_at": "2023-06-27",
+  "fetched_at": "2026-05-22T14:25:43Z",
+  "status": "fetched",
+  "text_length": 189,
+  "content_excerpt_for_review": "【指導者向け参考動画】 実際にお会いしたり DMでのやり取り・・・ とても謙虚で勉強熱心で 人柄も含め信頼できる 指導者の1人 JBS武蔵の下さんの動画です。 是非、参考ににてみて下さい。 かなり重要な事を言ってくれています。 ちなみに 昔...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 2
+    }
+  ],
+  "candidate_phrases": [
+    "【指導者向け参考動画】",
+    "指導者の1人"
+  ],
+  "summary_for_internal_review": "検出キーワード: 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12808945703.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12808945703.json",
+  "content_hash": "6f0e0e160aecbba8cdecf79b2ad2647bdbf9420e973c850f1b12dc3e761bc9a0",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

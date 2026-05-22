@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-05-22T08:53:40Z",
+  "last_run_at": "2026-05-22T14:25:52Z",
   "max_articles_per_run": 10,
   "processed_urls": {
     "https://ameblo.jp/kinegawareds/entry-12840590860.html": {
@@ -961,129 +961,129 @@
       "raw_path": "data/ameblo/raw_articles/entry-12962440044.html",
       "parsed_path": "data/ameblo/parsed_articles/entry-12962440044.json",
       "error": null
-    }
-  },
-  "pending_urls": [
-    {
+    },
+    "https://ameblo.jp/kinegawareds/entry-12791952988.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12791952988.html",
       "theme_id": "youth_baseball_general",
       "theme_label": "学童野球全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T14:25:24Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12791952988.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12791952988.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12793081944.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12793081944.html",
       "theme_id": "youth_baseball_general",
       "theme_label": "学童野球全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T14:25:27Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12793081944.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12793081944.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12793546946.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12793546946.html",
       "theme_id": "youth_baseball_general",
       "theme_label": "学童野球全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T14:25:29Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12793546946.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12793546946.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12799443044.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12799443044.html",
       "theme_id": "youth_baseball_general",
       "theme_label": "学童野球全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T14:25:32Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12799443044.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12799443044.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12806521348.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12806521348.html",
       "theme_id": "youth_baseball_general",
       "theme_label": "学童野球全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T14:25:35Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12806521348.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12806521348.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12807335569.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12807335569.html",
       "theme_id": "youth_baseball_general",
       "theme_label": "学童野球全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T14:25:37Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12807335569.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12807335569.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12807494329.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12807494329.html",
       "theme_id": "youth_baseball_general",
       "theme_label": "学童野球全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T14:25:40Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12807494329.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12807494329.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12808945703.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12808945703.html",
       "theme_id": "youth_baseball_general",
       "theme_label": "学童野球全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T14:25:43Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12808945703.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12808945703.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12830311731.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12830311731.html",
       "theme_id": "youth_baseball_general",
       "theme_label": "学童野球全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T14:25:47Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12830311731.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12830311731.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12830538628.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12830538628.html",
       "theme_id": "youth_baseball_general",
       "theme_label": "学童野球全般",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T14:25:50Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12830538628.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12830538628.json",
       "error": null
-    },
+    }
+  },
+  "pending_urls": [
     {
       "url": "https://ameblo.jp/kinegawareds/entry-12833402994.html",
       "theme_id": "youth_baseball_general",

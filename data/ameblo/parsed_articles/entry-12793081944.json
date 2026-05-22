@@ -1,0 +1,40 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12793081944.html",
+  "entry_id": "entry-12793081944",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『こうしてビヨンドは誕生した？』",
+  "published_at": "2023-04-04",
+  "fetched_at": "2026-05-22T14:25:27Z",
+  "status": "fetched",
+  "text_length": 417,
+  "content_excerpt_for_review": "こうしてビヨンドは誕生した？ これは知らなかった。 💦 【拡大】 【抜粋】 複合バットの草分け的存在で、今も高シェアを誇る「ビヨンド」シリーズの歴史は02年に遡る。 軟式球はゴム製で内部に空洞があり、打った際の変形が大きく硬式球より飛びにく...",
+  "detected_keywords": [
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 4
+    },
+    {
+      "category": "指導方法",
+      "keyword": "育成",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "複合バットの草分け的存在で、今も高シェアを誇る「ビヨンド」シリーズの歴史は02年に遡る",
+    "そこで 全日本軟式野球連盟が「飛ぶバット」の開発をメーカーに要請 し、誕生したのが「ビヨンド」だ",
+    "この類のバットの使用を",
+    "育成世代による",
+    "ビヨンド系のバットは"
+  ],
+  "summary_for_internal_review": "検出キーワード: バット / 育成",
+  "raw_path": "data/ameblo/raw_articles/entry-12793081944.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12793081944.json",
+  "content_hash": "67912a75974040820c12b3aa22075ffa89134f80168d5b2f356f213c21e99514",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

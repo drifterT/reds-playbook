@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12793546946.html",
+  "entry_id": "entry-12793546946",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『野球ニュージーランド代表（WBCロス）』",
+  "published_at": "2023-03-24",
+  "fetched_at": "2026-05-22T14:25:29Z",
+  "status": "fetched",
+  "text_length": 758,
+  "content_excerpt_for_review": "野球ニュージーランド代表（WBCロス） 今日（昨日）は朝から TVもネットも新聞も WBC一色だったね。（笑顔） こう言った国際大会の後は 必ずと言って良いほど 「スモールベースボール」 と言うワードが出てきて 過去にはそれを危惧するという...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "育成",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "学童野球（育成段階）での"
+  ],
+  "summary_for_internal_review": "検出キーワード: 育成",
+  "raw_path": "data/ameblo/raw_articles/entry-12793546946.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12793546946.json",
+  "content_hash": "7c7ed85294e0bb0dd75ef4a98728c01aa05502df62f8102481196ecd968dd980",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
