@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12799443044.html",
+  "entry_id": "entry-12799443044",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『野球体験会』",
+  "published_at": "2023-04-22",
+  "fetched_at": "2026-05-22T14:25:32Z",
+  "status": "fetched",
+  "text_length": 122,
+  "content_excerpt_for_review": "野球体験会 野球人口の低下問題を本気で考えるなら こう言った方法で地域全体で 考える時が来ているんじゃ無いかな？ 個別のチームでやるのは テリトリー的な事などで 制約が多すぎるんだよなぁ〜 反対する人も多そうだけど・・・・・ 木根川レッズ...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12799443044.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12799443044.json",
+  "content_hash": "cecdbef7d3acd97146c8cb90fc1db67852efee9a4774d9d47bf68701b2935324",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

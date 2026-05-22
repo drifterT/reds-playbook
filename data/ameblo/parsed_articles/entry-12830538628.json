@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12830538628.html",
+  "entry_id": "entry-12830538628",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『やっぱり影響はあるみたい・・・』",
+  "published_at": "2023-12-28",
+  "fetched_at": "2026-05-22T14:25:50Z",
+  "status": "fetched",
+  "text_length": 1105,
+  "content_excerpt_for_review": "「子どもロコモ」にご用心！5歳で腰痛、平らな道で転んで骨折。体を使えない子どもが増加中！【専門医監修】 Hugkum（はぐくむ） 「ロコモ」とは、ロコモティブシンドローム（運動器症候群）の略。加齢により足腰など運動機能が衰えて移… hugk...",
+  "detected_keywords": [
+    {
+      "category": "身体構造/ストレッチ",
+      "keyword": "姿勢",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "姿勢が悪くなる"
+  ],
+  "summary_for_internal_review": "検出キーワード: 姿勢",
+  "raw_path": "data/ameblo/raw_articles/entry-12830538628.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12830538628.json",
+  "content_hash": "cef9623595879cf8ba09da22749e7af8a0ce237d2d1985b16f36b170c64a8d5e",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

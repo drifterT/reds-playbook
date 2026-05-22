@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12807335569.html",
+  "entry_id": "entry-12807335569",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『こんな数字から。』",
+  "published_at": "2023-07-09",
+  "fetched_at": "2026-05-22T14:25:37Z",
+  "status": "fetched",
+  "text_length": 327,
+  "content_excerpt_for_review": "こんな数字から。 以前、こんな事を記事にさせて頂いた。 『何度でも・・・』 metoo@metooDX 今日も言います。 3ボール0ストライクは打て！ 最も甘いストライクが来るこのカウントで「待て」で四球を狙うチームより「ここで打… ame...",
+  "detected_keywords": [
+    {
+      "category": "バッティング",
+      "keyword": "3ボール0ストライクは打て",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "3ボール0ストライクは打て！ 最も甘いストライクが来るこのカウントで「待て」で四球を狙うチームより「ここで打… ameblo.jp"
+  ],
+  "summary_for_internal_review": "検出キーワード: 3ボール0ストライクは打て",
+  "raw_path": "data/ameblo/raw_articles/entry-12807335569.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12807335569.json",
+  "content_hash": "cfae0d9c5da0270b780a67480ddffe02299ee7403dc26ce55997b3e4d23457f0",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

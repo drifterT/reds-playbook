@@ -1,0 +1,32 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12791952988.html",
+  "entry_id": "entry-12791952988",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『拡がれ女子野球（葛飾アイリス）』",
+  "published_at": "2023-03-12",
+  "fetched_at": "2026-05-22T14:25:24Z",
+  "status": "fetched",
+  "text_length": 535,
+  "content_excerpt_for_review": "拡がれ女子野球（葛飾アイリス） 実は2007年から2年程 オール葛飾女子の コーチとしてお手伝いさせて頂いた。 この時に女子の可能性と いうものを感じた。（笑顔） 当時は学童を卒業した後の 女子野球のチームも少なくて 男子に混ざってという環...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 2
+    }
+  ],
+  "candidate_phrases": [
+    "コーチとしてお手伝いさせて頂いた",
+    "2012年卒のスズカズはコーチとして"
+  ],
+  "summary_for_internal_review": "検出キーワード: コーチ",
+  "raw_path": "data/ameblo/raw_articles/entry-12791952988.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12791952988.json",
+  "content_hash": "2edbeddb5f7023ee90535442b4df55a4b50dcd0ab5865bb360e714f3fd553f9e",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T08:53:40Z",
-  "article_count": 80,
+  "generated_at": "2026-05-22T14:25:52Z",
+  "article_count": 90,
   "themes": [
     {
       "theme_key": "defense_catchball",
@@ -191,6 +191,10 @@
       "theme_key": "coaching_method",
       "label": "指導方法候補",
       "matched_article_urls": [
+        "https://ameblo.jp/kinegawareds/entry-12791952988.html",
+        "https://ameblo.jp/kinegawareds/entry-12793081944.html",
+        "https://ameblo.jp/kinegawareds/entry-12793546946.html",
+        "https://ameblo.jp/kinegawareds/entry-12808945703.html",
         "https://ameblo.jp/kinegawareds/entry-12847678272.html",
         "https://ameblo.jp/kinegawareds/entry-12860102703.html",
         "https://ameblo.jp/kinegawareds/entry-12875078339.html",
@@ -229,15 +233,15 @@
       "matched_keywords": [
         {
           "keyword": "指導",
-          "count": 20
+          "count": 21
         },
         {
           "keyword": "コーチ",
-          "count": 15
+          "count": 16
         },
         {
           "keyword": "育成",
-          "count": 4
+          "count": 6
         },
         {
           "keyword": "伝える",
@@ -254,6 +258,7 @@
       ],
       "candidate_phrases": [
         "150kmの速球をファールしたあと、120km台のカーブにアジャストして本塁打したスイングです",
+        "2012年卒のスズカズはコーチとして",
         "6年 VS コーチ陣 リベンジガチンコ対決",
         "6年生 VS コーチ陣の",
         "MLBマリナーズの会長付特別補佐兼インストラクターを務めるイチロー氏が、昨年11月9日から2日間にわたり大阪・大冠高で野球部員たちを指導",
@@ -263,8 +268,7 @@
         "「ランナーは完全無視して良いから",
         "『「バナナ」・・・って野球の話か？（笑）』 成人の日の低学年の午後の練習でやっていたのがいわゆる「ライン外し」とか「バナナキャッチ」などと呼...",
         "『キャッチャーの構え（しゃがみ方）』 今回はキャッチャーのしゃがみ方だよ",
-        "『バットを前にのばせ～？？？？』 「バットを前に伸ばす感じ」「手首を返さない（こねない）」 最近、Oヘッドから良く聞かれる言葉だね",
-        "『日本一適当な学童野球監督から6年生の親子へマジな助言』 学童野球をやって来た親子が、最初に真剣に悩む中学への進路・・・ 長くならないように..."
+        "『バットを前にのばせ～？？？？』 「バットを前に伸ばす感じ」「手首を返さない（こねない）」 最近、Oヘッドから良く聞かれる言葉だね"
       ],
       "needs_ai_review": true
     },
@@ -272,6 +276,8 @@
       "theme_key": "body_mobility",
       "label": "身体構造・ストレッチ候補",
       "matched_article_urls": [
+        "https://ameblo.jp/kinegawareds/entry-12806521348.html",
+        "https://ameblo.jp/kinegawareds/entry-12830538628.html",
         "https://ameblo.jp/kinegawareds/entry-12853932290.html",
         "https://ameblo.jp/kinegawareds/entry-12905036198.html",
         "https://ameblo.jp/kinegawareds/entry-12909994063.html",
@@ -282,19 +288,19 @@
       ],
       "matched_keywords": [
         {
+          "keyword": "姿勢",
+          "count": 4
+        },
+        {
           "keyword": "ストレッチ",
           "count": 4
         },
         {
-          "keyword": "姿勢",
-          "count": 3
+          "keyword": "体幹",
+          "count": 2
         },
         {
           "keyword": "アフターケア",
-          "count": 1
-        },
-        {
-          "keyword": "体幹",
           "count": 1
         }
       ],

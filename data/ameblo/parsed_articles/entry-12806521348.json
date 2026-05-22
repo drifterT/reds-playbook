@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12806521348.html",
+  "entry_id": "entry-12806521348",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『運動遊びの勧め』",
+  "published_at": "2023-06-19",
+  "fetched_at": "2026-05-22T14:25:35Z",
+  "status": "fetched",
+  "text_length": 775,
+  "content_excerpt_for_review": "運動遊びの勧め WBC効果なのかは定かでないけど 多くのチビっ子が体験に来てくれている。 入部してくれた選手たちも（笑顔） そんな中なので こんな記事をアップするね。 『運動遊びの勧め』 ジュンジーキネ w（木根川レッズ 加藤） @kine...",
+  "detected_keywords": [
+    {
+      "category": "基礎運動能力",
+      "keyword": "体幹",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "（笑顔） 体力を持て余し気味な子どものおうち時間に！体幹トレーニング「6つのどうぶつ歩き」で運動の基礎力UPを【専門家監修】幼児の運動… a..."
+  ],
+  "summary_for_internal_review": "検出キーワード: 体幹",
+  "raw_path": "data/ameblo/raw_articles/entry-12806521348.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12806521348.json",
+  "content_hash": "0047c4c20b7afbf5a065d23b5a3ff8a0b5b9a54182c5be2697989d868b056ad7",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
