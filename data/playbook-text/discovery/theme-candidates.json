@@ -1,16 +1,19 @@
 {
-  "generated_at": "2026-05-21T19:46:49Z",
-  "article_count": 60,
+  "generated_at": "2026-05-22T02:44:33Z",
+  "article_count": 70,
   "themes": [
     {
       "theme_key": "defense_catchball",
       "label": "守備・キャッチボール候補",
       "matched_article_urls": [
+        "https://ameblo.jp/kinegawareds/entry-12853051275.html",
         "https://ameblo.jp/kinegawareds/entry-12865401621.html",
         "https://ameblo.jp/kinegawareds/entry-12866064969.html",
+        "https://ameblo.jp/kinegawareds/entry-12874146921.html",
         "https://ameblo.jp/kinegawareds/entry-12881874075.html",
         "https://ameblo.jp/kinegawareds/entry-12882815632.html",
         "https://ameblo.jp/kinegawareds/entry-12883527925.html",
+        "https://ameblo.jp/kinegawareds/entry-12887744090.html",
         "https://ameblo.jp/kinegawareds/entry-12894197991.html",
         "https://ameblo.jp/kinegawareds/entry-12899445366.html",
         "https://ameblo.jp/kinegawareds/entry-12910822533.html",
@@ -29,18 +32,18 @@
       "matched_keywords": [
         {
           "keyword": "キャッチボール",
-          "count": 10
+          "count": 12
         },
         {
           "keyword": "捕球",
-          "count": 5
-        },
-        {
-          "keyword": "ランダウン",
-          "count": 2
+          "count": 7
         },
         {
           "keyword": "送球",
+          "count": 3
+        },
+        {
+          "keyword": "ランダウン",
           "count": 2
         },
         {
@@ -63,12 +66,12 @@
         "ある程度のキャッチボールが",
         "これの多くはボールの持ち替えが",
         "そしてキャッチボール、ボール回し・・・",
+        "そのキャッチボールを",
         "その中で、素振りやキャッチボールなどを「1つ1つ丁寧にやるイメージで」と語る場面があった",
         "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ",
         "その後ランナーを目視 ランナーのスタートを確認 慌てたためボールの持ち替えも この為の練習はキャッチボールの段階から キャッチボール前の キ...",
         "ちなみに「キャッチボール」って言うのは",
-        "やるかやらないかが、きっとこれからの俺達を繋いでくれる",
-        "イメージ的にはステップしながら捕球してターンしがらスローイング、くらいかと思う"
+        "やるかやらないかが、きっとこれからの俺達を繋いでくれる"
       ],
       "needs_ai_review": true
     },
@@ -77,6 +80,11 @@
       "label": "バッティング候補",
       "matched_article_urls": [
         "https://ameblo.jp/kinegawareds/entry-12840590860.html",
+        "https://ameblo.jp/kinegawareds/entry-12847678272.html",
+        "https://ameblo.jp/kinegawareds/entry-12851272222.html",
+        "https://ameblo.jp/kinegawareds/entry-12853932290.html",
+        "https://ameblo.jp/kinegawareds/entry-12875078339.html",
+        "https://ameblo.jp/kinegawareds/entry-12888141303.html",
         "https://ameblo.jp/kinegawareds/entry-12927345275.html",
         "https://ameblo.jp/kinegawareds/entry-12954339417.html",
         "https://ameblo.jp/kinegawareds/entry-12960102506.html",
@@ -85,23 +93,34 @@
       "matched_keywords": [
         {
           "keyword": "スイング",
-          "count": 3
+          "count": 7
         },
         {
           "keyword": "バッティング",
-          "count": 2
+          "count": 4
+        },
+        {
+          "keyword": "強い打球",
+          "count": 1
+        },
+        {
+          "keyword": "打撃",
+          "count": 1
         }
       ],
       "candidate_phrases": [
+        "150kmの速球をファールしたあと、120km台のカーブにアジャストして本塁打したスイングです",
         "MLBマリナーズの会長付特別補佐兼インストラクターを務めるイチロー氏が、昨年11月9日から2日間にわたり大阪・大冠高で野球部員たちを指導",
         "『トスバッティングに関して（ペッパーじゃないよ）』",
+        "そのスイング速度との",
         "その中で、素振りやキャッチボールなどを「1つ1つ丁寧にやるイメージで」と語る場面があった",
         "コンディショニングコーチで有名な",
+        "スイングにパワーが生まれないのと同時に",
+        "スイング軌道がボール軌道に対して",
+        "バットが同時に前に出てしまって",
+        "バットも出て来ない",
         "フルスイングバント",
-        "レッズでも良く見る",
-        "以前もお伝えしたように、 30mダッシュのタイムが良い程、スイングスピード、 打球速度、投手のボール速度は速くなる相関性が証明されている の...",
-        "吉田正尚のフルスイングが生んだ驚異のスピン量🤯",
-        "選手もコーチも多いと思う"
+        "ボールにバットが当たらない"
       ],
       "needs_ai_review": true
     },
@@ -164,9 +183,12 @@
       "theme_key": "coaching_method",
       "label": "指導方法候補",
       "matched_article_urls": [
+        "https://ameblo.jp/kinegawareds/entry-12847678272.html",
         "https://ameblo.jp/kinegawareds/entry-12860102703.html",
+        "https://ameblo.jp/kinegawareds/entry-12875078339.html",
         "https://ameblo.jp/kinegawareds/entry-12881874075.html",
         "https://ameblo.jp/kinegawareds/entry-12882815632.html",
+        "https://ameblo.jp/kinegawareds/entry-12888141303.html",
         "https://ameblo.jp/kinegawareds/entry-12909994063.html",
         "https://ameblo.jp/kinegawareds/entry-12910893943.html",
         "https://ameblo.jp/kinegawareds/entry-12919195402.html",
@@ -192,24 +214,24 @@
       ],
       "matched_keywords": [
         {
-          "keyword": "コーチ",
-          "count": 13
+          "keyword": "指導",
+          "count": 14
         },
         {
-          "keyword": "指導",
-          "count": 12
+          "keyword": "コーチ",
+          "count": 14
         },
         {
           "keyword": "育成",
           "count": 4
         },
         {
-          "keyword": "見る",
+          "keyword": "伝える",
           "count": 3
         },
         {
-          "keyword": "伝える",
-          "count": 2
+          "keyword": "見る",
+          "count": 3
         },
         {
           "keyword": "評価",
@@ -217,6 +239,7 @@
         }
       ],
       "candidate_phrases": [
+        "150kmの速球をファールしたあと、120km台のカーブにアジャストして本塁打したスイングです",
         "6年 VS コーチ陣 リベンジガチンコ対決",
         "6年生 VS コーチ陣の",
         "MLBマリナーズの会長付特別補佐兼インストラクターを務めるイチロー氏が、昨年11月9日から2日間にわたり大阪・大冠高で野球部員たちを指導",
@@ -227,8 +250,7 @@
         "『「バナナ」・・・って野球の話か？（笑）』 成人の日の低学年の午後の練習でやっていたのがいわゆる「ライン外し」とか「バナナキャッチ」などと呼...",
         "『キャッチャーの構え（しゃがみ方）』 今回はキャッチャーのしゃがみ方だよ",
         "『日本一適当な学童野球監督から6年生の親子へマジな助言』 学童野球をやって来た親子が、最初に真剣に悩む中学への進路・・・ 長くならないように...",
-        "『練習試合 』 育成世代の野球⚾️ 想定されることを予測して予習→実戦で課題を掘り出す→復習→予習の繰り返しのように思います",
-        "このスキームを持たない指導者は、実戦で指摘… ameblo.jp"
+        "『練習試合 』 育成世代の野球⚾️ 想定されることを予測して予習→実戦で課題を掘り出す→復習→予習の繰り返しのように思います"
       ],
       "needs_ai_review": true
     },
@@ -236,6 +258,7 @@
       "theme_key": "body_mobility",
       "label": "身体構造・ストレッチ候補",
       "matched_article_urls": [
+        "https://ameblo.jp/kinegawareds/entry-12853932290.html",
         "https://ameblo.jp/kinegawareds/entry-12905036198.html",
         "https://ameblo.jp/kinegawareds/entry-12909994063.html",
         "https://ameblo.jp/kinegawareds/entry-12911627328.html",
@@ -244,12 +267,12 @@
       ],
       "matched_keywords": [
         {
-          "keyword": "姿勢",
+          "keyword": "ストレッチ",
           "count": 3
         },
         {
-          "keyword": "ストレッチ",
-          "count": 2
+          "keyword": "姿勢",
+          "count": 3
         },
         {
           "keyword": "アフターケア",
@@ -268,10 +291,11 @@
         "これらの経験が、 子どもの前向きな姿勢や粘り強さ、自己肯定感に繋がります",
         "なぜなら、運動し体力をつけることは、意欲的に取り組む態度の育成に繋がるからです",
         "キャッチャーの構えに関しては",
+        "スイングにパワーが生まれないのと同時に",
         "ストレッチをするならば",
+        "バットが同時に前に出てしまって",
         "動的ストレッチ",
-        "指導者の姿勢はもちろんだが、見たいのは親同士の関係",
-        "日米でキャッチャーの構えに"
+        "手で持っているバットを振って"
       ],
       "needs_ai_review": true
     }

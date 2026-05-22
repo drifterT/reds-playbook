@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12845776204.html",
+  "entry_id": "entry-12845776204",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『阪神 大山悠輔選手』",
+  "published_at": "2024-07-15",
+  "fetched_at": "2026-05-22T02:44:04Z",
+  "status": "fetched",
+  "text_length": 583,
+  "content_excerpt_for_review": "阪神 大山悠輔選手 昨年、阪神38年ぶりの 日本一に大きく貢献した大山選手。 少し前に、Facebookに 「3年前の前田健さんとの 思い出を振り返ってみましょう」 と言うお知らせが届いた。 大山選手に関しての前田さんの投稿だった。 そう言...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12845776204.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12845776204.json",
+  "content_hash": "c9f5e541449067fe60d9dcec7d07a5e6e8f48dc91f2d98ccc25eea0767186e04",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

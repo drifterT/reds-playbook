@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-05-21T19:46:48Z",
+  "last_run_at": "2026-05-22T02:44:33Z",
   "max_articles_per_run": 10,
   "processed_urls": {
     "https://ameblo.jp/kinegawareds/entry-12840590860.html": {
@@ -721,129 +721,129 @@
       "raw_path": "data/ameblo/raw_articles/entry-12954655397.html",
       "parsed_path": "data/ameblo/parsed_articles/entry-12954655397.json",
       "error": null
-    }
-  },
-  "pending_urls": [
-    {
+    },
+    "https://ameblo.jp/kinegawareds/entry-12845776204.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12845776204.html",
       "theme_id": "serious_baseball_talk",
       "theme_label": "ちょっと真面目な野球話",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T02:44:04Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12845776204.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12845776204.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12847678272.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12847678272.html",
       "theme_id": "serious_baseball_talk",
       "theme_label": "ちょっと真面目な野球話",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T02:44:07Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12847678272.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12847678272.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12851272222.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12851272222.html",
       "theme_id": "serious_baseball_talk",
       "theme_label": "ちょっと真面目な野球話",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T02:44:10Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12851272222.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12851272222.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12853051275.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12853051275.html",
       "theme_id": "serious_baseball_talk",
       "theme_label": "ちょっと真面目な野球話",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T02:44:13Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12853051275.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12853051275.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12853932290.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12853932290.html",
       "theme_id": "serious_baseball_talk",
       "theme_label": "ちょっと真面目な野球話",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T02:44:17Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12853932290.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12853932290.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12874146921.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12874146921.html",
       "theme_id": "serious_baseball_talk",
       "theme_label": "ちょっと真面目な野球話",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T02:44:19Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12874146921.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12874146921.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12875078339.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12875078339.html",
       "theme_id": "serious_baseball_talk",
       "theme_label": "ちょっと真面目な野球話",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T02:44:22Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12875078339.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12875078339.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12875961033.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12875961033.html",
       "theme_id": "serious_baseball_talk",
       "theme_label": "ちょっと真面目な野球話",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T02:44:25Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12875961033.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12875961033.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12887744090.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12887744090.html",
       "theme_id": "serious_baseball_talk",
       "theme_label": "ちょっと真面目な野球話",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T02:44:28Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12887744090.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12887744090.json",
       "error": null
     },
-    {
+    "https://ameblo.jp/kinegawareds/entry-12888141303.html": {
       "url": "https://ameblo.jp/kinegawareds/entry-12888141303.html",
       "theme_id": "serious_baseball_talk",
       "theme_label": "ちょっと真面目な野球話",
-      "status": "pending",
+      "status": "fetched",
       "first_seen_at": "2026-05-20T14:41:53Z",
-      "last_attempt_at": null,
-      "attempt_count": 0,
-      "raw_path": null,
-      "parsed_path": null,
+      "last_attempt_at": "2026-05-22T02:44:31Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12888141303.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12888141303.json",
       "error": null
-    },
+    }
+  },
+  "pending_urls": [
     {
       "url": "https://ameblo.jp/kinegawareds/entry-12888492603.html",
       "theme_id": "serious_baseball_talk",
