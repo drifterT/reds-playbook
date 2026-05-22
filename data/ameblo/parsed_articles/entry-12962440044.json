@@ -1,0 +1,37 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12962440044.html",
+  "entry_id": "entry-12962440044",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『身体を動かす主役は脳』",
+  "published_at": "2026-05-03",
+  "fetched_at": "2026-05-22T08:53:38Z",
+  "status": "fetched",
+  "text_length": 1640,
+  "content_excerpt_for_review": "『選手たちは・・・』 pic.twitter.com/9LP1TLNpr5 子供達はこんなに難しい事をやってるんだよね。— ジュンジーキネ w（木根川レッズ 加藤） (@ki… ameblo.jp 以前、こんな⬆️記事を書かせて頂いた。 い...",
+  "detected_keywords": [
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "【打撃新時代】バッティングは”脳”が9割！ミート力を覚醒させる視覚トレーニング実践法 – Holos Baseball Clinic ホロス...",
+    "筋力が弱い子はスイングをキャンセルできないだけで、成長と共にできるようになる"
+  ],
+  "summary_for_internal_review": "検出キーワード: スイング / 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12962440044.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12962440044.json",
+  "content_hash": "34f52d7ea3d474e396879222a21895a06a94fa3ffc851bcdfe449f11cb3f8d53",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T02:44:33Z",
-  "article_count": 70,
+  "generated_at": "2026-05-22T08:53:40Z",
+  "article_count": 80,
   "themes": [
     {
       "theme_key": "defense_catchball",
@@ -14,6 +14,7 @@
         "https://ameblo.jp/kinegawareds/entry-12882815632.html",
         "https://ameblo.jp/kinegawareds/entry-12883527925.html",
         "https://ameblo.jp/kinegawareds/entry-12887744090.html",
+        "https://ameblo.jp/kinegawareds/entry-12888492603.html",
         "https://ameblo.jp/kinegawareds/entry-12894197991.html",
         "https://ameblo.jp/kinegawareds/entry-12899445366.html",
         "https://ameblo.jp/kinegawareds/entry-12910822533.html",
@@ -40,7 +41,7 @@
         },
         {
           "keyword": "送球",
-          "count": 3
+          "count": 4
         },
         {
           "keyword": "ランダウン",
@@ -85,26 +86,33 @@
         "https://ameblo.jp/kinegawareds/entry-12853932290.html",
         "https://ameblo.jp/kinegawareds/entry-12875078339.html",
         "https://ameblo.jp/kinegawareds/entry-12888141303.html",
+        "https://ameblo.jp/kinegawareds/entry-12888493238.html",
+        "https://ameblo.jp/kinegawareds/entry-12890771285.html",
+        "https://ameblo.jp/kinegawareds/entry-12892405333.html",
+        "https://ameblo.jp/kinegawareds/entry-12897206700.html",
+        "https://ameblo.jp/kinegawareds/entry-12905322133.html",
         "https://ameblo.jp/kinegawareds/entry-12927345275.html",
         "https://ameblo.jp/kinegawareds/entry-12954339417.html",
+        "https://ameblo.jp/kinegawareds/entry-12959157583.html",
         "https://ameblo.jp/kinegawareds/entry-12960102506.html",
-        "https://ameblo.jp/kinegawareds/entry-12960649818.html"
+        "https://ameblo.jp/kinegawareds/entry-12960649818.html",
+        "https://ameblo.jp/kinegawareds/entry-12962440044.html"
       ],
       "matched_keywords": [
         {
           "keyword": "スイング",
-          "count": 7
+          "count": 14
         },
         {
           "keyword": "バッティング",
-          "count": 4
-        },
-        {
-          "keyword": "強い打球",
-          "count": 1
+          "count": 5
         },
         {
           "keyword": "打撃",
+          "count": 2
+        },
+        {
+          "keyword": "強い打球",
           "count": 1
         }
       ],
@@ -112,15 +120,15 @@
         "150kmの速球をファールしたあと、120km台のカーブにアジャストして本塁打したスイングです",
         "MLBマリナーズの会長付特別補佐兼インストラクターを務めるイチロー氏が、昨年11月9日から2日間にわたり大阪・大冠高で野球部員たちを指導",
         "『トスバッティングに関して（ペッパーじゃないよ）』",
+        "『バットを前にのばせ～？？？？』 「バットを前に伸ばす感じ」「手首を返さない（こねない）」 最近、Oヘッドから良く聞かれる言葉だね",
+        "【打撃新時代】バッティングは”脳”が9割！ミート力を覚醒させる視覚トレーニング実践法 – Holos Baseball Clinic ホロス...",
+        "しっかりとしたスイングで",
         "そのスイング速度との",
         "その中で、素振りやキャッチボールなどを「1つ1つ丁寧にやるイメージで」と語る場面があった",
+        "ただ、今はバットの性能で",
         "コンディショニングコーチで有名な",
         "スイングにパワーが生まれないのと同時に",
-        "スイング軌道がボール軌道に対して",
-        "バットが同時に前に出てしまって",
-        "バットも出て来ない",
-        "フルスイングバント",
-        "ボールにバットが当たらない"
+        "スイングは始まってはいないよね？"
       ],
       "needs_ai_review": true
     },
@@ -189,6 +197,10 @@
         "https://ameblo.jp/kinegawareds/entry-12881874075.html",
         "https://ameblo.jp/kinegawareds/entry-12882815632.html",
         "https://ameblo.jp/kinegawareds/entry-12888141303.html",
+        "https://ameblo.jp/kinegawareds/entry-12888492603.html",
+        "https://ameblo.jp/kinegawareds/entry-12892405333.html",
+        "https://ameblo.jp/kinegawareds/entry-12897206700.html",
+        "https://ameblo.jp/kinegawareds/entry-12905322133.html",
         "https://ameblo.jp/kinegawareds/entry-12909994063.html",
         "https://ameblo.jp/kinegawareds/entry-12910893943.html",
         "https://ameblo.jp/kinegawareds/entry-12919195402.html",
@@ -206,7 +218,9 @@
         "https://ameblo.jp/kinegawareds/entry-12953584061.html",
         "https://ameblo.jp/kinegawareds/entry-12953617633.html",
         "https://ameblo.jp/kinegawareds/entry-12954339417.html",
+        "https://ameblo.jp/kinegawareds/entry-12959157583.html",
         "https://ameblo.jp/kinegawareds/entry-12960102506.html",
+        "https://ameblo.jp/kinegawareds/entry-12962440044.html",
         "https://ameblo.jp/kinegawareds/entry-12962886637.html",
         "https://ameblo.jp/kinegawareds/entry-12963289400.html",
         "https://ameblo.jp/kinegawareds/entry-12963289958.html",
@@ -215,11 +229,11 @@
       "matched_keywords": [
         {
           "keyword": "指導",
-          "count": 14
+          "count": 20
         },
         {
           "keyword": "コーチ",
-          "count": 14
+          "count": 15
         },
         {
           "keyword": "育成",
@@ -249,8 +263,8 @@
         "「ランナーは完全無視して良いから",
         "『「バナナ」・・・って野球の話か？（笑）』 成人の日の低学年の午後の練習でやっていたのがいわゆる「ライン外し」とか「バナナキャッチ」などと呼...",
         "『キャッチャーの構え（しゃがみ方）』 今回はキャッチャーのしゃがみ方だよ",
-        "『日本一適当な学童野球監督から6年生の親子へマジな助言』 学童野球をやって来た親子が、最初に真剣に悩む中学への進路・・・ 長くならないように...",
-        "『練習試合 』 育成世代の野球⚾️ 想定されることを予測して予習→実戦で課題を掘り出す→復習→予習の繰り返しのように思います"
+        "『バットを前にのばせ～？？？？』 「バットを前に伸ばす感じ」「手首を返さない（こねない）」 最近、Oヘッドから良く聞かれる言葉だね",
+        "『日本一適当な学童野球監督から6年生の親子へマジな助言』 学童野球をやって来た親子が、最初に真剣に悩む中学への進路・・・ 長くならないように..."
       ],
       "needs_ai_review": true
     },
@@ -263,12 +277,13 @@
         "https://ameblo.jp/kinegawareds/entry-12909994063.html",
         "https://ameblo.jp/kinegawareds/entry-12911627328.html",
         "https://ameblo.jp/kinegawareds/entry-12937610718.html",
-        "https://ameblo.jp/kinegawareds/entry-12952721239.html"
+        "https://ameblo.jp/kinegawareds/entry-12952721239.html",
+        "https://ameblo.jp/kinegawareds/entry-12959157583.html"
       ],
       "matched_keywords": [
         {
           "keyword": "ストレッチ",
-          "count": 3
+          "count": 4
         },
         {
           "keyword": "姿勢",
@@ -294,8 +309,8 @@
         "スイングにパワーが生まれないのと同時に",
         "ストレッチをするならば",
         "バットが同時に前に出てしまって",
-        "動的ストレッチ",
-        "手で持っているバットを振って"
+        "力＝質量×加速度",
+        "加速度って？"
       ],
       "needs_ai_review": true
     }

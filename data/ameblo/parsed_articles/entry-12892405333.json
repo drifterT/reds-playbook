@@ -1,0 +1,51 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12892405333.html",
+  "entry_id": "entry-12892405333",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『時間がある時にでも良く観察してみてください。』",
+  "published_at": "2025-04-06",
+  "fetched_at": "2026-05-22T08:53:20Z",
+  "status": "fetched",
+  "text_length": 1045,
+  "content_excerpt_for_review": "時間がある時にでも良く観察してみてください。 働く父、遊ぶ息子。 pic.twitter.com/MmD7QgVRV3 — ダルビッシュ有(Yu Darvish) (@faridyu) February 19, 2025 ダルビッシュ選手が...",
+  "detected_keywords": [
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 3
+    },
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 1
+    },
+    {
+      "category": "走塁",
+      "keyword": "加速",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "しっかりとしたスイングで",
+    "末端を加速させる事が出来るか？",
+    "敢えて指導されているとも思えないんだけど",
+    "スイングプレーンの動画の",
+    "バットがスムーズに",
+    "スイングプレーン上に"
+  ],
+  "summary_for_internal_review": "検出キーワード: スイング / バット / 加速 / 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12892405333.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12892405333.json",
+  "content_hash": "59b7428d81251d3b759fc2bdee7b741b7f9e135811d72de43b74cd556607ab67",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

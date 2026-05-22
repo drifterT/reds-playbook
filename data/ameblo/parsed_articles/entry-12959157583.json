@@ -1,0 +1,63 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12959157583.html",
+  "entry_id": "entry-12959157583",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『ちょっと難しいかも・・・だけど。（笑顔）』",
+  "published_at": "2026-03-14",
+  "fetched_at": "2026-05-22T08:53:36Z",
+  "status": "fetched",
+  "text_length": 1394,
+  "content_excerpt_for_review": "ここで二つの物理の公式を紹介します。（笑顔） 力＝質量×加速度 運動エネルギー＝質量×1/2×速度の二乗 また、小難しい事を言い出したぞぉ！！ なんて眉間にしわを寄せる人もいるかな？ 難しく考えなくても良い～んです。（笑顔） この二つの式か...",
+  "detected_keywords": [
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 6
+    },
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 4
+    },
+    {
+      "category": "身体構造/ストレッチ",
+      "keyword": "ストレッチ",
+      "count": 3
+    },
+    {
+      "category": "走塁",
+      "keyword": "加速",
+      "count": 3
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "力＝質量×加速度",
+    "速度とか加速度とか・・・",
+    "加速度って？",
+    "『インパクトの瞬間の事』 運動エネルギー＝1/2質量✖️速度の二乗 インパクトの瞬間は必ずバットの速度は減速する",
+    "バットのK ＜ ボールのK →減速率『大』 バットのK ＞ボールの… ameblo.jp",
+    "ボールの持つ『K』VS バットの持つ『K』で",
+    "『ストレッチ・ショートニング・サイクル 』",
+    "『ストレッチ・ショートニング・サイクル（SSC)』 ストレッチ・ショートニング・サイクル（SSC)って、こんな難しい単語使わなくても良いんだ..."
+  ],
+  "summary_for_internal_review": "検出キーワード: スイング / バット / ストレッチ / 加速 / コーチ / 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12959157583.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12959157583.json",
+  "content_hash": "35d3a38a596f547afad56930ef04a0cc8560716d24a9234e38814fe25a1b912a",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
