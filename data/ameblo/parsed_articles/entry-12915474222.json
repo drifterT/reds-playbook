@@ -1,0 +1,78 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12915474222.html",
+  "entry_id": "entry-12915474222",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『面白くなる・楽しくなるって・・・2』",
+  "published_at": "2025-07-25",
+  "fetched_at": "2026-05-23T02:29:30Z",
+  "status": "fetched",
+  "text_length": 3829,
+  "content_excerpt_for_review": "2020年にチーム にて いわきFCの アカデミーアドバイザーでもあり フィジカル・育成に関しての 専門家でもある小俣さんの こんな記事を紹介させて頂き それと関連して X（旧Twitter）でのコメントも 併せて紹介させて頂いた。 今回も...",
+  "detected_keywords": [
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 2
+    },
+    {
+      "category": "道具",
+      "keyword": "道具",
+      "count": 2
+    },
+    {
+      "category": "身体構造/ストレッチ",
+      "keyword": "姿勢",
+      "count": 2
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 2
+    },
+    {
+      "category": "ルール",
+      "keyword": "ルール",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "伝える",
+      "count": 1
+    },
+    {
+      "category": "ピッチング",
+      "keyword": "握力",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "育成",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "フィジカル・育成に関しての",
+    "『面白くなる・楽しくなるって・・・・』 nineTeen（木根川レッズ 加藤）@kinegawareds ＞遊びが目的化しているスクールや指...",
+    "サッカー“しか”やらない子は、どうなるのか？ 小俣よしのぶ（後編） 前編ではフィジカルコーチ・小俣よしのぶ氏に、「スキャモンの発育曲線」「ゴ...",
+    "野球のバットを振る、テニスのラケットを振るという運動につながっていき、運動体験として残っていく",
+    "しかし運動体験が少なかったり、学習能力がまだ低い子どもにバットの振り方を教えても、なかなか上達しないません",
+    "いま私が教室で経験しているのですが、小学生でサッカーやってる子は腕立て伏せもできないし、腕立て伏せの姿勢すら保てないんです",
+    "握力も、10kgしかないんです",
+    "サッカーの子は、ボールを投げることが下手、さらにスポーツの基本姿勢とも言えるパワーポジションを作れない、踏ん張る、言い換えると下っ腹に力を入..."
+  ],
+  "summary_for_internal_review": "検出キーワード: バット / 道具 / 姿勢 / 指導 / ルール / コーチ / 伝える / 握力",
+  "raw_path": "data/ameblo/raw_articles/entry-12915474222.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12915474222.json",
+  "content_hash": "6fb33e3e629352a8c3ce250a7f33e1d59573353e17084a9432bec38f5815ee11",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

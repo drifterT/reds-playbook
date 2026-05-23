@@ -1,8 +1,8 @@
 # Ameblo Theme Discovery Summary
 
-Generated at: 2026-05-22T19:27:12Z
+Generated at: 2026-05-23T02:29:32Z
 
-Parsed articles: 100
+Parsed articles: 101
 
 This summary uses URL, metadata, short excerpts, detected keywords, and candidate phrases only. It does not store full Ameblo article text.
 
@@ -59,7 +59,7 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## 指導方法候補
 
-- Matched articles: 46
+- Matched articles: 47
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12791952988.html
   - https://ameblo.jp/kinegawareds/entry-12793081944.html
@@ -76,7 +76,7 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## 身体構造・ストレッチ候補
 
-- Matched articles: 10
+- Matched articles: 11
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12806521348.html
   - https://ameblo.jp/kinegawareds/entry-12830538628.html
@@ -85,8 +85,8 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
   - https://ameblo.jp/kinegawareds/entry-12905036198.html
   - https://ameblo.jp/kinegawareds/entry-12909994063.html
   - https://ameblo.jp/kinegawareds/entry-12911627328.html
+  - https://ameblo.jp/kinegawareds/entry-12915474222.html
   - https://ameblo.jp/kinegawareds/entry-12937610718.html
   - https://ameblo.jp/kinegawareds/entry-12952721239.html
-  - https://ameblo.jp/kinegawareds/entry-12959157583.html
-- Matched keywords: ストレッチ, 姿勢, 体幹, アフターケア
+- Matched keywords: 姿勢, ストレッチ, 体幹, アフターケア
 - Needs AI review: yes
