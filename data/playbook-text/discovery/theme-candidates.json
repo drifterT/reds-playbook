@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-05-22T19:27:12Z",
-  "article_count": 100,
+  "generated_at": "2026-05-23T02:29:32Z",
+  "article_count": 101,
   "themes": [
     {
       "theme_key": "defense_catchball",
@@ -214,6 +214,7 @@
         "https://ameblo.jp/kinegawareds/entry-12909994063.html",
         "https://ameblo.jp/kinegawareds/entry-12910893943.html",
         "https://ameblo.jp/kinegawareds/entry-12915428562.html",
+        "https://ameblo.jp/kinegawareds/entry-12915474222.html",
         "https://ameblo.jp/kinegawareds/entry-12919195402.html",
         "https://ameblo.jp/kinegawareds/entry-12927345275.html",
         "https://ameblo.jp/kinegawareds/entry-12937311670.html",
@@ -241,19 +242,19 @@
       "matched_keywords": [
         {
           "keyword": "指導",
-          "count": 26
+          "count": 27
         },
         {
           "keyword": "コーチ",
-          "count": 18
+          "count": 19
         },
         {
           "keyword": "育成",
-          "count": 8
+          "count": 9
         },
         {
           "keyword": "伝える",
-          "count": 6
+          "count": 7
         },
         {
           "keyword": "見る",
@@ -291,18 +292,19 @@
         "https://ameblo.jp/kinegawareds/entry-12905036198.html",
         "https://ameblo.jp/kinegawareds/entry-12909994063.html",
         "https://ameblo.jp/kinegawareds/entry-12911627328.html",
+        "https://ameblo.jp/kinegawareds/entry-12915474222.html",
         "https://ameblo.jp/kinegawareds/entry-12937610718.html",
         "https://ameblo.jp/kinegawareds/entry-12952721239.html",
         "https://ameblo.jp/kinegawareds/entry-12959157583.html"
       ],
       "matched_keywords": [
         {
-          "keyword": "ストレッチ",
+          "keyword": "姿勢",
           "count": 5
         },
         {
-          "keyword": "姿勢",
-          "count": 4
+          "keyword": "ストレッチ",
+          "count": 5
         },
         {
           "keyword": "体幹",
@@ -318,14 +320,14 @@
         "②正しい姿勢をキープする",
         "『キャッチャーの構え（しゃがみ方）』 今回はキャッチャーのしゃがみ方だよ",
         "『日本一適当な学童野球監督から6年生の親子へマジな助言』 学童野球をやって来た親子が、最初に真剣に悩む中学への進路・・・ 長くならないように...",
+        "『面白くなる・楽しくなるって・・・・』 nineTeen（木根川レッズ 加藤）@kinegawareds ＞遊びが目的化しているスクールや指...",
         "これらの経験が、 子どもの前向きな姿勢や粘り強さ、自己肯定感に繋がります",
         "なぜなら、運動し体力をつけることは、意欲的に取り組む態度の育成に繋がるからです",
         "キャッチャーの構えに関しては",
+        "サッカー“しか”やらない子は、どうなるのか？ 小俣よしのぶ（後編） 前編ではフィジカルコーチ・小俣よしのぶ氏に、「スキャモンの発育曲線」「ゴ...",
         "スイングにパワーが生まれないのと同時に",
         "ストレッチをするならば",
-        "バットが同時に前に出てしまって",
-        "力＝質量×加速度",
-        "加速度って？"
+        "バットが同時に前に出てしまって"
       ],
       "needs_ai_review": true
     }
