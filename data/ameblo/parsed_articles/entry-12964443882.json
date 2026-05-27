@@ -1,0 +1,42 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12964443882.html",
+  "entry_id": "entry-12964443882",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『メジャーの神過ぎるエラーキャンセル＆リカバリー集より』",
+  "published_at": "2026-05-28",
+  "fetched_at": "2026-05-27T15:23:04Z",
+  "status": "fetched",
+  "text_length": 792,
+  "content_excerpt_for_review": "メジャーの神過ぎるエラーキャンセル＆リカバリー集より 今日はこんな動画の紹介。（笑顔） 野球にエラーは付き物。 ただし、その後のリカバリーで それがファインプレーになったりする。 ボールに対する執着心 少しでもアウトにしよう 少しでもランナ...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    },
+    {
+      "category": "戦術、戦略",
+      "keyword": "戦略",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "少しでもランナーを",
+    "『送りバントごときを「自己犠牲」だと賞賛するな！』 成人式の日の午後の練習前にコーチ陣も含め選手達にも言った事なんだけど自分は、犠打と呼ばれ..."
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー / コーチ / 戦略",
+  "raw_path": "data/ameblo/raw_articles/entry-12964443882.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12964443882.json",
+  "content_hash": "5c85c29f945f666c32de85202c26f8117d09d2628084bc0d0bde5eacc903507a",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
