@@ -9,6 +9,10 @@ on:
         description: "Number of article URLs to process"
         required: false
         default: "10"
+      max_pages_per_theme:
+        description: "Number of theme listing pages to scan per approved theme"
+        required: false
+        default: "5"
 
 permissions:
   contents: write
@@ -27,7 +31,7 @@ jobs:
           python-version: "3.x"
 
       - name: Discover approved theme article URLs
-        run: python3 scripts/discover_ameblo_theme_articles.py --delay-seconds 2
+        run: python3 scripts/discover_ameblo_theme_articles.py --delay-seconds 2 --max-pages-per-theme "${{ github.event.inputs.max_pages_per_theme || '5' }}"
 
       - name: Ingest small batch
         run: python3 scripts/ingest_ameblo_batch.py --limit "${{ github.event.inputs.limit || '10' }}" --delay-seconds 2
