@@ -16,7 +16,7 @@ Only the five theme URLs in `data/ameblo/theme_sources.json` are allowed:
 - 木根川レッズ基礎編
 - 学童野球全般
 
-The workflow does not crawl global archives, unrelated themes, external links, or the whole Ameblo site.
+The workflow does not crawl global archives, unrelated themes, external links, or the whole Ameblo site. It does not search articles by keyword. It discovers article URLs from approved theme listing pages, then classifies fetched metadata and short excerpts with keywords after ingestion.
 
 ## Schedule
 
@@ -28,6 +28,8 @@ schedule:
 ```
 
 Manual execution is also available through `workflow_dispatch`. The default limit is 10 article URLs per run.
+
+The discovery step scans up to 5 listing pages per approved theme by default. Manual runs can override this with the `max_pages_per_theme` input when older theme pages need to be explored more deeply.
 
 ## Data Policy
 
@@ -58,6 +60,7 @@ Run discovery only:
 ```bash
 python3 scripts/discover_ameblo_theme_articles.py --dry-run
 python3 scripts/discover_ameblo_theme_articles.py
+python3 scripts/discover_ameblo_theme_articles.py --max-pages-per-theme 5
 ```
 
 Run a small ingestion batch:
