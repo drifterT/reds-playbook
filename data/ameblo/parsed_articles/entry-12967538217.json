@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12967538217.html",
+  "entry_id": "entry-12967538217",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『ファーストの捕球の為の準備』",
+  "published_at": "2026-06-22",
+  "fetched_at": "2026-06-21T19:20:55Z",
+  "status": "fetched",
+  "text_length": 542,
+  "content_excerpt_for_review": "ファーストの捕球の為の準備 楽天・平良の悪送球に対して 権藤「あんなイージーなゴロをエラーするのはこの試合に対しての集中力のなさなんですよ。イージーゴロなんですよ。ファーストもなんとかしなければならない。いいところに来ると思ってずっと前に出...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "タッグ（タッチ）",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "ボディータッグ（タッチ）でも良いんだよね"
+  ],
+  "summary_for_internal_review": "検出キーワード: タッグ（タッチ）",
+  "raw_path": "data/ameblo/raw_articles/entry-12967538217.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12967538217.json",
+  "content_hash": "83c3268d5df225470de1d629d6e865f22590d07057989233f3ce67b6f0b2bc5d",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

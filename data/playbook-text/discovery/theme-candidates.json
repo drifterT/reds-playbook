@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-06-21T13:54:08Z",
-  "article_count": 102,
+  "generated_at": "2026-06-21T19:20:58Z",
+  "article_count": 103,
   "themes": [
     {
       "theme_key": "defense_catchball",
@@ -28,7 +28,8 @@
         "https://ameblo.jp/kinegawareds/entry-12948309606.html",
         "https://ameblo.jp/kinegawareds/entry-12954659412.html",
         "https://ameblo.jp/kinegawareds/entry-12955785549.html",
-        "https://ameblo.jp/kinegawareds/entry-12963289400.html"
+        "https://ameblo.jp/kinegawareds/entry-12963289400.html",
+        "https://ameblo.jp/kinegawareds/entry-12967538217.html"
       ],
       "matched_keywords": [
         {
@@ -37,11 +38,11 @@
         },
         {
           "keyword": "捕球",
-          "count": 7
+          "count": 8
         },
         {
           "keyword": "送球",
-          "count": 4
+          "count": 5
         },
         {
           "keyword": "ランダウン",
@@ -57,6 +58,10 @@
         },
         {
           "keyword": "スローイング",
+          "count": 1
+        },
+        {
+          "keyword": "タッグ",
           "count": 1
         }
       ],
