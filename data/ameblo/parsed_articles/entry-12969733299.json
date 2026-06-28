@@ -1,0 +1,37 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12969733299.html",
+  "entry_id": "entry-12969733299",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『スプリットステップ』",
+  "published_at": "2026-06-29",
+  "fetched_at": "2026-06-28T19:08:35Z",
+  "status": "fetched",
+  "text_length": 1495,
+  "content_excerpt_for_review": "スプリットステップ・・・ この単語を見聞きする度に 2000年頃に多くの他競技の方との 意見交換をしていた頃を思い出す。（笑顔） とあるテニス関係者の 「野球人はスプリットステップを知らないの？」 と言った投稿があって それに対して自分が言...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "見る",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "『守備の「構え」って？』 KNコーチ（川向こうのおっさん）が守備の時に よく言っている事を覚えている選手はいるかな？ あれは「スプリットステ...",
+    "）して打球（打者）を見る"
+  ],
+  "summary_for_internal_review": "検出キーワード: コーチ / 見る",
+  "raw_path": "data/ameblo/raw_articles/entry-12969733299.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12969733299.json",
+  "content_hash": "b8eeea25ec5c61a86dff2aac8b30ae87ed056362d7efd97926489c498b779301",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
