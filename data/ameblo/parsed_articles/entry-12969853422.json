@@ -1,0 +1,38 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12969853422.html",
+  "entry_id": "entry-12969853422",
+  "theme_id": "reds_baseball",
+  "theme_label": "木根川レッズ野球編",
+  "title": "『【続】牽制球を待つ一塁手の位置（体勢）』",
+  "published_at": "2026-07-04",
+  "fetched_at": "2026-07-03T19:08:38Z",
+  "status": "fetched",
+  "text_length": 681,
+  "content_excerpt_for_review": "【続】牽制球を待つ一塁手の位置（体勢） 『牽制球を待つ一塁手の位置』 今回はこんな動画の紹介です。（笑顔） well you don't see that every day pic.twitter.com/RHcKAmWpM… amebl...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "タッグ（タッチ）",
+      "count": 2
+    },
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "牽制球が逸れてランナーに",
+    "そのままボディーにタッグ（タッチ）",
+    "滑り込んでくる手or足にタッグ（タッチ）"
+  ],
+  "summary_for_internal_review": "検出キーワード: タッグ（タッチ） / ランナー",
+  "raw_path": "data/ameblo/raw_articles/entry-12969853422.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12969853422.json",
+  "content_hash": "e41d3bdaaa716f7726bcf8c4d3f970e970eaf46ec02f5839f051743652825a98",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
