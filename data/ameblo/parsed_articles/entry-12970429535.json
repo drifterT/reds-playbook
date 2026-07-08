@@ -1,0 +1,43 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12970429535.html",
+  "entry_id": "entry-12970429535",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『”失敗を防ぐのか、失敗による自分の低評価を防ぐのか？”』",
+  "published_at": "2026-07-09",
+  "fetched_at": "2026-07-08T19:13:52Z",
+  "status": "fetched",
+  "text_length": 883,
+  "content_excerpt_for_review": "今回は植松努さんの こんな 記事を紹介させてもらいます。 『失敗学』 学童野球の現場でも とても大事な考え方だと思います。 以下完コピですが💦 人間は神ではないので、必ずミスをします。 仕事は契約なのでミスは基本的に許されませんが、それでも...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ケース",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "育成",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "評価",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "「失敗によって生じる自分の不利益（低評価や罰）を防ぐ」に走ります",
+    "日本では、失敗＝切腹（辞職）で、なかったことになるケースが多いです",
+    "特に人を育成する立場の人には知っておいてほしい学問です"
+  ],
+  "summary_for_internal_review": "検出キーワード: ケース / 育成 / 評価",
+  "raw_path": "data/ameblo/raw_articles/entry-12970429535.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12970429535.json",
+  "content_hash": "2fc0c333068dc809f0ff62b7f886fa4f612ce0691606038075adf65447dd0103",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

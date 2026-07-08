@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12970429535.html",
+    "theme_id": "youth_baseball_general",
+    "theme_label": "学童野球全般",
+    "status": "fetched",
+    "first_seen_at": "2026-07-08T19:13:38Z",
+    "last_attempt_at": "2026-07-08T19:13:52Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12970429535.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12970429535.json",
+    "error": null
+  }
+]
