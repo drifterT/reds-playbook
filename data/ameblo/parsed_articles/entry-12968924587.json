@@ -1,0 +1,44 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12968924587.html",
+  "entry_id": "entry-12968924587",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『継続は力なり』",
+  "published_at": "2026-07-24",
+  "fetched_at": "2026-07-23T19:04:03Z",
+  "status": "fetched",
+  "text_length": 712,
+  "content_excerpt_for_review": "継続は力なり 【継続は力なり】とは 正にこう言う事なんだと思う。 勝負に負けた時に「悔しい、もっと頑張る」と思う人1000人。 その思いを行動として努力に移せる人100人。 来月まで悔しさ忘れず努力続けられる人10人。 翌年まで悔しさ忘れず...",
+  "detected_keywords": [
+    {
+      "category": "メンタル、姿勢",
+      "keyword": "継続",
+      "count": 3
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "継続は力なり",
+    "【継続は力なり】とは",
+    "「継続は か なり めんどくさい 」",
+    "自分たちのような監督やコーチなどと"
+  ],
+  "summary_for_internal_review": "検出キーワード: 継続 / コーチ / 監督",
+  "raw_path": "data/ameblo/raw_articles/entry-12968924587.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12968924587.json",
+  "content_hash": "dec97f4b0894e424fe0d9dd75404d61c6470cb800635bb01dff548d918021bd2",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
