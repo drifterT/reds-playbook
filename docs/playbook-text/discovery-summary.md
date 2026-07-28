@@ -1,8 +1,8 @@
 # Ameblo Theme Discovery Summary
 
-Generated at: 2026-07-28T13:48:04Z
+Generated at: 2026-07-28T19:13:41Z
 
-Parsed articles: 107
+Parsed articles: 108
 
 This summary uses URL, metadata, short excerpts, detected keywords, and candidate phrases only. It does not store full Ameblo article text.
 
