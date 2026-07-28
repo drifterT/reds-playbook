@@ -1,0 +1,33 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12970636575.html",
+  "entry_id": "entry-12970636575",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『これは！！』",
+  "published_at": "2026-07-29",
+  "fetched_at": "2026-07-28T19:13:39Z",
+  "status": "fetched",
+  "text_length": 628,
+  "content_excerpt_for_review": "これは！！ SNS の発達によって 情報を得やすくなっている反面 ネット上の情報は玉石混交、 ピンからキリというのが現状です。 中にはとんでもない 情報すら見受けられます。 真贋を見極める眼が 重要になってきます。 この事はこの場でも 何度...",
+  "detected_keywords": [
+    {
+      "category": "メンタル、姿勢",
+      "keyword": "継続",
+      "count": 3
+    }
+  ],
+  "candidate_phrases": [
+    "SNS上に溢れている「〇〇にはこれをやれ！」は正確には「〇〇にはこれを継続的にコツコツ丁寧にやれ！」だからね",
+    "「〇〇にはこれを継続的に",
+    "前々回の 記事（継続は力なり）"
+  ],
+  "summary_for_internal_review": "検出キーワード: 継続",
+  "raw_path": "data/ameblo/raw_articles/entry-12970636575.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12970636575.json",
+  "content_hash": "71528631c028e91385b42dc80c22dc82d2ed3a6f2e8580d47568f011d0c5edb2",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
