@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12973919928.html",
+  "entry_id": "entry-12973919928",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『みんなで暑い季節を乗り越えよう！！』",
+  "published_at": "2026-08-02",
+  "fetched_at": "2026-08-01T18:58:57Z",
+  "status": "fetched",
+  "text_length": 1668,
+  "content_excerpt_for_review": "まずはこの場でも 何度か伝えさせて頂き 実際の現場でも 実施しているのがこれです。 『深部冷却（熱中症対策）』 深部冷却に関してのツイートを何点か見かけたので・・・ 『熱中症対策』 今や冷やすのは首筋・脇の下・鼠径部ではありません。手のひら...",
+  "detected_keywords": [
+    {
+      "category": "道具",
+      "keyword": "グローブ",
+      "count": 2
+    }
+  ],
+  "candidate_phrases": [
+    "暑さ対策は手のひらを冷やそう！深部体温を下げるグローブ「コアクーラー」とは ULLR MAG.（ウルマグ） この記事では、デサント・シャープ..."
+  ],
+  "summary_for_internal_review": "検出キーワード: グローブ",
+  "raw_path": "data/ameblo/raw_articles/entry-12973919928.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12973919928.json",
+  "content_hash": "100b95b7513b52601d70bbd47c9256adbe0f0d3afb181bda05c382f519a3d7a3",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
