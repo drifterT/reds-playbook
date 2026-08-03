@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12973934954.html",
+  "entry_id": "entry-12973934954",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『みんなで暑い季節を乗り越えよう！！【2】』",
+  "published_at": "2026-08-04",
+  "fetched_at": "2026-08-03T19:22:29Z",
+  "status": "fetched",
+  "text_length": 808,
+  "content_excerpt_for_review": "今回は暑い時期の お弁当の保冷剤の事っす。 まぁこの辺は ママたちの方が 詳しいだろうから 釈迦に説法だと思うけど。😅 自衛隊東京地方協力本部の 公式Xから 保冷剤はお弁当を痛める？ なぜ保冷剤は上なのか？理由まで知ってる人いる？ お弁当が...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "「監督！こんな事は常識です！"
+  ],
+  "summary_for_internal_review": "検出キーワード: 監督",
+  "raw_path": "data/ameblo/raw_articles/entry-12973934954.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12973934954.json",
+  "content_hash": "4a997c42de7a24685253fabe37048868c128a0972a4266c46b8637344346ee21",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
