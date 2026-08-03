@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-08-03T14:23:19Z",
+  "last_run_at": "2026-08-03T19:22:31Z",
   "max_articles_per_run": 10,
   "processed_urls": {
     "https://ameblo.jp/kinegawareds/entry-12840590860.html": {
@@ -1308,6 +1308,18 @@
       "attempt_count": 1,
       "raw_path": "data/ameblo/raw_articles/entry-12973919928.html",
       "parsed_path": "data/ameblo/parsed_articles/entry-12973919928.json",
+      "error": null
+    },
+    "https://ameblo.jp/kinegawareds/entry-12973934954.html": {
+      "url": "https://ameblo.jp/kinegawareds/entry-12973934954.html",
+      "theme_id": "youth_baseball_general",
+      "theme_label": "学童野球全般",
+      "status": "fetched",
+      "first_seen_at": "2026-08-03T19:22:14Z",
+      "last_attempt_at": "2026-08-03T19:22:29Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12973934954.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12973934954.json",
       "error": null
     }
   },
