@@ -1,0 +1,58 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12973649948.html",
+  "entry_id": "entry-12973649948",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『少し前にXが賑わってたね。（笑）』",
+  "published_at": "2026-08-08",
+  "fetched_at": "2026-08-08T18:26:34Z",
+  "status": "fetched",
+  "text_length": 2721,
+  "content_excerpt_for_review": "この松川氏の news livedoorの記事の 紹介からなんだけど・・・ 専大松戸 持丸修一監督 「今日も選手たちを走らせます」 野球は選手が足をつらせたり、体調不良を訴えたりして、試合が中断される場面。近年の野球界で広がっている「走らせ...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 4
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    },
+    {
+      "category": "メンタル、姿勢",
+      "keyword": "継続",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "見る",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "専大松戸 持丸修一監督",
+    "近年の野球界で広がっている「走らせない指導」と、本当に無関係なのでしょうか",
+    "「走らせない指導」・・・？？？",
+    "走らせない指導じゃなくて",
+    "見ることは出来ないけど",
+    "「走らせない指導」",
+    "『ラントレとセーフティーリードの事』 コンディショニングコーチで有名な立花龍司氏のこんなコメントをXで見つけた",
+    "は継続中"
+  ],
+  "summary_for_internal_review": "検出キーワード: 指導 / コーチ / 継続 / 監督 / 見る",
+  "raw_path": "data/ameblo/raw_articles/entry-12973649948.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12973649948.json",
+  "content_hash": "f68481e7ae71c523a0323001e091e236633ba71ecb9dadc0c19b061e1e9e3695",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

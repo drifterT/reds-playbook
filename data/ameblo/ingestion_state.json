@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-08-08T12:32:53Z",
+  "last_run_at": "2026-08-08T18:26:36Z",
   "max_articles_per_run": 10,
   "processed_urls": {
     "https://ameblo.jp/kinegawareds/entry-12840590860.html": {
@@ -1320,6 +1320,18 @@
       "attempt_count": 1,
       "raw_path": "data/ameblo/raw_articles/entry-12973934954.html",
       "parsed_path": "data/ameblo/parsed_articles/entry-12973934954.json",
+      "error": null
+    },
+    "https://ameblo.jp/kinegawareds/entry-12973649948.html": {
+      "url": "https://ameblo.jp/kinegawareds/entry-12973649948.html",
+      "theme_id": "serious_baseball_talk",
+      "theme_label": "ちょっと真面目な野球話",
+      "status": "fetched",
+      "first_seen_at": "2026-08-08T18:26:19Z",
+      "last_attempt_at": "2026-08-08T18:26:34Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12973649948.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12973649948.json",
       "error": null
     }
   },
