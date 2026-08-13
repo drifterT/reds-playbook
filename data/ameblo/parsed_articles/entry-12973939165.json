@@ -1,0 +1,40 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12973939165.html",
+  "entry_id": "entry-12973939165",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『どうせ勝負するなら有利な条件で勝負したほうが良いよね？』",
+  "published_at": "2026-08-14",
+  "fetched_at": "2026-08-13T18:53:12Z",
+  "status": "fetched",
+  "text_length": 834,
+  "content_excerpt_for_review": "どうせ勝負するなら有利な条件で勝負したほうが良いよね？ 『ボールカウント別の打撃成績』 まずはコレから。10年振りくらいにYahoo!掲示板に参加した時。まだ自分がTwitterを始める前だね。そんな時にセブンさんが紹介してくれた資料。この...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 4
+    },
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "今回は専大松戸の持丸監督の",
+    "持丸監督のこう言った",
+    "専大松戸 持丸修一監督",
+    "2ストライクまでは打者に、どの球をスイングするか選ぶ権利があります",
+    "今回のこの持丸監督の考えは"
+  ],
+  "summary_for_internal_review": "検出キーワード: 監督 / スイング",
+  "raw_path": "data/ameblo/raw_articles/entry-12973939165.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12973939165.json",
+  "content_hash": "49d0c87d5a6391d29e062cace09e8126e3a8c4c439ccfaf5d994288082153a91",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

@@ -1,8 +1,8 @@
 # Ameblo Theme Discovery Summary
 
-Generated at: 2026-08-13T12:54:04Z
+Generated at: 2026-08-13T18:53:14Z
 
-Parsed articles: 111
+Parsed articles: 112
 
 This summary uses URL, metadata, short excerpts, detected keywords, and candidate phrases only. It does not store full Ameblo article text.
 
@@ -25,7 +25,7 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## バッティング候補
 
-- Matched articles: 17
+- Matched articles: 18
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12840590860.html
   - https://ameblo.jp/kinegawareds/entry-12847678272.html
