@@ -1,8 +1,8 @@
 # Ameblo Theme Discovery Summary
 
-Generated at: 2026-08-18T12:31:19Z
+Generated at: 2026-08-18T18:27:11Z
 
-Parsed articles: 112
+Parsed articles: 113
 
 This summary uses URL, metadata, short excerpts, detected keywords, and candidate phrases only. It does not store full Ameblo article text.
 
@@ -25,7 +25,7 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## バッティング候補
 
-- Matched articles: 18
+- Matched articles: 19
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12840590860.html
   - https://ameblo.jp/kinegawareds/entry-12847678272.html
@@ -42,7 +42,7 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## 走塁候補
 
-- Matched articles: 22
+- Matched articles: 23
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12847046140.html
   - https://ameblo.jp/kinegawareds/entry-12860102703.html
@@ -54,12 +54,12 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
   - https://ameblo.jp/kinegawareds/entry-12905319165.html
   - https://ameblo.jp/kinegawareds/entry-12910822533.html
   - https://ameblo.jp/kinegawareds/entry-12914022495.html
-- Matched keywords: ランナー, スライディング, スタート
+- Matched keywords: ランナー, スタート, スライディング
 - Needs AI review: yes
 
 ## 指導方法候補
 
-- Matched articles: 52
+- Matched articles: 53
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12791952988.html
   - https://ameblo.jp/kinegawareds/entry-12793081944.html
