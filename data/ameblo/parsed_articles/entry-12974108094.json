@@ -1,0 +1,63 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12974108094.html",
+  "entry_id": "entry-12974108094",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『選択の中に四球を占拠させない！』",
+  "published_at": "2026-08-19",
+  "fetched_at": "2026-08-18T18:27:09Z",
+  "status": "fetched",
+  "text_length": 1394,
+  "content_excerpt_for_review": "選択の中に四球を占拠させない！ 最近の高校野球を見ているとスイングする自由を与えられていない選手が多いと感じます。日頃からそうなので、いざと言うとき、バットが出ない。選択の中に四球が占拠してしまう。力のないチームが上に勝つにはここにつけ込む...",
+  "detected_keywords": [
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 5
+    },
+    {
+      "category": "道具",
+      "keyword": "バット",
+      "count": 5
+    },
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 3
+    },
+    {
+      "category": "走塁",
+      "keyword": "スタート",
+      "count": 2
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 2
+    },
+    {
+      "category": "戦術、戦略",
+      "keyword": "作戦",
+      "count": 2
+    }
+  ],
+  "candidate_phrases": [
+    "最近の高校野球を見ているとスイングする自由を与えられていない選手が多いと感じます",
+    "日頃からそうなので、いざと言うとき、バットが出ない",
+    "以前は、学童野球の待球作戦で初球から打ちに行けない選手に困ってた⚾️",
+    "今は、飛び過ぎるパットの弊害で、スイング速度がクソ遅いのに空向いて振ってる選手に難儀してる😓",
+    "まずは飛距離を担保する為に、スイング速度を上げることに特化しようよ⚾️",
+    "スイングス速度と打率がリンクし始めるのが中学野球⚾️",
+    "本当にバットが出てこなくなる",
+    "普段からの指導陣の言動も含めて"
+  ],
+  "summary_for_internal_review": "検出キーワード: スイング / バット / ランナー / スタート / 指導 / 作戦",
+  "raw_path": "data/ameblo/raw_articles/entry-12974108094.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12974108094.json",
+  "content_hash": "271ae57a463e6ee682e33cb5966cf257e0fdcdc4f4d21a2b18748ca3d41824ee",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
