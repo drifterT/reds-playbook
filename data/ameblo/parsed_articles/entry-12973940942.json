@@ -1,0 +1,38 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12973940942.html",
+  "entry_id": "entry-12973940942",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『声を大にして・・・』",
+  "published_at": "2026-09-01",
+  "fetched_at": "2026-08-31T22:15:38Z",
+  "status": "fetched",
+  "text_length": 1298,
+  "content_excerpt_for_review": "声を大にして・・・ 左右に関わらず、このようなポテンシャルを潰してしまわないためにも、高校野球でのDH制には賛同できない。 とはいえDH制が採用された今、投手だから打撃練習はしなくていいなどと切り分けずに、野手としての可能性は是非残して欲し...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "育成",
+      "count": 2
+    },
+    {
+      "category": "戦術、戦略",
+      "keyword": "戦術",
+      "count": 2
+    }
+  ],
+  "candidate_phrases": [
+    "その戦術やその戦術を選択するチームを",
+    "しまうような育成方法に対して",
+    "小学生が日本一を目指すのは正解か 親の怒号で萎縮も…スポ少が志す“全国大会改革” ファーストピッチ ― 野球育成解決サイト ― 全国スポ少は..."
+  ],
+  "summary_for_internal_review": "検出キーワード: 育成 / 戦術",
+  "raw_path": "data/ameblo/raw_articles/entry-12973940942.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12973940942.json",
+  "content_hash": "378898a26222ca3d47c204b419d9447f9272285da1cef5f26f469dd36f357143",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
