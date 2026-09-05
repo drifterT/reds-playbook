@@ -1,0 +1,48 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12977437919.html",
+  "entry_id": "entry-12977437919",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『GOモードで待機せよ！』",
+  "published_at": "2026-09-06",
+  "fetched_at": "2026-09-05T19:46:58Z",
+  "status": "fetched",
+  "text_length": 3475,
+  "content_excerpt_for_review": "「バッターボックスは打つ為に入る場所なんだよぉ！」 「ピッチャーが投げた球は全部打つつもりで！」 「自分が打てる思った球がストライクじゃー！」 まぁどれもこれも 自分が良く発する言葉。😅 少し前の記事 「どうせ勝負するなら有利な条件で勝負し...",
+  "detected_keywords": [
+    {
+      "category": "バッティング",
+      "keyword": "打つ準備",
+      "count": 6
+    },
+    {
+      "category": "バッティング",
+      "keyword": "スイング",
+      "count": 4
+    },
+    {
+      "category": "バッティング",
+      "keyword": "1,2",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "スイングすべきかどうか決めるのを待っているんじゃない",
+    "（見てから判断するのではなく、最初から迷いなくスイングする意識でいろ）",
+    "野球が「スイングするな」と告げるまで、スイングする準備をしろ",
+    "（見逃す準備ではなく、打つ準備をして、最後に見極めろ）",
+    "打つ準備をしろ",
+    "（打つ準備を早く整えて、自分が打てる球を狙え！自分から止まりにいくな",
+    "『打つ準備』 ジュンジーキネ w（木根川レッズ 加藤）@kinegawareds https://t.co/SNxMOaWRms 【参考動画...",
+    "「打つ準備」"
+  ],
+  "summary_for_internal_review": "検出キーワード: 打つ準備 / スイング / 1,2",
+  "raw_path": "data/ameblo/raw_articles/entry-12977437919.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12977437919.json",
+  "content_hash": "b69f9d8926b7510bc026a4d391ca664298a4254daadd6bd873a4037f7923a04f",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

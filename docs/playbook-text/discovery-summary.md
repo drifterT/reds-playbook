@@ -1,8 +1,8 @@
 # Ameblo Theme Discovery Summary
 
-Generated at: 2026-09-05T14:21:39Z
+Generated at: 2026-09-05T19:47:00Z
 
-Parsed articles: 114
+Parsed articles: 115
 
 This summary uses URL, metadata, short excerpts, detected keywords, and candidate phrases only. It does not store full Ameblo article text.
 
@@ -25,7 +25,7 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## バッティング候補
 
-- Matched articles: 20
+- Matched articles: 21
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12840590860.html
   - https://ameblo.jp/kinegawareds/entry-12847678272.html
@@ -37,7 +37,7 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
   - https://ameblo.jp/kinegawareds/entry-12890771285.html
   - https://ameblo.jp/kinegawareds/entry-12892405333.html
   - https://ameblo.jp/kinegawareds/entry-12897206700.html
-- Matched keywords: スイング, バッティング, 打撃, 強い打球
+- Matched keywords: スイング, バッティング, 打撃, 強い打球, 打つ準備
 - Needs AI review: yes
 
 ## 走塁候補

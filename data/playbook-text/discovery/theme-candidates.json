@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-05T14:21:39Z",
-  "article_count": 114,
+  "generated_at": "2026-09-05T19:47:00Z",
+  "article_count": 115,
   "themes": [
     {
       "theme_key": "defense_catchball",
@@ -105,12 +105,13 @@
         "https://ameblo.jp/kinegawareds/entry-12962440044.html",
         "https://ameblo.jp/kinegawareds/entry-12973939165.html",
         "https://ameblo.jp/kinegawareds/entry-12973940942.html",
-        "https://ameblo.jp/kinegawareds/entry-12974108094.html"
+        "https://ameblo.jp/kinegawareds/entry-12974108094.html",
+        "https://ameblo.jp/kinegawareds/entry-12977437919.html"
       ],
       "matched_keywords": [
         {
           "keyword": "スイング",
-          "count": 16
+          "count": 17
         },
         {
           "keyword": "バッティング",
@@ -122,6 +123,10 @@
         },
         {
           "keyword": "強い打球",
+          "count": 1
+        },
+        {
+          "keyword": "打つ準備",
           "count": 1
         }
       ],
