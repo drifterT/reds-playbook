@@ -1,14 +1,14 @@
 # Ameblo Theme Discovery Summary
 
-Generated at: 2026-09-10T10:22:20Z
+Generated at: 2026-09-10T15:38:22Z
 
-Parsed articles: 115
+Parsed articles: 116
 
 This summary uses URL, metadata, short excerpts, detected keywords, and candidate phrases only. It does not store full Ameblo article text.
 
 ## 守備・キャッチボール候補
 
-- Matched articles: 25
+- Matched articles: 26
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12853051275.html
   - https://ameblo.jp/kinegawareds/entry-12865401621.html
@@ -42,7 +42,7 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## 走塁候補
 
-- Matched articles: 23
+- Matched articles: 24
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12847046140.html
   - https://ameblo.jp/kinegawareds/entry-12860102703.html
@@ -59,7 +59,7 @@ This summary uses URL, metadata, short excerpts, detected keywords, and candidat
 
 ## 指導方法候補
 
-- Matched articles: 54
+- Matched articles: 55
 - URLs:
   - https://ameblo.jp/kinegawareds/entry-12791952988.html
   - https://ameblo.jp/kinegawareds/entry-12793081944.html
