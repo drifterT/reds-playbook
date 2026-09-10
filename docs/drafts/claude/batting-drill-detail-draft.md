@@ -6,7 +6,7 @@
 **第2版の変更**（オーナー指摘による）: ①「割れ」の意味を正した（上体が回ること＝割れ、ではない）／②基礎の体操の意義を「胴体の素早い回転からバットの速さが出る」に正した／③引き手・押し手という呼び方に変えた／④②の目的を「球のコースと高さに肩と腕のラインを合わせる」に書き直した／⑤③を p144-147 から **p154-157 の STEP1〜3** に差し替えた／⑥④に「打つか見送るかを決められるようになる」を足した
 **目的**: 現時点の候補5本について、内容・目的・効果・コーチが見るところ・原典の説明・外部文献が足すものを、1か所にまとめる。
 **対象**: 小学4〜6年生（10〜12歳）
-**関連**: `batting-3party-integration.md`（3者統合の経緯）／`batting-glossary.md`（言葉の対応表）／`batting-drill-candidates-claude.md`（候補の抽出記録）
+**関連**: `batting-3party-integration.md`（3者統合の経緯）／`batting-glossary.md`（言葉の対応表）／`batting-drill-candidates-claude.md`（候補の抽出記録）／**`../perplexity/youth-batting-external-evidence-review.md`（§3 の照合に使った外部調査。原文のまま）**
 
 ---
 
