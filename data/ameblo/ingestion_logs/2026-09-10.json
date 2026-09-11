@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12977618444.html",
+    "theme_id": "reds_foundation",
+    "theme_label": "木根川レッズ基礎編",
+    "status": "fetched",
+    "first_seen_at": "2026-09-10T15:38:06Z",
+    "last_attempt_at": "2026-09-10T15:38:20Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12977618444.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12977618444.json",
+    "error": null
+  }
+]

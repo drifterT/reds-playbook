@@ -1,0 +1,37 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12977618444.html",
+  "entry_id": "entry-12977618444",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『セカンド・ピッチャーの動き』",
+  "published_at": "2026-09-11",
+  "fetched_at": "2026-09-10T15:38:20Z",
+  "status": "fetched",
+  "text_length": 1218,
+  "content_excerpt_for_review": "Xで紹介されていた 都市対抗での一コマ この動画に⬇️のような コメントが付いていた。（笑顔） セカンドやってる子に ショートゴロの時は一瞬打球方向に反応するけど、すぐ送球のバックアップのために1塁手の裏に走ってね！ って言ってもみんな「う...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "指導者でも",
+    "2アウトランナー2塁"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー / 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12977618444.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12977618444.json",
+  "content_hash": "ce8c6228adffaa419e8d8f11f737626f88e50ced7c38c00397105baafecb4596",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
