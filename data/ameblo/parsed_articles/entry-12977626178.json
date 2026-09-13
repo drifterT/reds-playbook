@@ -1,0 +1,46 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12977626178.html",
+  "entry_id": "entry-12977626178",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『プロだって・・・』",
+  "published_at": "2026-09-13",
+  "fetched_at": "2026-09-13T15:25:48Z",
+  "status": "fetched",
+  "text_length": 1175,
+  "content_excerpt_for_review": "プロだって・・・ プロであっても こんな事が起こるんだよ。💦 なんかおすすめにこんな動画が流れてきたんだけど！ 里崎23歳！ 約３０年前ロッテ一年目の2軍で山中さんに言われたこと思いだすな〜！ ランナーがいる時に絶対座って 投げるな！ 2軍...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 5
+    },
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "ランナーがいる時に絶対座って",
+    "ランナーがいる時に絶対座って 投げるな！",
+    "俺一軍でもランナー三塁で座って返球したことあるかな〜？",
+    "もしランナー2・3塁だったら",
+    "監督やコーチに注意されるからって",
+    "これはランナー側の事"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー / コーチ / 監督",
+  "raw_path": "data/ameblo/raw_articles/entry-12977626178.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12977626178.json",
+  "content_hash": "532f6e4fb3a0ec57a908d11c40023ba35a13997577a95224519909a9f3475677",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
