@@ -55,5 +55,11 @@
 
 ---
 
-**参考資料**（選んだ根拠、原典の引用、外部文献の扱い、訂正の履歴）
-`batting-drill-detail-draft.md` ／ `batting-framework-notes.md` ／ `batting-glossary.md`
+**参考資料**
+
+| 文書 | 何が書いてあるか |
+|---|---|
+| `batting-drill-detail-draft.md` | **ドリルごとの中身。** やり方・選手に言う言葉・コーチが見るところ・崩れ方・原典の説明 |
+| `batting-drill-selection-record.md` | **別紙（作業記録）。** 時間の割りふりの検討と、原典40件を動作要素に分解して外部文献と照合した記録 |
+| `batting-framework-notes.md` | 打撃の動作要素の骨子ノート |
+| `batting-glossary.md` | 言葉の対応表 |
