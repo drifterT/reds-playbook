@@ -75,6 +75,25 @@ p054–057の格上げには賛成する。これは準備運動ではなく、�
 - 「前脚を固める」「直進エネルギーが強制的に回転へ変わる」は、少年への実施指示にしない。見るのは、前足の安定、頭の流れ、後ろ残り、歩調の乱れである。
 - これらは動作1の学習を厚くするドリルであり、左右対称スイングが担っていた引き手の肩とバット面の学習を直接代替しない。動作2はSlide 2・6・7・8に残す。
 
+### 外部呼称と根拠の再確認
+
+追加情報のうち、**踏み出し脚側の支持が打撃の力学上重要**という方向性は採用できる。ただし、次の範囲を越えては書かない。
+
+- `Front Leg Post Drill` は、後ろ足を浮かせて踏み出し脚で終える型の公開指導例として確認できる。`Flamingo Drill` を同義に使う指導例もある。
+- 一方、U.S. Baseball Academyなどの `Flamingo Drill` は、最初に前脚を上げ、後ろ脚へロードしてから踏み出す別動作である。名称だけでJBS武蔵のワンレッグと同一視しない。
+- `Single-Leg Finish Drill` と `Post-Impact Balance Drill` が野球界で標準化された名称であること、Drivelineが同型を一般ドリルとして公開していることは、今回確認できなかった。
+- 大学生20名のティー打撃研究では、踏み出し足の最大地面反力とバット速度に相関があった。しかし、ワンレッグの効果を比較した研究ではなく、対象も10〜12歳ではない。
+- ユースと成人では踏み出し脚の屈曲・伸展量や体幹速度が異なる。したがって、一本脚で立てることを合格条件には使えても、前膝のロックや成人並みの制動量を目標にしない。
+
+以上から、資料上の位置づけは **「踏み出し脚側で姿勢を保てるかを誇張して確認する制約ドリル」** とする。「万能」「完全に一致」「英語文献で強く推奨」「エネルギーの逃げを強制的になくす」は採用しない。
+
+参照：
+
+- U.S. Baseball Academy, Flamingo Drill: https://usbaseballacademy.com/flamingo-drill/
+- YouGoProBaseball, Front Leg Post Drill: https://www.youtube.com/watch?v=noz-aYI7pXg
+- Orishimo et al. (2024), Sports Biomechanics: https://pubmed.ncbi.nlm.nih.gov/37853750/
+- Escamilla et al. (2009), youth–adult comparison: https://pubmed.ncbi.nlm.nih.gov/19827470/
+
 ---
 
 ## 4. p135–139の配分
