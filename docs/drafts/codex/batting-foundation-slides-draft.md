@@ -146,6 +146,7 @@
 - ワンレッグ：Be Baseball Academy「ワンレッグドリル」 https://www.youtube.com/watch?v=gRwJO0t6_vs
 - ウォークスルー：Driveline Baseball https://www.youtube.com/watch?v=d_Bw3KL2om4
 - 足運びの別型：Baseball Utility https://www.youtube.com/watch?v=eMxprSCv73Y
+- 外部には後ろ足を浮かせて前脚で終える型を「Front Leg Post／Flamingo」と呼ぶ例がある一方、「Flamingo」を前脚を上げて後ろ脚に乗るロード練習に使う例も多い。本資料では混同を避けて「ワンレッグ」と呼ぶ
 - いずれも原典のドリルではない。チームでは10〜12歳向けに動作量を小さくし、バットなしから始める
 
 ---
