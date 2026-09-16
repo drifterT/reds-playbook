@@ -1,0 +1,37 @@
+{
+  "schemaVersion": 1,
+  "defaults": {
+    "model": "gpt-image-2-2026-04-21",
+    "size": "1536x1024",
+    "quality": "high",
+    "outputFormat": "png"
+  },
+  "referencePolicy": {
+    "canonicalCharacter": "docs/drafts/codex/assets/chest-rotation-drill-v2.png",
+    "rule": "Slide 2 is the current character/style reference. Use it as the first reference image for all later slides. A pose-layout reference may be supplied second, but its person, face, body proportions and clothing must not be copied."
+  },
+  "jobs": [
+    {
+      "id": "slide3-mobility-v2",
+      "enabled": true,
+      "mode": "edit",
+      "references": [
+        "docs/drafts/codex/assets/chest-rotation-drill-v2.png",
+        "docs/drafts/codex/assets/hip-mobility-stretch-front-v1.png"
+      ],
+      "output": "docs/drafts/codex/assets/hip-mobility-stretch-front-v2.png",
+      "prompt": "Use case: scientific-educational. Asset type: one panel group for a Japanese youth-baseball coaching slide. Input image 1 is the mandatory identity and visual-style reference. Input image 2 is only a pose and panel-layout reference; do not copy its person. Recreate the same anonymous adult male athlete from input image 1 in every panel: identical body proportions, identical short dark hair, featureless blank face with no eyes, nose or mouth, black sleeveless training top, black shorts, barefoot. Direct front view, orthographic-feeling camera, white or very pale blue studio background. Three equal full-body panels with the same stable chair centered in front of him. Middle panel: balanced hip-hinge stance, feet wider than shoulders, both hands holding the chair back. Left panel: while holding the chair and keeping the pelvis approximately sideways, slowly shift the pelvis to the athlete's left until the outside of the waist passes outside the left foot; do not fake the movement by bending only the torso. Right panel: mirror the same action to the athlete's right until the waist passes outside the right foot. Show a thin blue spine line and a magenta pelvis line in all panels. Add simple magenta horizontal arrows between the panels. Preserve the athlete's identity exactly across all three panels. No baseball uniform, no helmet, no cap, no shoes, no facial features, no labels, no words, no numbers, no logos, no watermark."
+    },
+    {
+      "id": "slide3-right-hitter-transfer-v2",
+      "enabled": true,
+      "mode": "edit",
+      "references": [
+        "docs/drafts/codex/assets/chest-rotation-drill-v2.png",
+        "docs/drafts/codex/assets/right-hitter-left-hip-sequence-v1.png"
+      ],
+      "output": "docs/drafts/codex/assets/right-hitter-left-hip-sequence-v2.png",
+      "prompt": "Use case: scientific-educational. Asset type: one four-panel sequence for a Japanese youth-baseball coaching slide. Input image 1 is the mandatory identity and visual-style reference. Input image 2 supplies only the four-step composition; do not copy its person. Use exactly the same anonymous adult male athlete as input image 1 in all four panels: identical body proportions, identical short dark hair, featureless blank face with no eyes, nose or mouth, black sleeveless training top, black shorts, barefoot. Direct front view throughout. This is a RIGHT-HANDED BATTER: his left stride leg and left hip appear on the viewer's right. Panel 1: hip-hinge stance holding a stable chair, weight clearly on the athlete's right or rear side, which is the viewer's left. Panel 2: still holding the chair, translate the pelvis from the athlete's right waist toward his left hip until the left waist is stacked over the left hip joint and supported by the left foot; this batting transfer is smaller than the mobility stretch and must not carry the waist far outside the foot. Panel 3: remove the chair and stand the torso up while keeping the pelvis and weight in the same left-hip-supported location; arms may cross over the chest. Panel 4: rotate around the left hip joint without locking the left knee, while the right or rear hip travels directly toward the pitcher rather than circling away. Mark the athlete's left hip in every panel with the same small yellow circle. Draw a thin blue spine line and magenta pelvis line. Use one straight magenta arrow for right-to-left weight transfer and one yellow curved arrow for rotation. Preserve the same person and clothing in every panel. White background. No baseball uniform, no helmet, no cap, no shoes, no facial features, no labels, no words, no numbers, no logos, no watermark."
+    }
+  ]
+}
