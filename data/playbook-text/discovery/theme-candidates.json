@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-18T10:22:08Z",
-  "article_count": 117,
+  "generated_at": "2026-09-18T15:35:28Z",
+  "article_count": 118,
   "themes": [
     {
       "theme_key": "defense_catchball",
@@ -31,12 +31,13 @@
         "https://ameblo.jp/kinegawareds/entry-12963289400.html",
         "https://ameblo.jp/kinegawareds/entry-12967538217.html",
         "https://ameblo.jp/kinegawareds/entry-12969853422.html",
-        "https://ameblo.jp/kinegawareds/entry-12977618444.html"
+        "https://ameblo.jp/kinegawareds/entry-12977618444.html",
+        "https://ameblo.jp/kinegawareds/entry-12978003047.html"
       ],
       "matched_keywords": [
         {
           "keyword": "キャッチボール",
-          "count": 12
+          "count": 13
         },
         {
           "keyword": "捕球",
@@ -47,15 +48,15 @@
           "count": 6
         },
         {
+          "keyword": "タッグ",
+          "count": 3
+        },
+        {
           "keyword": "ランダウン",
           "count": 2
         },
         {
           "keyword": "カバー",
-          "count": 2
-        },
-        {
-          "keyword": "タッグ",
           "count": 2
         },
         {
@@ -175,12 +176,13 @@
         "https://ameblo.jp/kinegawareds/entry-12969853422.html",
         "https://ameblo.jp/kinegawareds/entry-12974108094.html",
         "https://ameblo.jp/kinegawareds/entry-12977618444.html",
-        "https://ameblo.jp/kinegawareds/entry-12977626178.html"
+        "https://ameblo.jp/kinegawareds/entry-12977626178.html",
+        "https://ameblo.jp/kinegawareds/entry-12978003047.html"
       ],
       "matched_keywords": [
         {
           "keyword": "ランナー",
-          "count": 23
+          "count": 24
         },
         {
           "keyword": "スタート",
