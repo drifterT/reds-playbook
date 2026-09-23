@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12977458487.html",
+  "entry_id": "entry-12977458487",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『2つの図形』",
+  "published_at": "2026-09-24",
+  "fetched_at": "2026-09-23T15:54:05Z",
+  "status": "fetched",
+  "text_length": 120,
+  "content_excerpt_for_review": "2つの図形 自分が現場で伝える事の根拠として メモ替わりに この場に2つの図形を貼っておきます。🙇 まずは二等辺三角形 そして円に内接する正方形 コレは前回の記事にも繋がってくる。 何かあれば現場で質問してくださいね。🙇 木根川レッズ 加藤",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "伝える",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "自分が現場で伝える事の根拠として"
+  ],
+  "summary_for_internal_review": "検出キーワード: 伝える",
+  "raw_path": "data/ameblo/raw_articles/entry-12977458487.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12977458487.json",
+  "content_hash": "49572390348b200640a1d2ef4bb31983c7d880fb9444f30d829ea60ba5060943",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
