@@ -1,0 +1,36 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12978963272.html",
+  "entry_id": "entry-12978963272",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『カバー・バックアップ』",
+  "published_at": "2026-09-29",
+  "fetched_at": "2026-09-28T22:50:14Z",
+  "status": "fetched",
+  "text_length": 548,
+  "content_excerpt_for_review": "カバー・バックアップ この場でも何度も書かせて頂いてきた カバーとバックアップの事 『プロだって・・・』 プロであってもこんな事が起こるんだよ。💦 なんかおすすめにこんな動画が流れてきたんだけど！ 里崎23歳！ 約３０年前ロッテ一年目の2軍...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    },
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "監督やコーチに注意されるからって"
+  ],
+  "summary_for_internal_review": "検出キーワード: コーチ / 監督",
+  "raw_path": "data/ameblo/raw_articles/entry-12978963272.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12978963272.json",
+  "content_hash": "b9c3f437a3448cea1356b0bc111d89f620683e8da7745540b2f3d04b6187925d",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
