@@ -1,6 +1,6 @@
 {
-  "generated_at": "2026-09-28T12:35:14Z",
-  "article_count": 119,
+  "generated_at": "2026-09-28T22:50:16Z",
+  "article_count": 120,
   "themes": [
     {
       "theme_key": "defense_catchball",
@@ -32,7 +32,8 @@
         "https://ameblo.jp/kinegawareds/entry-12967538217.html",
         "https://ameblo.jp/kinegawareds/entry-12969853422.html",
         "https://ameblo.jp/kinegawareds/entry-12977618444.html",
-        "https://ameblo.jp/kinegawareds/entry-12978003047.html"
+        "https://ameblo.jp/kinegawareds/entry-12978003047.html",
+        "https://ameblo.jp/kinegawareds/entry-12978963272.html"
       ],
       "matched_keywords": [
         {
@@ -48,15 +49,15 @@
           "count": 6
         },
         {
+          "keyword": "カバー",
+          "count": 3
+        },
+        {
           "keyword": "タッグ",
           "count": 3
         },
         {
           "keyword": "ランダウン",
-          "count": 2
-        },
-        {
-          "keyword": "カバー",
           "count": 2
         },
         {
@@ -269,7 +270,8 @@
         "https://ameblo.jp/kinegawareds/entry-12974108094.html",
         "https://ameblo.jp/kinegawareds/entry-12977458487.html",
         "https://ameblo.jp/kinegawareds/entry-12977618444.html",
-        "https://ameblo.jp/kinegawareds/entry-12977626178.html"
+        "https://ameblo.jp/kinegawareds/entry-12977626178.html",
+        "https://ameblo.jp/kinegawareds/entry-12978963272.html"
       ],
       "matched_keywords": [
         {
@@ -278,7 +280,7 @@
         },
         {
           "keyword": "コーチ",
-          "count": 24
+          "count": 25
         },
         {
           "keyword": "育成",
