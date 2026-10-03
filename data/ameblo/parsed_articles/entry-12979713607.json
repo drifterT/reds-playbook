@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12979713607.html",
+  "entry_id": "entry-12979713607",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『カバー・バックアップ【参考動画】』",
+  "published_at": "2026-10-04",
+  "fetched_at": "2026-10-03T15:32:16Z",
+  "status": "fetched",
+  "text_length": 710,
+  "content_excerpt_for_review": "カバー・バックアップ【参考動画】 今回はベースカバーという事での とても参考になる動画です。 pic.twitter.com/sKkoTrevj2 【参考動画】 — ジュンジーキネ w（木根川レッズ 加藤） (@kinegawareds)...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "高校野球でコーチをやられている"
+  ],
+  "summary_for_internal_review": "検出キーワード: コーチ",
+  "raw_path": "data/ameblo/raw_articles/entry-12979713607.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12979713607.json",
+  "content_hash": "744c6cdb87609df88ac515e5dfbe8940e813873ff3b441350d813a710e80bd7f",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
