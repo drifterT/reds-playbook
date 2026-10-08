@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12973642932.html",
+  "entry_id": "entry-12973642932",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『痛っ！！！！』",
+  "published_at": "2026-10-09",
+  "fetched_at": "2026-10-08T22:43:34Z",
+  "status": "fetched",
+  "text_length": 383,
+  "content_excerpt_for_review": "痛っ！！！！ たまたま 球が玉に当たる・・・（笑） この痛さだけは 女子には分からない。💦 こんな事もあるから だから出来るだけ 右足でベースを踏みたいんだよね。 ＝送球方向に体を向けたくない。 頭から帰塁する時も 右手から戻りたいんだよね...",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12973642932.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12973642932.json",
+  "content_hash": "2b124b86b777ce75bfaecc0e10037688c859ecce21f353523828163465112d55",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
