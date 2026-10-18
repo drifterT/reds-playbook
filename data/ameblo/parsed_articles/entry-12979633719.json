@@ -1,0 +1,44 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12979633719.html",
+  "entry_id": "entry-12979633719",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『特に内野手のボールの捕球と握り替えについて』",
+  "published_at": "2026-10-19",
+  "fetched_at": "2026-10-18T15:11:46Z",
+  "status": "fetched",
+  "text_length": 899,
+  "content_excerpt_for_review": "『捕球後にグローブを引いてお腹付近に？？？』 捕球後にグローブを引いてお腹付近に持っていって握り替えて送球。。。 これ良く聞くんだよね・・・・ #shorts #baseball #野球 #湘南 #女子野… ameblo.jp 何度も同じよ...",
+  "detected_keywords": [
+    {
+      "category": "守備",
+      "keyword": "持ち替え",
+      "count": 2
+    },
+    {
+      "category": "道具",
+      "keyword": "グローブ",
+      "count": 2
+    },
+    {
+      "category": "指導方法",
+      "keyword": "見る",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "『捕球後にグローブを引いてお腹付近に？？？』 捕球後にグローブを引いてお腹付近に持っていって握り替えて送球",
+    "『ボールの捕球と握り替え』 メジャー史上歴代最高のショートス とも言われる現役時代のオマー・ビスケル選手のグラブ捌き＆ボールの持ち替え",
+    "持ち替えなんてのも",
+    "良く見るんだよな〜💦"
+  ],
+  "summary_for_internal_review": "検出キーワード: 持ち替え / グローブ / 見る",
+  "raw_path": "data/ameblo/raw_articles/entry-12979633719.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12979633719.json",
+  "content_hash": "b88c542bd14e5106d2d05db1585b0631118cf5c88e583f89e363c08a139016f9",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
