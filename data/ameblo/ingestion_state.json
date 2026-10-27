@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-10-27T11:22:29Z",
+  "last_run_at": "2026-10-27T17:10:46Z",
   "max_articles_per_run": 10,
   "processed_urls": {
     "https://ameblo.jp/kinegawareds/entry-12840590860.html": {
@@ -1545,6 +1545,61 @@
       "stage": "discover",
       "first_seen_at": "2026-10-27T11:22:27Z",
       "last_attempt_at": "2026-10-27T11:22:27Z",
+      "attempt_count": 1,
+      "error": "HTTPError: 503 Service Temporarily Unavailable"
+    },
+    {
+      "url": "https://ameblo.jp/kinegawareds/theme-10108552712.html",
+      "theme_id": "serious_baseball_talk",
+      "theme_label": "ちょっと真面目な野球話",
+      "status": "failed",
+      "stage": "discover",
+      "first_seen_at": "2026-10-27T17:10:43Z",
+      "last_attempt_at": "2026-10-27T17:10:43Z",
+      "attempt_count": 1,
+      "error": "HTTPError: 503 Service Temporarily Unavailable"
+    },
+    {
+      "url": "https://ameblo.jp/kinegawareds/theme-10108552520.html",
+      "theme_id": "reds_baseball",
+      "theme_label": "木根川レッズ野球編",
+      "status": "failed",
+      "stage": "discover",
+      "first_seen_at": "2026-10-27T17:10:43Z",
+      "last_attempt_at": "2026-10-27T17:10:43Z",
+      "attempt_count": 1,
+      "error": "HTTPError: 503 Service Temporarily Unavailable"
+    },
+    {
+      "url": "https://ameblo.jp/kinegawareds/theme-10108538568.html",
+      "theme_id": "reds_general",
+      "theme_label": "木根川レッズ全般",
+      "status": "failed",
+      "stage": "discover",
+      "first_seen_at": "2026-10-27T17:10:43Z",
+      "last_attempt_at": "2026-10-27T17:10:43Z",
+      "attempt_count": 1,
+      "error": "HTTPError: 503 Service Temporarily Unavailable"
+    },
+    {
+      "url": "https://ameblo.jp/kinegawareds/theme-10116429640.html",
+      "theme_id": "reds_foundation",
+      "theme_label": "木根川レッズ基礎編",
+      "status": "failed",
+      "stage": "discover",
+      "first_seen_at": "2026-10-27T17:10:43Z",
+      "last_attempt_at": "2026-10-27T17:10:43Z",
+      "attempt_count": 1,
+      "error": "HTTPError: 503 Service Temporarily Unavailable"
+    },
+    {
+      "url": "https://ameblo.jp/kinegawareds/theme-10108552699.html",
+      "theme_id": "youth_baseball_general",
+      "theme_label": "学童野球全般",
+      "status": "failed",
+      "stage": "discover",
+      "first_seen_at": "2026-10-27T17:10:43Z",
+      "last_attempt_at": "2026-10-27T17:10:43Z",
       "attempt_count": 1,
       "error": "HTTPError: 503 Service Temporarily Unavailable"
     }
