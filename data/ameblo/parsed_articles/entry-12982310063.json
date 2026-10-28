@@ -1,0 +1,38 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12982310063.html",
+  "entry_id": "entry-12982310063",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『カバー・バックアップ（セカンドの動き）』",
+  "published_at": "2026-10-29",
+  "fetched_at": "2026-10-28T17:49:44Z",
+  "status": "fetched",
+  "text_length": 1222,
+  "content_excerpt_for_review": "カバー・バックアップ（セカンドの動き） このやり取り・・・ 見逃していた。💦 いつも現場で伝えている事を 伊豆原さんが分かりやすく まとめてくれている。（笑顔） 是非コメント欄まで 目を通してみて欲しい。 ランナー無しなどの場面、サードゴロ...",
+  "detected_keywords": [
+    {
+      "category": "ルール",
+      "keyword": "ランナー",
+      "count": 2
+    },
+    {
+      "category": "ルール",
+      "keyword": "ルール",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "ランナー無しなどの場面、サードゴロ（三遊間）の時に二塁手は一塁手のバックアップ（距離を詰める）がセオリーです",
+    "グランドルールがとか",
+    "これらがランナーがいた場合の"
+  ],
+  "summary_for_internal_review": "検出キーワード: ランナー / ルール",
+  "raw_path": "data/ameblo/raw_articles/entry-12982310063.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12982310063.json",
+  "content_hash": "2f538883992d978fb47851170b2c79c9b19b6124bb7dc33c770f290b7e3d583f",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
