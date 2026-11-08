@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12981643440.html",
+  "entry_id": "entry-12981643440",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『世界のホームラン王』",
+  "published_at": "2026-11-09",
+  "fetched_at": "2026-11-08T21:32:23Z",
+  "status": "fetched",
+  "text_length": 667,
+  "content_excerpt_for_review": "世界の ラン王 今の子供たちは 世界の ラン王が 日本の選手だってことを知っているのかな？ 今のコーチ世代であっても 王選手の現役時代をリアルタイムで って人は少ないと思う。 今回はそんな王選手の 打撃動作の動画を紹介します。 普段から伝え...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "コーチ",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "今のコーチ世代であっても"
+  ],
+  "summary_for_internal_review": "検出キーワード: コーチ",
+  "raw_path": "data/ameblo/raw_articles/entry-12981643440.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12981643440.json",
+  "content_hash": "988e3200fcfbef2be6c9fe94cedc99d5bdad3867ad2f909fa7bbbb98a92429fc",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
