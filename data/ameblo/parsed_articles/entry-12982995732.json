@@ -1,0 +1,31 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12982995732.html",
+  "entry_id": "entry-12982995732",
+  "theme_id": "reds_foundation",
+  "theme_label": "木根川レッズ基礎編",
+  "title": "『地球からパワーをもらえ〜！！（捕手送球偏）』",
+  "published_at": "2026-11-14",
+  "fetched_at": "2026-11-13T23:06:26Z",
+  "status": "fetched",
+  "text_length": 714,
+  "content_excerpt_for_review": "昔から言っている 「地球からパワーをもらえぇ〜〜」 って言うのがコレになります。（笑顔） この右足を前に出す、ですよね。 この右足を前に出すために何が大事なのか？ それは左足への荷重です。 この左足への重心移動が右足を前に出すことを可能にし...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "指導",
+      "count": 1
+    }
+  ],
+  "candidate_phrases": [
+    "右足だけ指導しても前には出ない"
+  ],
+  "summary_for_internal_review": "検出キーワード: 指導",
+  "raw_path": "data/ameblo/raw_articles/entry-12982995732.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12982995732.json",
+  "content_hash": "4044f433952161a07495263578786c70c69cac13a70940a488ded955e1811f8d",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}

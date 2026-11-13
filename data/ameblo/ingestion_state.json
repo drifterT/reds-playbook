@@ -1,5 +1,5 @@
 {
-  "last_run_at": "2026-11-13T13:44:40Z",
+  "last_run_at": "2026-11-13T23:06:28Z",
   "max_articles_per_run": 10,
   "processed_urls": {
     "https://ameblo.jp/kinegawareds/entry-12840590860.html": {
@@ -1512,6 +1512,18 @@
       "attempt_count": 1,
       "raw_path": "data/ameblo/raw_articles/entry-12981643440.html",
       "parsed_path": "data/ameblo/parsed_articles/entry-12981643440.json",
+      "error": null
+    },
+    "https://ameblo.jp/kinegawareds/entry-12982995732.html": {
+      "url": "https://ameblo.jp/kinegawareds/entry-12982995732.html",
+      "theme_id": "reds_foundation",
+      "theme_label": "木根川レッズ基礎編",
+      "status": "fetched",
+      "first_seen_at": "2026-11-13T23:06:11Z",
+      "last_attempt_at": "2026-11-13T23:06:26Z",
+      "attempt_count": 1,
+      "raw_path": "data/ameblo/raw_articles/entry-12982995732.html",
+      "parsed_path": "data/ameblo/parsed_articles/entry-12982995732.json",
       "error": null
     }
   },
