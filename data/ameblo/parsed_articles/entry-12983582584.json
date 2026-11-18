@@ -1,0 +1,34 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12983582584.html",
+  "entry_id": "entry-12983582584",
+  "theme_id": "youth_baseball_general",
+  "theme_label": "学童野球全般",
+  "title": "『苦手の克服』",
+  "published_at": "2026-11-19",
+  "fetched_at": "2026-11-18T23:46:03Z",
+  "status": "fetched",
+  "text_length": 1551,
+  "content_excerpt_for_review": "苦手の克服 Xでの浪速のサライさんの投稿に こんなコメントを入れさせて頂いた。 コレは本当に大事な事で 練習試合であれ 大会の試合であれ 勝っても負けても 必ず課題というものが見えてくる。 特に勝った時というのは その課題をすっ飛ばし気味に...",
+  "detected_keywords": [
+    {
+      "category": "指導方法",
+      "keyword": "監督",
+      "count": 4
+    }
+  ],
+  "candidate_phrases": [
+    "巨人の松井新監督と",
+    "中日の工藤新監督が",
+    "巨人・松井監督",
+    "中日・工藤監督も反復練習について語っている"
+  ],
+  "summary_for_internal_review": "検出キーワード: 監督",
+  "raw_path": "data/ameblo/raw_articles/entry-12983582584.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12983582584.json",
+  "content_hash": "c60e5d43b80d19629bd5f6ca068cc8848d664d1c7dfaba32aadd45825b736e09",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
