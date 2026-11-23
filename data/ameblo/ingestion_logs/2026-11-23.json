@@ -1,1 +1,14 @@
-[]
+[
+  {
+    "url": "https://ameblo.jp/kinegawareds/entry-12984127637.html",
+    "theme_id": "serious_baseball_talk",
+    "theme_label": "ちょっと真面目な野球話",
+    "status": "fetched",
+    "first_seen_at": "2026-11-23T17:01:21Z",
+    "last_attempt_at": "2026-11-23T17:01:34Z",
+    "attempt_count": 1,
+    "raw_path": "data/ameblo/raw_articles/entry-12984127637.html",
+    "parsed_path": "data/ameblo/parsed_articles/entry-12984127637.json",
+    "error": null
+  }
+]

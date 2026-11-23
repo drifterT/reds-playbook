@@ -1,0 +1,23 @@
+{
+  "url": "https://ameblo.jp/kinegawareds/entry-12984127637.html",
+  "entry_id": "entry-12984127637",
+  "theme_id": "serious_baseball_talk",
+  "theme_label": "ちょっと真面目な野球話",
+  "title": "『観察してみてください。』",
+  "published_at": "2026-11-24",
+  "fetched_at": "2026-11-23T17:01:34Z",
+  "status": "fetched",
+  "text_length": 96,
+  "content_excerpt_for_review": "観察してみてください。 自分がピッチャー君の 投球動作で 注意して見ている一つになります。 織田選手とバーランダー選手 明らかに違いが見られます。 違い・・・分かりますか？ 木根川レッズ 加藤",
+  "detected_keywords": [],
+  "candidate_phrases": [],
+  "summary_for_internal_review": "検出キーワードなし。AIレビューまたは手動確認が必要。",
+  "raw_path": "data/ameblo/raw_articles/entry-12984127637.html",
+  "parsed_path": "data/ameblo/parsed_articles/entry-12984127637.json",
+  "content_hash": "0c4230ce0b1152e8a5752a62680cbe1bcdf920bfcc0b6be89779a99b7c15b367",
+  "source_policy": {
+    "public_republish_allowed": false,
+    "store_full_text_in_repo": false,
+    "use_for_internal_theme_discovery": true
+  }
+}
